@@ -1340,3 +1340,670 @@ LogConfig: Set CVar [[r.Shadow.DetectVertexShaderLayerAtRuntime:1]]
 [2023.03.28-21.58.02:646][  0]LogContentStreaming: Texture pool size now 1000 MB
 [2023.03.28-21.58.05:821][151]LogSlate: Took 0.000922 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
 [2023.03.28-21.59.51:068][964]LogDerivedDataCache: C:/Users/heroo/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:03.180 and deleted 0 files with total size 0 MiB. Scanned 2012 files in 2005 folders with total size 49 MiB.
+[2023.03.28-22.05.24:442][323]LogSlate: Window 'New Level' being destroyed
+[2023.03.28-22.05.24:458][323]Cmd: MAP LOAD FILE="../../../Engine/Content/Maps/Templates/OpenWorld.umap" TEMPLATE=1 SHOWPROGRESS=1 FEATURELEVEL=4
+[2023.03.28-22.05.24:460][323]LightingResults: New page: Lighting Build
+[2023.03.28-22.05.24:460][323]LoadErrors: New page: Loading map: OpenWorld.umap
+[2023.03.28-22.05.24:474][323]LogWorld: UWorld::CleanupWorld for ThirdPersonMap, bSessionEnded=true, bCleanupResources=true
+[2023.03.28-22.05.24:475][323]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.03.28-22.05.24:484][323]LogContentBundle: [Container: ThirdPersonMap] Deleting container.
+[2023.03.28-22.05.24:485][323]MapCheck: New page: Map Check
+[2023.03.28-22.05.24:485][323]LightingResults: New page: Lighting Build
+[2023.03.28-22.05.24:497][323]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.03.28-22.05.24:511][323]LogUObjectHash: Compacting FUObjectHashTables data took   3.45ms
+[2023.03.28-22.05.24:522][323]LogAudio: Display: Audio Device (ID: 1) registered with world 'Untitled_1'.
+[2023.03.28-22.05.24:522][323]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.03.28-22.05.24:523][323]LogAIModule: Creating AISystem for world Untitled_1
+[2023.03.28-22.05.24:523][323]LogWorldPartition: ULevel::OnLevelLoaded(Untitled_1)(bIsOwningWorldGameWorld=0, bIsOwningWorldPartitioned=1, bIsValidLevelInstance=0, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=0)
+[2023.03.28-22.05.24:523][323]LogWorldPartition: Display: WorldPartition initialize started...
+[2023.03.28-22.05.24:523][323]LogWorldPartition: UWorldPartition::Initialize(Asset=Untitled_1, IsEditor=1, bPIEWorldTravel=0 IsGame=0, IsCooking=0)
+[2023.03.28-22.05.24:773][323]LogContentBundle: [Container: Untitled_1] Creating new contrainer.
+[2023.03.28-22.05.24:773][323]LogWorldPartition: Display: WorldPartition initialize took 249 ms (total: 319 ms)
+[2023.03.28-22.05.25:645][323]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2023.03.28-22.05.25:922][323]LogUObjectHash: Compacting FUObjectHashTables data took   0.33ms
+[2023.03.28-22.05.25:923][323]Cmd: MAP CHECKDEP NOCLEARLOG
+[2023.03.28-22.05.25:941][323]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 16.159ms to complete.
+[2023.03.28-22.05.25:942][323]LogFileHelpers: Loading map 'OpenWorld' took 1.484
+[2023.03.28-22.05.27:396][325]LogShaderCompilers: Display: ================================================
+[2023.03.28-22.05.27:396][325]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2023.03.28-22.05.27:396][325]LogShaderCompilers: Display: Total job queries 99, among them cache hits 4 (4.04%)
+[2023.03.28-22.05.27:396][325]LogShaderCompilers: Display: Tracking 90 distinct input hashes that result in 79 distinct outputs (87.78%)
+[2023.03.28-22.05.27:396][325]LogShaderCompilers: Display: RAM used: 0.81 MB (0.00 GB) of 819.20 MB (0.80 GB) budget. Usage: 0.10%
+[2023.03.28-22.05.27:396][325]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2023.03.28-22.05.27:396][325]LogShaderCompilers: Display: Shaders Compiled: 90
+[2023.03.28-22.05.27:397][325]LogShaderCompilers: Display: Jobs assigned 95, completed 90 (94.74%)
+[2023.03.28-22.05.27:397][325]LogShaderCompilers: Display: Average time worker was idle: 51.93 s
+[2023.03.28-22.05.27:397][325]LogShaderCompilers: Display: Time job spent in pending queue: average 4.65 s, longest 11.61 s
+[2023.03.28-22.05.27:397][325]LogShaderCompilers: Display: Job execution time: average 3.31 s, max 6.93 s
+[2023.03.28-22.05.27:397][325]LogShaderCompilers: Display: Job life time (pending + execution): average 8.21 s, max 12.32
+[2023.03.28-22.05.27:397][325]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 14.14 s
+[2023.03.28-22.05.27:397][325]LogShaderCompilers: Display: Jobs were issued in 60 batches (only local compilation was used), average 1.58 jobs/batch
+[2023.03.28-22.05.27:397][325]LogShaderCompilers: Display: Average processing rate: 6.36 jobs/sec
+[2023.03.28-22.05.27:397][325]LogShaderCompilers: Display: Total thread time: 86.99 s
+[2023.03.28-22.05.27:397][325]LogShaderCompilers: Display: Total thread preprocess time: 4.53 s
+[2023.03.28-22.05.27:397][325]LogShaderCompilers: Display: Percentage time preprocessing: 5.21%
+[2023.03.28-22.05.27:397][325]LogShaderCompilers: Display: Effective parallelization: 6.15 (times faster than compiling all shaders on one thread). Compare with number of workers: 10
+[2023.03.28-22.05.27:397][325]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2023.03.28-22.05.27:397][325]LogShaderCompilers: Display:                                   FCloudRenderViewPS111false (compiled    1 times, average 1.84 sec, max 1.84 sec, min 1.84 sec)
+[2023.03.28-22.05.27:398][325]LogShaderCompilers: Display:                                   FCloudRenderViewPS011false (compiled    1 times, average 1.59 sec, max 1.59 sec, min 1.59 sec)
+[2023.03.28-22.05.27:398][325]LogShaderCompilers: Display:                                   FCloudRenderViewPS110false (compiled    1 times, average 1.53 sec, max 1.53 sec, min 1.53 sec)
+[2023.03.28-22.05.27:398][325]LogShaderCompilers: Display:                                   FCloudRenderViewPS010false (compiled    1 times, average 1.43 sec, max 1.43 sec, min 1.43 sec)
+[2023.03.28-22.05.27:399][325]LogShaderCompilers: Display:                                   FCloudRenderViewPS100false (compiled    1 times, average 1.41 sec, max 1.41 sec, min 1.41 sec)
+[2023.03.28-22.05.27:399][325]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2023.03.28-22.05.27:399][325]LogShaderCompilers: Display:                           FRenderVolumetricCloudRenderViewCS - 27.53% of total time (compiled   17 times, average 1.41 sec, max 1.97 sec, min 0.65 sec)
+[2023.03.28-22.05.27:399][325]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 9.92% of total time (compiled    8 times, average 1.08 sec, max 1.37 sec, min 0.89 sec)
+[2023.03.28-22.05.27:399][325]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy - 7.97% of total time (compiled    8 times, average 0.87 sec, max 1.05 sec, min 0.73 sec)
+[2023.03.28-22.05.27:399][325]LogShaderCompilers: Display:                                                 FLumenCardVS - 4.90% of total time (compiled    6 times, average 0.71 sec, max 0.96 sec, min 0.62 sec)
+[2023.03.28-22.05.27:399][325]LogShaderCompilers: Display:                                          FLumenCardPS<false> - 3.94% of total time (compiled    6 times, average 0.57 sec, max 0.73 sec, min 0.43 sec)
+[2023.03.28-22.05.27:399][325]LogShaderCompilers: Display: ================================================
+[2023.03.28-22.05.36:892][843]LogSlate: Took 0.000531 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2023.03.28-22.05.52:971][798]LogSlate: Window 'Open Level' being destroyed
+[2023.03.28-22.06.00:355][ 60]LogSlate: Window 'Save Level As' being destroyed
+[2023.03.28-22.06.04:778][166]LogSlate: Window 'New Level' being destroyed
+[2023.03.28-22.06.04:807][166]Cmd: MAP LOAD FILE="../../../Engine/Content/Maps/Templates/Template_Default.umap" TEMPLATE=1 SHOWPROGRESS=1 FEATURELEVEL=4
+[2023.03.28-22.06.04:810][166]LightingResults: New page: Lighting Build
+[2023.03.28-22.06.04:811][166]LoadErrors: New page: Loading map: Template_Default.umap
+[2023.03.28-22.06.04:882][166]LogWorld: UWorld::CleanupWorld for Untitled_1, bSessionEnded=true, bCleanupResources=true
+[2023.03.28-22.06.04:892][166]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.03.28-22.06.04:907][166]LogContentBundle: [Container: Untitled_1] Deleting container.
+[2023.03.28-22.06.04:919][166]MapCheck: New page: Map Check
+[2023.03.28-22.06.04:919][166]LightingResults: New page: Lighting Build
+[2023.03.28-22.06.04:993][166]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.03.28-22.06.05:046][166]LogUObjectHash: Compacting FUObjectHashTables data took   2.50ms
+[2023.03.28-22.06.05:112][166]LogAudio: Display: Audio Device (ID: 1) registered with world 'Untitled_2'.
+[2023.03.28-22.06.05:118][166]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.03.28-22.06.05:127][166]LogAIModule: Creating AISystem for world Untitled_2
+[2023.03.28-22.06.05:189][166]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2023.03.28-22.06.05:202][166]LogUObjectHash: Compacting FUObjectHashTables data took   0.40ms
+[2023.03.28-22.06.05:203][166]Cmd: MAP CHECKDEP NOCLEARLOG
+[2023.03.28-22.06.05:204][166]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.285ms to complete.
+[2023.03.28-22.06.05:205][166]LogFileHelpers: Loading map 'Template_Default' took 0.399
+[2023.03.28-22.06.33:960][697]LogSlate: Window 'Open Level' being destroyed
+[2023.03.28-22.06.37:591][791]LogSlate: Window 'New Level' being destroyed
+[2023.03.28-22.06.50:551][545]LogUObjectHash: Compacting FUObjectHashTables data took   0.34ms
+[2023.03.28-22.06.50:552][545]Cmd: MAP LOAD FILE="../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2_Labs/Content/ThirdPerson/Maps/ThirdPersonMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=4
+[2023.03.28-22.06.50:552][545]LightingResults: New page: Lighting Build
+[2023.03.28-22.06.50:553][545]LoadErrors: New page: Loading map: ThirdPersonMap.umap
+[2023.03.28-22.06.50:555][545]LogWorld: UWorld::CleanupWorld for Untitled_2, bSessionEnded=true, bCleanupResources=true
+[2023.03.28-22.06.50:555][545]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.03.28-22.06.50:555][545]MapCheck: New page: Map Check
+[2023.03.28-22.06.50:555][545]LightingResults: New page: Lighting Build
+[2023.03.28-22.06.50:562][545]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.03.28-22.06.50:565][545]LogUObjectHash: Compacting FUObjectHashTables data took   0.33ms
+[2023.03.28-22.06.50:600][545]LogAudio: Display: Audio Device (ID: 1) registered with world 'ThirdPersonMap'.
+[2023.03.28-22.06.50:600][545]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.03.28-22.06.50:600][545]LogAIModule: Creating AISystem for world ThirdPersonMap
+[2023.03.28-22.06.50:601][545]LogWorldPartition: ULevel::OnLevelLoaded(ThirdPersonMap)(bIsOwningWorldGameWorld=0, bIsOwningWorldPartitioned=1, bIsValidLevelInstance=0, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=0)
+[2023.03.28-22.06.50:602][545]LogWorldPartition: Display: WorldPartition initialize started...
+[2023.03.28-22.06.50:602][545]LogWorldPartition: UWorldPartition::Initialize(Asset=ThirdPersonMap, IsEditor=1, bPIEWorldTravel=0 IsGame=0, IsCooking=0)
+[2023.03.28-22.06.50:649][545]LogContentBundle: [Container: ThirdPersonMap] Creating new contrainer.
+[2023.03.28-22.06.50:650][545]LogWorldPartition: Display: WorldPartition initialize took 48 ms (total: 368 ms)
+[2023.03.28-22.06.50:672][545]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2023.03.28-22.06.50:682][545]LogUObjectHash: Compacting FUObjectHashTables data took   0.41ms
+[2023.03.28-22.06.50:689][545]Cmd: MAP CHECKDEP NOCLEARLOG
+[2023.03.28-22.06.50:691][545]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 2.145ms to complete.
+[2023.03.28-22.06.50:692][545]LogFileHelpers: Loading map 'ThirdPersonMap' took 0.140
+[2023.03.28-22.06.50:692][545]LogSlate: Window 'Open Level' being destroyed
+[2023.03.28-22.07.16:764][248]LogContentBrowser: Deferred new asset folder creation: NewFolder
+[2023.03.28-22.07.16:771][248]LogContentBrowser: Creating deferred item: NewFolder
+[2023.03.28-22.07.16:778][248]LogContentBrowser: Renaming the item being created (Deferred Item: NewFolder).
+[2023.03.28-22.07.19:106][248]LogContentBrowser: Attempting asset rename: NewFolder -> Levels
+[2023.03.28-22.07.19:107][248]LogContentBrowser: End creating deferred item NewFolder
+[2023.03.28-22.07.34:391][248]LogContentBrowser: Attempting asset rename: Levels -> Levels
+[2023.03.28-22.07.39:201][248]LogContentBrowser: Attempting asset rename: Levels -> Labs
+[2023.03.28-22.08.54:147][248]LogSlate: Window 'Save Level As' being destroyed
+[2023.03.28-22.09.45:267][944]LogContentBrowser: Deferred new asset folder creation: NewFolder
+[2023.03.28-22.09.45:283][944]LogContentBrowser: Creating deferred item: NewFolder
+[2023.03.28-22.09.45:290][944]LogContentBrowser: Renaming the item being created (Deferred Item: NewFolder).
+[2023.03.28-22.09.46:622][944]LogContentBrowser: Attempting asset rename: NewFolder -> Labs
+[2023.03.28-22.09.46:624][944]LogContentBrowser: End creating deferred item NewFolder
+[2023.03.28-22.09.49:314][944]LogContentBrowser: Deferred new asset folder creation: NewFolder
+[2023.03.28-22.09.49:321][944]LogContentBrowser: Creating deferred item: NewFolder
+[2023.03.28-22.09.49:327][944]LogContentBrowser: Renaming the item being created (Deferred Item: NewFolder).
+[2023.03.28-22.09.51:048][944]LogContentBrowser: Attempting asset rename: NewFolder -> NewFolder
+[2023.03.28-22.09.51:049][944]LogContentBrowser: End creating deferred item NewFolder
+[2023.03.28-22.09.55:576][944]LogContentBrowser: Deferred new asset folder creation: NewFolder
+[2023.03.28-22.09.55:583][944]LogContentBrowser: Creating deferred item: NewFolder
+[2023.03.28-22.09.55:604][944]LogContentBrowser: Renaming the item being created (Deferred Item: NewFolder).
+[2023.03.28-22.09.57:131][944]LogContentBrowser: Attempting asset rename: NewFolder -> Lab1
+[2023.03.28-22.09.57:131][944]LogContentBrowser: End creating deferred item NewFolder
+[2023.03.28-22.10.04:117][944]LogSlate: Window 'Save Level As' being destroyed
+[2023.03.28-22.10.04:306][944]LogUObjectHash: Compacting FUObjectHashTables data took   0.39ms
+[2023.03.28-22.10.04:329][944]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.03.28-22.10.04:340][944]Message dialog closed, result: Ok, title: Unable to Check Out From Source Control!, text: The following assets could not be successfully checked out from source control:
+/Game/__ExternalActors__/Labs/Lab1/Lab1Level/7/PA/WL6APLAWXHC6CJE4G15BTF
+/Game/__ExternalActors__/Labs/Lab1/Lab1Level/1/HV/D07DBN63NIY6GMGQ7W3K3A
+/Game/__ExternalActors__/Labs/Lab1/Lab1Level/A/A0/WH0LGWUQG2LE5M55H8XH9D
+/Game/__ExternalActors__/Labs/Lab1/Lab1Level/1/R3/P5A26FPXF21CVCHFI0JP2Y
+/Game/__ExternalActors__/Labs/Lab1/Lab1Level/5/TE/ILUZ83E3PNX6DOBHANQ6PP
+/Game/__ExternalActors__/Labs/Lab1/Lab1Level/C/9Z/IPEBSYOKHGXRYZP7DOJAST
+/Game/__ExternalActors__/Labs/Lab1/Lab1Level/1/98/CT1YNC6I50E80Q426OX6LR
+/Game/__ExternalActors__/Labs/Lab1/Lab1Level/4/FP/I1UPHX7J17WEYC81VRSAVU
+/Game/__ExternalActors__/Labs/Lab1/Lab1Level/4/8V/9W2A7060QS31A2DATKYVH7
+/Game/__ExternalActors__/Labs/Lab1/Lab1Level/0/50/GTWBR7FB0QT4BBJLI8M7ZW
+/Game/__ExternalActors__/Labs/Lab1/Lab1Level/3/5C/L1814B4FQRGW5RNFEAPK59
+/Game/__ExternalActors__/Labs/Lab1/Lab1Level/B/G2/1Q2YL1NR45SZ362FIE3LF8
+/Game/__ExternalActors__/Labs/Lab1/Lab1Level/6/58/W5ACWFILI7XD3QW2HJINGZ
+/Game/__ExternalActors__/Labs/Lab1/Lab1Level/A/6O/OSC2X34TCVCV8GEOBAT4SC
+/Game/__ExternalActors__/Labs/Lab1/Lab1Level/D/87/K30M3Q7YSTZSR64HZNV83D
+/Game/__ExternalActors__/Labs/Lab1/Lab1Level/1/BB/F58ODV9GFLBHQ3SO5S2MT5
+/Game/__ExternalActors__/Labs/Lab1/Lab1Level/6/2W/3H3Q01LNMHJO8SER37CPY8
+/Game/__ExternalActors__/Labs/Lab1/Lab1Level/D/1B/2Y1K5W4AS6XMR3N49GBX7E
+/Game/__ExternalActors__/Labs/Lab1/Lab1Level/4/40/GVA48Z8HJM26Z5O48DAL9S
+/Game/__ExternalActors__/Labs/Lab1/Lab1Level/1/C8/XC39BGCSJ8XIN11X3V9719
+/Game/__ExternalActors__/Labs/Lab1/Lab1Level/A/NJ/B46B7DA79KUSD5CMHTFU6X
+/Game/__ExternalActors__/Labs/Lab1/Lab1Level/5/W7/4GV63FYZTFAME3QN86QRBK
+/Game/__ExternalActors__/Labs/Lab1/Lab1Level/A/E3/SWL4CP1KKLF26819ZF48PG
+/Game/__ExternalActors__/Labs/Lab1/Lab1Level/B/TL/5XMZM7Y03TW85QBIJHTV37
+/Game/__ExternalActors__/Labs/Lab1/Lab1Level/D/R2/89N57Z9B6MOGCNJ64LKXBZ
+/Game/__ExternalActors__/Labs/Lab1/Lab1Level/D/MH/XOJZUDKIAWXIRJZ7NUY655
+/Game/__ExternalActors__/Labs/Lab1/Lab1Level/0/KZ/CQ316VVF573HX8ZYZZKLQB
+/Game/__ExternalActors__/Labs/Lab1/Lab1Level/0/JL/ZH27D9Z86DNJGH25LZFQX2
+/Game/__ExternalActors__/Labs/Lab1/Lab1Level/1/I2/VCY7I0YODFEEEGHEFGYZAG
+/Game/__ExternalActors__/Labs/Lab1/Lab1Level/D/B2/GLNF2AJIODQGLIVUDTZ6QW
+/Game/__ExternalActors__/Labs/Lab1/Lab1Level/C/R2/H7GKWCM4K4MD8THBEKNN6Q
+/Game/__ExternalActors__/Labs/Lab1/Lab1Level/1/WH/SD9DRDDI8A7OXZ0XRUU2GO
+/Game/__ExternalActors__/Labs/Lab1/Lab1Level/E/2R/BURZLAMFR27DEJZ9TNV58Q
+/Game/__ExternalActors__/Labs/Lab1/Lab1Level/E/B7/5RTABKL7Y11HO9RC5IWNTL
+/Game/__ExternalActors__/Labs/Lab1/Lab1Level/2/T2/QA9S613HJUDXQPNB5CJFBL
+/Game/__ExternalActors__/Labs/Lab1/Lab1Level/5/DI/ZHTXBKT5X021GF7ESHN6SP
+/Game/__ExternalActors__/Labs/Lab1/Lab1Level/A/J0/4Z51ZE1N43YQNS6EB72FRM
+/Game/__ExternalActors__/Labs/Lab1/Lab1Level/A/G1/6O2B2CKQQ95CE0E1W890JY
+/Game/__ExternalActors__/Labs/Lab1/Lab1Level/5/87/0W1RDS0EEKSBZYAXZRUXLT
+/Game/__ExternalActors__/Labs/Lab1/Lab1Level/3/NC/EYD3V9VBLOVMFMNDZUHT0M
+/Game/__ExternalObjects__/Labs/Lab1/Lab1Level/9/98/GJYXRRGX82Q0SQL4TDQB6C
+/Game/__ExternalObjects__/Labs/Lab1/Lab1Level/B/UE/JNTAF3HR567UKAHUOSHJNO
+/Game/__ExternalObjects__/Labs/Lab1/Lab1Level/2/IQ/W2SPAOL6XT7F6Z5ITTFO43
+/Game/__ExternalObjects__/Labs/Lab1/Lab1Level/B/JW/FVPIT1KLXPOQ2OS89JW89Z
+/Game/__ExternalObjects__/Labs/Lab1/Lab1Level/8/NF/BOPWVD1RYIAI44FLQVOD5T
+/Game/__ExternalObjects__/Labs/Lab1/Lab1Level/E/ZL/473AKR4L91DMLNGZWD7A89
+[2023.03.28-22.10.04:340][944]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.03.28-22.10.04:363][944]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Labs/Lab1/Lab1Level/7/PA/WL6APLAWXHC6CJE4G15BTF
+[2023.03.28-22.10.04:363][944]LogSavePackage: Moving '../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2_Labs/Saved/WL6APLAWXHC6CJE4G15BTF182474F948B7FFAC6C5E8798346DC7E7.tmp' to '../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2_Labs/Content/__ExternalActors__/Labs/Lab1/Lab1Level/7/PA/WL6APLAWXHC6CJE4G15BTF.uasset'
+[2023.03.28-22.10.04:368][944]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Labs/Lab1/Lab1Level/1/HV/D07DBN63NIY6GMGQ7W3K3A
+[2023.03.28-22.10.04:368][944]LogSavePackage: Moving '../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2_Labs/Saved/D07DBN63NIY6GMGQ7W3K3AC4D058BD489181E41BB438B2F066B27D.tmp' to '../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2_Labs/Content/__ExternalActors__/Labs/Lab1/Lab1Level/1/HV/D07DBN63NIY6GMGQ7W3K3A.uasset'
+[2023.03.28-22.10.04:370][944]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Labs/Lab1/Lab1Level/A/A0/WH0LGWUQG2LE5M55H8XH9D
+[2023.03.28-22.10.04:370][944]LogSavePackage: Moving '../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2_Labs/Saved/WH0LGWUQG2LE5M55H8XH9DAB3D1D0249043050C7AB70B1F31A37DF.tmp' to '../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2_Labs/Content/__ExternalActors__/Labs/Lab1/Lab1Level/A/A0/WH0LGWUQG2LE5M55H8XH9D.uasset'
+[2023.03.28-22.10.04:373][944]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Labs/Lab1/Lab1Level/1/R3/P5A26FPXF21CVCHFI0JP2Y
+[2023.03.28-22.10.04:373][944]LogSavePackage: Moving '../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2_Labs/Saved/P5A26FPXF21CVCHFI0JP2Y1B10E5E649D2F2376105679A89B3C375.tmp' to '../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2_Labs/Content/__ExternalActors__/Labs/Lab1/Lab1Level/1/R3/P5A26FPXF21CVCHFI0JP2Y.uasset'
+[2023.03.28-22.10.04:376][944]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Labs/Lab1/Lab1Level/5/TE/ILUZ83E3PNX6DOBHANQ6PP
+[2023.03.28-22.10.04:376][944]LogSavePackage: Moving '../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2_Labs/Saved/ILUZ83E3PNX6DOBHANQ6PPB245A013435CBDFCFCC2C09526411621.tmp' to '../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2_Labs/Content/__ExternalActors__/Labs/Lab1/Lab1Level/5/TE/ILUZ83E3PNX6DOBHANQ6PP.uasset'
+[2023.03.28-22.10.04:380][944]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Labs/Lab1/Lab1Level/C/9Z/IPEBSYOKHGXRYZP7DOJAST
+[2023.03.28-22.10.04:380][944]LogSavePackage: Moving '../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2_Labs/Saved/IPEBSYOKHGXRYZP7DOJASTD0D111FB4B42A6F3E16648B486FE4A43.tmp' to '../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2_Labs/Content/__ExternalActors__/Labs/Lab1/Lab1Level/C/9Z/IPEBSYOKHGXRYZP7DOJAST.uasset'
+[2023.03.28-22.10.04:383][944]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Labs/Lab1/Lab1Level/1/98/CT1YNC6I50E80Q426OX6LR
+[2023.03.28-22.10.04:383][944]LogSavePackage: Moving '../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2_Labs/Saved/CT1YNC6I50E80Q426OX6LRA5C0597147C7664C9F4E0694386A58D8.tmp' to '../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2_Labs/Content/__ExternalActors__/Labs/Lab1/Lab1Level/1/98/CT1YNC6I50E80Q426OX6LR.uasset'
+[2023.03.28-22.10.04:385][944]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Labs/Lab1/Lab1Level/4/FP/I1UPHX7J17WEYC81VRSAVU
+[2023.03.28-22.10.04:385][944]LogSavePackage: Moving '../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2_Labs/Saved/I1UPHX7J17WEYC81VRSAVU78BECB7F42528309AD57EFAC964EEA0D.tmp' to '../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2_Labs/Content/__ExternalActors__/Labs/Lab1/Lab1Level/4/FP/I1UPHX7J17WEYC81VRSAVU.uasset'
+[2023.03.28-22.10.04:388][944]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Labs/Lab1/Lab1Level/4/8V/9W2A7060QS31A2DATKYVH7
+[2023.03.28-22.10.04:388][944]LogSavePackage: Moving '../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2_Labs/Saved/9W2A7060QS31A2DATKYVH7D11E350F42AF9AECA56DF6A29E3E05A3.tmp' to '../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2_Labs/Content/__ExternalActors__/Labs/Lab1/Lab1Level/4/8V/9W2A7060QS31A2DATKYVH7.uasset'
+[2023.03.28-22.10.04:390][944]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Labs/Lab1/Lab1Level/0/50/GTWBR7FB0QT4BBJLI8M7ZW
+[2023.03.28-22.10.04:390][944]LogSavePackage: Moving '../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2_Labs/Saved/GTWBR7FB0QT4BBJLI8M7ZWF54F3F9A42D32D1FE4D133A395704569.tmp' to '../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2_Labs/Content/__ExternalActors__/Labs/Lab1/Lab1Level/0/50/GTWBR7FB0QT4BBJLI8M7ZW.uasset'
+[2023.03.28-22.10.04:393][944]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Labs/Lab1/Lab1Level/3/5C/L1814B4FQRGW5RNFEAPK59
+[2023.03.28-22.10.04:393][944]LogSavePackage: Moving '../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2_Labs/Saved/L1814B4FQRGW5RNFEAPK596B84DF7149BA7A019BD2F5833202D47D.tmp' to '../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2_Labs/Content/__ExternalActors__/Labs/Lab1/Lab1Level/3/5C/L1814B4FQRGW5RNFEAPK59.uasset'
+[2023.03.28-22.10.04:396][944]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Labs/Lab1/Lab1Level/B/G2/1Q2YL1NR45SZ362FIE3LF8
+[2023.03.28-22.10.04:396][944]LogSavePackage: Moving '../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2_Labs/Saved/1Q2YL1NR45SZ362FIE3LF8F72DBBA842E2AA8C2F77AA922CB8E953.tmp' to '../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2_Labs/Content/__ExternalActors__/Labs/Lab1/Lab1Level/B/G2/1Q2YL1NR45SZ362FIE3LF8.uasset'
+[2023.03.28-22.10.04:399][944]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Labs/Lab1/Lab1Level/6/58/W5ACWFILI7XD3QW2HJINGZ
+[2023.03.28-22.10.04:399][944]LogSavePackage: Moving '../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2_Labs/Saved/W5ACWFILI7XD3QW2HJINGZA6D39C9745382D2F85354D9380847DA4.tmp' to '../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2_Labs/Content/__ExternalActors__/Labs/Lab1/Lab1Level/6/58/W5ACWFILI7XD3QW2HJINGZ.uasset'
+[2023.03.28-22.10.04:402][944]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Labs/Lab1/Lab1Level/A/6O/OSC2X34TCVCV8GEOBAT4SC
+[2023.03.28-22.10.04:402][944]LogSavePackage: Moving '../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2_Labs/Saved/OSC2X34TCVCV8GEOBAT4SC9CE1CEFE432CF67F758E3FA79CBED62D.tmp' to '../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2_Labs/Content/__ExternalActors__/Labs/Lab1/Lab1Level/A/6O/OSC2X34TCVCV8GEOBAT4SC.uasset'
+[2023.03.28-22.10.04:404][944]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Labs/Lab1/Lab1Level/D/87/K30M3Q7YSTZSR64HZNV83D
+[2023.03.28-22.10.04:404][944]LogSavePackage: Moving '../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2_Labs/Saved/K30M3Q7YSTZSR64HZNV83D28E040134182A959B2E136B142972F44.tmp' to '../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2_Labs/Content/__ExternalActors__/Labs/Lab1/Lab1Level/D/87/K30M3Q7YSTZSR64HZNV83D.uasset'
+[2023.03.28-22.10.04:406][944]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Labs/Lab1/Lab1Level/1/BB/F58ODV9GFLBHQ3SO5S2MT5
+[2023.03.28-22.10.04:406][944]LogSavePackage: Moving '../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2_Labs/Saved/F58ODV9GFLBHQ3SO5S2MT59929FE8F4C7A43B76482B59266F6BF8A.tmp' to '../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2_Labs/Content/__ExternalActors__/Labs/Lab1/Lab1Level/1/BB/F58ODV9GFLBHQ3SO5S2MT5.uasset'
+[2023.03.28-22.10.04:408][944]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Labs/Lab1/Lab1Level/6/2W/3H3Q01LNMHJO8SER37CPY8
+[2023.03.28-22.10.04:409][944]LogSavePackage: Moving '../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2_Labs/Saved/3H3Q01LNMHJO8SER37CPY8866A8D7E47C9C0714E2015BF501BF702.tmp' to '../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2_Labs/Content/__ExternalActors__/Labs/Lab1/Lab1Level/6/2W/3H3Q01LNMHJO8SER37CPY8.uasset'
+[2023.03.28-22.10.04:411][944]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Labs/Lab1/Lab1Level/D/1B/2Y1K5W4AS6XMR3N49GBX7E
+[2023.03.28-22.10.04:411][944]LogSavePackage: Moving '../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2_Labs/Saved/2Y1K5W4AS6XMR3N49GBX7E6E43678D41DE8CE3D340CBBC0C79BAE2.tmp' to '../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2_Labs/Content/__ExternalActors__/Labs/Lab1/Lab1Level/D/1B/2Y1K5W4AS6XMR3N49GBX7E.uasset'
+[2023.03.28-22.10.04:413][944]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Labs/Lab1/Lab1Level/4/40/GVA48Z8HJM26Z5O48DAL9S
+[2023.03.28-22.10.04:413][944]LogSavePackage: Moving '../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2_Labs/Saved/GVA48Z8HJM26Z5O48DAL9S6116592B49F4229EC232ED91D219FFE6.tmp' to '../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2_Labs/Content/__ExternalActors__/Labs/Lab1/Lab1Level/4/40/GVA48Z8HJM26Z5O48DAL9S.uasset'
+[2023.03.28-22.10.04:416][944]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Labs/Lab1/Lab1Level/1/C8/XC39BGCSJ8XIN11X3V9719
+[2023.03.28-22.10.04:416][944]LogSavePackage: Moving '../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2_Labs/Saved/XC39BGCSJ8XIN11X3V971968804200461B7544E0F46BACAA12307F.tmp' to '../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2_Labs/Content/__ExternalActors__/Labs/Lab1/Lab1Level/1/C8/XC39BGCSJ8XIN11X3V9719.uasset'
+[2023.03.28-22.10.04:418][944]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Labs/Lab1/Lab1Level/A/NJ/B46B7DA79KUSD5CMHTFU6X
+[2023.03.28-22.10.04:418][944]LogSavePackage: Moving '../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2_Labs/Saved/B46B7DA79KUSD5CMHTFU6XC2F3B1D545F705700CBFDD9ABE4D75A0.tmp' to '../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2_Labs/Content/__ExternalActors__/Labs/Lab1/Lab1Level/A/NJ/B46B7DA79KUSD5CMHTFU6X.uasset'
+[2023.03.28-22.10.04:420][944]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Labs/Lab1/Lab1Level/5/W7/4GV63FYZTFAME3QN86QRBK
+[2023.03.28-22.10.04:420][944]LogSavePackage: Moving '../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2_Labs/Saved/4GV63FYZTFAME3QN86QRBK46B78D254B7FC00D433769896A49FB9D.tmp' to '../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2_Labs/Content/__ExternalActors__/Labs/Lab1/Lab1Level/5/W7/4GV63FYZTFAME3QN86QRBK.uasset'
+[2023.03.28-22.10.04:422][944]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Labs/Lab1/Lab1Level/A/E3/SWL4CP1KKLF26819ZF48PG
+[2023.03.28-22.10.04:422][944]LogSavePackage: Moving '../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2_Labs/Saved/SWL4CP1KKLF26819ZF48PGB199354C45E2B8A2157016BDC306ED59.tmp' to '../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2_Labs/Content/__ExternalActors__/Labs/Lab1/Lab1Level/A/E3/SWL4CP1KKLF26819ZF48PG.uasset'
+[2023.03.28-22.10.04:424][944]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Labs/Lab1/Lab1Level/B/TL/5XMZM7Y03TW85QBIJHTV37
+[2023.03.28-22.10.04:424][944]LogSavePackage: Moving '../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2_Labs/Saved/5XMZM7Y03TW85QBIJHTV374FFD845A4C0C8D450DE49697468E088E.tmp' to '../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2_Labs/Content/__ExternalActors__/Labs/Lab1/Lab1Level/B/TL/5XMZM7Y03TW85QBIJHTV37.uasset'
+[2023.03.28-22.10.04:426][944]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Labs/Lab1/Lab1Level/D/R2/89N57Z9B6MOGCNJ64LKXBZ
+[2023.03.28-22.10.04:426][944]LogSavePackage: Moving '../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2_Labs/Saved/89N57Z9B6MOGCNJ64LKXBZ7097979C4405BE57CF3B30A725794654.tmp' to '../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2_Labs/Content/__ExternalActors__/Labs/Lab1/Lab1Level/D/R2/89N57Z9B6MOGCNJ64LKXBZ.uasset'
+[2023.03.28-22.10.04:428][944]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Labs/Lab1/Lab1Level/D/MH/XOJZUDKIAWXIRJZ7NUY655
+[2023.03.28-22.10.04:428][944]LogSavePackage: Moving '../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2_Labs/Saved/XOJZUDKIAWXIRJZ7NUY6559D6457544C7BD78A05D6E0BBB9E60D82.tmp' to '../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2_Labs/Content/__ExternalActors__/Labs/Lab1/Lab1Level/D/MH/XOJZUDKIAWXIRJZ7NUY655.uasset'
+[2023.03.28-22.10.04:430][944]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Labs/Lab1/Lab1Level/0/KZ/CQ316VVF573HX8ZYZZKLQB
+[2023.03.28-22.10.04:431][944]LogSavePackage: Moving '../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2_Labs/Saved/CQ316VVF573HX8ZYZZKLQB8911B4EE4B7CE4370C4268B1895D6AAB.tmp' to '../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2_Labs/Content/__ExternalActors__/Labs/Lab1/Lab1Level/0/KZ/CQ316VVF573HX8ZYZZKLQB.uasset'
+[2023.03.28-22.10.04:432][944]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Labs/Lab1/Lab1Level/0/JL/ZH27D9Z86DNJGH25LZFQX2
+[2023.03.28-22.10.04:432][944]LogSavePackage: Moving '../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2_Labs/Saved/ZH27D9Z86DNJGH25LZFQX2D515B77A453B78733CAFFEBA0D0B2D63.tmp' to '../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2_Labs/Content/__ExternalActors__/Labs/Lab1/Lab1Level/0/JL/ZH27D9Z86DNJGH25LZFQX2.uasset'
+[2023.03.28-22.10.04:435][944]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Labs/Lab1/Lab1Level/1/I2/VCY7I0YODFEEEGHEFGYZAG
+[2023.03.28-22.10.04:435][944]LogSavePackage: Moving '../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2_Labs/Saved/VCY7I0YODFEEEGHEFGYZAG04602BC84E5AAC73244C828DF532AC71.tmp' to '../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2_Labs/Content/__ExternalActors__/Labs/Lab1/Lab1Level/1/I2/VCY7I0YODFEEEGHEFGYZAG.uasset'
+[2023.03.28-22.10.04:437][944]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Labs/Lab1/Lab1Level/D/B2/GLNF2AJIODQGLIVUDTZ6QW
+[2023.03.28-22.10.04:438][944]LogSavePackage: Moving '../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2_Labs/Saved/GLNF2AJIODQGLIVUDTZ6QW4F74E62045063D75EF676293FF7BFFF8.tmp' to '../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2_Labs/Content/__ExternalActors__/Labs/Lab1/Lab1Level/D/B2/GLNF2AJIODQGLIVUDTZ6QW.uasset'
+[2023.03.28-22.10.04:440][944]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Labs/Lab1/Lab1Level/C/R2/H7GKWCM4K4MD8THBEKNN6Q
+[2023.03.28-22.10.04:440][944]LogSavePackage: Moving '../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2_Labs/Saved/H7GKWCM4K4MD8THBEKNN6Q3FBD6F1940AF262F5F806F86D16BD734.tmp' to '../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2_Labs/Content/__ExternalActors__/Labs/Lab1/Lab1Level/C/R2/H7GKWCM4K4MD8THBEKNN6Q.uasset'
+[2023.03.28-22.10.04:442][944]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Labs/Lab1/Lab1Level/1/WH/SD9DRDDI8A7OXZ0XRUU2GO
+[2023.03.28-22.10.04:442][944]LogSavePackage: Moving '../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2_Labs/Saved/SD9DRDDI8A7OXZ0XRUU2GOD1DDFF8C4D6291B4B085B699DA7D8AF3.tmp' to '../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2_Labs/Content/__ExternalActors__/Labs/Lab1/Lab1Level/1/WH/SD9DRDDI8A7OXZ0XRUU2GO.uasset'
+[2023.03.28-22.10.04:446][944]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Labs/Lab1/Lab1Level/E/2R/BURZLAMFR27DEJZ9TNV58Q
+[2023.03.28-22.10.04:446][944]LogSavePackage: Moving '../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2_Labs/Saved/BURZLAMFR27DEJZ9TNV58Q2A520C7546E66B4968B9058AF2B5894B.tmp' to '../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2_Labs/Content/__ExternalActors__/Labs/Lab1/Lab1Level/E/2R/BURZLAMFR27DEJZ9TNV58Q.uasset'
+[2023.03.28-22.10.04:448][944]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Labs/Lab1/Lab1Level/E/B7/5RTABKL7Y11HO9RC5IWNTL
+[2023.03.28-22.10.04:448][944]LogSavePackage: Moving '../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2_Labs/Saved/5RTABKL7Y11HO9RC5IWNTL39F963E74A17B370523C2F8AA5E0C13B.tmp' to '../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2_Labs/Content/__ExternalActors__/Labs/Lab1/Lab1Level/E/B7/5RTABKL7Y11HO9RC5IWNTL.uasset'
+[2023.03.28-22.10.04:450][944]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Labs/Lab1/Lab1Level/2/T2/QA9S613HJUDXQPNB5CJFBL
+[2023.03.28-22.10.04:450][944]LogSavePackage: Moving '../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2_Labs/Saved/QA9S613HJUDXQPNB5CJFBLD30B1B6D482D38ADC96F2CAAA62E9789.tmp' to '../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2_Labs/Content/__ExternalActors__/Labs/Lab1/Lab1Level/2/T2/QA9S613HJUDXQPNB5CJFBL.uasset'
+[2023.03.28-22.10.04:452][944]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Labs/Lab1/Lab1Level/5/DI/ZHTXBKT5X021GF7ESHN6SP
+[2023.03.28-22.10.04:452][944]LogSavePackage: Moving '../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2_Labs/Saved/ZHTXBKT5X021GF7ESHN6SP1BE4F0A44EEAEA6A34C11BBF4715EB16.tmp' to '../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2_Labs/Content/__ExternalActors__/Labs/Lab1/Lab1Level/5/DI/ZHTXBKT5X021GF7ESHN6SP.uasset'
+[2023.03.28-22.10.04:454][944]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Labs/Lab1/Lab1Level/A/J0/4Z51ZE1N43YQNS6EB72FRM
+[2023.03.28-22.10.04:454][944]LogSavePackage: Moving '../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2_Labs/Saved/4Z51ZE1N43YQNS6EB72FRMAEC517E3412D872994C55CB8AEC0ED36.tmp' to '../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2_Labs/Content/__ExternalActors__/Labs/Lab1/Lab1Level/A/J0/4Z51ZE1N43YQNS6EB72FRM.uasset'
+[2023.03.28-22.10.04:458][944]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Labs/Lab1/Lab1Level/A/G1/6O2B2CKQQ95CE0E1W890JY
+[2023.03.28-22.10.04:458][944]LogSavePackage: Moving '../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2_Labs/Saved/6O2B2CKQQ95CE0E1W890JY64FFBB844EDCCD22B1D2379E16676DD4.tmp' to '../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2_Labs/Content/__ExternalActors__/Labs/Lab1/Lab1Level/A/G1/6O2B2CKQQ95CE0E1W890JY.uasset'
+[2023.03.28-22.10.04:460][944]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Labs/Lab1/Lab1Level/5/87/0W1RDS0EEKSBZYAXZRUXLT
+[2023.03.28-22.10.04:460][944]LogSavePackage: Moving '../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2_Labs/Saved/0W1RDS0EEKSBZYAXZRUXLTDFCC90BA454DEECE4F23DCBFEA99766C.tmp' to '../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2_Labs/Content/__ExternalActors__/Labs/Lab1/Lab1Level/5/87/0W1RDS0EEKSBZYAXZRUXLT.uasset'
+[2023.03.28-22.10.04:462][944]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Labs/Lab1/Lab1Level/3/NC/EYD3V9VBLOVMFMNDZUHT0M
+[2023.03.28-22.10.04:462][944]LogSavePackage: Moving '../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2_Labs/Saved/EYD3V9VBLOVMFMNDZUHT0M626E49EC4FD52C12B4DB3DBAADBD488C.tmp' to '../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2_Labs/Content/__ExternalActors__/Labs/Lab1/Lab1Level/3/NC/EYD3V9VBLOVMFMNDZUHT0M.uasset'
+[2023.03.28-22.10.04:465][944]LogSavePackage: Moving output files for package: /Game/__ExternalObjects__/Labs/Lab1/Lab1Level/9/98/GJYXRRGX82Q0SQL4TDQB6C
+[2023.03.28-22.10.04:465][944]LogSavePackage: Moving '../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2_Labs/Saved/GJYXRRGX82Q0SQL4TDQB6CDEAC5D35472A32E09B0D6CA0EE864A5E.tmp' to '../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2_Labs/Content/__ExternalObjects__/Labs/Lab1/Lab1Level/9/98/GJYXRRGX82Q0SQL4TDQB6C.uasset'
+[2023.03.28-22.10.04:469][944]LogSavePackage: Moving output files for package: /Game/__ExternalObjects__/Labs/Lab1/Lab1Level/B/UE/JNTAF3HR567UKAHUOSHJNO
+[2023.03.28-22.10.04:469][944]LogSavePackage: Moving '../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2_Labs/Saved/JNTAF3HR567UKAHUOSHJNOC47DBC8246164088886B0A919047C1F9.tmp' to '../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2_Labs/Content/__ExternalObjects__/Labs/Lab1/Lab1Level/B/UE/JNTAF3HR567UKAHUOSHJNO.uasset'
+[2023.03.28-22.10.04:471][944]LogSavePackage: Moving output files for package: /Game/__ExternalObjects__/Labs/Lab1/Lab1Level/2/IQ/W2SPAOL6XT7F6Z5ITTFO43
+[2023.03.28-22.10.04:471][944]LogSavePackage: Moving '../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2_Labs/Saved/W2SPAOL6XT7F6Z5ITTFO43F687CF6E40C5383AC26689ADB8B6A076.tmp' to '../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2_Labs/Content/__ExternalObjects__/Labs/Lab1/Lab1Level/2/IQ/W2SPAOL6XT7F6Z5ITTFO43.uasset'
+[2023.03.28-22.10.04:473][944]LogSavePackage: Moving output files for package: /Game/__ExternalObjects__/Labs/Lab1/Lab1Level/B/JW/FVPIT1KLXPOQ2OS89JW89Z
+[2023.03.28-22.10.04:473][944]LogSavePackage: Moving '../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2_Labs/Saved/FVPIT1KLXPOQ2OS89JW89ZD2738B214F3685A81007709AA72C0325.tmp' to '../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2_Labs/Content/__ExternalObjects__/Labs/Lab1/Lab1Level/B/JW/FVPIT1KLXPOQ2OS89JW89Z.uasset'
+[2023.03.28-22.10.04:475][944]LogSavePackage: Moving output files for package: /Game/__ExternalObjects__/Labs/Lab1/Lab1Level/8/NF/BOPWVD1RYIAI44FLQVOD5T
+[2023.03.28-22.10.04:475][944]LogSavePackage: Moving '../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2_Labs/Saved/BOPWVD1RYIAI44FLQVOD5TA6FA37AC4E09FA4AEB8E8D940500F648.tmp' to '../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2_Labs/Content/__ExternalObjects__/Labs/Lab1/Lab1Level/8/NF/BOPWVD1RYIAI44FLQVOD5T.uasset'
+[2023.03.28-22.10.04:477][944]LogSavePackage: Moving output files for package: /Game/__ExternalObjects__/Labs/Lab1/Lab1Level/E/ZL/473AKR4L91DMLNGZWD7A89
+[2023.03.28-22.10.04:477][944]LogSavePackage: Moving '../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2_Labs/Saved/473AKR4L91DMLNGZWD7A89E18D5550443D4AE6C1F46DAA94B14DFD.tmp' to '../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2_Labs/Content/__ExternalObjects__/Labs/Lab1/Lab1Level/E/ZL/473AKR4L91DMLNGZWD7A89.uasset'
+[2023.03.28-22.10.04:481][944]LogFileHelpers: InternalPromptForCheckoutAndSave took 140 ms (total: 474 ms)
+[2023.03.28-22.10.04:484][944]Message dialog closed, result: Ok, title: Unable to Check Out From Source Control!, text: The following assets could not be successfully checked out from source control:
+/Game/__ExternalActors__/Labs/Lab1/Lab1Level/7/PA/WL6APLAWXHC6CJE4G15BTF
+/Game/__ExternalActors__/Labs/Lab1/Lab1Level/1/HV/D07DBN63NIY6GMGQ7W3K3A
+/Game/__ExternalActors__/Labs/Lab1/Lab1Level/A/A0/WH0LGWUQG2LE5M55H8XH9D
+/Game/__ExternalActors__/Labs/Lab1/Lab1Level/1/R3/P5A26FPXF21CVCHFI0JP2Y
+/Game/__ExternalActors__/Labs/Lab1/Lab1Level/5/TE/ILUZ83E3PNX6DOBHANQ6PP
+/Game/__ExternalActors__/Labs/Lab1/Lab1Level/C/9Z/IPEBSYOKHGXRYZP7DOJAST
+/Game/__ExternalActors__/Labs/Lab1/Lab1Level/1/98/CT1YNC6I50E80Q426OX6LR
+/Game/__ExternalActors__/Labs/Lab1/Lab1Level/4/FP/I1UPHX7J17WEYC81VRSAVU
+/Game/__ExternalActors__/Labs/Lab1/Lab1Level/4/8V/9W2A7060QS31A2DATKYVH7
+/Game/__ExternalActors__/Labs/Lab1/Lab1Level/0/50/GTWBR7FB0QT4BBJLI8M7ZW
+/Game/__ExternalActors__/Labs/Lab1/Lab1Level/3/5C/L1814B4FQRGW5RNFEAPK59
+/Game/__ExternalActors__/Labs/Lab1/Lab1Level/B/G2/1Q2YL1NR45SZ362FIE3LF8
+/Game/__ExternalActors__/Labs/Lab1/Lab1Level/6/58/W5ACWFILI7XD3QW2HJINGZ
+/Game/__ExternalActors__/Labs/Lab1/Lab1Level/A/6O/OSC2X34TCVCV8GEOBAT4SC
+/Game/__ExternalActors__/Labs/Lab1/Lab1Level/D/87/K30M3Q7YSTZSR64HZNV83D
+/Game/__ExternalActors__/Labs/Lab1/Lab1Level/1/BB/F58ODV9GFLBHQ3SO5S2MT5
+/Game/__ExternalActors__/Labs/Lab1/Lab1Level/6/2W/3H3Q01LNMHJO8SER37CPY8
+/Game/__ExternalActors__/Labs/Lab1/Lab1Level/D/1B/2Y1K5W4AS6XMR3N49GBX7E
+/Game/__ExternalActors__/Labs/Lab1/Lab1Level/4/40/GVA48Z8HJM26Z5O48DAL9S
+/Game/__ExternalActors__/Labs/Lab1/Lab1Level/1/C8/XC39BGCSJ8XIN11X3V9719
+/Game/__ExternalActors__/Labs/Lab1/Lab1Level/A/NJ/B46B7DA79KUSD5CMHTFU6X
+/Game/__ExternalActors__/Labs/Lab1/Lab1Level/5/W7/4GV63FYZTFAME3QN86QRBK
+/Game/__ExternalActors__/Labs/Lab1/Lab1Level/A/E3/SWL4CP1KKLF26819ZF48PG
+/Game/__ExternalActors__/Labs/Lab1/Lab1Level/B/TL/5XMZM7Y03TW85QBIJHTV37
+/Game/__ExternalActors__/Labs/Lab1/Lab1Level/D/R2/89N57Z9B6MOGCNJ64LKXBZ
+/Game/__ExternalActors__/Labs/Lab1/Lab1Level/D/MH/XOJZUDKIAWXIRJZ7NUY655
+/Game/__ExternalActors__/Labs/Lab1/Lab1Level/0/KZ/CQ316VVF573HX8ZYZZKLQB
+/Game/__ExternalActors__/Labs/Lab1/Lab1Level/0/JL/ZH27D9Z86DNJGH25LZFQX2
+/Game/__ExternalActors__/Labs/Lab1/Lab1Level/1/I2/VCY7I0YODFEEEGHEFGYZAG
+/Game/__ExternalActors__/Labs/Lab1/Lab1Level/D/B2/GLNF2AJIODQGLIVUDTZ6QW
+/Game/__ExternalActors__/Labs/Lab1/Lab1Level/C/R2/H7GKWCM4K4MD8THBEKNN6Q
+/Game/__ExternalActors__/Labs/Lab1/Lab1Level/1/WH/SD9DRDDI8A7OXZ0XRUU2GO
+/Game/__ExternalActors__/Labs/Lab1/Lab1Level/E/2R/BURZLAMFR27DEJZ9TNV58Q
+/Game/__ExternalActors__/Labs/Lab1/Lab1Level/E/B7/5RTABKL7Y11HO9RC5IWNTL
+/Game/__ExternalActors__/Labs/Lab1/Lab1Level/2/T2/QA9S613HJUDXQPNB5CJFBL
+/Game/__ExternalActors__/Labs/Lab1/Lab1Level/5/DI/ZHTXBKT5X021GF7ESHN6SP
+/Game/__ExternalActors__/Labs/Lab1/Lab1Level/A/J0/4Z51ZE1N43YQNS6EB72FRM
+/Game/__ExternalActors__/Labs/Lab1/Lab1Level/A/G1/6O2B2CKQQ95CE0E1W890JY
+/Game/__ExternalActors__/Labs/Lab1/Lab1Level/5/87/0W1RDS0EEKSBZYAXZRUXLT
+/Game/__ExternalActors__/Labs/Lab1/Lab1Level/3/NC/EYD3V9VBLOVMFMNDZUHT0M
+/Game/__ExternalObjects__/Labs/Lab1/Lab1Level/9/98/GJYXRRGX82Q0SQL4TDQB6C
+/Game/__ExternalObjects__/Labs/Lab1/Lab1Level/B/UE/JNTAF3HR567UKAHUOSHJNO
+/Game/__ExternalObjects__/Labs/Lab1/Lab1Level/2/IQ/W2SPAOL6XT7F6Z5ITTFO43
+/Game/__ExternalObjects__/Labs/Lab1/Lab1Level/B/JW/FVPIT1KLXPOQ2OS89JW89Z
+/Game/__ExternalObjects__/Labs/Lab1/Lab1Level/8/NF/BOPWVD1RYIAI44FLQVOD5T
+/Game/__ExternalObjects__/Labs/Lab1/Lab1Level/E/ZL/473AKR4L91DMLNGZWD7A89
+[2023.03.28-22.10.04:494][944]LogUObjectHash: Compacting FUObjectHashTables data took   0.42ms
+[2023.03.28-22.10.04:507][944]LogSavePackage: Moving output files for package: /Game/Labs/Lab1/Lab1Level
+[2023.03.28-22.10.04:507][944]LogSavePackage: Moving '../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2_Labs/Saved/Lab1LevelF785183F4C9FEBCE32E9DAB926E4F96C.tmp' to '../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2_Labs/Content/Labs/Lab1/Lab1Level.umap'
+[2023.03.28-22.10.04:580][944]LogFileHelpers: Saving map 'Lab1Level' took 0.441
+[2023.03.28-22.10.04:580][944]Cmd: MAP LOAD FILE="../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2_Labs/Content/Labs/Lab1/Lab1Level.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=4
+[2023.03.28-22.10.04:580][944]LightingResults: New page: Lighting Build
+[2023.03.28-22.10.04:580][944]LoadErrors: New page: Loading map: Lab1Level.umap
+[2023.03.28-22.10.04:609][944]LogWorld: UWorld::CleanupWorld for ThirdPersonMap, bSessionEnded=true, bCleanupResources=true
+[2023.03.28-22.10.04:609][944]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.03.28-22.10.04:612][944]LogContentBundle: [Container: ThirdPersonMap] Deleting container.
+[2023.03.28-22.10.04:612][944]MapCheck: New page: Map Check
+[2023.03.28-22.10.04:612][944]LightingResults: New page: Lighting Build
+[2023.03.28-22.10.04:620][944]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.03.28-22.10.04:623][944]LogUObjectHash: Compacting FUObjectHashTables data took   0.37ms
+[2023.03.28-22.10.04:625][944]LogWorld: UWorld::CleanupWorld for Lab1Level, bSessionEnded=true, bCleanupResources=true
+[2023.03.28-22.10.04:625][944]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.03.28-22.10.04:634][944]LogUObjectHash: Compacting FUObjectHashTables data took   0.35ms
+[2023.03.28-22.10.04:641][944]LogUObjectHash: Compacting FUObjectHashTables data took   1.07ms
+[2023.03.28-22.10.04:648][944]LogAudio: Display: Audio Device (ID: 1) registered with world 'Lab1Level'.
+[2023.03.28-22.10.04:648][944]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.03.28-22.10.04:648][944]LogAIModule: Creating AISystem for world Lab1Level
+[2023.03.28-22.10.04:650][944]LogWorldPartition: ULevel::OnLevelLoaded(Lab1Level)(bIsOwningWorldGameWorld=0, bIsOwningWorldPartitioned=1, bIsValidLevelInstance=0, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=0)
+[2023.03.28-22.10.04:650][944]LogWorldPartition: Display: WorldPartition initialize started...
+[2023.03.28-22.10.04:650][944]LogWorldPartition: UWorldPartition::Initialize(Asset=Lab1Level, IsEditor=1, bPIEWorldTravel=0 IsGame=0, IsCooking=0)
+[2023.03.28-22.10.04:676][944]LogContentBundle: [Container: Lab1Level] Creating new contrainer.
+[2023.03.28-22.10.04:676][944]LogWorldPartition: Display: WorldPartition initialize took 26 ms (total: 394 ms)
+[2023.03.28-22.10.04:684][944]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2023.03.28-22.10.04:693][944]LogUObjectHash: Compacting FUObjectHashTables data took   0.48ms
+[2023.03.28-22.10.04:697][944]Cmd: MAP CHECKDEP NOCLEARLOG
+[2023.03.28-22.10.04:697][944]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.233ms to complete.
+[2023.03.28-22.10.04:697][944]LogFileHelpers: Loading map 'Lab1Level' took 0.117
+[2023.03.28-22.10.04:701][944]AssetCheck: New page: Asset Save: multiple assets
+[2023.03.28-22.10.04:701][944]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/Labs/Lab1/Lab1Level.Lab1Level:PersistentLevel.StaticMeshActor_12
+[2023.03.28-22.10.04:702][944]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/Labs/Lab1/Lab1Level.Lab1Level:PersistentLevel.StaticMeshActor_16
+[2023.03.28-22.10.04:702][944]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/Labs/Lab1/Lab1Level.Lab1Level:PersistentLevel.StaticMeshActor_19
+[2023.03.28-22.10.04:702][944]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/Labs/Lab1/Lab1Level.Lab1Level:PersistentLevel.StaticMeshActor_33
+[2023.03.28-22.10.04:702][944]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/Labs/Lab1/Lab1Level.Lab1Level:PersistentLevel.StaticMeshActor_32
+[2023.03.28-22.10.04:702][944]LogContentValidation: Display: Validating /Script/Engine.VolumetricCloud /Game/Labs/Lab1/Lab1Level.Lab1Level:PersistentLevel.VolumetricCloud_0
+[2023.03.28-22.10.04:702][944]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/Labs/Lab1/Lab1Level.Lab1Level:PersistentLevel.StaticMeshActor_9
+[2023.03.28-22.10.04:702][944]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/Labs/Lab1/Lab1Level.Lab1Level:PersistentLevel.StaticMeshActor_14
+[2023.03.28-22.10.04:702][944]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/Labs/Lab1/Lab1Level.Lab1Level:PersistentLevel.StaticMeshActor_35
+[2023.03.28-22.10.04:702][944]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/Labs/Lab1/Lab1Level.Lab1Level:PersistentLevel.StaticMeshActor_7
+[2023.03.28-22.10.04:702][944]LogContentValidation: Display: Validating /Script/Engine.PlayerStart /Game/Labs/Lab1/Lab1Level.Lab1Level:PersistentLevel.PlayerStart_0
+[2023.03.28-22.10.04:702][944]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/Labs/Lab1/Lab1Level.Lab1Level:PersistentLevel.StaticMeshActor_1
+[2023.03.28-22.10.04:702][944]LogContentValidation: Display: Validating /Script/Engine.PostProcessVolume /Game/Labs/Lab1/Lab1Level.Lab1Level:PersistentLevel.PostProcessVolume_0
+[2023.03.28-22.10.04:702][944]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/Labs/Lab1/Lab1Level.Lab1Level:PersistentLevel.StaticMeshActor_4
+[2023.03.28-22.10.04:702][944]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/Labs/Lab1/Lab1Level.Lab1Level:PersistentLevel.StaticMeshActor_11
+[2023.03.28-22.10.04:702][944]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/Labs/Lab1/Lab1Level.Lab1Level:PersistentLevel.StaticMeshActor_22
+[2023.03.28-22.10.04:702][944]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/Labs/Lab1/Lab1Level.Lab1Level:PersistentLevel.StaticMeshActor_25
+[2023.03.28-22.10.04:702][944]LogContentValidation: Display: Validating /Script/Engine.TextRenderActor /Game/Labs/Lab1/Lab1Level.Lab1Level:PersistentLevel.TextRenderActor_1
+[2023.03.28-22.10.04:702][944]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/Labs/Lab1/Lab1Level.Lab1Level:PersistentLevel.StaticMeshActor_6
+[2023.03.28-22.10.04:702][944]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/Labs/Lab1/Lab1Level.Lab1Level:PersistentLevel.StaticMeshActor_2
+[2023.03.28-22.10.04:702][944]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/Labs/Lab1/Lab1Level.Lab1Level:PersistentLevel.StaticMeshActor_34
+[2023.03.28-22.10.04:702][944]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/Labs/Lab1/Lab1Level.Lab1Level:PersistentLevel.StaticMeshActor_15
+[2023.03.28-22.10.04:702][944]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/Labs/Lab1/Lab1Level.Lab1Level:PersistentLevel.StaticMeshActor_3
+[2023.03.28-22.10.04:702][944]LogContentValidation: Display: Validating /Script/Engine.WorldPartitionMiniMap /Game/Labs/Lab1/Lab1Level.Lab1Level:PersistentLevel.WorldPartitionMiniMap_0
+[2023.03.28-22.10.04:702][944]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/Labs/Lab1/Lab1Level.Lab1Level:PersistentLevel.StaticMeshActor_UAID_A4AE111137DC5EFB00_1110535423
+[2023.03.28-22.10.04:702][944]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/Labs/Lab1/Lab1Level.Lab1Level:PersistentLevel.StaticMeshActor_20
+[2023.03.28-22.10.04:702][944]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/Labs/Lab1/Lab1Level.Lab1Level:PersistentLevel.StaticMeshActor_13
+[2023.03.28-22.10.04:702][944]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/Labs/Lab1/Lab1Level.Lab1Level:PersistentLevel.StaticMeshActor_10
+[2023.03.28-22.10.04:702][944]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/Labs/Lab1/Lab1Level.Lab1Level:PersistentLevel.StaticMeshActor_0
+[2023.03.28-22.10.04:702][944]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/Labs/Lab1/Lab1Level.Lab1Level:PersistentLevel.StaticMeshActor_18
+[2023.03.28-22.10.04:702][944]LogContentValidation: Display: Validating /Script/Engine.ExponentialHeightFog /Game/Labs/Lab1/Lab1Level.Lab1Level:PersistentLevel.ExponentialHeightFog_0
+[2023.03.28-22.10.04:702][944]LogContentValidation: Display: Validating /Script/Engine.DirectionalLight /Game/Labs/Lab1/Lab1Level.Lab1Level:PersistentLevel.DirectionalLight_0
+[2023.03.28-22.10.04:702][944]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/Labs/Lab1/Lab1Level.Lab1Level:PersistentLevel.StaticMeshActor_24
+[2023.03.28-22.10.04:702][944]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/Labs/Lab1/Lab1Level.Lab1Level:PersistentLevel.StaticMeshActor_8
+[2023.03.28-22.10.04:702][944]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/Labs/Lab1/Lab1Level.Lab1Level:PersistentLevel.StaticMeshActor_23
+[2023.03.28-22.10.04:702][944]LogContentValidation: Display: Validating /Script/Engine.SkyAtmosphere /Game/Labs/Lab1/Lab1Level.Lab1Level:PersistentLevel.SkyAtmosphere_0
+[2023.03.28-22.10.04:702][944]LogContentValidation: Display: Validating /Script/Engine.ActorFolder /Game/Labs/Lab1/Lab1Level.Lab1Level:PersistentLevel.ActorFolder_UID_D075E5BA-49330D3E-C2503D81-A7CF88D1
+[2023.03.28-22.10.04:702][944]LogContentValidation: Display: Validating /Script/Engine.ActorFolder /Game/Labs/Lab1/Lab1Level.Lab1Level:PersistentLevel.ActorFolder_UID_EBA23F82-48252949-750E4391-1A3A1CDD
+[2023.03.28-22.10.04:702][944]LogContentValidation: Display: Validating /Script/Engine.ActorFolder /Game/Labs/Lab1/Lab1Level.Lab1Level:PersistentLevel.ActorFolder_UID_7D23E5AE-4C2A421F-86AF6986-D87E6D05
+[2023.03.28-22.10.04:702][944]LogContentValidation: Display: Validating /Script/Engine.ActorFolder /Game/Labs/Lab1/Lab1Level.Lab1Level:PersistentLevel.ActorFolder_UID_963EC3EB-4002CCE9-759E2EBA-541A873A
+[2023.03.28-22.10.04:702][944]LogContentValidation: Display: Validating /Script/Engine.ActorFolder /Game/Labs/Lab1/Lab1Level.Lab1Level:PersistentLevel.ActorFolder_UID_7B7009C3-45D3D6DD-94D3429E-1D79C034
+[2023.03.28-22.10.04:702][944]LogContentValidation: Display: Validating /Script/Engine.ActorFolder /Game/Labs/Lab1/Lab1Level.Lab1Level:PersistentLevel.ActorFolder_UID_C73F09FC-4215536B-1DCE2A9E-0A830C70
+[2023.03.28-22.10.04:702][944]LogContentValidation: Display: Validating /Script/Engine.WorldDataLayers /Game/Labs/Lab1/Lab1Level.Lab1Level:PersistentLevel.WorldDataLayers
+[2023.03.28-22.10.04:702][944]LogContentValidation: Display: Validating /Script/Engine.World /Game/Labs/Lab1/Lab1Level.Lab1Level
+[2023.03.28-22.10.04:702][944]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/Labs/Lab1/Lab1Level.Lab1Level:PersistentLevel.StaticMeshActor_5
+[2023.03.28-22.10.04:702][944]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/Labs/Lab1/Lab1Level.Lab1Level:PersistentLevel.StaticMeshActor_21
+[2023.03.28-22.10.04:702][944]LogContentValidation: Display: Validating /Script/Engine.SkyLight /Game/Labs/Lab1/Lab1Level.Lab1Level:PersistentLevel.SkyLight_1
+[2023.03.28-22.10.39:458][323]LogSlate: Window 'Save Level As' being destroyed
+[2023.03.28-22.10.39:617][323]LogUObjectHash: Compacting FUObjectHashTables data took   0.31ms
+[2023.03.28-22.10.39:631][323]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.03.28-22.10.39:640][323]Message dialog closed, result: Ok, title: Unable to Check Out From Source Control!, text: The following assets could not be successfully checked out from source control:
+/Game/__ExternalActors__/Labs/Lab1/Lab01/D/11/P922XD167BGKTCXV6TX4J6
+/Game/__ExternalActors__/Labs/Lab1/Lab01/C/FN/HYLSIHMEM3325N45CHK8UP
+/Game/__ExternalActors__/Labs/Lab1/Lab01/2/73/WAGX19GRXNEOHKM64B00ZQ
+/Game/__ExternalActors__/Labs/Lab1/Lab01/2/CL/IUJ9W8FSDDWZV1YKC39TJG
+/Game/__ExternalActors__/Labs/Lab1/Lab01/3/F9/ZPKJWZ3T5BX9TFH2OA1SYH
+/Game/__ExternalActors__/Labs/Lab1/Lab01/4/9N/QWI5MRSUQXRJ1WT8MT5HJ9
+/Game/__ExternalActors__/Labs/Lab1/Lab01/7/G4/BXXGAO59JJNKP4WIXQEG5S
+/Game/__ExternalActors__/Labs/Lab1/Lab01/F/2K/QUE5WV1H9LWXVBCLYIFSW2
+/Game/__ExternalActors__/Labs/Lab1/Lab01/B/IN/PA8Q0JMVGYE4LA1QE2DXJX
+/Game/__ExternalActors__/Labs/Lab1/Lab01/E/ZI/EHJ63ZGD99TOW3KWJ9P31I
+/Game/__ExternalActors__/Labs/Lab1/Lab01/E/LH/YU6BKAPVNNPFCKUUZ2DOP3
+/Game/__ExternalActors__/Labs/Lab1/Lab01/C/UA/4Y58KD8DMRGF91M1ZX6E2T
+/Game/__ExternalActors__/Labs/Lab1/Lab01/B/4P/MHW2XO2PDB6J06A1KXW95G
+/Game/__ExternalActors__/Labs/Lab1/Lab01/4/ZH/6X6WZPYRL5Q61RJCCGSACU
+/Game/__ExternalActors__/Labs/Lab1/Lab01/8/UY/5O2B738EFRRQJW9ORRPG5M
+/Game/__ExternalActors__/Labs/Lab1/Lab01/8/3I/RD6MY9JVSIM0HJ3DHQJ2V8
+/Game/__ExternalActors__/Labs/Lab1/Lab01/C/2T/00X8EZ9W4QR63CWNNG4X78
+/Game/__ExternalActors__/Labs/Lab1/Lab01/D/48/AWVXGMYPGSUFX34HGCFKIQ
+/Game/__ExternalActors__/Labs/Lab1/Lab01/3/I0/SCHB0FSHAMMMP0OYHM34HY
+/Game/__ExternalActors__/Labs/Lab1/Lab01/3/GA/0AK77GUVPGSW6UGIW06S43
+/Game/__ExternalActors__/Labs/Lab1/Lab01/0/LX/JVNHQ9EY6Y4ZSY2SECF15W
+/Game/__ExternalActors__/Labs/Lab1/Lab01/D/RY/WD3BKSE93WW4UR3HYYD0LK
+/Game/__ExternalActors__/Labs/Lab1/Lab01/0/R0/171DJF2WLOENYTC07AH9GH
+/Game/__ExternalActors__/Labs/Lab1/Lab01/B/0U/PFCMI2X4O84DPKE78JP2PH
+/Game/__ExternalActors__/Labs/Lab1/Lab01/E/QJ/SLAXETCIEUBFJSTKO6LSPL
+/Game/__ExternalActors__/Labs/Lab1/Lab01/E/FI/51QFJO31B0KF2CDL78NI15
+/Game/__ExternalActors__/Labs/Lab1/Lab01/E/O4/UNUIYFVU4QQQTCZIE7OWEF
+/Game/__ExternalActors__/Labs/Lab1/Lab01/2/ZR/ARVMEBPG2V04ISG82D86EX
+/Game/__ExternalActors__/Labs/Lab1/Lab01/1/14/DVNSORZRY2HUWID02HYIKK
+/Game/__ExternalActors__/Labs/Lab1/Lab01/A/2A/RMVC87S4O1S9ISM8LJI886
+/Game/__ExternalActors__/Labs/Lab1/Lab01/0/40/2GRKNV07FQBIFMAKMDNM9W
+/Game/__ExternalActors__/Labs/Lab1/Lab01/6/TN/SBP0QJLIIN7PZVC2X5AEH2
+/Game/__ExternalActors__/Labs/Lab1/Lab01/D/36/Z4J0ZDUHUCGBFDP48KW7K5
+/Game/__ExternalActors__/Labs/Lab1/Lab01/9/ZG/K7S9SEX1Z7OLWTO9B4U2XE
+/Game/__ExternalActors__/Labs/Lab1/Lab01/A/0W/Q7UG52S7V0TMS888D1JUZZ
+/Game/__ExternalActors__/Labs/Lab1/Lab01/6/EZ/DVXXYLKEK8MVW7FT9J0FV5
+/Game/__ExternalActors__/Labs/Lab1/Lab01/9/IP/ZUFD6Y1ST3JL7AHFBWND49
+/Game/__ExternalActors__/Labs/Lab1/Lab01/9/6X/LP010HQ2YLBIGLSCPWOQPF
+/Game/__ExternalActors__/Labs/Lab1/Lab01/F/3T/L21QZKTBUFC446P8YFOUK1
+/Game/__ExternalActors__/Labs/Lab1/Lab01/B/2B/H75AFEA3XAVG45SO4261ZQ
+/Game/__ExternalObjects__/Labs/Lab1/Lab01/4/ZY/M2D5BUNTLMEUQGOTBAU452
+/Game/__ExternalObjects__/Labs/Lab1/Lab01/3/EX/SO9UQY54QJ95HVC58ISQKX
+/Game/__ExternalObjects__/Labs/Lab1/Lab01/4/BA/OEVNTEXRUJ92HVDXYEXQBV
+/Game/__ExternalObjects__/Labs/Lab1/Lab01/2/9K/SVIAS5YJZF3O7SDLDMHHMZ
+/Game/__ExternalObjects__/Labs/Lab1/Lab01/D/LJ/GT5UCZKD707G6C6KDJVUEO
+/Game/__ExternalObjects__/Labs/Lab1/Lab01/5/VJ/26SQWOB7N8OI07L3P6JVXY
+[2023.03.28-22.10.39:641][323]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.03.28-22.10.39:642][323]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Labs/Lab1/Lab01/D/11/P922XD167BGKTCXV6TX4J6
+[2023.03.28-22.10.39:642][323]LogSavePackage: Moving '../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2_Labs/Saved/P922XD167BGKTCXV6TX4J6FD6D3C5E45AD49B7331606833CA20D5D.tmp' to '../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2_Labs/Content/__ExternalActors__/Labs/Lab1/Lab01/D/11/P922XD167BGKTCXV6TX4J6.uasset'
+[2023.03.28-22.10.39:645][323]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Labs/Lab1/Lab01/C/FN/HYLSIHMEM3325N45CHK8UP
+[2023.03.28-22.10.39:646][323]LogSavePackage: Moving '../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2_Labs/Saved/HYLSIHMEM3325N45CHK8UP694170924957154E77271AA47DC97D55.tmp' to '../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2_Labs/Content/__ExternalActors__/Labs/Lab1/Lab01/C/FN/HYLSIHMEM3325N45CHK8UP.uasset'
+[2023.03.28-22.10.39:648][323]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Labs/Lab1/Lab01/2/73/WAGX19GRXNEOHKM64B00ZQ
+[2023.03.28-22.10.39:648][323]LogSavePackage: Moving '../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2_Labs/Saved/WAGX19GRXNEOHKM64B00ZQ3AB8D4E4497429D6A10F0FB522EFB647.tmp' to '../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2_Labs/Content/__ExternalActors__/Labs/Lab1/Lab01/2/73/WAGX19GRXNEOHKM64B00ZQ.uasset'
+[2023.03.28-22.10.39:651][323]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Labs/Lab1/Lab01/2/CL/IUJ9W8FSDDWZV1YKC39TJG
+[2023.03.28-22.10.39:651][323]LogSavePackage: Moving '../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2_Labs/Saved/IUJ9W8FSDDWZV1YKC39TJG0375EF384226BA6F988BA49F8FA37CD6.tmp' to '../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2_Labs/Content/__ExternalActors__/Labs/Lab1/Lab01/2/CL/IUJ9W8FSDDWZV1YKC39TJG.uasset'
+[2023.03.28-22.10.39:653][323]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Labs/Lab1/Lab01/3/F9/ZPKJWZ3T5BX9TFH2OA1SYH
+[2023.03.28-22.10.39:653][323]LogSavePackage: Moving '../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2_Labs/Saved/ZPKJWZ3T5BX9TFH2OA1SYHC384110843D7FA3ED0506CB23166FEA0.tmp' to '../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2_Labs/Content/__ExternalActors__/Labs/Lab1/Lab01/3/F9/ZPKJWZ3T5BX9TFH2OA1SYH.uasset'
+[2023.03.28-22.10.39:656][323]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Labs/Lab1/Lab01/4/9N/QWI5MRSUQXRJ1WT8MT5HJ9
+[2023.03.28-22.10.39:656][323]LogSavePackage: Moving '../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2_Labs/Saved/QWI5MRSUQXRJ1WT8MT5HJ91866A9C7459F3FDF9CF334B6BEDD7CFC.tmp' to '../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2_Labs/Content/__ExternalActors__/Labs/Lab1/Lab01/4/9N/QWI5MRSUQXRJ1WT8MT5HJ9.uasset'
+[2023.03.28-22.10.39:658][323]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Labs/Lab1/Lab01/7/G4/BXXGAO59JJNKP4WIXQEG5S
+[2023.03.28-22.10.39:658][323]LogSavePackage: Moving '../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2_Labs/Saved/BXXGAO59JJNKP4WIXQEG5S57674192449167A9674E31BE2DBE591D.tmp' to '../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2_Labs/Content/__ExternalActors__/Labs/Lab1/Lab01/7/G4/BXXGAO59JJNKP4WIXQEG5S.uasset'
+[2023.03.28-22.10.39:661][323]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Labs/Lab1/Lab01/F/2K/QUE5WV1H9LWXVBCLYIFSW2
+[2023.03.28-22.10.39:661][323]LogSavePackage: Moving '../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2_Labs/Saved/QUE5WV1H9LWXVBCLYIFSW27DDB2AD443E89A811EC1079D1C65C7E9.tmp' to '../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2_Labs/Content/__ExternalActors__/Labs/Lab1/Lab01/F/2K/QUE5WV1H9LWXVBCLYIFSW2.uasset'
+[2023.03.28-22.10.39:663][323]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Labs/Lab1/Lab01/B/IN/PA8Q0JMVGYE4LA1QE2DXJX
+[2023.03.28-22.10.39:663][323]LogSavePackage: Moving '../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2_Labs/Saved/PA8Q0JMVGYE4LA1QE2DXJX8CADE3EC42449659FC959BB395EFFADC.tmp' to '../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2_Labs/Content/__ExternalActors__/Labs/Lab1/Lab01/B/IN/PA8Q0JMVGYE4LA1QE2DXJX.uasset'
+[2023.03.28-22.10.39:665][323]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Labs/Lab1/Lab01/E/ZI/EHJ63ZGD99TOW3KWJ9P31I
+[2023.03.28-22.10.39:665][323]LogSavePackage: Moving '../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2_Labs/Saved/EHJ63ZGD99TOW3KWJ9P31I38C20BA04ADB07825C90EB8F7161B375.tmp' to '../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2_Labs/Content/__ExternalActors__/Labs/Lab1/Lab01/E/ZI/EHJ63ZGD99TOW3KWJ9P31I.uasset'
+[2023.03.28-22.10.39:668][323]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Labs/Lab1/Lab01/E/LH/YU6BKAPVNNPFCKUUZ2DOP3
+[2023.03.28-22.10.39:668][323]LogSavePackage: Moving '../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2_Labs/Saved/YU6BKAPVNNPFCKUUZ2DOP339206C6A41AA163896AA23B9CABAC204.tmp' to '../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2_Labs/Content/__ExternalActors__/Labs/Lab1/Lab01/E/LH/YU6BKAPVNNPFCKUUZ2DOP3.uasset'
+[2023.03.28-22.10.39:670][323]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Labs/Lab1/Lab01/C/UA/4Y58KD8DMRGF91M1ZX6E2T
+[2023.03.28-22.10.39:670][323]LogSavePackage: Moving '../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2_Labs/Saved/4Y58KD8DMRGF91M1ZX6E2T3787524D48CBB3B1E1980BBD3257809A.tmp' to '../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2_Labs/Content/__ExternalActors__/Labs/Lab1/Lab01/C/UA/4Y58KD8DMRGF91M1ZX6E2T.uasset'
+[2023.03.28-22.10.39:673][323]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Labs/Lab1/Lab01/B/4P/MHW2XO2PDB6J06A1KXW95G
+[2023.03.28-22.10.39:673][323]LogSavePackage: Moving '../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2_Labs/Saved/MHW2XO2PDB6J06A1KXW95GDB5F38FE44E0C11BDC638B8E66FA23CF.tmp' to '../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2_Labs/Content/__ExternalActors__/Labs/Lab1/Lab01/B/4P/MHW2XO2PDB6J06A1KXW95G.uasset'
+[2023.03.28-22.10.39:675][323]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Labs/Lab1/Lab01/4/ZH/6X6WZPYRL5Q61RJCCGSACU
+[2023.03.28-22.10.39:675][323]LogSavePackage: Moving '../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2_Labs/Saved/6X6WZPYRL5Q61RJCCGSACU3415C79642D5A68A6F1FC8B5757EC7F7.tmp' to '../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2_Labs/Content/__ExternalActors__/Labs/Lab1/Lab01/4/ZH/6X6WZPYRL5Q61RJCCGSACU.uasset'
+[2023.03.28-22.10.39:676][323]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Labs/Lab1/Lab01/8/UY/5O2B738EFRRQJW9ORRPG5M
+[2023.03.28-22.10.39:676][323]LogSavePackage: Moving '../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2_Labs/Saved/5O2B738EFRRQJW9ORRPG5M5CEE45A34A55F35C7915739C564ABC59.tmp' to '../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2_Labs/Content/__ExternalActors__/Labs/Lab1/Lab01/8/UY/5O2B738EFRRQJW9ORRPG5M.uasset'
+[2023.03.28-22.10.39:679][323]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Labs/Lab1/Lab01/8/3I/RD6MY9JVSIM0HJ3DHQJ2V8
+[2023.03.28-22.10.39:679][323]LogSavePackage: Moving '../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2_Labs/Saved/RD6MY9JVSIM0HJ3DHQJ2V8E09613404D4E9B4D9417A28988F88898.tmp' to '../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2_Labs/Content/__ExternalActors__/Labs/Lab1/Lab01/8/3I/RD6MY9JVSIM0HJ3DHQJ2V8.uasset'
+[2023.03.28-22.10.39:681][323]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Labs/Lab1/Lab01/C/2T/00X8EZ9W4QR63CWNNG4X78
+[2023.03.28-22.10.39:681][323]LogSavePackage: Moving '../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2_Labs/Saved/00X8EZ9W4QR63CWNNG4X7874589DCD4574547609DDE4835DED7089.tmp' to '../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2_Labs/Content/__ExternalActors__/Labs/Lab1/Lab01/C/2T/00X8EZ9W4QR63CWNNG4X78.uasset'
+[2023.03.28-22.10.39:683][323]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Labs/Lab1/Lab01/D/48/AWVXGMYPGSUFX34HGCFKIQ
+[2023.03.28-22.10.39:683][323]LogSavePackage: Moving '../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2_Labs/Saved/AWVXGMYPGSUFX34HGCFKIQAB5201924B1DAD77A9F5FABBFC2A26D5.tmp' to '../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2_Labs/Content/__ExternalActors__/Labs/Lab1/Lab01/D/48/AWVXGMYPGSUFX34HGCFKIQ.uasset'
+[2023.03.28-22.10.39:685][323]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Labs/Lab1/Lab01/3/I0/SCHB0FSHAMMMP0OYHM34HY
+[2023.03.28-22.10.39:685][323]LogSavePackage: Moving '../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2_Labs/Saved/SCHB0FSHAMMMP0OYHM34HY7CAE38794BB56E6632B69B9855DF2C95.tmp' to '../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2_Labs/Content/__ExternalActors__/Labs/Lab1/Lab01/3/I0/SCHB0FSHAMMMP0OYHM34HY.uasset'
+[2023.03.28-22.10.39:687][323]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Labs/Lab1/Lab01/3/GA/0AK77GUVPGSW6UGIW06S43
+[2023.03.28-22.10.39:687][323]LogSavePackage: Moving '../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2_Labs/Saved/0AK77GUVPGSW6UGIW06S438C65642C4FD78B5D1C2002AF3F3A1F04.tmp' to '../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2_Labs/Content/__ExternalActors__/Labs/Lab1/Lab01/3/GA/0AK77GUVPGSW6UGIW06S43.uasset'
+[2023.03.28-22.10.39:689][323]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Labs/Lab1/Lab01/0/LX/JVNHQ9EY6Y4ZSY2SECF15W
+[2023.03.28-22.10.39:689][323]LogSavePackage: Moving '../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2_Labs/Saved/JVNHQ9EY6Y4ZSY2SECF15W7225474D459D3D6A8A63D38DA05C0477.tmp' to '../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2_Labs/Content/__ExternalActors__/Labs/Lab1/Lab01/0/LX/JVNHQ9EY6Y4ZSY2SECF15W.uasset'
+[2023.03.28-22.10.39:692][323]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Labs/Lab1/Lab01/D/RY/WD3BKSE93WW4UR3HYYD0LK
+[2023.03.28-22.10.39:692][323]LogSavePackage: Moving '../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2_Labs/Saved/WD3BKSE93WW4UR3HYYD0LKB46ACD184EA3E14BEF213DAB10CDA121.tmp' to '../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2_Labs/Content/__ExternalActors__/Labs/Lab1/Lab01/D/RY/WD3BKSE93WW4UR3HYYD0LK.uasset'
+[2023.03.28-22.10.39:694][323]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Labs/Lab1/Lab01/0/R0/171DJF2WLOENYTC07AH9GH
+[2023.03.28-22.10.39:694][323]LogSavePackage: Moving '../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2_Labs/Saved/171DJF2WLOENYTC07AH9GH03C6A317448A1D4A30E3878FC44BCCC4.tmp' to '../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2_Labs/Content/__ExternalActors__/Labs/Lab1/Lab01/0/R0/171DJF2WLOENYTC07AH9GH.uasset'
+[2023.03.28-22.10.39:696][323]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Labs/Lab1/Lab01/B/0U/PFCMI2X4O84DPKE78JP2PH
+[2023.03.28-22.10.39:696][323]LogSavePackage: Moving '../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2_Labs/Saved/PFCMI2X4O84DPKE78JP2PH1150A8E24C368D55BBF104BFC22C1C7B.tmp' to '../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2_Labs/Content/__ExternalActors__/Labs/Lab1/Lab01/B/0U/PFCMI2X4O84DPKE78JP2PH.uasset'
+[2023.03.28-22.10.39:699][323]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Labs/Lab1/Lab01/E/QJ/SLAXETCIEUBFJSTKO6LSPL
+[2023.03.28-22.10.39:699][323]LogSavePackage: Moving '../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2_Labs/Saved/SLAXETCIEUBFJSTKO6LSPLCBD5C0704977361282C7EF9AE7E9DBDB.tmp' to '../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2_Labs/Content/__ExternalActors__/Labs/Lab1/Lab01/E/QJ/SLAXETCIEUBFJSTKO6LSPL.uasset'
+[2023.03.28-22.10.39:702][323]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Labs/Lab1/Lab01/E/FI/51QFJO31B0KF2CDL78NI15
+[2023.03.28-22.10.39:702][323]LogSavePackage: Moving '../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2_Labs/Saved/51QFJO31B0KF2CDL78NI1538372A90489783E8EA2C3999CCCB9C9E.tmp' to '../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2_Labs/Content/__ExternalActors__/Labs/Lab1/Lab01/E/FI/51QFJO31B0KF2CDL78NI15.uasset'
+[2023.03.28-22.10.39:704][323]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Labs/Lab1/Lab01/E/O4/UNUIYFVU4QQQTCZIE7OWEF
+[2023.03.28-22.10.39:704][323]LogSavePackage: Moving '../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2_Labs/Saved/UNUIYFVU4QQQTCZIE7OWEF27B8959840E699B6C43AEA922ACDF40B.tmp' to '../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2_Labs/Content/__ExternalActors__/Labs/Lab1/Lab01/E/O4/UNUIYFVU4QQQTCZIE7OWEF.uasset'
+[2023.03.28-22.10.39:706][323]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Labs/Lab1/Lab01/2/ZR/ARVMEBPG2V04ISG82D86EX
+[2023.03.28-22.10.39:706][323]LogSavePackage: Moving '../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2_Labs/Saved/ARVMEBPG2V04ISG82D86EX5C589D8A4C1F24DBF85900BD2EC67497.tmp' to '../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2_Labs/Content/__ExternalActors__/Labs/Lab1/Lab01/2/ZR/ARVMEBPG2V04ISG82D86EX.uasset'
+[2023.03.28-22.10.39:709][323]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Labs/Lab1/Lab01/1/14/DVNSORZRY2HUWID02HYIKK
+[2023.03.28-22.10.39:709][323]LogSavePackage: Moving '../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2_Labs/Saved/DVNSORZRY2HUWID02HYIKK7C59B6F540ED9ABA463C88BCC7BCD0B6.tmp' to '../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2_Labs/Content/__ExternalActors__/Labs/Lab1/Lab01/1/14/DVNSORZRY2HUWID02HYIKK.uasset'
+[2023.03.28-22.10.39:711][323]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Labs/Lab1/Lab01/A/2A/RMVC87S4O1S9ISM8LJI886
+[2023.03.28-22.10.39:711][323]LogSavePackage: Moving '../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2_Labs/Saved/RMVC87S4O1S9ISM8LJI8860B1051E54095A1DA32FF25A376773C35.tmp' to '../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2_Labs/Content/__ExternalActors__/Labs/Lab1/Lab01/A/2A/RMVC87S4O1S9ISM8LJI886.uasset'
+[2023.03.28-22.10.39:714][323]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Labs/Lab1/Lab01/0/40/2GRKNV07FQBIFMAKMDNM9W
+[2023.03.28-22.10.39:714][323]LogSavePackage: Moving '../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2_Labs/Saved/2GRKNV07FQBIFMAKMDNM9W3276CC784D43517011BAD288920A7434.tmp' to '../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2_Labs/Content/__ExternalActors__/Labs/Lab1/Lab01/0/40/2GRKNV07FQBIFMAKMDNM9W.uasset'
+[2023.03.28-22.10.39:716][323]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Labs/Lab1/Lab01/6/TN/SBP0QJLIIN7PZVC2X5AEH2
+[2023.03.28-22.10.39:716][323]LogSavePackage: Moving '../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2_Labs/Saved/SBP0QJLIIN7PZVC2X5AEH20E7D5B6E4AE074CC3074C8BF83161D2D.tmp' to '../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2_Labs/Content/__ExternalActors__/Labs/Lab1/Lab01/6/TN/SBP0QJLIIN7PZVC2X5AEH2.uasset'
+[2023.03.28-22.10.39:718][323]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Labs/Lab1/Lab01/D/36/Z4J0ZDUHUCGBFDP48KW7K5
+[2023.03.28-22.10.39:718][323]LogSavePackage: Moving '../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2_Labs/Saved/Z4J0ZDUHUCGBFDP48KW7K5CB1D522449F89E7246832C9AF3B17FC4.tmp' to '../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2_Labs/Content/__ExternalActors__/Labs/Lab1/Lab01/D/36/Z4J0ZDUHUCGBFDP48KW7K5.uasset'
+[2023.03.28-22.10.39:721][323]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Labs/Lab1/Lab01/9/ZG/K7S9SEX1Z7OLWTO9B4U2XE
+[2023.03.28-22.10.39:721][323]LogSavePackage: Moving '../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2_Labs/Saved/K7S9SEX1Z7OLWTO9B4U2XE7320626F4B35E95944003596A351A6B4.tmp' to '../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2_Labs/Content/__ExternalActors__/Labs/Lab1/Lab01/9/ZG/K7S9SEX1Z7OLWTO9B4U2XE.uasset'
+[2023.03.28-22.10.39:723][323]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Labs/Lab1/Lab01/A/0W/Q7UG52S7V0TMS888D1JUZZ
+[2023.03.28-22.10.39:723][323]LogSavePackage: Moving '../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2_Labs/Saved/Q7UG52S7V0TMS888D1JUZZ7692EF674776519D6ADB67B162909AAD.tmp' to '../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2_Labs/Content/__ExternalActors__/Labs/Lab1/Lab01/A/0W/Q7UG52S7V0TMS888D1JUZZ.uasset'
+[2023.03.28-22.10.39:725][323]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Labs/Lab1/Lab01/6/EZ/DVXXYLKEK8MVW7FT9J0FV5
+[2023.03.28-22.10.39:725][323]LogSavePackage: Moving '../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2_Labs/Saved/DVXXYLKEK8MVW7FT9J0FV559D2B96845DE5A3E8F8034B2319EC757.tmp' to '../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2_Labs/Content/__ExternalActors__/Labs/Lab1/Lab01/6/EZ/DVXXYLKEK8MVW7FT9J0FV5.uasset'
+[2023.03.28-22.10.39:727][323]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Labs/Lab1/Lab01/9/IP/ZUFD6Y1ST3JL7AHFBWND49
+[2023.03.28-22.10.39:727][323]LogSavePackage: Moving '../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2_Labs/Saved/ZUFD6Y1ST3JL7AHFBWND499CF6792F480C7D731B226ABD500C9C87.tmp' to '../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2_Labs/Content/__ExternalActors__/Labs/Lab1/Lab01/9/IP/ZUFD6Y1ST3JL7AHFBWND49.uasset'
+[2023.03.28-22.10.39:730][323]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Labs/Lab1/Lab01/9/6X/LP010HQ2YLBIGLSCPWOQPF
+[2023.03.28-22.10.39:730][323]LogSavePackage: Moving '../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2_Labs/Saved/LP010HQ2YLBIGLSCPWOQPF616A342F4434ABF37DEAF897CCB93247.tmp' to '../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2_Labs/Content/__ExternalActors__/Labs/Lab1/Lab01/9/6X/LP010HQ2YLBIGLSCPWOQPF.uasset'
+[2023.03.28-22.10.39:732][323]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Labs/Lab1/Lab01/F/3T/L21QZKTBUFC446P8YFOUK1
+[2023.03.28-22.10.39:732][323]LogSavePackage: Moving '../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2_Labs/Saved/L21QZKTBUFC446P8YFOUK18B5035AF4D5CC95FD6AEB79180B64D1D.tmp' to '../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2_Labs/Content/__ExternalActors__/Labs/Lab1/Lab01/F/3T/L21QZKTBUFC446P8YFOUK1.uasset'
+[2023.03.28-22.10.39:734][323]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Labs/Lab1/Lab01/B/2B/H75AFEA3XAVG45SO4261ZQ
+[2023.03.28-22.10.39:734][323]LogSavePackage: Moving '../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2_Labs/Saved/H75AFEA3XAVG45SO4261ZQ2614249541CDB2A9A16A359E43110FCB.tmp' to '../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2_Labs/Content/__ExternalActors__/Labs/Lab1/Lab01/B/2B/H75AFEA3XAVG45SO4261ZQ.uasset'
+[2023.03.28-22.10.39:736][323]LogSavePackage: Moving output files for package: /Game/__ExternalObjects__/Labs/Lab1/Lab01/4/ZY/M2D5BUNTLMEUQGOTBAU452
+[2023.03.28-22.10.39:736][323]LogSavePackage: Moving '../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2_Labs/Saved/M2D5BUNTLMEUQGOTBAU452AC3F66CD4D466656B7F7EB890B23C9C2.tmp' to '../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2_Labs/Content/__ExternalObjects__/Labs/Lab1/Lab01/4/ZY/M2D5BUNTLMEUQGOTBAU452.uasset'
+[2023.03.28-22.10.39:739][323]LogSavePackage: Moving output files for package: /Game/__ExternalObjects__/Labs/Lab1/Lab01/3/EX/SO9UQY54QJ95HVC58ISQKX
+[2023.03.28-22.10.39:739][323]LogSavePackage: Moving '../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2_Labs/Saved/SO9UQY54QJ95HVC58ISQKX87592C154C324B4236F4F4B8A158F852.tmp' to '../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2_Labs/Content/__ExternalObjects__/Labs/Lab1/Lab01/3/EX/SO9UQY54QJ95HVC58ISQKX.uasset'
+[2023.03.28-22.10.39:741][323]LogSavePackage: Moving output files for package: /Game/__ExternalObjects__/Labs/Lab1/Lab01/4/BA/OEVNTEXRUJ92HVDXYEXQBV
+[2023.03.28-22.10.39:741][323]LogSavePackage: Moving '../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2_Labs/Saved/OEVNTEXRUJ92HVDXYEXQBVC53E23BF45A4960A04F792A0A6892147.tmp' to '../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2_Labs/Content/__ExternalObjects__/Labs/Lab1/Lab01/4/BA/OEVNTEXRUJ92HVDXYEXQBV.uasset'
+[2023.03.28-22.10.39:743][323]LogSavePackage: Moving output files for package: /Game/__ExternalObjects__/Labs/Lab1/Lab01/2/9K/SVIAS5YJZF3O7SDLDMHHMZ
+[2023.03.28-22.10.39:743][323]LogSavePackage: Moving '../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2_Labs/Saved/SVIAS5YJZF3O7SDLDMHHMZEF48BFCA42CB1D9C737C08BB1F007323.tmp' to '../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2_Labs/Content/__ExternalObjects__/Labs/Lab1/Lab01/2/9K/SVIAS5YJZF3O7SDLDMHHMZ.uasset'
+[2023.03.28-22.10.39:745][323]LogSavePackage: Moving output files for package: /Game/__ExternalObjects__/Labs/Lab1/Lab01/D/LJ/GT5UCZKD707G6C6KDJVUEO
+[2023.03.28-22.10.39:745][323]LogSavePackage: Moving '../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2_Labs/Saved/GT5UCZKD707G6C6KDJVUEO2B2FDF454E81FA4062054AA67E869CB6.tmp' to '../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2_Labs/Content/__ExternalObjects__/Labs/Lab1/Lab01/D/LJ/GT5UCZKD707G6C6KDJVUEO.uasset'
+[2023.03.28-22.10.39:748][323]LogSavePackage: Moving output files for package: /Game/__ExternalObjects__/Labs/Lab1/Lab01/5/VJ/26SQWOB7N8OI07L3P6JVXY
+[2023.03.28-22.10.39:748][323]LogSavePackage: Moving '../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2_Labs/Saved/26SQWOB7N8OI07L3P6JVXY7B9F743C458EFFB346806C814B12953D.tmp' to '../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2_Labs/Content/__ExternalObjects__/Labs/Lab1/Lab01/5/VJ/26SQWOB7N8OI07L3P6JVXY.uasset'
+[2023.03.28-22.10.39:751][323]LogFileHelpers: InternalPromptForCheckoutAndSave took 110 ms (total: 585 ms)
+[2023.03.28-22.10.39:754][323]Message dialog closed, result: Ok, title: Unable to Check Out From Source Control!, text: The following assets could not be successfully checked out from source control:
+/Game/__ExternalActors__/Labs/Lab1/Lab01/D/11/P922XD167BGKTCXV6TX4J6
+/Game/__ExternalActors__/Labs/Lab1/Lab01/C/FN/HYLSIHMEM3325N45CHK8UP
+/Game/__ExternalActors__/Labs/Lab1/Lab01/2/73/WAGX19GRXNEOHKM64B00ZQ
+/Game/__ExternalActors__/Labs/Lab1/Lab01/2/CL/IUJ9W8FSDDWZV1YKC39TJG
+/Game/__ExternalActors__/Labs/Lab1/Lab01/3/F9/ZPKJWZ3T5BX9TFH2OA1SYH
+/Game/__ExternalActors__/Labs/Lab1/Lab01/4/9N/QWI5MRSUQXRJ1WT8MT5HJ9
+/Game/__ExternalActors__/Labs/Lab1/Lab01/7/G4/BXXGAO59JJNKP4WIXQEG5S
+/Game/__ExternalActors__/Labs/Lab1/Lab01/F/2K/QUE5WV1H9LWXVBCLYIFSW2
+/Game/__ExternalActors__/Labs/Lab1/Lab01/B/IN/PA8Q0JMVGYE4LA1QE2DXJX
+/Game/__ExternalActors__/Labs/Lab1/Lab01/E/ZI/EHJ63ZGD99TOW3KWJ9P31I
+/Game/__ExternalActors__/Labs/Lab1/Lab01/E/LH/YU6BKAPVNNPFCKUUZ2DOP3
+/Game/__ExternalActors__/Labs/Lab1/Lab01/C/UA/4Y58KD8DMRGF91M1ZX6E2T
+/Game/__ExternalActors__/Labs/Lab1/Lab01/B/4P/MHW2XO2PDB6J06A1KXW95G
+/Game/__ExternalActors__/Labs/Lab1/Lab01/4/ZH/6X6WZPYRL5Q61RJCCGSACU
+/Game/__ExternalActors__/Labs/Lab1/Lab01/8/UY/5O2B738EFRRQJW9ORRPG5M
+/Game/__ExternalActors__/Labs/Lab1/Lab01/8/3I/RD6MY9JVSIM0HJ3DHQJ2V8
+/Game/__ExternalActors__/Labs/Lab1/Lab01/C/2T/00X8EZ9W4QR63CWNNG4X78
+/Game/__ExternalActors__/Labs/Lab1/Lab01/D/48/AWVXGMYPGSUFX34HGCFKIQ
+/Game/__ExternalActors__/Labs/Lab1/Lab01/3/I0/SCHB0FSHAMMMP0OYHM34HY
+/Game/__ExternalActors__/Labs/Lab1/Lab01/3/GA/0AK77GUVPGSW6UGIW06S43
+/Game/__ExternalActors__/Labs/Lab1/Lab01/0/LX/JVNHQ9EY6Y4ZSY2SECF15W
+/Game/__ExternalActors__/Labs/Lab1/Lab01/D/RY/WD3BKSE93WW4UR3HYYD0LK
+/Game/__ExternalActors__/Labs/Lab1/Lab01/0/R0/171DJF2WLOENYTC07AH9GH
+/Game/__ExternalActors__/Labs/Lab1/Lab01/B/0U/PFCMI2X4O84DPKE78JP2PH
+/Game/__ExternalActors__/Labs/Lab1/Lab01/E/QJ/SLAXETCIEUBFJSTKO6LSPL
+/Game/__ExternalActors__/Labs/Lab1/Lab01/E/FI/51QFJO31B0KF2CDL78NI15
+/Game/__ExternalActors__/Labs/Lab1/Lab01/E/O4/UNUIYFVU4QQQTCZIE7OWEF
+/Game/__ExternalActors__/Labs/Lab1/Lab01/2/ZR/ARVMEBPG2V04ISG82D86EX
+/Game/__ExternalActors__/Labs/Lab1/Lab01/1/14/DVNSORZRY2HUWID02HYIKK
+/Game/__ExternalActors__/Labs/Lab1/Lab01/A/2A/RMVC87S4O1S9ISM8LJI886
+/Game/__ExternalActors__/Labs/Lab1/Lab01/0/40/2GRKNV07FQBIFMAKMDNM9W
+/Game/__ExternalActors__/Labs/Lab1/Lab01/6/TN/SBP0QJLIIN7PZVC2X5AEH2
+/Game/__ExternalActors__/Labs/Lab1/Lab01/D/36/Z4J0ZDUHUCGBFDP48KW7K5
+/Game/__ExternalActors__/Labs/Lab1/Lab01/9/ZG/K7S9SEX1Z7OLWTO9B4U2XE
+/Game/__ExternalActors__/Labs/Lab1/Lab01/A/0W/Q7UG52S7V0TMS888D1JUZZ
+/Game/__ExternalActors__/Labs/Lab1/Lab01/6/EZ/DVXXYLKEK8MVW7FT9J0FV5
+/Game/__ExternalActors__/Labs/Lab1/Lab01/9/IP/ZUFD6Y1ST3JL7AHFBWND49
+/Game/__ExternalActors__/Labs/Lab1/Lab01/9/6X/LP010HQ2YLBIGLSCPWOQPF
+/Game/__ExternalActors__/Labs/Lab1/Lab01/F/3T/L21QZKTBUFC446P8YFOUK1
+/Game/__ExternalActors__/Labs/Lab1/Lab01/B/2B/H75AFEA3XAVG45SO4261ZQ
+/Game/__ExternalObjects__/Labs/Lab1/Lab01/4/ZY/M2D5BUNTLMEUQGOTBAU452
+/Game/__ExternalObjects__/Labs/Lab1/Lab01/3/EX/SO9UQY54QJ95HVC58ISQKX
+/Game/__ExternalObjects__/Labs/Lab1/Lab01/4/BA/OEVNTEXRUJ92HVDXYEXQBV
+/Game/__ExternalObjects__/Labs/Lab1/Lab01/2/9K/SVIAS5YJZF3O7SDLDMHHMZ
+/Game/__ExternalObjects__/Labs/Lab1/Lab01/D/LJ/GT5UCZKD707G6C6KDJVUEO
+/Game/__ExternalObjects__/Labs/Lab1/Lab01/5/VJ/26SQWOB7N8OI07L3P6JVXY
+[2023.03.28-22.10.39:763][323]LogUObjectHash: Compacting FUObjectHashTables data took   0.39ms
+[2023.03.28-22.10.39:766][323]LogSavePackage: Moving output files for package: /Game/Labs/Lab1/Lab01
+[2023.03.28-22.10.39:766][323]LogSavePackage: Moving '../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2_Labs/Saved/Lab01F397EF76416DA3A33E3D8282505E3EAD.tmp' to '../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2_Labs/Content/Labs/Lab1/Lab01.umap'
+[2023.03.28-22.10.39:797][323]LogFileHelpers: Saving map 'Lab01' took 0.322
+[2023.03.28-22.10.39:797][323]Cmd: MAP LOAD FILE="../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2_Labs/Content/Labs/Lab1/Lab01.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=4
+[2023.03.28-22.10.39:797][323]LightingResults: New page: Lighting Build
+[2023.03.28-22.10.39:797][323]LoadErrors: New page: Loading map: Lab01.umap
+[2023.03.28-22.10.39:799][323]LogWorld: UWorld::CleanupWorld for Lab1Level, bSessionEnded=true, bCleanupResources=true
+[2023.03.28-22.10.39:799][323]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.03.28-22.10.39:802][323]LogContentBundle: [Container: Lab1Level] Deleting container.
+[2023.03.28-22.10.39:802][323]MapCheck: New page: Map Check
+[2023.03.28-22.10.39:802][323]LightingResults: New page: Lighting Build
+[2023.03.28-22.10.39:809][323]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.03.28-22.10.39:811][323]LogUObjectHash: Compacting FUObjectHashTables data took   0.44ms
+[2023.03.28-22.10.39:813][323]LogWorld: UWorld::CleanupWorld for Lab01, bSessionEnded=true, bCleanupResources=true
+[2023.03.28-22.10.39:813][323]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.03.28-22.10.39:821][323]LogUObjectHash: Compacting FUObjectHashTables data took   0.35ms
+[2023.03.28-22.10.39:829][323]LogUObjectHash: Compacting FUObjectHashTables data took   0.47ms
+[2023.03.28-22.10.39:836][323]LogAudio: Display: Audio Device (ID: 1) registered with world 'Lab01'.
+[2023.03.28-22.10.39:836][323]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.03.28-22.10.39:836][323]LogAIModule: Creating AISystem for world Lab01
+[2023.03.28-22.10.39:836][323]LogWorldPartition: ULevel::OnLevelLoaded(Lab01)(bIsOwningWorldGameWorld=0, bIsOwningWorldPartitioned=1, bIsValidLevelInstance=0, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=0)
+[2023.03.28-22.10.39:837][323]LogWorldPartition: Display: WorldPartition initialize started...
+[2023.03.28-22.10.39:837][323]LogWorldPartition: UWorldPartition::Initialize(Asset=Lab01, IsEditor=1, bPIEWorldTravel=0 IsGame=0, IsCooking=0)
+[2023.03.28-22.10.39:864][323]LogContentBundle: [Container: Lab01] Creating new contrainer.
+[2023.03.28-22.10.39:864][323]LogWorldPartition: Display: WorldPartition initialize took 27 ms (total: 421 ms)
+[2023.03.28-22.10.39:872][323]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2023.03.28-22.10.39:881][323]LogUObjectHash: Compacting FUObjectHashTables data took   0.32ms
+[2023.03.28-22.10.39:885][323]Cmd: MAP CHECKDEP NOCLEARLOG
+[2023.03.28-22.10.39:885][323]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.23ms to complete.
+[2023.03.28-22.10.39:885][323]LogFileHelpers: Loading map 'Lab01' took 0.088
+[2023.03.28-22.10.39:888][323]AssetCheck: New page: Asset Save: multiple assets
+[2023.03.28-22.10.39:888][323]LogContentValidation: Display: Validating /Script/Engine.PostProcessVolume /Game/Labs/Lab1/Lab01.Lab01:PersistentLevel.PostProcessVolume_0
+[2023.03.28-22.10.39:888][323]LogContentValidation: Display: Validating /Script/Engine.PlayerStart /Game/Labs/Lab1/Lab01.Lab01:PersistentLevel.PlayerStart_0
+[2023.03.28-22.10.39:888][323]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/Labs/Lab1/Lab01.Lab01:PersistentLevel.StaticMeshActor_13
+[2023.03.28-22.10.39:888][323]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/Labs/Lab1/Lab01.Lab01:PersistentLevel.StaticMeshActor_1
+[2023.03.28-22.10.39:888][323]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/Labs/Lab1/Lab01.Lab01:PersistentLevel.StaticMeshActor_22
+[2023.03.28-22.10.39:888][323]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/Labs/Lab1/Lab01.Lab01:PersistentLevel.StaticMeshActor_2
+[2023.03.28-22.10.39:888][323]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/Labs/Lab1/Lab01.Lab01:PersistentLevel.StaticMeshActor_32
+[2023.03.28-22.10.39:888][323]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/Labs/Lab1/Lab01.Lab01:PersistentLevel.StaticMeshActor_20
+[2023.03.28-22.10.39:888][323]LogContentValidation: Display: Validating /Script/Engine.SkyAtmosphere /Game/Labs/Lab1/Lab01.Lab01:PersistentLevel.SkyAtmosphere_0
+[2023.03.28-22.10.39:888][323]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/Labs/Lab1/Lab01.Lab01:PersistentLevel.StaticMeshActor_34
+[2023.03.28-22.10.39:888][323]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/Labs/Lab1/Lab01.Lab01:PersistentLevel.StaticMeshActor_0
+[2023.03.28-22.10.39:888][323]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/Labs/Lab1/Lab01.Lab01:PersistentLevel.StaticMeshActor_UAID_A4AE111137DC5EFB00_1110535423
+[2023.03.28-22.10.39:888][323]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/Labs/Lab1/Lab01.Lab01:PersistentLevel.StaticMeshActor_5
+[2023.03.28-22.10.39:888][323]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/Labs/Lab1/Lab01.Lab01:PersistentLevel.StaticMeshActor_4
+[2023.03.28-22.10.39:888][323]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/Labs/Lab1/Lab01.Lab01:PersistentLevel.StaticMeshActor_14
+[2023.03.28-22.10.39:888][323]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/Labs/Lab1/Lab01.Lab01:PersistentLevel.StaticMeshActor_19
+[2023.03.28-22.10.39:888][323]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/Labs/Lab1/Lab01.Lab01:PersistentLevel.StaticMeshActor_33
+[2023.03.28-22.10.39:888][323]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/Labs/Lab1/Lab01.Lab01:PersistentLevel.StaticMeshActor_12
+[2023.03.28-22.10.39:888][323]LogContentValidation: Display: Validating /Script/Engine.SkyLight /Game/Labs/Lab1/Lab01.Lab01:PersistentLevel.SkyLight_1
+[2023.03.28-22.10.39:888][323]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/Labs/Lab1/Lab01.Lab01:PersistentLevel.StaticMeshActor_3
+[2023.03.28-22.10.39:888][323]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/Labs/Lab1/Lab01.Lab01:PersistentLevel.StaticMeshActor_15
+[2023.03.28-22.10.39:888][323]LogContentValidation: Display: Validating /Script/Engine.ExponentialHeightFog /Game/Labs/Lab1/Lab01.Lab01:PersistentLevel.ExponentialHeightFog_0
+[2023.03.28-22.10.39:888][323]LogContentValidation: Display: Validating /Script/Engine.VolumetricCloud /Game/Labs/Lab1/Lab01.Lab01:PersistentLevel.VolumetricCloud_0
+[2023.03.28-22.10.39:888][323]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/Labs/Lab1/Lab01.Lab01:PersistentLevel.StaticMeshActor_16
+[2023.03.28-22.10.39:888][323]LogContentValidation: Display: Validating /Script/Engine.WorldPartitionMiniMap /Game/Labs/Lab1/Lab01.Lab01:PersistentLevel.WorldPartitionMiniMap_0
+[2023.03.28-22.10.39:888][323]LogContentValidation: Display: Validating /Script/Engine.DirectionalLight /Game/Labs/Lab1/Lab01.Lab01:PersistentLevel.DirectionalLight_0
+[2023.03.28-22.10.39:888][323]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/Labs/Lab1/Lab01.Lab01:PersistentLevel.StaticMeshActor_6
+[2023.03.28-22.10.39:888][323]LogContentValidation: Display: Validating /Script/Engine.TextRenderActor /Game/Labs/Lab1/Lab01.Lab01:PersistentLevel.TextRenderActor_1
+[2023.03.28-22.10.39:888][323]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/Labs/Lab1/Lab01.Lab01:PersistentLevel.StaticMeshActor_24
+[2023.03.28-22.10.39:888][323]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/Labs/Lab1/Lab01.Lab01:PersistentLevel.StaticMeshActor_7
+[2023.03.28-22.10.39:888][323]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/Labs/Lab1/Lab01.Lab01:PersistentLevel.StaticMeshActor_8
+[2023.03.28-22.10.39:888][323]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/Labs/Lab1/Lab01.Lab01:PersistentLevel.StaticMeshActor_23
+[2023.03.28-22.10.39:888][323]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/Labs/Lab1/Lab01.Lab01:PersistentLevel.StaticMeshActor_35
+[2023.03.28-22.10.39:888][323]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/Labs/Lab1/Lab01.Lab01:PersistentLevel.StaticMeshActor_11
+[2023.03.28-22.10.39:888][323]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/Labs/Lab1/Lab01.Lab01:PersistentLevel.StaticMeshActor_25
+[2023.03.28-22.10.39:888][323]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/Labs/Lab1/Lab01.Lab01:PersistentLevel.StaticMeshActor_9
+[2023.03.28-22.10.39:888][323]LogContentValidation: Display: Validating /Script/Engine.ActorFolder /Game/Labs/Lab1/Lab01.Lab01:PersistentLevel.ActorFolder_UID_EBA23F82-48252949-750E4391-1A3A1CDD
+[2023.03.28-22.10.39:888][323]LogContentValidation: Display: Validating /Script/Engine.ActorFolder /Game/Labs/Lab1/Lab01.Lab01:PersistentLevel.ActorFolder_UID_D075E5BA-49330D3E-C2503D81-A7CF88D1
+[2023.03.28-22.10.39:888][323]LogContentValidation: Display: Validating /Script/Engine.ActorFolder /Game/Labs/Lab1/Lab01.Lab01:PersistentLevel.ActorFolder_UID_C73F09FC-4215536B-1DCE2A9E-0A830C70
+[2023.03.28-22.10.39:888][323]LogContentValidation: Display: Validating /Script/Engine.ActorFolder /Game/Labs/Lab1/Lab01.Lab01:PersistentLevel.ActorFolder_UID_963EC3EB-4002CCE9-759E2EBA-541A873A
+[2023.03.28-22.10.39:888][323]LogContentValidation: Display: Validating /Script/Engine.ActorFolder /Game/Labs/Lab1/Lab01.Lab01:PersistentLevel.ActorFolder_UID_7B7009C3-45D3D6DD-94D3429E-1D79C034
+[2023.03.28-22.10.39:888][323]LogContentValidation: Display: Validating /Script/Engine.ActorFolder /Game/Labs/Lab1/Lab01.Lab01:PersistentLevel.ActorFolder_UID_7D23E5AE-4C2A421F-86AF6986-D87E6D05
+[2023.03.28-22.10.39:888][323]LogContentValidation: Display: Validating /Script/Engine.WorldDataLayers /Game/Labs/Lab1/Lab01.Lab01:PersistentLevel.WorldDataLayers
+[2023.03.28-22.10.39:888][323]LogContentValidation: Display: Validating /Script/Engine.World /Game/Labs/Lab1/Lab01.Lab01
+[2023.03.28-22.10.39:888][323]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/Labs/Lab1/Lab01.Lab01:PersistentLevel.StaticMeshActor_21
+[2023.03.28-22.10.39:888][323]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/Labs/Lab1/Lab01.Lab01:PersistentLevel.StaticMeshActor_18
+[2023.03.28-22.10.39:888][323]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/Labs/Lab1/Lab01.Lab01:PersistentLevel.StaticMeshActor_10
