@@ -1622,3 +1622,92 @@ LogConfig: Set CVar [[con.DebugEarlyDefault:1]]
 [2023.03.28-23.00.04:035][ 51]LogContentValidation: Display: Validating /Script/Engine.WorldDataLayers /Game/Labs/Lab01/Lab01.Lab01:PersistentLevel.WorldDataLayers
 [2023.03.28-23.00.04:035][ 51]LogContentValidation: Display: Validating /Script/Engine.World /Game/Labs/Lab01/Lab01.Lab01
 [2023.03.28-23.00.04:042][ 52]LogAutomationController: Ignoring very large delta of 14.36 seconds in calls to FAutomationControllerManager::Tick() and not penalizing unresponsive tests
+[2023.03.28-23.03.34:455][208]LogActorFactory: Loading ActorFactory Class /Script/Engine.LevelInstance
+[2023.03.28-23.03.47:964][962]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.03.28-23.03.47:969][962]LogContentBundle: [Container: Lab01] Generating Streaming for 0 Content Bundles.
+[2023.03.28-23.03.47:970][962]LogWorldPartition: Display: GenerateStreaming started...
+[2023.03.28-23.03.47:971][962]LogWorldPartition: Display: GetPartitionedActors started...
+[2023.03.28-23.03.47:971][962]LogWorldPartition: Display: GetPartitionedActors took 253 us
+[2023.03.28-23.03.47:971][962]LogWorldPartition: Display: GenerateStreaming took 869 us
+[2023.03.28-23.03.47:973][962]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.03.28-23.03.47:976][962]PIE: New page: PIE session: Lab01 (Mar 28, 2023, 11:03:47 AM)
+[2023.03.28-23.03.47:982][962]LogOnline: OSS: Created online subsystem instance for: NULL
+[2023.03.28-23.03.47:983][962]LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for module [NULL]
+[2023.03.28-23.03.47:983][962]LogPlayLevel: Creating play world package: /Game/Labs/Lab01/UEDPIE_0_Lab01
+[2023.03.28-23.03.47:987][962]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003558s)
+[2023.03.28-23.03.47:987][962]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Labs/Lab01/Lab01.Lab01 to /Game/Labs/Lab01/UEDPIE_0_Lab01.Lab01 (0.003823s)
+[2023.03.28-23.03.47:988][962]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.03.28-23.03.47:988][962]LogAIModule: Creating AISystem for world Lab01
+[2023.03.28-23.03.47:988][962]LogWorldPartition: ULevel::OnLevelLoaded(Lab01)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, bIsValidLevelInstance=0, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=0)
+[2023.03.28-23.03.47:988][962]LogWorldPartition: Display: WorldPartition initialize started...
+[2023.03.28-23.03.47:988][962]LogWorldPartition: UWorldPartition::Initialize(Asset=Lab01, IsEditor=0, bPIEWorldTravel=0 IsGame=0, IsCooking=0)
+[2023.03.28-23.03.47:989][962]LogContentBundle: [Container: Lab01] Creating new contrainer.
+[2023.03.28-23.03.47:989][962]LogWorldPartition: Display: WorldPartition initialize took 663 us (total: 74 ms)
+[2023.03.28-23.03.47:989][962]LogPlayLevel: PIE: World Init took: (0.001865s)
+[2023.03.28-23.03.48:000][962]LogUObjectHash: Compacting FUObjectHashTables data took   0.39ms
+[2023.03.28-23.03.48:002][962]LogAudio: Display: Creating Audio Device:                 Id: 2, Scope: Unique, Realtime: True
+[2023.03.28-23.03.48:002][962]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.03.28-23.03.48:002][962]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.03.28-23.03.48:002][962]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.03.28-23.03.48:002][962]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.03.28-23.03.48:002][962]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.03.28-23.03.48:002][962]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.03.28-23.03.48:002][962]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.03.28-23.03.48:002][962]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.03.28-23.03.48:002][962]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.03.28-23.03.48:002][962]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.03.28-23.03.48:002][962]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.03.28-23.03.48:004][962]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.03.28-23.03.48:026][962]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Realtek(R) Audio)
+[2023.03.28-23.03.48:026][962]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.03.28-23.03.48:026][962]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.03.28-23.03.48:026][962]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.03.28-23.03.48:028][962]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=2
+[2023.03.28-23.03.48:028][962]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=2
+[2023.03.28-23.03.48:029][962]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=2
+[2023.03.28-23.03.48:029][962]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=2
+[2023.03.28-23.03.48:029][962]LogInit: FAudioDevice initialized.
+[2023.03.28-23.03.48:029][962]LogAudio: Display: Audio Device (ID: 2) registered with world 'Lab01'.
+[2023.03.28-23.03.48:034][962]LogLoad: Game class is 'Kreye_GP2GameMode'
+[2023.03.28-23.03.48:035][962]LogWorld: Bringing World /Game/Labs/Lab01/UEDPIE_0_Lab01.Lab01 up for play (max tick rate 60) at 2023.03.28-17.03.48
+[2023.03.28-23.03.48:036][962]LogWorld: Bringing up level for play took: 0.002248
+[2023.03.28-23.03.48:039][962]LogOnline: OSS: Created online subsystem instance for: :Context_1
+[2023.03.28-23.03.48:087][962]LogWorldPartition: New Streaming Source: PlayerController_0 -> Position: X=900.000 Y=1110.000 Z=92.013
+[2023.03.28-23.03.48:091][962]PIE: Server logged in
+[2023.03.28-23.03.48:092][962]PIE: Play in editor total start time 0.124 seconds.
+[2023.03.28-23.03.49:388][ 32]LogShaderCompilers: Display: ================================================
+[2023.03.28-23.03.49:388][ 32]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2023.03.28-23.03.49:388][ 32]LogShaderCompilers: Display: Total job queries 101, among them cache hits 4 (3.96%)
+[2023.03.28-23.03.49:388][ 32]LogShaderCompilers: Display: Tracking 93 distinct input hashes that result in 81 distinct outputs (87.10%)
+[2023.03.28-23.03.49:388][ 32]LogShaderCompilers: Display: RAM used: 0.83 MB (0.00 GB) of 819.20 MB (0.80 GB) budget. Usage: 0.10%
+[2023.03.28-23.03.49:388][ 32]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2023.03.28-23.03.49:388][ 32]LogShaderCompilers: Display: Shaders Compiled: 2
+[2023.03.28-23.03.49:388][ 32]LogShaderCompilers: Display: Jobs assigned 6, completed 2 (33.33%)
+[2023.03.28-23.03.49:389][ 32]LogShaderCompilers: Display: Time job spent in pending queue: average 0.07 s, longest 0.07 s
+[2023.03.28-23.03.49:389][ 32]LogShaderCompilers: Display: Job execution time: average 1.14 s, max 1.14 s
+[2023.03.28-23.03.49:389][ 32]LogShaderCompilers: Display: Job life time (pending + execution): average 1.21 s, max 1.21
+[2023.03.28-23.03.49:389][ 32]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 1.21 s
+[2023.03.28-23.03.49:389][ 32]LogShaderCompilers: Display: Jobs were issued in 6 batches (only local compilation was used), average 1.00 jobs/batch
+[2023.03.28-23.03.49:389][ 32]LogShaderCompilers: Display: Average processing rate: 1.65 jobs/sec
+[2023.03.28-23.03.49:389][ 32]LogShaderCompilers: Display: Total thread time: 1.32 s
+[2023.03.28-23.03.49:389][ 32]LogShaderCompilers: Display: Total thread preprocess time: 0.08 s
+[2023.03.28-23.03.49:389][ 32]LogShaderCompilers: Display: Percentage time preprocessing: 6.30%
+[2023.03.28-23.03.49:389][ 32]LogShaderCompilers: Display: Effective parallelization: 1.09 (times faster than compiling all shaders on one thread). Compare with number of workers: 10
+[2023.03.28-23.03.49:389][ 32]LogShaderCompilers: Display: Top 1 most expensive shader types by average time:
+[2023.03.28-23.03.49:389][ 32]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy (compiled    2 times, average 0.66 sec, max 0.68 sec, min 0.64 sec)
+[2023.03.28-23.03.49:389][ 32]LogShaderCompilers: Display: Top 1 shader types by total compile time:
+[2023.03.28-23.03.49:389][ 32]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy - 100.00% of total time (compiled    2 times, average 0.66 sec, max 0.68 sec, min 0.64 sec)
+[2023.03.28-23.03.49:389][ 32]LogShaderCompilers: Display: ================================================
+[2023.03.28-23.05.55:051][550]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.03.28-23.05.55:052][550]LogWorld: BeginTearingDown for /Game/Labs/Lab01/UEDPIE_0_Lab01
+[2023.03.28-23.05.55:053][550]LogWorld: UWorld::CleanupWorld for Lab01, bSessionEnded=true, bCleanupResources=true
+[2023.03.28-23.05.55:054][550]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.03.28-23.05.55:054][550]LogContentBundle: [Container: Lab01] Deleting container.
+[2023.03.28-23.05.55:059][550]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.03.28-23.05.55:060][550]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.03.28-23.05.55:070][550]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.03.28-23.05.55:071][550]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=2
+[2023.03.28-23.05.55:073][550]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=2
+[2023.03.28-23.05.55:078][550]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.03.28-23.05.55:082][550]LogUObjectHash: Compacting FUObjectHashTables data took   0.39ms
+[2023.03.28-23.05.55:120][551]LogPlayLevel: Display: Destroying online subsystem :Context_1
