@@ -1262,3 +1262,163 @@ LogConfig: Set CVar [[r.Shadow.DetectVertexShaderLayerAtRuntime:1]]
 [2023.03.30-19.03.24:195][609]LogFileHelpers: InternalPromptForCheckoutAndSave took 342 ms (total: 1.54 sec)
 [2023.03.30-19.03.24:205][609]AssetCheck: New page: Asset Save: Lab01Movement
 [2023.03.30-19.03.24:205][609]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Labs/Lab01/Lab01Movement.Lab01Movement
+[2023.03.30-19.10.32:184][ 33]LogUObjectHash: Compacting FUObjectHashTables data took   1.52ms
+[2023.03.30-19.10.32:186][ 33]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Labs/Lab01/Lab01' took 0.041
+[2023.03.30-19.10.32:186][ 33]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Labs/Lab01/Lab01Movement] ([2] browsable assets)...
+[2023.03.30-19.10.32:186][ 33]OBJ SavePackage: Finished generating thumbnails for package [/Game/Labs/Lab01/Lab01Movement]
+[2023.03.30-19.10.32:192][ 33]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Labs/Lab01/Lab01Movement_Auto0
+[2023.03.30-19.10.32:192][ 33]LogSavePackage: Moving '../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2/Saved/Lab01Movement_Auto0D58F96B140BB411246753B8B3779A6EE.tmp' to '../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2/Saved/Autosaves/Game/Labs/Lab01/Lab01Movement_Auto0.uasset'
+[2023.03.30-19.10.32:193][ 33]LogFileHelpers: Auto-saving content packages took 0.008
+[2023.03.30-19.10.56:042][202]LogDerivedDataCache: C:/Users/heroo/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:04.085 and deleted 0 files with total size 0 MiB. Scanned 2310 files in 2299 folders with total size 50 MiB.
+[2023.03.30-19.20.32:571][638]LogUObjectHash: Compacting FUObjectHashTables data took   1.90ms
+[2023.03.30-19.20.32:574][638]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Labs/Lab01/Lab01' took 0.042
+[2023.03.30-19.20.32:574][638]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Labs/Lab01/Lab01Movement] ([2] browsable assets)...
+[2023.03.30-19.20.32:574][638]OBJ SavePackage: Finished generating thumbnails for package [/Game/Labs/Lab01/Lab01Movement]
+[2023.03.30-19.20.32:584][638]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Labs/Lab01/Lab01Movement_Auto1
+[2023.03.30-19.20.32:584][638]LogSavePackage: Moving '../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2/Saved/Lab01Movement_Auto1E4EB47B64EC7E7CF65563AAD34B494D1.tmp' to '../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2/Saved/Autosaves/Game/Labs/Lab01/Lab01Movement_Auto1.uasset'
+[2023.03.30-19.20.32:585][638]LogFileHelpers: Auto-saving content packages took 0.011
+[2023.03.30-19.29.06:878][584]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.03.30-19.29.06:956][584]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Labs/Lab01/Lab01Movement" FILE="../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2/Content/Labs/Lab01/Lab01Movement.uasset" SILENT=true
+[2023.03.30-19.29.06:967][584]LogSavePackage: Moving output files for package: /Game/Labs/Lab01/Lab01Movement
+[2023.03.30-19.29.06:969][584]LogSavePackage: Moving '../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2/Saved/Lab01Movement3AE7CE694C92606B5D09C48AE7FF3758.tmp' to '../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2/Content/Labs/Lab01/Lab01Movement.uasset'
+[2023.03.30-19.29.06:996][584]LogFileHelpers: InternalPromptForCheckoutAndSave took 118 ms (total: 1.65 sec)
+[2023.03.30-19.29.07:005][584]AssetCheck: New page: Asset Save: Lab01Movement
+[2023.03.30-19.29.07:005][584]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Labs/Lab01/Lab01Movement.Lab01Movement
+[2023.03.30-19.29.08:125][659]BlueprintLog: New page: Compile Lab01Movement
+[2023.03.30-19.29.08:132][659]LogBlueprint: Error: [AssetLog] C:\Users\heroo\OneDrive\Documents\k-game-prog-2\Kreye_GP2\Content\Labs\Lab01\Lab01Movement.uasset: [Compiler] This blueprint (self) is not a Actor, therefore ' Target ' must have a connection.
+[2023.03.30-19.29.08:132][659]LogBlueprint: Error: [AssetLog] C:\Users\heroo\OneDrive\Documents\k-game-prog-2\Kreye_GP2\Content\Labs\Lab01\Lab01Movement.uasset: [Compiler] This blueprint (self) is not a Actor, therefore ' Target ' must have a connection.
+[2023.03.30-19.29.08:132][659]LogBlueprint: Error: [AssetLog] C:\Users\heroo\OneDrive\Documents\k-game-prog-2\Kreye_GP2\Content\Labs\Lab01\Lab01Movement.uasset: [Compiler] This blueprint (self) is not a Actor, therefore ' Target ' must have a connection.
+[2023.03.30-19.29.08:133][659]LogBlueprint: Error: [AssetLog] C:\Users\heroo\OneDrive\Documents\k-game-prog-2\Kreye_GP2\Content\Labs\Lab01\Lab01Movement.uasset: [Compiler] This blueprint (self) is not a Actor, therefore ' Target ' must have a connection.
+[2023.03.30-19.29.08:191][659]LogUObjectHash: Compacting FUObjectHashTables data took   1.47ms
+[2023.03.30-19.32.20:430][817]LogSlate: Window 'Source Control Login' being destroyed
+[2023.03.30-19.32.57:292][292]BlueprintLog: New page: Compile Lab01Movement
+[2023.03.30-19.32.57:364][292]LogBlueprint: Error: [AssetLog] C:\Users\heroo\OneDrive\Documents\k-game-prog-2\Kreye_GP2\Content\Labs\Lab01\Lab01Movement.uasset: [Compiler] This blueprint (self) is not a Actor, therefore ' Target ' must have a connection.
+[2023.03.30-19.32.57:364][292]LogBlueprint: Error: [AssetLog] C:\Users\heroo\OneDrive\Documents\k-game-prog-2\Kreye_GP2\Content\Labs\Lab01\Lab01Movement.uasset: [Compiler] This blueprint (self) is not a Actor, therefore ' Target ' must have a connection.
+[2023.03.30-19.32.57:364][292]LogBlueprint: Error: [AssetLog] C:\Users\heroo\OneDrive\Documents\k-game-prog-2\Kreye_GP2\Content\Labs\Lab01\Lab01Movement.uasset: [Compiler] This blueprint (self) is not a Actor, therefore ' Target ' must have a connection.
+[2023.03.30-19.32.57:364][292]LogBlueprint: Error: [AssetLog] C:\Users\heroo\OneDrive\Documents\k-game-prog-2\Kreye_GP2\Content\Labs\Lab01\Lab01Movement.uasset: [Compiler] This blueprint (self) is not a Actor, therefore ' Target ' must have a connection.
+[2023.03.30-19.32.57:570][292]LogUObjectHash: Compacting FUObjectHashTables data took   4.07ms
+[2023.03.30-19.33.22:652][ 25]LogSlate: Window 'Lab01Movement' being destroyed
+[2023.03.30-19.33.22:670][ 25]LogSlate: Window 'Lab01Movement' being destroyed
+[2023.03.30-19.33.22:719][ 25]LogWorld: UWorld::CleanupWorld for World_2, bSessionEnded=true, bCleanupResources=true
+[2023.03.30-19.33.22:728][ 25]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.03.30-19.33.49:646][ 79]LogEditorClassViewer: Warning: Class /Script/InteractiveToolsFramework.GizmoActor has parent /Script/InteractiveToolsFramework.InternalToolFrameworkActor, but this parent is not found. The Class will not be shown in ClassViewer.
+[2023.03.30-19.33.49:647][ 79]LogEditorClassViewer: Warning: Class /Script/ModelingComponents.PreviewGeometryActor has parent /Script/InteractiveToolsFramework.InternalToolFrameworkActor, but this parent is not found. The Class will not be shown in ClassViewer.
+[2023.03.30-19.33.49:647][ 79]LogEditorClassViewer: Warning: Class /Script/ModelingComponents.PreviewMeshActor has parent /Script/InteractiveToolsFramework.InternalToolFrameworkActor, but this parent is not found. The Class will not be shown in ClassViewer.
+[2023.03.30-19.33.59:112][ 79]LogSlate: Window 'Create Blueprint From Selection' being destroyed
+[2023.03.30-19.34.02:359][359]LogUObjectHash: Compacting FUObjectHashTables data took   2.57ms
+[2023.03.30-19.34.02:378][359]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/__ExternalActors__/Labs/Lab01/Lab01/B/JG/38XLCN0X4SLLM2MUPCZME7_Auto2
+[2023.03.30-19.34.02:378][359]LogSavePackage: Moving '../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2/Saved/38XLCN0X4SLLM2MUPCZME7_Auto2945E7C7240CCEE6222A6EC92BDE5A876.tmp' to '../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2/Saved/Autosaves/Game/__ExternalActors__/Labs/Lab01/Lab01/B/JG/38XLCN0X4SLLM2MUPCZME7_Auto2.uasset'
+[2023.03.30-19.34.02:384][359]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Labs/Lab01/Lab01' took 0.108
+[2023.03.30-19.34.02:385][359]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 0.108
+[2023.03.30-19.34.28:752][ 85]Cmd: DELETE
+[2023.03.30-19.34.28:753][ 85]Cmd: ACTOR DELETE
+[2023.03.30-19.34.28:799][ 85]LogEditorActor: Deleted Actor: StaticMeshActor
+[2023.03.30-19.34.28:863][ 85]LogUObjectHash: Compacting FUObjectHashTables data took   1.59ms
+[2023.03.30-19.34.28:868][ 85]LogEditorActor: Deleted 1 Actors (0.090 secs)
+[2023.03.30-19.34.34:529][613]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Engine/BasicShapes/Sphere.Sphere
+[2023.03.30-19.34.34:529][613]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Engine/BasicShapes/Sphere.Sphere
+[2023.03.30-19.34.34:568][613]LogActorFactory: Actor Factory spawned StaticMesh /Engine/BasicShapes/Sphere.Sphere as actor: StaticMeshActor /Game/Labs/Lab01/Lab01.Lab01:PersistentLevel.StaticMeshActor_UAID_04BF1B20850C557401_1698833616
+[2023.03.30-19.34.34:580][613]LogActorFactory: Actor Factory spawned StaticMesh /Engine/BasicShapes/Sphere.Sphere as actor: StaticMeshActor /Game/Labs/Lab01/Lab01.Lab01:PersistentLevel.StaticMeshActor_UAID_04BF1B20850C557401_1698833616
+[2023.03.30-19.36.00:335][747]LogSlate: Window 'Create Blueprint From Selection' being destroyed
+[2023.03.30-19.36.00:378][747]LogActorComponent: UnregisterComponent: (/Game/Sphere_Blueprint.Default__Sphere_Blueprint_C:StaticMeshComponent0) Not registered. Aborting.
+[2023.03.30-19.36.00:434][747]LogUObjectHash: Compacting FUObjectHashTables data took   1.88ms
+[2023.03.30-19.36.00:467][747]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Sphere_Blueprint.Sphere_Blueprint
+[2023.03.30-19.36.00:495][747]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.03.30-19.36.01:409][747]LogStaticMesh: Display: Building static mesh PhAT_FloorBox...
+[2023.03.30-19.36.01:437][747]LogStaticMesh: Built static mesh [0.04s] /Engine/EditorMeshes/PhAT_FloorBox.PhAT_FloorBox
+[2023.03.30-19.36.01:448][747]LogStaticMesh: Display: Waiting for static meshes to be ready 0/1 (/Engine/EditorMeshes/PhAT_FloorBox) ...
+[2023.03.30-19.36.01:878][747]LogViewport: Scene viewport resized to 1088x598, mode Windowed.
+[2023.03.30-19.36.11:356][463]LogSlate: Took 0.000785 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2023.03.30-19.36.11:983][466]LogShaderCompilers: Display: ================================================
+[2023.03.30-19.36.11:983][466]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2023.03.30-19.36.11:983][466]LogShaderCompilers: Display: Total job queries 139, among them cache hits 22 (15.83%)
+[2023.03.30-19.36.11:983][466]LogShaderCompilers: Display: Tracking 113 distinct input hashes that result in 92 distinct outputs (81.42%)
+[2023.03.30-19.36.11:984][466]LogShaderCompilers: Display: RAM used: 0.96 MB (0.00 GB) of 819.20 MB (0.80 GB) budget. Usage: 0.12%
+[2023.03.30-19.36.11:984][466]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2023.03.30-19.36.11:984][466]LogShaderCompilers: Display: Shaders Compiled: 0
+[2023.03.30-19.36.11:984][466]LogShaderCompilers: Display: Jobs assigned 4, completed 0 (0.00%)
+[2023.03.30-19.36.11:984][466]LogShaderCompilers: Display: Time job spent in pending queue: average 0.02 s, longest 0.02 s
+[2023.03.30-19.36.11:984][466]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 0.00 s
+[2023.03.30-19.36.11:984][466]LogShaderCompilers: Display: Jobs were issued in 4 batches (only local compilation was used), average 1.00 jobs/batch
+[2023.03.30-19.36.11:984][466]LogShaderCompilers: Display: ================================================
+[2023.03.30-19.36.18:121][838]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Labs/Lab01/Lab01Movement.Lab01Movement
+[2023.03.30-19.36.18:121][838]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.03.30-19.36.18:664][838]LogSlate: Window 'Open Asset' being destroyed
+[2023.03.30-19.36.40:476][853]LogSlate: Window 'Fix Self Context Function References' being destroyed
+[2023.03.30-19.43.56:442][313]BlueprintLog: New page: Compile Sphere_Blueprint
+[2023.03.30-19.43.56:540][313]LogUObjectHash: Compacting FUObjectHashTables data took   1.19ms
+[2023.03.30-19.44.00:222][511]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.03.30-19.44.00:819][511]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sphere_Blueprint" FILE="../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2/Content/Sphere_Blueprint.uasset" SILENT=true
+[2023.03.30-19.44.00:844][511]LogSavePackage: Moving output files for package: /Game/Sphere_Blueprint
+[2023.03.30-19.44.00:844][511]LogSavePackage: Moving '../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2/Saved/Sphere_Blueprint3E62B8B1496F112C2D10BF8B5C9DAB4B.tmp' to '../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2/Content/Sphere_Blueprint.uasset'
+[2023.03.30-19.44.01:204][511]LogFileHelpers: InternalPromptForCheckoutAndSave took 981 ms (total: 2.64 sec)
+[2023.03.30-19.44.01:217][511]AssetCheck: New page: Asset Save: Sphere_Blueprint
+[2023.03.30-19.44.01:217][511]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Sphere_Blueprint.Sphere_Blueprint
+[2023.03.30-19.44.02:964][608]LogWorld: UWorld::CleanupWorld for World_7, bSessionEnded=true, bCleanupResources=true
+[2023.03.30-19.44.02:964][608]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.03.30-19.45.30:128][247]LogStatusBar: Looking status bar with open content browser drawer...
+[2023.03.30-19.45.30:128][247]LogStatusBar: Using status bar: LevelEditor.StatusBar to dock content browser
+[2023.03.30-19.45.30:163][247]LogViewport: Scene viewport resized to 1496x559, mode Windowed.
+[2023.03.30-19.45.58:540][522]LogUObjectHash: Compacting FUObjectHashTables data took   1.26ms
+[2023.03.30-19.46.21:793][522]LogSlate: Window 'Delete Assets' being destroyed
+[2023.03.30-19.46.21:969][522]LogUObjectGlobals: Force Deleting 1 Package(s):
+	Asset Name: /Game/Labs/Lab01/Lab01Movement.Lab01Movement
+	Asset Type: Blueprint
+[2023.03.30-19.46.23:039][522]LogWorldPartition: Actor /Game/Labs/Lab01/Lab01.Lab01:PersistentLevel.StaticMeshActor_UAID_04BF1B20850C557401_1698833616 is unreachable without properly detaching object /Game/__ExternalActors__/Labs/Lab01/Lab01/5/7X/5JVAGPM0LQAM31QR20QFVJ.PackageMetaData in its package
+[2023.03.30-19.46.23:045][522]LogUObjectHash: Compacting FUObjectHashTables data took   1.34ms
+[2023.03.30-19.46.23:083][522]LogUObjectHash: Compacting FUObjectHashTables data took   1.15ms
+[2023.03.30-19.46.23:119][522]LogUObjectHash: Compacting FUObjectHashTables data took   0.51ms
+[2023.03.30-19.46.23:454][522]SourceControl: Error: Updated 1 path from the index
+[2023.03.30-19.46.23:717][522]SourceControl: rm 'Kreye_GP2/Content/Labs/Lab01/Lab01Movement.uasset'
+[2023.03.30-19.46.23:747][522]LogAssetRegistry: Warning: C:/Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2/Content/Labs/Lab01/Lab01Movement.uasset: package was marked as deleted in editor, but has been modified on disk. It will once again be returned from AssetRegistry queries.
+[2023.03.30-19.46.23:789][522]LogUObjectHash: Compacting FUObjectHashTables data took   1.16ms
+[2023.03.30-19.46.27:008][689]LogUObjectHash: Compacting FUObjectHashTables data took   0.59ms
+[2023.03.30-19.46.27:009][689]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Labs/Lab01/Lab01' took 0.042
+[2023.03.30-19.46.37:916][247]LogMetaData: Removing '/Game/Labs/Sphere_Blueprint.Sphere_Blueprint:UserConstructionScript.K2Node_FunctionEntry_0' ref from Metadata '/Game/Sphere_Blueprint.PackageMetaData'
+[2023.03.30-19.46.37:916][247]LogMetaData: Removing '/Game/Labs/Sphere_Blueprint.SKEL_Sphere_Blueprint_C' ref from Metadata '/Game/Sphere_Blueprint.PackageMetaData'
+[2023.03.30-19.46.37:916][247]LogMetaData: Removing '/Game/Labs/Sphere_Blueprint.Sphere_Blueprint_C' ref from Metadata '/Game/Sphere_Blueprint.PackageMetaData'
+[2023.03.30-19.46.37:916][247]LogMetaData: Removing '/Game/Labs/Sphere_Blueprint.Sphere_Blueprint:MoveTowards.K2Node_FunctionEntry_1' ref from Metadata '/Game/Sphere_Blueprint.PackageMetaData'
+[2023.03.30-19.46.37:916][247]LogMetaData: Removing '/Game/Labs/Sphere_Blueprint.SKEL_Sphere_Blueprint_C:CustomEvent' ref from Metadata '/Game/Sphere_Blueprint.PackageMetaData'
+[2023.03.30-19.46.37:916][247]LogMetaData: Removing '/Game/Labs/Sphere_Blueprint.SKEL_Sphere_Blueprint_C:CustomEvent_1' ref from Metadata '/Game/Sphere_Blueprint.PackageMetaData'
+[2023.03.30-19.46.37:916][247]LogMetaData: Removing '/Game/Labs/Sphere_Blueprint.SKEL_Sphere_Blueprint_C:UserConstructionScript' ref from Metadata '/Game/Sphere_Blueprint.PackageMetaData'
+[2023.03.30-19.46.37:916][247]LogMetaData: Removing '/Game/Labs/Sphere_Blueprint.SKEL_Sphere_Blueprint_C:MoveTowards' ref from Metadata '/Game/Sphere_Blueprint.PackageMetaData'
+[2023.03.30-19.46.37:917][247]LogMetaData: Removing '/Game/Labs/Sphere_Blueprint.Sphere_Blueprint_C:CustomEvent_1' ref from Metadata '/Game/Sphere_Blueprint.PackageMetaData'
+[2023.03.30-19.46.37:917][247]LogMetaData: Removing '/Game/Labs/Sphere_Blueprint.Sphere_Blueprint_C:MoveTowards' ref from Metadata '/Game/Sphere_Blueprint.PackageMetaData'
+[2023.03.30-19.46.37:919][247]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.03.30-19.46.38:025][247]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Labs/Sphere_Blueprint" FILE="../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2/Content/Labs/Sphere_Blueprint.uasset" SILENT=true
+[2023.03.30-19.46.38:039][247]LogSavePackage: Moving output files for package: /Game/Labs/Sphere_Blueprint
+[2023.03.30-19.46.38:039][247]LogSavePackage: Moving '../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2/Saved/Sphere_Blueprint4088F78C4DD12491DEC5C88F1458DB1E.tmp' to '../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2/Content/Labs/Sphere_Blueprint.uasset'
+[2023.03.30-19.46.38:357][247]LogFileHelpers: InternalPromptForCheckoutAndSave took 437 ms (total: 3.07 sec)
+[2023.03.30-19.46.38:783][247]LogUObjectHash: Compacting FUObjectHashTables data took   1.76ms
+[2023.03.30-19.46.38:821][247]LogUObjectHash: Compacting FUObjectHashTables data took   1.23ms
+[2023.03.30-19.46.38:853][247]LogUObjectHash: Compacting FUObjectHashTables data took   0.65ms
+[2023.03.30-19.46.39:111][247]SourceControl: rm 'Kreye_GP2/Content/Sphere_Blueprint.uasset'
+[2023.03.30-19.46.39:162][247]AssetCheck: New page: Asset Save: Sphere_Blueprint
+[2023.03.30-19.46.39:162][247]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Labs/Sphere_Blueprint.Sphere_Blueprint
+[2023.03.30-19.46.44:003][449]LogMetaData: Removing '/Game/Labs/Lab01/Sphere_Blueprint.Sphere_Blueprint_C' ref from Metadata '/Game/Labs/Sphere_Blueprint.PackageMetaData'
+[2023.03.30-19.46.44:003][449]LogMetaData: Removing '/Game/Labs/Lab01/Sphere_Blueprint.Sphere_Blueprint_C:CustomEvent_1' ref from Metadata '/Game/Labs/Sphere_Blueprint.PackageMetaData'
+[2023.03.30-19.46.44:003][449]LogMetaData: Removing '/Game/Labs/Lab01/Sphere_Blueprint.Sphere_Blueprint_C:MoveTowards' ref from Metadata '/Game/Labs/Sphere_Blueprint.PackageMetaData'
+[2023.03.30-19.46.44:003][449]LogMetaData: Removing '/Game/Labs/Lab01/Sphere_Blueprint.SKEL_Sphere_Blueprint_C' ref from Metadata '/Game/Labs/Sphere_Blueprint.PackageMetaData'
+[2023.03.30-19.46.44:003][449]LogMetaData: Removing '/Game/Labs/Lab01/Sphere_Blueprint.SKEL_Sphere_Blueprint_C:CustomEvent' ref from Metadata '/Game/Labs/Sphere_Blueprint.PackageMetaData'
+[2023.03.30-19.46.44:003][449]LogMetaData: Removing '/Game/Labs/Lab01/Sphere_Blueprint.SKEL_Sphere_Blueprint_C:CustomEvent_1' ref from Metadata '/Game/Labs/Sphere_Blueprint.PackageMetaData'
+[2023.03.30-19.46.44:004][449]LogMetaData: Removing '/Game/Labs/Lab01/Sphere_Blueprint.SKEL_Sphere_Blueprint_C:UserConstructionScript' ref from Metadata '/Game/Labs/Sphere_Blueprint.PackageMetaData'
+[2023.03.30-19.46.44:004][449]LogMetaData: Removing '/Game/Labs/Lab01/Sphere_Blueprint.SKEL_Sphere_Blueprint_C:MoveTowards' ref from Metadata '/Game/Labs/Sphere_Blueprint.PackageMetaData'
+[2023.03.30-19.46.44:004][449]LogMetaData: Removing '/Game/Labs/Lab01/Sphere_Blueprint.Sphere_Blueprint:UserConstructionScript.K2Node_FunctionEntry_0' ref from Metadata '/Game/Labs/Sphere_Blueprint.PackageMetaData'
+[2023.03.30-19.46.44:004][449]LogMetaData: Removing '/Game/Labs/Lab01/Sphere_Blueprint.Sphere_Blueprint:MoveTowards.K2Node_FunctionEntry_1' ref from Metadata '/Game/Labs/Sphere_Blueprint.PackageMetaData'
+[2023.03.30-19.46.44:005][449]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.03.30-19.46.44:086][449]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Labs/Lab01/Sphere_Blueprint" FILE="../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2/Content/Labs/Lab01/Sphere_Blueprint.uasset" SILENT=true
+[2023.03.30-19.46.44:100][449]LogSavePackage: Moving output files for package: /Game/Labs/Lab01/Sphere_Blueprint
+[2023.03.30-19.46.44:100][449]LogSavePackage: Moving '../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2/Saved/Sphere_Blueprint90E951FC444A59CF69C2229FDCE6A43B.tmp' to '../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2/Content/Labs/Lab01/Sphere_Blueprint.uasset'
+[2023.03.30-19.46.44:422][449]LogFileHelpers: InternalPromptForCheckoutAndSave took 417 ms (total: 3.49 sec)
+[2023.03.30-19.46.44:820][449]LogUObjectHash: Compacting FUObjectHashTables data took   1.48ms
+[2023.03.30-19.46.44:862][449]LogUObjectHash: Compacting FUObjectHashTables data took   1.09ms
+[2023.03.30-19.46.44:896][449]LogUObjectHash: Compacting FUObjectHashTables data took   0.62ms
+[2023.03.30-19.46.45:109][449]SourceControl: rm 'Kreye_GP2/Content/Labs/Sphere_Blueprint.uasset'
+[2023.03.30-19.46.45:155][449]AssetCheck: New page: Asset Save: Sphere_Blueprint
+[2023.03.30-19.46.45:155][449]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Labs/Lab01/Sphere_Blueprint.Sphere_Blueprint
+[2023.03.30-19.47.09:743][755]BlueprintLog: New page: Compile Sphere_Blueprint
+[2023.03.30-19.47.09:831][755]LogUObjectHash: Compacting FUObjectHashTables data took   1.23ms
+[2023.03.30-19.47.22:273][241]LogSlate: Window 'Sphere_Blueprint' being destroyed
+[2023.03.30-19.47.22:284][241]LogSlate: Window 'Sphere_Blueprint' being destroyed
+[2023.03.30-19.47.22:292][241]LogWorld: UWorld::CleanupWorld for World_3, bSessionEnded=true, bCleanupResources=true
+[2023.03.30-19.47.22:292][241]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
