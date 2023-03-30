@@ -1116,3 +1116,32 @@ LogConfig: Set CVar [[r.Shadow.DetectVertexShaderLayerAtRuntime:1]]
 [2023.03.30-06.40.26:727][ 21]AssetCheck: New page: Asset Save: multiple assets
 [2023.03.30-06.40.26:727][ 21]LogContentValidation: Display: Validating /Script/Engine.World /Game/Labs/Lab01/Lab01.Lab01
 [2023.03.30-06.40.26:727][ 21]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/Labs/Lab01/Lab01.Lab01:PersistentLevel.Actor_UAID_04BF1B20850C2A7401_1332394047
+[2023.03.30-06.43.39:213][708]LogAudioMixer: Warning: AudioMixerPlatformInterface Timeout [5000ms] waiting for h/w. InstanceID=1
+[2023.03.30-09.00.01:658][708]LogAudioMixer: Display: FMixerNullCallback: Simulating a h/w device callback at [21ms], ThreadID=40828
+[2023.03.30-09.00.02:543][711]LogAudioMixer: Display: Successful Swap new Device is (NumChannels=2, SampleRate=48000, DeviceID={0.0.0.00000000}.{5ba5d838-f949-4a17-824f-ab36a6e880d2}, Name=Speakers (Realtek(R) Audio)), Reason=AudioMixerPlatformInterface. Timeout waiting for h/w., InstanceID=1, DurationMS=835.04
+[2023.03.30-09.00.02:543][711]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=1
+[2023.03.30-09.00.02:545][711]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=1
+[2023.03.30-09.00.07:822][727]LogAudioMixer: Warning: AudioMixerPlatformInterface Timeout [5000ms] waiting for h/w. InstanceID=1
+[2023.03.30-16.14.37:113][727]LogAudioMixer: Display: FMixerNullCallback: Simulating a h/w device callback at [21ms], ThreadID=40828
+[2023.03.30-16.14.39:116][730]LogAudioMixer: Display: Successful Swap new Device is (NumChannels=2, SampleRate=48000, DeviceID={0.0.0.00000000}.{5ba5d838-f949-4a17-824f-ab36a6e880d2}, Name=Speakers (Realtek(R) Audio)), Reason=AudioMixerPlatformInterface. Timeout waiting for h/w., InstanceID=1, DurationMS=1731.71
+[2023.03.30-16.14.39:116][730]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=1
+[2023.03.30-16.14.39:118][730]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=1
+[2023.03.30-16.27.53:912][332]LogEditorClassViewer: Warning: Class /Script/InteractiveToolsFramework.GizmoActor has parent /Script/InteractiveToolsFramework.InternalToolFrameworkActor, but this parent is not found. The Class will not be shown in ClassViewer.
+[2023.03.30-16.27.53:912][332]LogEditorClassViewer: Warning: Class /Script/ModelingComponents.PreviewGeometryActor has parent /Script/InteractiveToolsFramework.InternalToolFrameworkActor, but this parent is not found. The Class will not be shown in ClassViewer.
+[2023.03.30-16.27.53:912][332]LogEditorClassViewer: Warning: Class /Script/ModelingComponents.PreviewMeshActor has parent /Script/InteractiveToolsFramework.InternalToolFrameworkActor, but this parent is not found. The Class will not be shown in ClassViewer.
+[2023.03.30-16.27.54:106][332]LogSlate: Took 0.000870 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2023.03.30-16.28.25:777][332]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Labs/Lab01/Lab01Movement.Lab01Movement
+[2023.03.30-16.28.25:778][332]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.03.30-16.28.27:085][332]LogSlate: Window 'Add Blueprint Component' being destroyed
+[2023.03.30-16.28.30:374][501]LogUObjectHash: Compacting FUObjectHashTables data took   0.90ms
+[2023.03.30-16.28.30:379][501]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/__ExternalActors__/Labs/Lab01/Lab01/B/JG/38XLCN0X4SLLM2MUPCZME7_Auto1
+[2023.03.30-16.28.30:379][501]LogSavePackage: Moving '../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2/Saved/38XLCN0X4SLLM2MUPCZME7_Auto10F6F71A24F88DB28E93E9881F7FB33CD.tmp' to '../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2/Saved/Autosaves/Game/__ExternalActors__/Labs/Lab01/Lab01/B/JG/38XLCN0X4SLLM2MUPCZME7_Auto1.uasset'
+[2023.03.30-16.28.30:381][501]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Labs/Lab01/Lab01' took 0.039
+[2023.03.30-16.28.30:381][501]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 0.039
+[2023.03.30-16.28.42:730][205]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.03.30-16.28.42:788][205]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Labs/Lab01/Lab01Movement" FILE="../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2/Content/Labs/Lab01/Lab01Movement.uasset" SILENT=true
+[2023.03.30-16.28.42:790][205]LogSavePackage: Moving output files for package: /Game/Labs/Lab01/Lab01Movement
+[2023.03.30-16.28.42:790][205]LogSavePackage: Moving '../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2/Saved/Lab01Movement66222810446FA60A80DEFFBC829ED80D.tmp' to '../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2/Content/Labs/Lab01/Lab01Movement.uasset'
+[2023.03.30-16.28.42:802][205]LogFileHelpers: InternalPromptForCheckoutAndSave took 71 ms (total: 301 ms)
+[2023.03.30-16.28.42:807][205]AssetCheck: New page: Asset Save: Lab01Movement
+[2023.03.30-16.28.42:807][205]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Labs/Lab01/Lab01Movement.Lab01Movement
