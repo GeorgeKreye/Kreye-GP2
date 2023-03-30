@@ -1204,3 +1204,18 @@ LogConfig: Set CVar [[r.Shadow.DetectVertexShaderLayerAtRuntime:1]]
 [2023.03.30-17.24.58:362][630]LogFileHelpers: InternalPromptForCheckoutAndSave took 73 ms (total: 614 ms)
 [2023.03.30-17.24.58:369][630]AssetCheck: New page: Asset Save: Lab01Movement
 [2023.03.30-17.24.58:369][630]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Labs/Lab01/Lab01Movement.Lab01Movement
+[2023.03.30-17.37.27:283][ 24]LogUObjectHash: Compacting FUObjectHashTables data took   3.09ms
+[2023.03.30-17.37.27:284][ 24]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Labs/Lab01/Lab01' took 0.040
+[2023.03.30-17.37.27:285][ 24]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Labs/Lab01/Lab01Movement] ([2] browsable assets)...
+[2023.03.30-17.37.27:285][ 24]OBJ SavePackage: Finished generating thumbnails for package [/Game/Labs/Lab01/Lab01Movement]
+[2023.03.30-17.37.27:289][ 24]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Labs/Lab01/Lab01Movement_Auto5
+[2023.03.30-17.37.27:289][ 24]LogSavePackage: Moving '../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2/Saved/Lab01Movement_Auto5F8B1AA8E44D36CBC00ABBCAADDABF551.tmp' to '../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2/Saved/Autosaves/Game/Labs/Lab01/Lab01Movement_Auto5.uasset'
+[2023.03.30-17.37.27:291][ 24]LogFileHelpers: Auto-saving content packages took 0.006
+[2023.03.30-17.45.29:916][465]LogAudioMixer: Warning: Audio Thread Command from SetListenerTransforms()() took 9.685100 milleseconds to execute
+[2023.03.30-17.46.42:973][317]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.03.30-17.46.43:162][317]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Labs/Lab01/Lab01Movement" FILE="../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2/Content/Labs/Lab01/Lab01Movement.uasset" SILENT=true
+[2023.03.30-17.46.43:166][317]LogSavePackage: Moving output files for package: /Game/Labs/Lab01/Lab01Movement
+[2023.03.30-17.46.43:166][317]LogSavePackage: Moving '../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2/Saved/Lab01Movement065AD246458320D93BB1099C59D307BA.tmp' to '../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2/Content/Labs/Lab01/Lab01Movement.uasset'
+[2023.03.30-17.46.43:232][317]LogFileHelpers: InternalPromptForCheckoutAndSave took 259 ms (total: 873 ms)
+[2023.03.30-17.46.43:241][317]AssetCheck: New page: Asset Save: Lab01Movement
+[2023.03.30-17.46.43:241][317]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Labs/Lab01/Lab01Movement.Lab01Movement
