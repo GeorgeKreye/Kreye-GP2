@@ -1145,3 +1145,62 @@ LogConfig: Set CVar [[r.Shadow.DetectVertexShaderLayerAtRuntime:1]]
 [2023.03.30-16.28.42:802][205]LogFileHelpers: InternalPromptForCheckoutAndSave took 71 ms (total: 301 ms)
 [2023.03.30-16.28.42:807][205]AssetCheck: New page: Asset Save: Lab01Movement
 [2023.03.30-16.28.42:807][205]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Labs/Lab01/Lab01Movement.Lab01Movement
+[2023.03.30-16.37.33:389][463]LogEditorClassViewer: Warning: Class /Script/InteractiveToolsFramework.GizmoActor has parent /Script/InteractiveToolsFramework.InternalToolFrameworkActor, but this parent is not found. The Class will not be shown in ClassViewer.
+[2023.03.30-16.37.33:389][463]LogEditorClassViewer: Warning: Class /Script/ModelingComponents.PreviewGeometryActor has parent /Script/InteractiveToolsFramework.InternalToolFrameworkActor, but this parent is not found. The Class will not be shown in ClassViewer.
+[2023.03.30-16.37.33:389][463]LogEditorClassViewer: Warning: Class /Script/ModelingComponents.PreviewMeshActor has parent /Script/InteractiveToolsFramework.InternalToolFrameworkActor, but this parent is not found. The Class will not be shown in ClassViewer.
+[2023.03.30-16.37.50:992][376]LogViewport: Scene viewport resized to 1503x873, mode Windowed.
+[2023.03.30-16.37.52:955][484]LogSlate: Window 'Content Browser' being destroyed
+[2023.03.30-16.37.52:974][484]LogSlate: Window 'Content Browser' being destroyed
+[2023.03.30-16.40.46:222][ 91]LogUObjectHash: Compacting FUObjectHashTables data took   1.66ms
+[2023.03.30-16.40.46:223][ 91]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Labs/Lab01/Lab01' took 0.042
+[2023.03.30-16.40.46:224][ 91]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Labs/Lab01/Lab01Movement] ([2] browsable assets)...
+[2023.03.30-16.40.46:224][ 91]OBJ SavePackage: Finished generating thumbnails for package [/Game/Labs/Lab01/Lab01Movement]
+[2023.03.30-16.40.46:227][ 91]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Labs/Lab01/Lab01Movement_Auto2
+[2023.03.30-16.40.46:227][ 91]LogSavePackage: Moving '../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2/Saved/Lab01Movement_Auto2CF772A1B45A76EF2B84320B423E09835.tmp' to '../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2/Saved/Autosaves/Game/Labs/Lab01/Lab01Movement_Auto2.uasset'
+[2023.03.30-16.40.46:229][ 91]LogFileHelpers: Auto-saving content packages took 0.005
+[2023.03.30-17.01.11:034][871]LogViewport: Scene viewport resized to 1496x864, mode Windowed.
+[2023.03.30-17.02.21:585][751]LogUObjectHash: Compacting FUObjectHashTables data took   0.70ms
+[2023.03.30-17.02.21:587][751]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Labs/Lab01/Lab01' took 0.037
+[2023.03.30-17.02.21:587][751]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Labs/Lab01/Lab01Movement] ([2] browsable assets)...
+[2023.03.30-17.02.21:587][751]OBJ SavePackage: Finished generating thumbnails for package [/Game/Labs/Lab01/Lab01Movement]
+[2023.03.30-17.02.21:590][751]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Labs/Lab01/Lab01Movement_Auto3
+[2023.03.30-17.02.21:590][751]LogSavePackage: Moving '../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2/Saved/Lab01Movement_Auto336D1FDD843C9C6EA19E989AC1B14592B.tmp' to '../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2/Saved/Autosaves/Game/Labs/Lab01/Lab01Movement_Auto3.uasset'
+[2023.03.30-17.02.21:592][751]LogFileHelpers: Auto-saving content packages took 0.006
+[2023.03.30-17.02.26:015][ 12]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.03.30-17.02.26:072][ 12]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Labs/Lab01/Lab01/B/JG/38XLCN0X4SLLM2MUPCZME7
+[2023.03.30-17.02.26:074][ 12]LogSavePackage: Moving '../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2/Saved/38XLCN0X4SLLM2MUPCZME7F49A3DB14AF8E03712EAF48B4AC769D8.tmp' to '../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2/Content/__ExternalActors__/Labs/Lab01/Lab01/B/JG/38XLCN0X4SLLM2MUPCZME7.uasset'
+[2023.03.30-17.02.26:093][ 12]LogFileHelpers: InternalPromptForCheckoutAndSave took 78 ms (total: 379 ms)
+[2023.03.30-17.02.26:098][ 12]AssetCheck: New page: Asset Save: Actor_UAID_04BF1B20850C2A7401_1332394047
+[2023.03.30-17.02.26:098][ 12]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/Labs/Lab01/Lab01.Lab01:PersistentLevel.Actor_UAID_04BF1B20850C2A7401_1332394047
+[2023.03.30-17.02.28:003][126]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.03.30-17.02.28:059][126]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Labs/Lab01/Lab01Movement" FILE="../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2/Content/Labs/Lab01/Lab01Movement.uasset" SILENT=true
+[2023.03.30-17.02.28:062][126]LogSavePackage: Moving output files for package: /Game/Labs/Lab01/Lab01Movement
+[2023.03.30-17.02.28:063][126]LogSavePackage: Moving '../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2/Saved/Lab01Movement0D3A0AAB4FCCACA761F9679580F5714F.tmp' to '../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2/Content/Labs/Lab01/Lab01Movement.uasset'
+[2023.03.30-17.02.28:074][126]LogFileHelpers: InternalPromptForCheckoutAndSave took 71 ms (total: 450 ms)
+[2023.03.30-17.02.28:079][126]AssetCheck: New page: Asset Save: Lab01Movement
+[2023.03.30-17.02.28:079][126]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Labs/Lab01/Lab01Movement.Lab01Movement
+[2023.03.30-17.10.56:204][363]LogDerivedDataCache: C:/Users/heroo/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:04.248 and deleted 0 files with total size 0 MiB. Scanned 2310 files in 2299 folders with total size 50 MiB.
+[2023.03.30-17.18.44:060][572]LogSlate: Took 0.000755 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensedItalic.ttf' (160K)
+[2023.03.30-17.19.04:735][755]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.03.30-17.19.04:794][755]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Labs/Lab01/Lab01Movement" FILE="../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2/Content/Labs/Lab01/Lab01Movement.uasset" SILENT=true
+[2023.03.30-17.19.04:798][755]LogSavePackage: Moving output files for package: /Game/Labs/Lab01/Lab01Movement
+[2023.03.30-17.19.04:799][755]LogSavePackage: Moving '../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2/Saved/Lab01Movement718D36AA48999116F92612BF26A040DE.tmp' to '../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2/Content/Labs/Lab01/Lab01Movement.uasset'
+[2023.03.30-17.19.04:825][755]LogFileHelpers: InternalPromptForCheckoutAndSave took 90 ms (total: 540 ms)
+[2023.03.30-17.19.04:837][755]AssetCheck: New page: Asset Save: Lab01Movement
+[2023.03.30-17.19.04:837][755]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Labs/Lab01/Lab01Movement.Lab01Movement
+[2023.03.30-17.20.09:797][ 84]LogWorldPartition: Actor /Game/Labs/Lab01/Lab01.Lab01:PersistentLevel.Actor_UAID_04BF1B20850C2A7401_1332394047_REPLACED_0 is unreachable without properly detaching object /Game/__ExternalActors__/Labs/Lab01/Lab01/B/JG/38XLCN0X4SLLM2MUPCZME7.PackageMetaData in its package
+[2023.03.30-17.20.09:802][ 84]LogUObjectHash: Compacting FUObjectHashTables data took   1.79ms
+[2023.03.30-17.20.09:805][ 84]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Labs/Lab01/Lab01' took 0.051
+[2023.03.30-17.20.09:805][ 84]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Labs/Lab01/Lab01Movement] ([2] browsable assets)...
+[2023.03.30-17.20.09:805][ 84]OBJ SavePackage: Finished generating thumbnails for package [/Game/Labs/Lab01/Lab01Movement]
+[2023.03.30-17.20.09:808][ 84]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Labs/Lab01/Lab01Movement_Auto4
+[2023.03.30-17.20.09:808][ 84]LogSavePackage: Moving '../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2/Saved/Lab01Movement_Auto4E295415C4542D687714163A653C88198.tmp' to '../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2/Saved/Autosaves/Game/Labs/Lab01/Lab01Movement_Auto4.uasset'
+[2023.03.30-17.20.09:809][ 84]LogFileHelpers: Auto-saving content packages took 0.004
+[2023.03.30-17.20.09:933][ 85]LogUObjectHash: Compacting FUObjectHashTables data took   0.49ms
+[2023.03.30-17.24.58:289][630]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.03.30-17.24.58:343][630]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Labs/Lab01/Lab01Movement" FILE="../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2/Content/Labs/Lab01/Lab01Movement.uasset" SILENT=true
+[2023.03.30-17.24.58:348][630]LogSavePackage: Moving output files for package: /Game/Labs/Lab01/Lab01Movement
+[2023.03.30-17.24.58:349][630]LogSavePackage: Moving '../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2/Saved/Lab01MovementD68D27FE49C8D118EB883D90DC1BA46D.tmp' to '../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2/Content/Labs/Lab01/Lab01Movement.uasset'
+[2023.03.30-17.24.58:362][630]LogFileHelpers: InternalPromptForCheckoutAndSave took 73 ms (total: 614 ms)
+[2023.03.30-17.24.58:369][630]AssetCheck: New page: Asset Save: Lab01Movement
+[2023.03.30-17.24.58:369][630]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Labs/Lab01/Lab01Movement.Lab01Movement
