@@ -1,7 +1,7 @@
 // Fill out your copyright notice in the Description page of Project Settings.
 
 
-#include "Labs/Lab02/Lab02Actor.h"
+#include "Lab02Actor.h"
 
 // Sets default values
 ALab02Actor::ALab02Actor()

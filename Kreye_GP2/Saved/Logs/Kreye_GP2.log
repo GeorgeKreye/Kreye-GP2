@@ -1173,3 +1173,12 @@ LogConfig: Set CVar [[r.Shadow.DetectVertexShaderLayerAtRuntime:1]]
 [2023.04.04-20.49.21:410][522]LogSlate: Window 'Add C++ Class' being destroyed
 [2023.04.04-20.50.14:262][683]Display: Reload/Re-instancing Complete: No object changes detected
 [2023.04.04-20.50.14:263][683]LogLiveCoding: Error: Live coding failed, please see Live console for more information
+[2023.04.04-21.20.59:095][991]LogDerivedDataCache: C:/Users/heroo/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:04.321 and deleted 0 files with total size 0 MiB. Scanned 2336 files in 2325 folders with total size 50 MiB.
+[2023.04.04-21.28.01:270][986]LogSlate: Window 'Add C++ Class' being destroyed
+[2023.04.04-21.29.10:903][185]LogLiveCoding: Display: Starting Live Coding compile.
+[2023.04.04-21.29.27:535][ 18]LogLiveCoding: Display:    Creating library C:\Users\heroo\OneDrive\Documents\k-game-prog-2\Kreye_GP2\Binaries\Win64\UnrealEditor-Kreye_GP2.patch_0.lib and object C:\Users\heroo\OneDrive\Documents\k-game-prog-2\Kreye_GP2\Binaries\Win64\UnrealEditor-Kreye_GP2.patch_0.exp
+[2023.04.04-21.29.27:700][ 25]LogClass: UPackage /Script/Kreye_GP2 Reload.
+[2023.04.04-21.29.27:701][ 25]LogClass: Could not find existing class Lab02Actor in package /Script/Kreye_GP2 for reload, assuming new or modified class
+[2023.04.04-21.29.28:217][ 25]LogUObjectHash: Compacting FUObjectHashTables data took   1.90ms
+[2023.04.04-21.29.28:364][ 27]Display: Reload/Re-instancing Complete: 1 package changed, 1 class new, 2 classes unchanged
+[2023.04.04-21.29.28:365][ 27]LogLiveCoding: Warning: Live coding succeeded, data type changes may cause packaging to fail if assets reference the new or updated data types
