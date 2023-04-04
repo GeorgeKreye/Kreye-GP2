@@ -1103,3 +1103,73 @@ LogConfig: Set CVar [[r.Shadow.DetectVertexShaderLayerAtRuntime:1]]
 [2023.04.04-20.21.46:889][642]LogFileHelpers: Loading map 'Lab02' took 0.068
 [2023.04.04-20.21.46:896][642]AssetCheck: New page: Asset Save: Lab02
 [2023.04.04-20.21.46:897][642]LogContentValidation: Display: Validating /Script/Engine.World /Game/Labs/Lab02/Lab02.Lab02
+[2023.04.04-20.45.04:829][821]LogProjectBrowser: Looking for projects...
+[2023.04.04-20.45.04:833][821]LogProjectBrowser: Found Engine Installation "5.1"(C:/Program Files/Epic Games/UE_5.1)
+[2023.04.04-20.45.04:834][821]LogDesktopPlatform: Enumerating Projects From Engine Ver: 5.1
+[2023.04.04-20.45.04:834][821]LogDesktopPlatform: Looking for directories to scan from : C:/Users/heroo/AppData/Local/UnrealEngine/5.1/Saved/Config/WindowsEditor
+[2023.04.04-20.45.04:834][821]LogDesktopPlatform: Searching for previously created project directories...
+[2023.04.04-20.45.04:834][821]LogDesktopPlatform: Found directory: "C:/Users/heroo/OneDrive/Documents/Unreal Projects"
+[2023.04.04-20.45.04:834][821]LogDesktopPlatform: Found directory: "C:/Users/heroo/OneDrive/Desktop/Game Programming 2"
+[2023.04.04-20.45.04:834][821]LogDesktopPlatform: Found directory: "C:/Users/heroo/OneDrive/Documents/k-game-prog-2"
+[2023.04.04-20.45.04:834][821]LogDesktopPlatform: Found project "(ProjectName="C:/Users/heroo/OneDrive/Documents/Unreal Projects/test/test.uproject",LastOpenTime=2023.03.28-03.25.55)" in recently opened files
+[2023.04.04-20.45.04:834][821]LogDesktopPlatform: Found project "(ProjectName="C:/Users/heroo/OneDrive/Desktop/Game Programming 2/Lab_0/Lab_0.uproject",LastOpenTime=2023.03.28-03.49.23)" in recently opened files
+[2023.04.04-20.45.04:835][821]LogDesktopPlatform: Found project "(ProjectName="C:/Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2_Labs/Kreye_GP2_Labs.uproject",LastOpenTime=2023.03.28-21.57.58)" in recently opened files
+[2023.04.04-20.45.04:835][821]LogDesktopPlatform: Found project "(ProjectName="C:/Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2/Kreye_GP2.uproject",LastOpenTime=2023.04.04-20.19.05)" in recently opened files
+[2023.04.04-20.45.04:835][821]LogDesktopPlatform: Found project "C:/Users/heroo/OneDrive/Documents/Unreal Projects/l0/l0.uproject" in previously created project directory
+[2023.04.04-20.45.04:835][821]LogDesktopPlatform: Found project "C:/Users/heroo/OneDrive/Documents/Unreal Projects/test/test.uproject" in previously created project directory
+[2023.04.04-20.45.04:835][821]LogDesktopPlatform: Found project "C:/Users/heroo/OneDrive/Desktop/Game Programming 2/Lab_0/Lab_0.uproject" in previously created project directory
+[2023.04.04-20.45.04:835][821]LogDesktopPlatform: Found project "C:/Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2/Kreye_GP2.uproject" in previously created project directory
+[2023.04.04-20.45.04:835][821]LogDesktopPlatform: Found project "C:/Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2_Labs/Kreye_GP2_Labs.uproject" in previously created project directory
+[2023.04.04-20.45.04:835][821]LogDesktopPlatform: Searcing for projects in .uprojectdirs
+[2023.04.04-20.45.04:835][821]LogProjectBrowser: Enumerating Launcher Sample Projects...
+[2023.04.04-20.45.13:129][251]LogShaderCompilers: Display: ================================================
+[2023.04.04-20.45.13:130][251]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2023.04.04-20.45.13:130][251]LogShaderCompilers: Display: Total job queries 109, among them cache hits 2 (1.83%)
+[2023.04.04-20.45.13:130][251]LogShaderCompilers: Display: Tracking 107 distinct input hashes that result in 87 distinct outputs (81.31%)
+[2023.04.04-20.45.13:130][251]LogShaderCompilers: Display: RAM used: 0.90 MB (0.00 GB) of 819.20 MB (0.80 GB) budget. Usage: 0.11%
+[2023.04.04-20.45.13:130][251]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2023.04.04-20.45.13:130][251]LogShaderCompilers: Display: Shaders Compiled: 4
+[2023.04.04-20.45.13:131][251]LogShaderCompilers: Display: Jobs assigned 4, completed 4 (100.00%)
+[2023.04.04-20.45.13:131][251]LogShaderCompilers: Display: Time job spent in pending queue: average 0.04 s, longest 0.04 s
+[2023.04.04-20.45.13:131][251]LogShaderCompilers: Display: Job execution time: average 3.06 s, max 3.32 s
+[2023.04.04-20.45.13:131][251]LogShaderCompilers: Display: Job life time (pending + execution): average 3.10 s, max 3.36
+[2023.04.04-20.45.13:131][251]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 3.36 s
+[2023.04.04-20.45.13:131][251]LogShaderCompilers: Display: Jobs were issued in 4 batches (only local compilation was used), average 1.00 jobs/batch
+[2023.04.04-20.45.13:131][251]LogShaderCompilers: Display: Average processing rate: 1.19 jobs/sec
+[2023.04.04-20.45.13:131][251]LogShaderCompilers: Display: Total thread time: 2.73 s
+[2023.04.04-20.45.13:131][251]LogShaderCompilers: Display: Total thread preprocess time: 0.18 s
+[2023.04.04-20.45.13:131][251]LogShaderCompilers: Display: Percentage time preprocessing: 6.59%
+[2023.04.04-20.45.13:132][251]LogShaderCompilers: Display: Effective parallelization: 0.81 (times faster than compiling all shaders on one thread). Compare with number of workers: 10
+[2023.04.04-20.45.13:132][251]LogShaderCompilers: Display: Top 4 most expensive shader types by average time:
+[2023.04.04-20.45.13:132][251]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy (compiled    1 times, average 0.94 sec, max 0.94 sec, min 0.94 sec)
+[2023.04.04-20.45.13:132][251]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy (compiled    1 times, average 0.61 sec, max 0.61 sec, min 0.61 sec)
+[2023.04.04-20.45.13:132][251]LogShaderCompilers: Display:                                          FLumenCardPS<false> (compiled    1 times, average 0.60 sec, max 0.60 sec, min 0.60 sec)
+[2023.04.04-20.45.13:132][251]LogShaderCompilers: Display:                                                 FLumenCardVS (compiled    1 times, average 0.57 sec, max 0.57 sec, min 0.57 sec)
+[2023.04.04-20.45.13:132][251]LogShaderCompilers: Display: Top 4 shader types by total compile time:
+[2023.04.04-20.45.13:132][251]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 34.48% of total time (compiled    1 times, average 0.94 sec, max 0.94 sec, min 0.94 sec)
+[2023.04.04-20.45.13:132][251]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy - 22.49% of total time (compiled    1 times, average 0.61 sec, max 0.61 sec, min 0.61 sec)
+[2023.04.04-20.45.13:132][251]LogShaderCompilers: Display:                                          FLumenCardPS<false> - 22.08% of total time (compiled    1 times, average 0.60 sec, max 0.60 sec, min 0.60 sec)
+[2023.04.04-20.45.13:132][251]LogShaderCompilers: Display:                                                 FLumenCardVS - 20.95% of total time (compiled    1 times, average 0.57 sec, max 0.57 sec, min 0.57 sec)
+[2023.04.04-20.45.13:132][251]LogShaderCompilers: Display: ================================================
+[2023.04.04-20.45.14:550][335]LogSlate: Window 'Open Project' being destroyed
+[2023.04.04-20.46.42:342][420]LogEditorClassViewer: Warning: Class /Script/InteractiveToolsFramework.GizmoActor has parent /Script/InteractiveToolsFramework.InternalToolFrameworkActor, but this parent is not found. The Class will not be shown in ClassViewer.
+[2023.04.04-20.46.42:343][420]LogEditorClassViewer: Warning: Class /Script/ModelingComponents.PreviewGeometryActor has parent /Script/InteractiveToolsFramework.InternalToolFrameworkActor, but this parent is not found. The Class will not be shown in ClassViewer.
+[2023.04.04-20.46.42:343][420]LogEditorClassViewer: Warning: Class /Script/ModelingComponents.PreviewMeshActor has parent /Script/InteractiveToolsFramework.InternalToolFrameworkActor, but this parent is not found. The Class will not be shown in ClassViewer.
+[2023.04.04-20.46.42:429][420]LogSlate: Took 0.001140 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2023.04.04-20.48.53:660][522]Running C:/Program Files/Epic Games/UE_5.1/Engine/Build/BatchFiles/Build.bat  -projectfiles -project="C:/Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2/Kreye_GP2.uproject" -game -rocket -progress
+[2023.04.04-20.48.53:974][522]Running UnrealBuildTool: dotnet "..\..\Engine\Binaries\DotNET\UnrealBuildTool\UnrealBuildTool.dll" -projectfiles -project="C:/Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2/Kreye_GP2.uproject" -game -rocket -progress
+[2023.04.04-20.48.54:777][522]Log file: C:\Users\heroo\AppData\Local\UnrealBuildTool\Log_GPF.txt
+[2023.04.04-20.48.55:078][522]
+[2023.04.04-20.48.55:078][522]Some Platforms were skipped due to invalid SDK setup: IOS, Android, Linux, LinuxArm64.
+[2023.04.04-20.48.55:078][522]See the log file for detailed information
+[2023.04.04-20.48.55:078][522]
+[2023.04.04-20.48.55:078][522]Discovering modules, targets and source code for project...
+[2023.04.04-20.49.00:801][522]Binding IntelliSense data...
+[2023.04.04-20.49.05:532][522]Binding IntelliSense data... 100%
+[2023.04.04-20.49.05:632][522]Writing project files...
+[2023.04.04-20.49.20:296][522]Writing project files... 33%
+[2023.04.04-20.49.20:297][522]Writing project files... 100%
+[2023.04.04-20.49.21:342][522]LogLiveCoding: Display: Starting Live Coding compile.
+[2023.04.04-20.49.21:410][522]LogSlate: Window 'Add C++ Class' being destroyed
+[2023.04.04-20.50.14:262][683]Display: Reload/Re-instancing Complete: No object changes detected
+[2023.04.04-20.50.14:263][683]LogLiveCoding: Error: Live coding failed, please see Live console for more information
