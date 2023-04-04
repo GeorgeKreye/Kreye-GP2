@@ -1206,3 +1206,27 @@ LogConfig: Set CVar [[r.Shadow.DetectVertexShaderLayerAtRuntime:1]]
 [2023.04.04-21.34.31:361][290]LogUObjectHash: Compacting FUObjectHashTables data took   1.36ms
 [2023.04.04-21.34.31:395][291]Display: Reload/Re-instancing Complete: 1 package changed, 1 class new
 [2023.04.04-21.34.31:395][291]LogLiveCoding: Warning: Live coding succeeded, data type changes may cause packaging to fail if assets reference the new or updated data types
+[2023.04.04-21.36.42:692][976]Running C:/Program Files/Epic Games/UE_5.1/Engine/Build/BatchFiles/Build.bat  -projectfiles -project="C:/Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2/Kreye_GP2.uproject" -game -rocket -progress
+[2023.04.04-21.36.43:000][976]Running UnrealBuildTool: dotnet "..\..\Engine\Binaries\DotNET\UnrealBuildTool\UnrealBuildTool.dll" -projectfiles -project="C:/Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2/Kreye_GP2.uproject" -game -rocket -progress
+[2023.04.04-21.36.43:403][976]Log file: C:\Users\heroo\AppData\Local\UnrealBuildTool\Log_GPF.txt
+[2023.04.04-21.36.43:603][976]
+[2023.04.04-21.36.43:603][976]Some Platforms were skipped due to invalid SDK setup: IOS, Android, Linux, LinuxArm64.
+[2023.04.04-21.36.43:603][976]See the log file for detailed information
+[2023.04.04-21.36.43:603][976]
+[2023.04.04-21.36.43:603][976]Discovering modules, targets and source code for project...
+[2023.04.04-21.36.49:934][976]Binding IntelliSense data...
+[2023.04.04-21.36.54:762][976]Binding IntelliSense data... 100%
+[2023.04.04-21.36.54:863][976]Writing project files...
+[2023.04.04-21.37.14:538][976]Writing project files... 33%
+[2023.04.04-21.37.14:640][976]Writing project files... 100%
+[2023.04.04-21.37.15:389][976]LogLiveCoding: Display: Starting Live Coding compile.
+[2023.04.04-21.37.15:505][976]LogSlate: Window 'Add C++ Class' being destroyed
+[2023.04.04-21.37.33:964][ 33]Display: Reload/Re-instancing Complete: No object changes detected
+[2023.04.04-21.37.33:964][ 33]LogLiveCoding: Error: Live coding failed, please see Live console for more information
+[2023.04.04-21.37.56:969][102]LogLiveCoding: Display: Starting Live Coding compile.
+[2023.04.04-21.38.01:184][424]LogLiveCoding: Display:    Creating library C:\Users\heroo\OneDrive\Documents\k-game-prog-2\Kreye_GP2\Binaries\Win64\UnrealEditor-Kreye_GP2.patch_2.lib and object C:\Users\heroo\OneDrive\Documents\k-game-prog-2\Kreye_GP2\Binaries\Win64\UnrealEditor-Kreye_GP2.patch_2.exp
+[2023.04.04-21.38.01:486][441]LogClass: UPackage /Script/Kreye_GP2 Reload.
+[2023.04.04-21.38.01:486][441]LogClass: Could not find existing class BPLib in package /Script/Kreye_GP2 for reload, assuming new or modified class
+[2023.04.04-21.38.01:588][441]LogUObjectHash: Compacting FUObjectHashTables data took   1.00ms
+[2023.04.04-21.38.01:628][442]Display: Reload/Re-instancing Complete: 1 package changed, 1 class new
+[2023.04.04-21.38.01:628][442]LogLiveCoding: Warning: Live coding succeeded, data type changes may cause packaging to fail if assets reference the new or updated data types
