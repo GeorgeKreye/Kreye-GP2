@@ -1291,3 +1291,31 @@ LogConfig: Set CVar [[r.Shadow.DetectVertexShaderLayerAtRuntime:1]]
 [2023.04.05-00.47.55:422][462]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=1
 [2023.04.05-00.47.55:433][462]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=1
 [2023.04.05-00.49.42:458][784]LogDerivedDataCache: C:/Users/heroo/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:04.192 and deleted 0 files with total size 0 MiB. Scanned 2336 files in 2325 folders with total size 50 MiB.
+[2023.04.05-01.49.42:516][578]LogDerivedDataCache: C:/Users/heroo/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:04.245 and deleted 0 files with total size 0 MiB. Scanned 2336 files in 2325 folders with total size 50 MiB.
+[2023.04.05-02.49.41:490][372]LogDerivedDataCache: C:/Users/heroo/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:03.216 and deleted 0 files with total size 0 MiB. Scanned 2336 files in 2325 folders with total size 50 MiB.
+[2023.04.05-03.49.42:405][172]LogDerivedDataCache: C:/Users/heroo/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:04.124 and deleted 0 files with total size 0 MiB. Scanned 2336 files in 2325 folders with total size 50 MiB.
+[2023.04.05-04.49.42:486][970]LogDerivedDataCache: C:/Users/heroo/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:04.205 and deleted 0 files with total size 0 MiB. Scanned 2336 files in 2325 folders with total size 50 MiB.
+[2023.04.05-05.23.28:703][782]Running C:/Program Files/Epic Games/UE_5.1/Engine/Build/BatchFiles/Build.bat  -projectfiles -project="C:/Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2/Kreye_GP2.uproject" -game -rocket -progress
+[2023.04.05-05.23.29:017][782]Running UnrealBuildTool: dotnet "..\..\Engine\Binaries\DotNET\UnrealBuildTool\UnrealBuildTool.dll" -projectfiles -project="C:/Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2/Kreye_GP2.uproject" -game -rocket -progress
+[2023.04.05-05.23.29:719][782]Log file: C:\Users\heroo\AppData\Local\UnrealBuildTool\Log_GPF.txt
+[2023.04.05-05.23.30:321][782]
+[2023.04.05-05.23.30:322][782]Some Platforms were skipped due to invalid SDK setup: IOS, Android, Linux, LinuxArm64.
+[2023.04.05-05.23.30:322][782]See the log file for detailed information
+[2023.04.05-05.23.30:323][782]
+[2023.04.05-05.23.30:323][782]Discovering modules, targets and source code for project...
+[2023.04.05-05.23.37:749][782]Binding IntelliSense data...
+[2023.04.05-05.23.42:276][782]Binding IntelliSense data... 100%
+[2023.04.05-05.23.42:376][782]Writing project files...
+[2023.04.05-05.23.58:052][782]Writing project files... 33%
+[2023.04.05-05.23.58:155][782]Writing project files... 100%
+[2023.04.05-05.23.59:019][782]LogLiveCoding: Display: Starting Live Coding compile.
+[2023.04.05-05.23.59:117][782]LogSlate: Window 'Add C++ Class' being destroyed
+[2023.04.05-05.24.16:599][837]Display: Reload/Re-instancing Complete: No object changes detected
+[2023.04.05-05.24.16:600][837]LogLiveCoding: Error: Live coding failed, please see Live console for more information
+[2023.04.05-05.24.35:819][914]LogLiveCoding: Display: Starting Live Coding compile.
+[2023.04.05-05.24.42:877][324]LogLiveCoding: Display:    Creating library C:\Users\heroo\OneDrive\Documents\k-game-prog-2\Kreye_GP2\Binaries\Win64\UnrealEditor-Kreye_GP2.patch_4.lib and object C:\Users\heroo\OneDrive\Documents\k-game-prog-2\Kreye_GP2\Binaries\Win64\UnrealEditor-Kreye_GP2.patch_4.exp
+[2023.04.05-05.24.43:468][330]LogClass: UPackage /Script/Kreye_GP2 Reload.
+[2023.04.05-05.24.43:473][330]LogClass: Could not find existing class WaypointSceneComponent in package /Script/Kreye_GP2 for reload, assuming new or modified class
+[2023.04.05-05.24.44:726][330]LogUObjectHash: Compacting FUObjectHashTables data took   5.24ms
+[2023.04.05-05.24.45:393][331]Display: Reload/Re-instancing Complete: 1 package changed, 1 class new, 1 class unchanged
+[2023.04.05-05.24.45:393][331]LogLiveCoding: Warning: Live coding succeeded, data type changes may cause packaging to fail if assets reference the new or updated data types
