@@ -1262,32 +1262,3 @@ LogConfig: Set CVar [[r.Shadow.DetectVertexShaderLayerAtRuntime:1]]
 [2023.04.04-22.21.33:275][510]LogShaderCompilers: Display: ================================================
 [2023.04.04-22.21.36:481][770]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Labs/Lab01/Sphere_Blueprint.Sphere_Blueprint
 [2023.04.04-22.21.36:507][770]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
-[2023.04.04-22.21.38:487][770]LogStall: Stall detector 'UAssetEditorSubsystem::OpenEditorForAsset' exceeded budget of 2.000000s, reporting...
-[2023.04.04-22.21.40:807][770]LogStall: Stall detector 'UAssetEditorSubsystem::OpenEditorForAsset' report submitted, and took 0.048159s
-[2023.04.04-22.21.41:665][770]LogStall: Stall detector 'UAssetEditorSubsystem::OpenEditorForAsset' complete in 0.002093s (0.907537s overbudget)
-[2023.04.04-23.10.35:841][510]LogWorld: UWorld::CleanupWorld for World_2, bSessionEnded=true, bCleanupResources=true
-[2023.04.04-23.10.35:849][510]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
-[2023.04.04-23.10.46:384][983]LogLiveCoding: Display: Starting Live Coding compile.
-[2023.04.04-23.11.10:800][438]LogLiveCoding: Display:    Creating library C:\Users\heroo\OneDrive\Documents\k-game-prog-2\Kreye_GP2\Binaries\Win64\UnrealEditor-Kreye_GP2.patch_3.lib and object C:\Users\heroo\OneDrive\Documents\k-game-prog-2\Kreye_GP2\Binaries\Win64\UnrealEditor-Kreye_GP2.patch_3.exp
-[2023.04.04-23.11.11:571][444]LogUObjectHash: Compacting FUObjectHashTables data took   3.08ms
-[2023.04.04-23.11.12:210][445]Display: Reload/Re-instancing Complete: 1 class unchanged
-[2023.04.04-23.11.12:210][445]LogLiveCoding: Display: Live coding succeeded
-[2023.04.04-23.18.45:016][423]LogAudioMixer: Warning: AudioMixerPlatformInterface Timeout [5000ms] waiting for h/w. InstanceID=1
-[2023.04.04-23.18.45:027][423]LogAudioMixer: Display: FMixerNullCallback: Simulating a h/w device callback at [21ms], ThreadID=50660
-[2023.04.04-23.35.26:540][424]LogAudioMixer: Warning: FMixerNullCallback: Large time delta between simulated audio clock and realtime [-1001447ms], ThreadID=50660
-[2023.04.04-23.35.27:589][426]LogAudioMixer: Display: Successful Swap new Device is (NumChannels=2, SampleRate=48000, DeviceID={0.0.0.00000000}.{5ba5d838-f949-4a17-824f-ab36a6e880d2}, Name=Speakers (Realtek(R) Audio)), Reason=AudioMixerPlatformInterface. Timeout waiting for h/w., InstanceID=1, DurationMS=1002329.75
-[2023.04.04-23.35.27:590][426]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=1
-[2023.04.04-23.35.27:595][426]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=1
-[2023.04.04-23.35.32:596][442]LogAudioMixer: Warning: AudioMixerPlatformInterface Timeout [5000ms] waiting for h/w. InstanceID=1
-[2023.04.04-23.35.32:909][442]LogAudioMixer: Display: FMixerNullCallback: Simulating a h/w device callback at [21ms], ThreadID=50660
-[2023.04.04-23.35.33:246][443]LogAudioMixer: Display: Successful Swap new Device is (NumChannels=2, SampleRate=48000, DeviceID={0.0.0.00000000}.{5ba5d838-f949-4a17-824f-ab36a6e880d2}, Name=Speakers (Realtek(R) Audio)), Reason=AudioMixerPlatformInterface. Timeout waiting for h/w., InstanceID=1, DurationMS=42.10
-[2023.04.04-23.35.33:246][443]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=1
-[2023.04.04-23.35.33:248][443]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=1
-[2023.04.04-23.35.38:577][459]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
-[2023.04.04-23.35.43:136][461]LogAudioMixer: Warning: AudioMixerPlatformInterface Timeout [5000ms] waiting for h/w. InstanceID=1
-[2023.04.05-00.47.53:833][461]LogAudioMixer: Display: FMixerNullCallback: Simulating a h/w device callback at [21ms], ThreadID=50660
-[2023.04.05-00.47.55:152][462]LogUdpMessaging: Display: Added local interface '10.0.0.100' to multicast group '230.0.0.1:6666'
-[2023.04.05-00.47.55:420][462]LogAudioMixer: Display: Successful Swap new Device is (NumChannels=2, SampleRate=48000, DeviceID={0.0.0.00000000}.{5ba5d838-f949-4a17-824f-ab36a6e880d2}, Name=Speakers (Realtek(R) Audio)), Reason=AudioMixerPlatformInterface. Timeout waiting for h/w., InstanceID=1, DurationMS=740.80
-[2023.04.05-00.47.55:422][462]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=1
-[2023.04.05-00.47.55:433][462]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=1
-[2023.04.05-00.49.42:458][784]LogDerivedDataCache: C:/Users/heroo/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:04.192 and deleted 0 files with total size 0 MiB. Scanned 2336 files in 2325 folders with total size 50 MiB.

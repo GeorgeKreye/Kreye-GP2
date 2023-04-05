@@ -13,5 +13,7 @@ UCLASS()
 class KREYE_GP2_API UBPLib : public UBlueprintFunctionLibrary
 {
 	GENERATED_BODY()
-	
+
+public:
+	const FVector MoveTowards(const FVector& StartPos, const FVector& EndPos, float MaxDistance) const;
 };
