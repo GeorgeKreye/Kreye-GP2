@@ -1316,3 +1316,28 @@ LogConfig: Set CVar [[r.Shadow.DetectVertexShaderLayerAtRuntime:1]]
 [2023.04.06-01.00.24:130][809]Display: Reload/Re-instancing Complete: 1 package changed, 2 classes changed
 [2023.04.06-01.00.24:131][809]LogLiveCoding: Warning: Live coding succeeded, data type changes may cause packaging to fail if assets reference the new or updated data types
 [2023.04.06-01.00.24:286][810]LogActor: Warning: Lab02Actor /Engine/Transient.World_3:PersistentLevel.Lab02Actor_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2023.04.06-01.23.34:343][566]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.04.06-01.23.34:644][566]LogUObjectHash: Compacting FUObjectHashTables data took  12.19ms
+[2023.04.06-01.23.34:782][566]LogSavePackage: Moving output files for package: /Game/Labs/Lab02/Lab02
+[2023.04.06-01.23.34:784][566]LogSavePackage: Moving '../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2/Saved/Lab023EBB760F4ABE452724F4999756ECED8A.tmp' to '../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2/Content/Labs/Lab02/Lab02.umap'
+[2023.04.06-01.23.34:846][566]LogFileHelpers: Saving map 'Lab02' took 0.360
+[2023.04.06-01.23.34:906][566]LogFileHelpers: InternalPromptForCheckoutAndSave took 573 ms (total: 1.11 sec)
+[2023.04.06-01.23.35:132][566]AssetCheck: New page: Asset Save: Lab02
+[2023.04.06-01.23.35:133][566]LogContentValidation: Display: Validating /Script/Engine.World /Game/Labs/Lab02/Lab02.Lab02
+[2023.04.06-01.23.43:939][725]LogLiveCoding: Display: Starting Live Coding compile.
+[2023.04.06-01.24.06:777][144]LogLiveCoding: Display:    Creating library C:\Users\heroo\OneDrive\Documents\k-game-prog-2\Kreye_GP2\Binaries\Win64\UnrealEditor-Kreye_GP2.patch_7.lib and object C:\Users\heroo\OneDrive\Documents\k-game-prog-2\Kreye_GP2\Binaries\Win64\UnrealEditor-Kreye_GP2.patch_7.exp
+[2023.04.06-01.24.07:451][152]LogClass: UPackage /Script/Kreye_GP2 Reload.
+[2023.04.06-01.24.07:451][152]LogClass: UClass BounceSceneComponent Reload.
+[2023.04.06-01.24.07:454][152]LogClass: Could not find existing class BounceSceneComponent in package /Script/Kreye_GP2 for reload, assuming new or modified class
+[2023.04.06-01.24.07:500][152]Re-instancing BounceSceneComponent after reload.
+[2023.04.06-01.24.07:742][152]LogUObjectHash: Compacting FUObjectHashTables data took   1.08ms
+[2023.04.06-01.24.07:805][153]Display: Reload/Re-instancing Complete: 1 package changed, 1 class changed
+[2023.04.06-01.24.07:805][153]LogLiveCoding: Warning: Live coding succeeded, data type changes may cause packaging to fail if assets reference the new or updated data types
+[2023.04.06-01.24.50:290][545]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.04.06-01.24.50:389][545]LogUObjectHash: Compacting FUObjectHashTables data took   0.37ms
+[2023.04.06-01.24.50:398][545]LogSavePackage: Moving output files for package: /Game/Labs/Lab02/Lab02
+[2023.04.06-01.24.50:400][545]LogSavePackage: Moving '../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2/Saved/Lab020670C5834679F786B23F2E81D346B1C9.tmp' to '../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2/Content/Labs/Lab02/Lab02.umap'
+[2023.04.06-01.24.50:409][545]LogFileHelpers: Saving map 'Lab02' took 0.030
+[2023.04.06-01.24.50:452][545]LogFileHelpers: InternalPromptForCheckoutAndSave took 161 ms (total: 1.28 sec)
+[2023.04.06-01.24.50:455][545]AssetCheck: New page: Asset Save: Lab02
+[2023.04.06-01.24.50:455][545]LogContentValidation: Display: Validating /Script/Engine.World /Game/Labs/Lab02/Lab02.Lab02

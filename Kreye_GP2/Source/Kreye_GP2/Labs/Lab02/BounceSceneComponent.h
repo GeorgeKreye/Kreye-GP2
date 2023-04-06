@@ -16,6 +16,10 @@ public:
 	// Sets default values for this component's properties
 	UBounceSceneComponent();
 
+	// Speed variable
+	UPROPERTY(EditAnywhere)
+	float MaxSpeed;
+
 protected:
 	// Called when the game starts
 	virtual void BeginPlay() override;
