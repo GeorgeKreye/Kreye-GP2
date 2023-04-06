@@ -4,7 +4,7 @@
 #include "Lab02Actor.h"
 
 // Sets default values
-ALab02Actor::ALab02Actor() : Speed(100)
+ALab02Actor::ALab02Actor()
 {
  	// Set this actor to call Tick() every frame.  You can turn this off to improve performance if you don't need it.
 	PrimaryActorTick.bCanEverTick = true;

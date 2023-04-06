@@ -3,13 +3,7 @@
 
 #include "BPLib.h"
 
-/**
- * Calculates a movement step from a starting position to an ending position with a maximum distance
- * @param StartPos A@code FVector@endcode that determines the starting position of movement
- * @param EndPos A@code FVector@endcode that determines the ending/target position of movement
- * @param MaxDistance A@code float@endcode that determines the maximum movement step
- * @returns A@code FVector@endcode that is between the starting position and end position that is at most@code maxDistance@endcode code away
- */
+
 const FVector UBPLib::MoveTowards(const FVector& StartPos, const FVector& EndPos, float MaxDistance) const
 {
 	// Output variable
