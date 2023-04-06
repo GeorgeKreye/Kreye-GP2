@@ -47,7 +47,7 @@ void UBounceSceneComponent::TickComponent(float DeltaTime, ELevelTick TickType, 
 	}
 
 	// Move towards target
-	const FVector NewPosition = UBPLib::MoveTowards(CurrentPosition,TargetPosition,MaxSpeed);
+	const FVector NewPosition = UBPLib::MoveTowards(CurrentPosition,TargetPosition,(MaxSpeed * DeltaTime));
 
 	// Set actor location to new position
 	Owner->SetActorLocation(NewPosition);

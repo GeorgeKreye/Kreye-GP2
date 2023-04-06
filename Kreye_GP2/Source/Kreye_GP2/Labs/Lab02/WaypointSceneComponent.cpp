@@ -38,7 +38,7 @@ void UWaypointSceneComponent::TickComponent(float DeltaTime, ELevelTick TickType
 	const FVector TargetPosition = Waypoints[CurrentTarget];
 
 	// Get new position to move to
-	const FVector NewPosition = UBPLib::MoveTowards(CurrentPosition,TargetPosition,MaxSpeed);
+	const FVector NewPosition = UBPLib::MoveTowards(CurrentPosition,TargetPosition,(MaxSpeed * DeltaTime));
 
 	// Move to new position
 	Owner->SetActorLocation(NewPosition);

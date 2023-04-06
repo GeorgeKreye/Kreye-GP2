@@ -19,13 +19,13 @@ ALab02Actor::ALab02Actor()
 	
 	if (SphereVisualAsset.Succeeded())
 	{
-	 	StaticMesh->SetStaticMesh(SphereVisualAsset.Object);
+	  	StaticMesh->SetStaticMesh(SphereVisualAsset.Object);
 	 	StaticMesh->SetRelativeLocation(FVector(0.0,0.0,0.0));
 	}
 	
 	// Get mesh material
 	static ConstructorHelpers::FObjectFinder<UMaterialInterface>
-	 	SphereMaterial(TEXT("/Game/StarterContent/Materials/M_Cobblestone_Pebble"));
+		SphereMaterial(TEXT("/Game/StarterContent/Materials/M_Cobblestone_Pebble"));
 	
 	if (SphereMaterial.Succeeded())
 	{
