@@ -23,9 +23,8 @@ public:
 	* @returns A@code FVector@endcode that is between the starting position and end position that is at most@code maxDistance@endcode code away
 	*/
 	UFUNCTION(BlueprintPure, Category = "Basic Movement")
-	const FVector MoveTowards(
+	static FVector MoveTowards(
 		UPARAM(DisplayName="Start Position") const FVector& StartPos,
 		UPARAM(DisplayName="End Position") const FVector& EndPos,
-		UPARAM(DisplayName="Maximum Distance (Delta)") float MaxDistance)
-	const;
+		UPARAM(DisplayName="Maximum Distance (Delta)") float MaxDistance);
 };

@@ -3,11 +3,11 @@
 
 #include "BPLib.h"
 
-
-const FVector UBPLib::MoveTowards(const FVector& StartPos, const FVector& EndPos, float MaxDistance) const
+// MoveTowards definition
+FVector UBPLib::MoveTowards(const FVector& StartPos, const FVector& EndPos, float MaxDistance)
 {
 	// Output variable
-	FVector output;
+	FVector Output;
 	
 	// Determine difference between start position and end position
 	const FVector VectorDifference = EndPos - StartPos;
@@ -28,14 +28,14 @@ const FVector UBPLib::MoveTowards(const FVector& StartPos, const FVector& EndPos
 	if (VectorDifference.Length() < MaxStep.Length())
 	{
 		// Store end position in output
-		output = FVector(EndPos);
+		Output = FVector(EndPos);
 	}
 	else
 	{
 		// Calculate displacement from starting position of the size of the maximum step, and store in output
-		output = StartPos + MaxStep;
+		Output = StartPos + MaxStep;
 	}
 
 	// Return
-	return output;
+	return Output;
 }
