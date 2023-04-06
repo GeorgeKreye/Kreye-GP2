@@ -20,7 +20,7 @@ public:
 	* @param StartPos A@code FVector@endcode that determines the starting position of movement
 	* @param EndPos A@code FVector@endcode that determines the ending/target position of movement
 	* @param MaxDistance A@code float@endcode that determines the maximum delta distance that can be moved in one step
-	* @returns A@code FVector@endcode that is between the starting position and end position that is at most@code maxDistance@endcode code away
+	* @returns A@code FVector@endcode that is between the starting position and end position that is at most@code maxDistance@endcode away
 	*/
 	UFUNCTION(BlueprintPure, Category = "Basic Movement")
 	static FVector MoveTowards(

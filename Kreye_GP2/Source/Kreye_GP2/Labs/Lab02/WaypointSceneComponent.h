@@ -14,9 +14,21 @@ class KREYE_GP2_API UWaypointSceneComponent : public USceneComponent
 	
 	
 public:
-	// Variable that holds the array of waypoints
+	// Holds the array of waypoints that can be moved to
 	UPROPERTY(EditAnywhere,BlueprintReadWrite)
 	TArray<FVector> Waypoints;
+
+	// The maximum speed (delta distance) that can be traveled in a single tick
+	UPROPERTY(EditAnywhere)
+	float MaxSpeed;
+
+	// The Actor that owns this instance
+	UPROPERTY(VisibleInstanceOnly)
+	AActor* Owner;
+
+	// The array index of the current target waypoint
+	UPROPERTY(VisibleAnywhere)
+	int CurrentTarget;
 	
 	// Sets default values for this component's properties
 	UWaypointSceneComponent();
