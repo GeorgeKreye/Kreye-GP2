@@ -15,5 +15,7 @@ class KREYE_GP2_API UBPLib : public UBlueprintFunctionLibrary
 	GENERATED_BODY()
 
 public:
+	// Function for moving towards a target position
+	UFUNCTION(BlueprintPure, Category = "Basic Movement")
 	const FVector MoveTowards(const FVector& StartPos, const FVector& EndPos, float MaxDistance) const;
 };

@@ -15,6 +15,21 @@ public:
 	// Sets default values for this actor's properties
 	ALab02Actor();
 
+	UPROPERTY(EditAnywhere,BlueprintReadWrite)
+	float Speed;
+
+	UPROPERTY(EditAnywhere)
+	FVector EndPosition;
+
+	UPROPERTY(VisibleAnywhere)
+	FVector InitialPosition;
+
+	UPROPERTY(VisibleAnywhere)
+	FVector Target;
+
+	UPROPERTY(VisibleAnywhere)
+	UStaticMeshComponent *StaticMesh;
+
 protected:
 	// Called when the game starts or when spawned
 	virtual void BeginPlay() override;

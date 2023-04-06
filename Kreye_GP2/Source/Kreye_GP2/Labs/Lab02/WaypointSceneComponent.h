@@ -12,11 +12,12 @@ class KREYE_GP2_API UWaypointSceneComponent : public USceneComponent
 {
 	GENERATED_BODY()
 	
-	// Storage for waypoints
-	UPROPERTY(EditAnywhere)
+	
+public:
+	// Variable that holds the array of waypoints
+	UPROPERTY(EditAnywhere,BlueprintReadWrite)
 	TArray<FVector> Waypoints;
 	
-public:	
 	// Sets default values for this component's properties
 	UWaypointSceneComponent();
 
