@@ -1858,3 +1858,8 @@ LogConfig: Set CVar [[r.Shadow.DetectVertexShaderLayerAtRuntime:1]]
 [2023.04.06-21.08.22:137][120]LogPlayLevel: Display: Destroying online subsystem :Context_16
 [2023.04.06-21.33.10:771][655]LogDerivedDataCache: C:/Users/heroo/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:04.321 and deleted 0 files with total size 0 MiB. Scanned 2369 files in 2357 folders with total size 51 MiB.
 [2023.04.06-22.33.10:740][453]LogDerivedDataCache: C:/Users/heroo/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:04.290 and deleted 0 files with total size 0 MiB. Scanned 2369 files in 2357 folders with total size 51 MiB.
+[2023.04.06-22.48.32:759][381]LogLiveCoding: Display: Starting Live Coding compile.
+[2023.04.06-22.48.47:013][470]LogLiveCoding: Display:    Creating library C:\Users\heroo\OneDrive\Documents\k-game-prog-2\Kreye_GP2\Binaries\Win64\UnrealEditor-Kreye_GP2.patch_9.lib and object C:\Users\heroo\OneDrive\Documents\k-game-prog-2\Kreye_GP2\Binaries\Win64\UnrealEditor-Kreye_GP2.patch_9.exp
+[2023.04.06-22.48.47:713][476]LogUObjectHash: Compacting FUObjectHashTables data took   3.09ms
+[2023.04.06-22.48.47:789][477]Display: Reload/Re-instancing Complete: No object changes detected
+[2023.04.06-22.48.47:789][477]LogLiveCoding: Display: Live coding succeeded
