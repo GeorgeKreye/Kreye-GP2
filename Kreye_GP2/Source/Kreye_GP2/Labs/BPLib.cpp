@@ -17,13 +17,6 @@ FVector UBPLib::MoveTowards(const FVector& StartPos, const FVector& EndPos, floa
 	MaxStep.Normalize(0.0001); // Normalize difference
 	MaxStep *= MaxDistance; // Multiply normalized difference by maximum distance
 	
-	// // Normalize difference
-	// FVector NormalizedDifference = FVector(VectorDifference);
-	// NormalizedDifference.Normalize(0.0001);
-	//
-	// // Multiply normalized difference by maximum distance 
-	// const FVector MaxStep = NormalizedDifference * MaxDistance;
-	
 	// Determine if distance between start and end is less than that of the maximum step that can be taken in that direction
 	if (VectorDifference.Length() < MaxStep.Length())
 	{
