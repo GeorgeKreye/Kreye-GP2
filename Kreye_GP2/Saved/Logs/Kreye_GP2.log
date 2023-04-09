@@ -1147,3 +1147,28 @@ LogConfig: Set CVar [[con.DebugEarlyDefault:1]]
 [2023.04.09-23.07.52:306][403]LogSlate: Took 0.000193 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
 [2023.04.09-23.07.57:686][701]LogSlate: Window 'Project Settings' being destroyed
 [2023.04.09-23.07.57:700][701]LogSlate: Window 'Project Settings' being destroyed
+[2023.04.09-23.09.08:742][478]LogEditorClassViewer: Warning: Class /Script/InteractiveToolsFramework.GizmoActor has parent /Script/InteractiveToolsFramework.InternalToolFrameworkActor, but this parent is not found. The Class will not be shown in ClassViewer.
+[2023.04.09-23.09.08:742][478]LogEditorClassViewer: Warning: Class /Script/ModelingComponents.PreviewGeometryActor has parent /Script/InteractiveToolsFramework.InternalToolFrameworkActor, but this parent is not found. The Class will not be shown in ClassViewer.
+[2023.04.09-23.09.08:742][478]LogEditorClassViewer: Warning: Class /Script/ModelingComponents.PreviewMeshActor has parent /Script/InteractiveToolsFramework.InternalToolFrameworkActor, but this parent is not found. The Class will not be shown in ClassViewer.
+[2023.04.09-23.09.08:807][478]LogSlate: Took 0.000533 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2023.04.09-23.09.50:876][956]Running C:/Program Files/Epic Games/UE_5.1/Engine/Build/BatchFiles/Build.bat  -projectfiles -project="C:/Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2/Kreye_GP2.uproject" -game -rocket -progress
+[2023.04.09-23.09.51:086][956]Running UnrealBuildTool: dotnet "..\..\Engine\Binaries\DotNET\UnrealBuildTool\UnrealBuildTool.dll" -projectfiles -project="C:/Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2/Kreye_GP2.uproject" -game -rocket -progress
+[2023.04.09-23.09.51:588][956]Log file: C:\Users\heroo\AppData\Local\UnrealBuildTool\Log_GPF.txt
+[2023.04.09-23.09.51:789][956]
+[2023.04.09-23.09.51:789][956]Some Platforms were skipped due to invalid SDK setup: IOS, Android, Linux, LinuxArm64.
+[2023.04.09-23.09.51:789][956]See the log file for detailed information
+[2023.04.09-23.09.51:789][956]
+[2023.04.09-23.09.51:789][956]Discovering modules, targets and source code for project...
+[2023.04.09-23.09.56:610][956]Binding IntelliSense data...
+[2023.04.09-23.10.00:930][956]Binding IntelliSense data... 100%
+[2023.04.09-23.10.00:930][956]Writing project files...
+[2023.04.09-23.10.12:082][956]Writing project files... 67%
+[2023.04.09-23.10.12:082][956]Writing project files... 100%
+[2023.04.09-23.10.12:750][956]LogLiveCoding: Display: Starting Live Coding compile.
+[2023.04.09-23.10.12:817][956]LogSlate: Window 'Add C++ Class' being destroyed
+[2023.04.09-23.11.28:659][537]LogLiveCoding: Display:    Creating library C:\Users\heroo\OneDrive\Documents\k-game-prog-2\Kreye_GP2\Binaries\Win64\UnrealEditor-Kreye_GP2.patch_1.lib and object C:\Users\heroo\OneDrive\Documents\k-game-prog-2\Kreye_GP2\Binaries\Win64\UnrealEditor-Kreye_GP2.patch_1.exp
+[2023.04.09-23.11.29:157][538]LogClass: UPackage /Script/Kreye_GP2 Reload.
+[2023.04.09-23.11.29:176][538]LogClass: Could not find existing class Lab03Actor in package /Script/Kreye_GP2 for reload, assuming new or modified class
+[2023.04.09-23.11.29:698][538]LogUObjectHash: Compacting FUObjectHashTables data took   4.70ms
+[2023.04.09-23.11.29:814][539]Display: Reload/Re-instancing Complete: 1 package changed, 1 class new, 6 classes unchanged, 1 function remapped
+[2023.04.09-23.11.29:815][539]LogLiveCoding: Warning: Live coding succeeded, data type changes may cause packaging to fail if assets reference the new or updated data types
