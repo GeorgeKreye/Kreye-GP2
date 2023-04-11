@@ -1100,3 +1100,347 @@ LogConfig: CVar [[framepro.ScopeMinTimeMicroseconds:10]] deferred - dummy variab
 [2023.04.11-05.48.38:656][445]LogShaderCompilers: Display: Jobs assigned 0, completed 0 (0.00%)
 [2023.04.11-05.48.38:656][445]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 0.00 s
 [2023.04.11-05.48.38:656][445]LogShaderCompilers: Display: ================================================
+[2023.04.11-05.52.17:440][506]LogActorFactory: Loading ActorFactory Class /Script/Engine.LevelInstance
+[2023.04.11-05.52.17:441][506]LogEditor: Attempting to add actor of class 'Lab03Actor' to level at -90.00,-110.00,0.00
+[2023.04.11-05.52.17:456][506]LogStaticMesh: Display: Building static mesh Shape_Cube...
+[2023.04.11-05.52.17:467][506]LogActor: Warning: Lab03Actor /Game/Labs/Lab03/Lab03.Lab03:PersistentLevel.Lab03Actor_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2023.04.11-05.52.17:472][506]LogStaticMesh: Built static mesh [0.02s] /Game/StarterContent/Shapes/Shape_Cube.Shape_Cube
+[2023.04.11-05.52.18:714][631]LogEditor: Attempting to add actor of class 'Lab03Actor' to level at -40.00,10.00,0.00
+[2023.04.11-05.52.18:717][631]LogActor: Warning: Lab03Actor /Game/Labs/Lab03/Lab03.Lab03:PersistentLevel.Lab03Actor_1 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2023.04.11-05.52.20:158][782]LogShaderCompilers: Display: ================================================
+[2023.04.11-05.52.20:158][782]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2023.04.11-05.52.20:158][782]LogShaderCompilers: Display: Total job queries 95, among them cache hits 8 (8.42%)
+[2023.04.11-05.52.20:158][782]LogShaderCompilers: Display: Tracking 84 distinct input hashes that result in 70 distinct outputs (83.33%)
+[2023.04.11-05.52.20:158][782]LogShaderCompilers: Display: RAM used: 0.76 MB (0.00 GB) of 819.20 MB (0.80 GB) budget. Usage: 0.09%
+[2023.04.11-05.52.20:158][782]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2023.04.11-05.52.20:158][782]LogShaderCompilers: Display: Shaders Compiled: 1
+[2023.04.11-05.52.20:158][782]LogShaderCompilers: Display: Jobs assigned 4, completed 1 (25.00%)
+[2023.04.11-05.52.20:158][782]LogShaderCompilers: Display: Time job spent in pending queue: average 0.04 s, longest 0.05 s
+[2023.04.11-05.52.20:158][782]LogShaderCompilers: Display: Job execution time: average 2.59 s, max 2.59 s
+[2023.04.11-05.52.20:158][782]LogShaderCompilers: Display: Job life time (pending + execution): average 2.63 s, max 2.63
+[2023.04.11-05.52.20:158][782]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 2.63 s
+[2023.04.11-05.52.20:158][782]LogShaderCompilers: Display: Jobs were issued in 4 batches (only local compilation was used), average 1.00 jobs/batch
+[2023.04.11-05.52.20:158][782]LogShaderCompilers: Display: Average processing rate: 0.38 jobs/sec
+[2023.04.11-05.52.20:158][782]LogShaderCompilers: Display: Total thread time: 0.39 s
+[2023.04.11-05.52.20:158][782]LogShaderCompilers: Display: Total thread preprocess time: 0.04 s
+[2023.04.11-05.52.20:158][782]LogShaderCompilers: Display: Percentage time preprocessing: 10.82%
+[2023.04.11-05.52.20:158][782]LogShaderCompilers: Display: Effective parallelization: 0.15 (times faster than compiling all shaders on one thread). Compare with number of workers: 10
+[2023.04.11-05.52.20:158][782]LogShaderCompilers: Display: Top 1 most expensive shader types by average time:
+[2023.04.11-05.52.20:158][782]LogShaderCompilers: Display:                                          FLumenCardPS<false> (compiled    1 times, average 0.39 sec, max 0.39 sec, min 0.39 sec)
+[2023.04.11-05.52.20:158][782]LogShaderCompilers: Display: Top 1 shader types by total compile time:
+[2023.04.11-05.52.20:158][782]LogShaderCompilers: Display:                                          FLumenCardPS<false> - 100.00% of total time (compiled    1 times, average 0.39 sec, max 0.39 sec, min 0.39 sec)
+[2023.04.11-05.52.20:158][782]LogShaderCompilers: Display: ================================================
+[2023.04.11-05.52.50:562][569]LogUObjectHash: Compacting FUObjectHashTables data took   0.54ms
+[2023.04.11-05.52.50:582][569]LogPackageLocalizationCache: Processed 43 localized package path(s) for 1 prioritized culture(s) in 0.011819 seconds
+[2023.04.11-05.52.50:592][569]LogSerialization: UsePackageTrailer: 'true'
+[2023.04.11-05.52.50:601][569]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Labs/Lab03/Lab03_Auto1
+[2023.04.11-05.52.50:601][569]LogSavePackage: Moving '../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2/Saved/Lab03_Auto13E52093B4AA816AB0695DEA2A741FFF0.tmp' to '../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2/Saved/Autosaves/Game/Labs/Lab03/Lab03_Auto1.umap'
+[2023.04.11-05.52.50:613][569]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Labs/Lab03/Lab03' took 0.059
+[2023.04.11-05.52.50:615][569]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 0.059
+[2023.04.11-05.54.44:993][  0]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.04.11-05.54.45:042][  0]LogUObjectHash: Compacting FUObjectHashTables data took   0.33ms
+[2023.04.11-05.54.45:050][  0]LogSavePackage: Moving output files for package: /Game/Labs/Lab03/Lab03
+[2023.04.11-05.54.45:051][  0]LogSavePackage: Moving '../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2/Saved/Lab03DD9C1E244348D4F306E3D1B2D5468EA0.tmp' to '../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2/Content/Labs/Lab03/Lab03.umap'
+[2023.04.11-05.54.45:060][  0]LogFileHelpers: Saving map 'Lab03' took 0.026
+[2023.04.11-05.54.45:072][  0]LogFileHelpers: InternalPromptForCheckoutAndSave took 78 ms
+[2023.04.11-05.54.45:077][  0]AssetCheck: New page: Asset Save: Lab03
+[2023.04.11-05.54.45:078][  0]LogContentValidation: Display: Validating /Script/Engine.World /Game/Labs/Lab03/Lab03.Lab03
+[2023.04.11-05.55.10:117][853]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.04.11-05.55.10:186][853]LogUObjectHash: Compacting FUObjectHashTables data took   0.33ms
+[2023.04.11-05.55.10:197][853]LogSavePackage: Moving output files for package: /Game/Labs/Lab03/Lab03
+[2023.04.11-05.55.10:198][853]LogSavePackage: Moving '../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2/Saved/Lab03560F944945E7504BC2262EB67BD26C6A.tmp' to '../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2/Content/Labs/Lab03/Lab03.umap'
+[2023.04.11-05.55.10:207][853]LogFileHelpers: Saving map 'Lab03' took 0.028
+[2023.04.11-05.55.10:219][853]LogFileHelpers: InternalPromptForCheckoutAndSave took 102 ms (total: 180 ms)
+[2023.04.11-05.55.10:224][853]AssetCheck: New page: Asset Save: Lab03
+[2023.04.11-05.55.10:224][853]LogContentValidation: Display: Validating /Script/Engine.World /Game/Labs/Lab03/Lab03.Lab03
+[2023.04.11-06.03.55:397][180]Cmd: DELETE
+[2023.04.11-06.03.55:398][180]Cmd: ACTOR DELETE
+[2023.04.11-06.03.55:432][180]LogEditorActor: Deleted Actor: Lab03Actor
+[2023.04.11-06.03.55:444][180]LogUObjectHash: Compacting FUObjectHashTables data took   0.44ms
+[2023.04.11-06.03.55:446][180]LogEditorActor: Deleted 1 Actors (0.025 secs)
+[2023.04.11-06.03.57:563][285]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.04.11-06.03.57:624][285]LogUObjectHash: Compacting FUObjectHashTables data took   0.22ms
+[2023.04.11-06.03.57:632][285]LogSavePackage: Moving output files for package: /Game/Labs/Lab03/Lab03
+[2023.04.11-06.03.57:634][285]LogSavePackage: Moving '../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2/Saved/Lab03F399062F4F6F5A80887BC6A0BABCBA1C.tmp' to '../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2/Content/Labs/Lab03/Lab03.umap'
+[2023.04.11-06.03.57:644][285]LogFileHelpers: Saving map 'Lab03' took 0.029
+[2023.04.11-06.03.57:663][285]LogFileHelpers: InternalPromptForCheckoutAndSave took 99 ms (total: 280 ms)
+[2023.04.11-06.03.57:668][285]AssetCheck: New page: Asset Save: Lab03
+[2023.04.11-06.03.57:668][285]LogContentValidation: Display: Validating /Script/Engine.World /Game/Labs/Lab03/Lab03.Lab03
+[2023.04.11-06.34.46:810][943]LogDerivedDataCache: C:/Users/heroo/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:04.574 and deleted 0 files with total size 0 MiB. Scanned 2379 files in 2367 folders with total size 51 MiB.
+[2023.04.11-06.34.47:566][956]LogEditor: Attempting to add actor of class 'Lab03Actor' to level at 50.00,40.00,0.00
+[2023.04.11-06.34.47:595][956]LogActor: Warning: Lab03Actor /Game/Labs/Lab03/Lab03.Lab03:PersistentLevel.Lab03Actor_2 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2023.04.11-06.34.47:649][956]LogEditor: Attempting to add actor of class 'Lab03Actor' to level at 50.00,40.00,0.00
+[2023.04.11-06.34.47:659][956]LogActor: Warning: Lab03Actor /Game/Labs/Lab03/Lab03.Lab03:PersistentLevel.Lab03Actor_3 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2023.04.11-06.34.57:123][395]LogEditorClassViewer: Warning: Class /Script/InteractiveToolsFramework.GizmoActor has parent /Script/InteractiveToolsFramework.InternalToolFrameworkActor, but this parent is not found. The Class will not be shown in ClassViewer.
+[2023.04.11-06.34.57:124][395]LogEditorClassViewer: Warning: Class /Script/ModelingComponents.PreviewGeometryActor has parent /Script/InteractiveToolsFramework.InternalToolFrameworkActor, but this parent is not found. The Class will not be shown in ClassViewer.
+[2023.04.11-06.34.57:124][395]LogEditorClassViewer: Warning: Class /Script/ModelingComponents.PreviewMeshActor has parent /Script/InteractiveToolsFramework.InternalToolFrameworkActor, but this parent is not found. The Class will not be shown in ClassViewer.
+[2023.04.11-06.34.57:330][395]LogSlate: Took 0.002395 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2023.04.11-06.35.16:774][925]Running C:/Program Files/Epic Games/UE_5.1/Engine/Build/BatchFiles/Build.bat  -projectfiles -project="C:/Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2/Kreye_GP2.uproject" -game -rocket -progress
+[2023.04.11-06.35.17:092][925]Running UnrealBuildTool: dotnet "..\..\Engine\Binaries\DotNET\UnrealBuildTool\UnrealBuildTool.dll" -projectfiles -project="C:/Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2/Kreye_GP2.uproject" -game -rocket -progress
+[2023.04.11-06.35.17:895][925]Log file: C:\Users\heroo\AppData\Local\UnrealBuildTool\Log_GPF.txt
+[2023.04.11-06.35.18:297][925]
+[2023.04.11-06.35.18:297][925]Some Platforms were skipped due to invalid SDK setup: IOS, Android, Linux, LinuxArm64.
+[2023.04.11-06.35.18:297][925]See the log file for detailed information
+[2023.04.11-06.35.18:307][925]
+[2023.04.11-06.35.18:307][925]Discovering modules, targets and source code for project...
+[2023.04.11-06.35.25:622][925]Binding IntelliSense data...
+[2023.04.11-06.35.30:954][925]Binding IntelliSense data... 100%
+[2023.04.11-06.35.31:055][925]Writing project files...
+[2023.04.11-06.35.51:940][925]Writing project files... 33%
+[2023.04.11-06.35.52:041][925]Writing project files... 100%
+[2023.04.11-06.35.52:980][925]LogLiveCoding: Display: Starting Live Coding compile.
+[2023.04.11-06.35.53:053][925]LogSlate: Window 'Add C++ Class' being destroyed
+[2023.04.11-06.35.53:569][926]LogUObjectHash: Compacting FUObjectHashTables data took   5.25ms
+[2023.04.11-06.35.53:617][926]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Labs/Lab03/Lab03_Auto2
+[2023.04.11-06.35.53:618][926]LogSavePackage: Moving '../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2/Saved/Lab03_Auto25B44E1C54B1AA4C3DE84AE82C677362B.tmp' to '../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2/Saved/Autosaves/Game/Labs/Lab03/Lab03_Auto2.umap'
+[2023.04.11-06.35.53:715][926]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Labs/Lab03/Lab03' took 0.213
+[2023.04.11-06.35.53:715][926]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 0.213
+[2023.04.11-06.36.15:904][994]LogLiveCoding: Display:    Creating library C:\Users\heroo\OneDrive\Documents\k-game-prog-2\Kreye_GP2\Binaries\Win64\UnrealEditor-Kreye_GP2.patch_5.lib and object C:\Users\heroo\OneDrive\Documents\k-game-prog-2\Kreye_GP2\Binaries\Win64\UnrealEditor-Kreye_GP2.patch_5.exp
+[2023.04.11-06.36.16:296][995]LogClass: UPackage /Script/Kreye_GP2 Reload.
+[2023.04.11-06.36.16:298][995]LogClass: Could not find existing class RotatorComponent in package /Script/Kreye_GP2 for reload, assuming new or modified class
+[2023.04.11-06.36.16:467][995]LogUObjectHash: Compacting FUObjectHashTables data took   0.47ms
+[2023.04.11-06.36.16:527][996]Display: Reload/Re-instancing Complete: 1 package changed, 1 class new
+[2023.04.11-06.36.16:527][996]LogLiveCoding: Warning: Live coding succeeded, data type changes may cause packaging to fail if assets reference the new or updated data types
+[2023.04.11-06.42.55:528][368]LogAudioMixer: Display: Audio Buffer Underrun (starvation) detected. InstanceID=1
+[2023.04.11-06.43.11:747][416]LogAudioMixer: Display: Audio Buffer Underrun (starvation) detected. InstanceID=1
+[2023.04.11-06.43.31:842][476]LogAudioMixer: Display: Audio Buffer Underrun (starvation) detected. InstanceID=1
+[2023.04.11-06.44.13:604][601]LogAudioMixer: Display: Audio Buffer Underrun (starvation) detected. InstanceID=1
+[2023.04.11-06.45.54:258][902]LogUObjectHash: Compacting FUObjectHashTables data took   3.17ms
+[2023.04.11-06.45.54:283][902]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Labs/Lab03/Lab03_Auto3
+[2023.04.11-06.45.54:283][902]LogSavePackage: Moving '../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2/Saved/Lab03_Auto3CCAE3CF44A96389A5B5F78B00F87AC87.tmp' to '../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2/Saved/Autosaves/Game/Labs/Lab03/Lab03_Auto3.umap'
+[2023.04.11-06.45.54:291][902]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Labs/Lab03/Lab03' took 0.063
+[2023.04.11-06.45.54:291][902]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 0.063
+[2023.04.11-06.47.49:669][835]LogAudioMixer: Display: Audio Buffer Underrun (starvation) detected. InstanceID=1
+[2023.04.11-06.54.37:633][ 27]LogAudioMixer: Display: Audio Buffer Underrun (starvation) detected. InstanceID=1
+[2023.04.11-06.55.12:385][131]LogAudioMixer: Display: Audio Buffer Underrun (starvation) detected. InstanceID=1
+[2023.04.11-06.55.54:830][257]LogUObjectHash: Compacting FUObjectHashTables data took   4.86ms
+[2023.04.11-06.55.54:884][257]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Labs/Lab03/Lab03_Auto4
+[2023.04.11-06.55.54:884][257]LogSavePackage: Moving '../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2/Saved/Lab03_Auto45F4DFEB6486A1D42AF290F83154922A9.tmp' to '../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2/Saved/Autosaves/Game/Labs/Lab03/Lab03_Auto4.umap'
+[2023.04.11-06.55.54:905][257]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Labs/Lab03/Lab03' took 0.188
+[2023.04.11-06.55.54:906][257]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 0.188
+[2023.04.11-06.56.05:293][309]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.04.11-06.56.05:445][309]LogUObjectHash: Compacting FUObjectHashTables data took   0.71ms
+[2023.04.11-06.56.05:462][309]LogSavePackage: Moving output files for package: /Game/Labs/Lab03/Lab03
+[2023.04.11-06.56.05:466][309]LogSavePackage: Moving '../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2/Saved/Lab03AAEB20A6413300D6A5F3FEA07E730ADE.tmp' to '../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2/Content/Labs/Lab03/Lab03.umap'
+[2023.04.11-06.56.05:511][309]LogFileHelpers: Saving map 'Lab03' took 0.091
+[2023.04.11-06.56.05:604][309]LogFileHelpers: InternalPromptForCheckoutAndSave took 311 ms (total: 592 ms)
+[2023.04.11-06.56.05:849][309]AssetCheck: New page: Asset Save: Lab03
+[2023.04.11-06.56.05:849][309]LogContentValidation: Display: Validating /Script/Engine.World /Game/Labs/Lab03/Lab03.Lab03
+[2023.04.11-06.56.09:670][397]LogLiveCoding: Display: Starting Live Coding compile.
+[2023.04.11-06.56.57:303][842]LogLiveCoding: Display:    Creating library C:\Users\heroo\OneDrive\Documents\k-game-prog-2\Kreye_GP2\Binaries\Win64\UnrealEditor-Kreye_GP2.patch_6.lib and object C:\Users\heroo\OneDrive\Documents\k-game-prog-2\Kreye_GP2\Binaries\Win64\UnrealEditor-Kreye_GP2.patch_6.exp
+[2023.04.11-06.56.58:156][845]LogClass: UPackage /Script/Kreye_GP2 Reload.
+[2023.04.11-06.56.58:157][845]LogClass: UClass RotatorComponent Reload.
+[2023.04.11-06.56.58:165][845]LogClass: Could not find existing class RotatorComponent in package /Script/Kreye_GP2 for reload, assuming new or modified class
+[2023.04.11-06.56.58:242][845]Re-instancing RotatorComponent after reload.
+[2023.04.11-06.56.58:547][845]LogUObjectHash: Compacting FUObjectHashTables data took   1.86ms
+[2023.04.11-06.56.58:597][846]Display: Reload/Re-instancing Complete: 1 package changed, 1 class changed
+[2023.04.11-06.56.58:597][846]LogLiveCoding: Warning: Live coding succeeded, data type changes may cause packaging to fail if assets reference the new or updated data types
+[2023.04.11-06.58.23:237][122]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.04.11-06.58.23:306][122]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.04.11-06.58.23:333][122]PIE: New page: PIE session: Lab03 (Apr 10, 2023, 6:58:23 PM)
+[2023.04.11-06.58.23:602][122]LogOnline: OSS: Created online subsystem instance for: NULL
+[2023.04.11-06.58.23:603][122]LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for module [NULL]
+[2023.04.11-06.58.23:610][122]LogPlayLevel: Creating play world package: /Game/Labs/Lab03/UEDPIE_0_Lab03
+[2023.04.11-06.58.23:671][122]LogPlayLevel: PIE: StaticDuplicateObject took: (0.058256s)
+[2023.04.11-06.58.23:671][122]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Labs/Lab03/Lab03.Lab03 to /Game/Labs/Lab03/UEDPIE_0_Lab03.Lab03 (0.061559s)
+[2023.04.11-06.58.23:700][122]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.04.11-06.58.23:744][122]LogAIModule: Creating AISystem for world Lab03
+[2023.04.11-06.58.23:772][122]LogPlayLevel: PIE: World Init took: (0.100787s)
+[2023.04.11-06.58.23:798][122]LogUObjectHash: Compacting FUObjectHashTables data took   1.49ms
+[2023.04.11-06.58.23:806][122]LogAudio: Display: Creating Audio Device:                 Id: 2, Scope: Unique, Realtime: True
+[2023.04.11-06.58.23:809][122]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.04.11-06.58.23:809][122]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.04.11-06.58.23:810][122]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.04.11-06.58.23:810][122]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.04.11-06.58.23:810][122]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.04.11-06.58.23:810][122]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.04.11-06.58.23:810][122]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.04.11-06.58.23:811][122]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.04.11-06.58.23:817][122]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.04.11-06.58.23:817][122]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.04.11-06.58.23:818][122]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.04.11-06.58.23:833][122]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.04.11-06.58.23:916][122]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Realtek(R) Audio)
+[2023.04.11-06.58.23:925][122]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.04.11-06.58.23:926][122]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.04.11-06.58.23:927][122]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.04.11-06.58.23:934][122]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=2
+[2023.04.11-06.58.23:934][122]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=2
+[2023.04.11-06.58.23:938][122]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=2
+[2023.04.11-06.58.23:938][122]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=2
+[2023.04.11-06.58.23:939][122]LogInit: FAudioDevice initialized.
+[2023.04.11-06.58.23:939][122]LogAudio: Display: Audio Device (ID: 2) registered with world 'Lab03'.
+[2023.04.11-06.58.23:981][122]LogLoad: Game class is 'Kreye_GP2GameMode'
+[2023.04.11-06.58.23:997][122]LogWorld: Bringing World /Game/Labs/Lab03/UEDPIE_0_Lab03.Lab03 up for play (max tick rate 60) at 2023.04.11-00.58.23
+[2023.04.11-06.58.24:001][122]LogWorld: Bringing up level for play took: 0.018505
+[2023.04.11-06.58.24:014][122]LogOnline: OSS: Created online subsystem instance for: :Context_3
+[2023.04.11-06.58.24:203][122]PIE: Server logged in
+[2023.04.11-06.58.24:205][122]PIE: Play in editor total start time 0.922 seconds.
+[2023.04.11-06.58.24:683][123]LogShaderCompilers: Display: ================================================
+[2023.04.11-06.58.24:684][123]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2023.04.11-06.58.24:684][123]LogShaderCompilers: Display: Total job queries 105, among them cache hits 8 (7.62%)
+[2023.04.11-06.58.24:684][123]LogShaderCompilers: Display: Tracking 97 distinct input hashes that result in 79 distinct outputs (81.44%)
+[2023.04.11-06.58.24:684][123]LogShaderCompilers: Display: RAM used: 0.86 MB (0.00 GB) of 819.20 MB (0.80 GB) budget. Usage: 0.11%
+[2023.04.11-06.58.24:684][123]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2023.04.11-06.58.24:684][123]LogShaderCompilers: Display: Shaders Compiled: 4
+[2023.04.11-06.58.24:684][123]LogShaderCompilers: Display: Jobs assigned 4, completed 4 (100.00%)
+[2023.04.11-06.58.24:684][123]LogShaderCompilers: Display: Time job spent in pending queue: average 0.04 s, longest 0.05 s
+[2023.04.11-06.58.24:684][123]LogShaderCompilers: Display: Job execution time: average 2.72 s, max 2.80 s
+[2023.04.11-06.58.24:684][123]LogShaderCompilers: Display: Job life time (pending + execution): average 2.76 s, max 2.84
+[2023.04.11-06.58.24:684][123]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 2.84 s
+[2023.04.11-06.58.24:684][123]LogShaderCompilers: Display: Jobs were issued in 4 batches (only local compilation was used), average 1.00 jobs/batch
+[2023.04.11-06.58.24:684][123]LogShaderCompilers: Display: Average processing rate: 1.41 jobs/sec
+[2023.04.11-06.58.24:684][123]LogShaderCompilers: Display: Total thread time: 2.21 s
+[2023.04.11-06.58.24:684][123]LogShaderCompilers: Display: Total thread preprocess time: 0.19 s
+[2023.04.11-06.58.24:684][123]LogShaderCompilers: Display: Percentage time preprocessing: 8.46%
+[2023.04.11-06.58.24:684][123]LogShaderCompilers: Display: Effective parallelization: 0.78 (times faster than compiling all shaders on one thread). Compare with number of workers: 10
+[2023.04.11-06.58.24:684][123]LogShaderCompilers: Display: Top 4 most expensive shader types by average time:
+[2023.04.11-06.58.24:684][123]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy (compiled    1 times, average 0.66 sec, max 0.66 sec, min 0.66 sec)
+[2023.04.11-06.58.24:684][123]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy (compiled    1 times, average 0.61 sec, max 0.61 sec, min 0.61 sec)
+[2023.04.11-06.58.24:684][123]LogShaderCompilers: Display:                                                 FLumenCardVS (compiled    1 times, average 0.55 sec, max 0.55 sec, min 0.55 sec)
+[2023.04.11-06.58.24:684][123]LogShaderCompilers: Display:                                          FLumenCardPS<false> (compiled    1 times, average 0.39 sec, max 0.39 sec, min 0.39 sec)
+[2023.04.11-06.58.24:684][123]LogShaderCompilers: Display: Top 4 shader types by total compile time:
+[2023.04.11-06.58.24:684][123]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 29.77% of total time (compiled    1 times, average 0.66 sec, max 0.66 sec, min 0.66 sec)
+[2023.04.11-06.58.24:684][123]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy - 27.77% of total time (compiled    1 times, average 0.61 sec, max 0.61 sec, min 0.61 sec)
+[2023.04.11-06.58.24:684][123]LogShaderCompilers: Display:                                                 FLumenCardVS - 24.81% of total time (compiled    1 times, average 0.55 sec, max 0.55 sec, min 0.55 sec)
+[2023.04.11-06.58.24:684][123]LogShaderCompilers: Display:                                          FLumenCardPS<false> - 17.65% of total time (compiled    1 times, average 0.39 sec, max 0.39 sec, min 0.39 sec)
+[2023.04.11-06.58.24:684][123]LogShaderCompilers: Display: ================================================
+[2023.04.11-06.58.32:923][293]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.04.11-06.58.32:924][293]LogWorld: BeginTearingDown for /Game/Labs/Lab03/UEDPIE_0_Lab03
+[2023.04.11-06.58.32:931][293]LogWorld: UWorld::CleanupWorld for Lab03, bSessionEnded=true, bCleanupResources=true
+[2023.04.11-06.58.32:938][293]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.04.11-06.58.33:028][293]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.04.11-06.58.33:033][293]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.04.11-06.58.33:062][293]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.04.11-06.58.33:065][293]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=2
+[2023.04.11-06.58.33:072][293]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=2
+[2023.04.11-06.58.33:084][293]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.04.11-06.58.33:105][293]LogUObjectHash: Compacting FUObjectHashTables data took   1.58ms
+[2023.04.11-06.58.33:189][294]LogPlayLevel: Display: Destroying online subsystem :Context_3
+[2023.04.11-06.58.35:741][345]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.04.11-06.58.35:754][345]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.04.11-06.58.35:754][345]PIE: New page: PIE session: Lab03 (Apr 10, 2023, 6:58:35 PM)
+[2023.04.11-06.58.35:754][345]LogPlayLevel: Creating play world package: /Game/Labs/Lab03/UEDPIE_0_Lab03
+[2023.04.11-06.58.35:756][345]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002503s)
+[2023.04.11-06.58.35:756][345]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Labs/Lab03/Lab03.Lab03 to /Game/Labs/Lab03/UEDPIE_0_Lab03.Lab03 (0.002568s)
+[2023.04.11-06.58.35:757][345]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.04.11-06.58.35:757][345]LogAIModule: Creating AISystem for world Lab03
+[2023.04.11-06.58.35:758][345]LogPlayLevel: PIE: World Init took: (0.001098s)
+[2023.04.11-06.58.35:781][345]LogUObjectHash: Compacting FUObjectHashTables data took   1.12ms
+[2023.04.11-06.58.35:783][345]LogAudio: Display: Creating Audio Device:                 Id: 3, Scope: Unique, Realtime: True
+[2023.04.11-06.58.35:783][345]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.04.11-06.58.35:783][345]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.04.11-06.58.35:783][345]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.04.11-06.58.35:783][345]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.04.11-06.58.35:783][345]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.04.11-06.58.35:783][345]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.04.11-06.58.35:783][345]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.04.11-06.58.35:784][345]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.04.11-06.58.35:784][345]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.04.11-06.58.35:784][345]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.04.11-06.58.35:784][345]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.04.11-06.58.35:790][345]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.04.11-06.58.35:841][345]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Realtek(R) Audio)
+[2023.04.11-06.58.35:842][345]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.04.11-06.58.35:842][345]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.04.11-06.58.35:842][345]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.04.11-06.58.35:846][345]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=3
+[2023.04.11-06.58.35:846][345]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=3
+[2023.04.11-06.58.35:849][345]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=3
+[2023.04.11-06.58.35:849][345]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=3
+[2023.04.11-06.58.35:849][345]LogInit: FAudioDevice initialized.
+[2023.04.11-06.58.35:849][345]LogAudio: Display: Audio Device (ID: 3) registered with world 'Lab03'.
+[2023.04.11-06.58.35:854][345]LogLoad: Game class is 'Kreye_GP2GameMode'
+[2023.04.11-06.58.35:856][345]LogWorld: Bringing World /Game/Labs/Lab03/UEDPIE_0_Lab03.Lab03 up for play (max tick rate 60) at 2023.04.11-00.58.35
+[2023.04.11-06.58.35:856][345]LogWorld: Bringing up level for play took: 0.001587
+[2023.04.11-06.58.35:860][345]LogOnline: OSS: Created online subsystem instance for: :Context_4
+[2023.04.11-06.58.35:868][345]PIE: Server logged in
+[2023.04.11-06.58.35:869][345]PIE: Play in editor total start time 0.116 seconds.
+[2023.04.11-06.58.58:205][786]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.04.11-06.58.58:206][786]LogWorld: BeginTearingDown for /Game/Labs/Lab03/UEDPIE_0_Lab03
+[2023.04.11-06.58.58:206][786]LogWorld: UWorld::CleanupWorld for Lab03, bSessionEnded=true, bCleanupResources=true
+[2023.04.11-06.58.58:206][786]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.04.11-06.58.58:273][786]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.04.11-06.58.58:276][786]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.04.11-06.58.58:300][786]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.04.11-06.58.58:301][786]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=3
+[2023.04.11-06.58.58:307][786]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=3
+[2023.04.11-06.58.58:354][786]LogUObjectHash: Compacting FUObjectHashTables data took   1.64ms
+[2023.04.11-06.58.58:454][787]LogPlayLevel: Display: Destroying online subsystem :Context_4
+[2023.04.11-06.59.10:521][998]Cmd: TRANSACTION UNDO
+[2023.04.11-06.59.10:524][998]LogEditorTransaction: Undo Clicking on Component (tree view)
+[2023.04.11-06.59.11:349][  6]Cmd: TRANSACTION UNDO
+[2023.04.11-06.59.11:350][  6]LogEditorTransaction: Undo Clicking on Elements
+[2023.04.11-06.59.12:220][ 23]Cmd: TRANSACTION UNDO
+[2023.04.11-06.59.12:220][ 23]LogEditorTransaction: Undo Edit Rotation Speed
+[2023.04.11-06.59.13:331][ 51]Cmd: TRANSACTION UNDO
+[2023.04.11-06.59.13:332][ 51]LogEditorTransaction: Undo Clicking on Component (tree view)
+[2023.04.11-06.59.13:951][ 65]Cmd: TRANSACTION UNDO
+[2023.04.11-06.59.13:952][ 65]LogEditorTransaction: Undo Add Component
+[2023.04.11-06.59.30:660][388]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.04.11-06.59.30:765][388]LogUObjectHash: Compacting FUObjectHashTables data took   1.12ms
+[2023.04.11-06.59.30:781][388]LogSavePackage: Moving output files for package: /Game/Labs/Lab03/Lab03
+[2023.04.11-06.59.30:784][388]LogSavePackage: Moving '../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2/Saved/Lab033F48DF78483B57606E4E8EA0346FB8F2.tmp' to '../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2/Content/Labs/Lab03/Lab03.umap'
+[2023.04.11-06.59.30:799][388]LogFileHelpers: Saving map 'Lab03' took 0.053
+[2023.04.11-06.59.30:859][388]LogFileHelpers: InternalPromptForCheckoutAndSave took 199 ms (total: 791 ms)
+[2023.04.11-06.59.30:867][388]AssetCheck: New page: Asset Save: Lab03
+[2023.04.11-06.59.30:867][388]LogContentValidation: Display: Validating /Script/Engine.World /Game/Labs/Lab03/Lab03.Lab03
+[2023.04.11-06.59.34:255][454]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.04.11-06.59.34:269][454]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.04.11-06.59.34:269][454]PIE: New page: PIE session: Lab03 (Apr 10, 2023, 6:59:34 PM)
+[2023.04.11-06.59.34:269][454]LogPlayLevel: Creating play world package: /Game/Labs/Lab03/UEDPIE_0_Lab03
+[2023.04.11-06.59.34:273][454]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003731s)
+[2023.04.11-06.59.34:273][454]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Labs/Lab03/Lab03.Lab03 to /Game/Labs/Lab03/UEDPIE_0_Lab03.Lab03 (0.003832s)
+[2023.04.11-06.59.34:273][454]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.04.11-06.59.34:275][454]LogAIModule: Creating AISystem for world Lab03
+[2023.04.11-06.59.34:275][454]LogPlayLevel: PIE: World Init took: (0.002013s)
+[2023.04.11-06.59.34:294][454]LogUObjectHash: Compacting FUObjectHashTables data took   1.81ms
+[2023.04.11-06.59.34:295][454]LogAudio: Display: Creating Audio Device:                 Id: 4, Scope: Unique, Realtime: True
+[2023.04.11-06.59.34:296][454]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.04.11-06.59.34:296][454]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.04.11-06.59.34:296][454]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.04.11-06.59.34:296][454]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.04.11-06.59.34:296][454]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.04.11-06.59.34:296][454]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.04.11-06.59.34:296][454]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.04.11-06.59.34:296][454]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.04.11-06.59.34:296][454]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.04.11-06.59.34:297][454]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.04.11-06.59.34:297][454]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.04.11-06.59.34:301][454]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.04.11-06.59.34:370][454]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Realtek(R) Audio)
+[2023.04.11-06.59.34:370][454]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.04.11-06.59.34:371][454]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.04.11-06.59.34:371][454]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.04.11-06.59.34:374][454]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=4
+[2023.04.11-06.59.34:374][454]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=4
+[2023.04.11-06.59.34:378][454]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=4
+[2023.04.11-06.59.34:378][454]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=4
+[2023.04.11-06.59.34:378][454]LogInit: FAudioDevice initialized.
+[2023.04.11-06.59.34:378][454]LogAudio: Display: Audio Device (ID: 4) registered with world 'Lab03'.
+[2023.04.11-06.59.34:383][454]LogLoad: Game class is 'Kreye_GP2GameMode'
+[2023.04.11-06.59.34:384][454]LogWorld: Bringing World /Game/Labs/Lab03/UEDPIE_0_Lab03.Lab03 up for play (max tick rate 60) at 2023.04.11-00.59.34
+[2023.04.11-06.59.34:384][454]LogWorld: Bringing up level for play took: 0.001143
+[2023.04.11-06.59.34:389][454]LogOnline: OSS: Created online subsystem instance for: :Context_5
+[2023.04.11-06.59.34:396][454]PIE: Server logged in
+[2023.04.11-06.59.34:397][454]PIE: Play in editor total start time 0.129 seconds.
+[2023.04.11-06.59.55:026][873]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.04.11-06.59.55:027][873]LogWorld: BeginTearingDown for /Game/Labs/Lab03/UEDPIE_0_Lab03
+[2023.04.11-06.59.55:027][873]LogWorld: UWorld::CleanupWorld for Lab03, bSessionEnded=true, bCleanupResources=true
+[2023.04.11-06.59.55:028][873]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.04.11-06.59.55:128][873]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.04.11-06.59.55:133][873]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.04.11-06.59.55:151][873]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.04.11-06.59.55:151][873]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=4
+[2023.04.11-06.59.55:154][873]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=4
+[2023.04.11-06.59.55:163][873]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.04.11-06.59.55:168][873]LogUObjectHash: Compacting FUObjectHashTables data took   0.85ms
+[2023.04.11-06.59.55:248][874]LogPlayLevel: Display: Destroying online subsystem :Context_5
+[2023.04.11-06.59.57:167][897]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.04.11-06.59.57:502][897]LogUObjectHash: Compacting FUObjectHashTables data took   0.99ms
+[2023.04.11-06.59.57:528][897]LogSavePackage: Moving output files for package: /Game/Labs/Lab03/Lab03
+[2023.04.11-06.59.57:532][897]LogSavePackage: Moving '../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2/Saved/Lab031E3110B2453504CED464B1A3D7E3693A.tmp' to '../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2/Content/Labs/Lab03/Lab03.umap'
+[2023.04.11-06.59.57:559][897]LogFileHelpers: Saving map 'Lab03' took 0.080
+[2023.04.11-06.59.57:615][897]LogFileHelpers: InternalPromptForCheckoutAndSave took 447 ms (total: 1.23 sec)
+[2023.04.11-06.59.57:620][897]AssetCheck: New page: Asset Save: Lab03
+[2023.04.11-06.59.57:620][897]LogContentValidation: Display: Validating /Script/Engine.World /Game/Labs/Lab03/Lab03.Lab03
