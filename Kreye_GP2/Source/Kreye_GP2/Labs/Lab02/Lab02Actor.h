@@ -17,7 +17,7 @@ public:
 
 	// Mesh component property
 	UPROPERTY(VisibleAnywhere)
-	UStaticMeshComponent *StaticMesh;
+	UStaticMeshComponent *Mesh;
 
 protected:
 	// Called when the game starts or when spawned

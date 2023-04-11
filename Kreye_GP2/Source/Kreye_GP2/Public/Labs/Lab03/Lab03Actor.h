@@ -11,9 +11,13 @@ class KREYE_GP2_API ALab03Actor : public AActor
 {
 	GENERATED_BODY()
 	
-public:	
+public:
+	
 	// Sets default values for this actor's properties
 	ALab03Actor();
+	
+	UPROPERTY(VisibleAnywhere);
+	UStaticMeshComponent *Mesh;
 
 protected:
 	// Called when the game starts or when spawned

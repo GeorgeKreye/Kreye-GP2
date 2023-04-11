@@ -9,6 +9,26 @@ ALab03Actor::ALab03Actor()
  	// Set this actor to call Tick() every frame.  You can turn this off to improve performance if you don't need it.
 	PrimaryActorTick.bCanEverTick = true;
 
+	// Setup mesh component
+	Mesh = CreateDefaultSubobject<UStaticMeshComponent>(TEXT("Mesh"));
+	Mesh->SetupAttachment(RootComponent);
+
+	// Get cube mesh
+	static ConstructorHelpers::FObjectFinder<UStaticMesh>
+		CubeVisualAsset(TEXT("/Game/StarterContent/Shapes/Shape_Cube"));
+	if (CubeVisualAsset.Succeeded())
+	{
+		Mesh->SetStaticMesh(CubeVisualAsset.Object);
+		Mesh->SetRelativeLocation(FVector(0.0,0.0,0.0));
+	}
+
+	// Get mesh material
+	static ConstructorHelpers::FObjectFinder<UMaterialInterface>
+		CubeMaterial(TEXT("/Game/StarterContent/Materials/M_Metal_Steel"));
+	if (CubeMaterial.Succeeded())
+	{
+		Mesh->SetMaterial(0,CubeMaterial.Object);
+	}
 }
 
 // Called when the game starts or when spawned

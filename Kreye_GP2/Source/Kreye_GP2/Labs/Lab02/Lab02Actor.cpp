@@ -10,8 +10,8 @@ ALab02Actor::ALab02Actor()
 	PrimaryActorTick.bCanEverTick = true;
 
 	// Setup mesh component
-	StaticMesh = CreateDefaultSubobject<UStaticMeshComponent>(TEXT("Mesh"));
-	StaticMesh->SetupAttachment(RootComponent);
+	Mesh = CreateDefaultSubobject<UStaticMeshComponent>(TEXT("Mesh"));
+	Mesh->SetupAttachment(RootComponent);
 	
 	// Get sphere mesh
 	static ConstructorHelpers::FObjectFinder<UStaticMesh>
@@ -19,8 +19,8 @@ ALab02Actor::ALab02Actor()
 	
 	if (SphereVisualAsset.Succeeded())
 	{
-	  	StaticMesh->SetStaticMesh(SphereVisualAsset.Object);
-	 	StaticMesh->SetRelativeLocation(FVector(0.0,0.0,0.0));
+	  	Mesh->SetStaticMesh(SphereVisualAsset.Object);
+	 	Mesh->SetRelativeLocation(FVector(0.0,0.0,0.0));
 	}
 	
 	// Get mesh material
@@ -29,7 +29,7 @@ ALab02Actor::ALab02Actor()
 	
 	if (SphereMaterial.Succeeded())
 	{
-	 	StaticMesh->SetMaterial(0, SphereMaterial.Object);
+	 	Mesh->SetMaterial(0, SphereMaterial.Object);
 	}
 }
 
