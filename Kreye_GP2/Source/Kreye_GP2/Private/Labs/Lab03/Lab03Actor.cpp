@@ -11,7 +11,7 @@ ALab03Actor::ALab03Actor()
 
 	// Setup mesh component
 	Mesh = CreateDefaultSubobject<UStaticMeshComponent>(TEXT("Mesh"));
-	Mesh->SetupAttachment(RootComponent);
+	RootComponent = Mesh;
 
 	// Get cube mesh
 	static ConstructorHelpers::FObjectFinder<UStaticMesh>

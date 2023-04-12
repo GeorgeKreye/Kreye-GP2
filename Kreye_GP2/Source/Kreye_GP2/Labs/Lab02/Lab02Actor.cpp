@@ -11,7 +11,7 @@ ALab02Actor::ALab02Actor()
 
 	// Setup mesh component
 	Mesh = CreateDefaultSubobject<UStaticMeshComponent>(TEXT("Mesh"));
-	Mesh->SetupAttachment(RootComponent);
+	RootComponent = Mesh;
 	
 	// Get sphere mesh
 	static ConstructorHelpers::FObjectFinder<UStaticMesh>

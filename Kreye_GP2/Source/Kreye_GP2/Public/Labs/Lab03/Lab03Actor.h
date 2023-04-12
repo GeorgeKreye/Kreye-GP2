@@ -16,7 +16,7 @@ public:
 	// Sets default values for this actor's properties
 	ALab03Actor();
 	
-	UPROPERTY(VisibleAnywhere);
+	UPROPERTY(EditAnywhere);
 	UStaticMeshComponent *Mesh;
 
 protected:
