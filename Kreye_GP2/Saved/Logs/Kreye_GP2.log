@@ -1298,3 +1298,42 @@ LogConfig: Set CVar [[r.Shadow.DetectVertexShaderLayerAtRuntime:1]]
 [2023.04.12-17.58.22:041][181]LogViewport: Scene viewport resized to 1147x533, mode Windowed.
 [2023.04.12-17.58.23:203][181]LogAudioMixer: Warning: Audio Thread Command from SetListenerTransforms()() took 2.358500 milleseconds to execute
 [2023.04.12-17.58.23:244][181]LogViewport: Scene viewport resized to 1151x557, mode Windowed.
+[2023.04.12-18.13.46:272][  8]LogEditorClassViewer: Warning: Class /Script/InteractiveToolsFramework.GizmoActor has parent /Script/InteractiveToolsFramework.InternalToolFrameworkActor, but this parent is not found. The Class will not be shown in ClassViewer.
+[2023.04.12-18.13.46:272][  8]LogEditorClassViewer: Warning: Class /Script/ModelingComponents.PreviewGeometryActor has parent /Script/InteractiveToolsFramework.InternalToolFrameworkActor, but this parent is not found. The Class will not be shown in ClassViewer.
+[2023.04.12-18.13.46:272][  8]LogEditorClassViewer: Warning: Class /Script/ModelingComponents.PreviewMeshActor has parent /Script/InteractiveToolsFramework.InternalToolFrameworkActor, but this parent is not found. The Class will not be shown in ClassViewer.
+[2023.04.12-18.13.46:375][  8]LogSlate: Took 0.001577 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2023.04.12-18.14.20:856][278]Running C:/Program Files/Epic Games/UE_5.1/Engine/Build/BatchFiles/Build.bat  -projectfiles -project="C:/Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2/Kreye_GP2.uproject" -game -rocket -progress
+[2023.04.12-18.14.21:172][278]Running UnrealBuildTool: dotnet "..\..\Engine\Binaries\DotNET\UnrealBuildTool\UnrealBuildTool.dll" -projectfiles -project="C:/Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2/Kreye_GP2.uproject" -game -rocket -progress
+[2023.04.12-18.14.21:974][278]Log file: C:\Users\heroo\AppData\Local\UnrealBuildTool\Log_GPF.txt
+[2023.04.12-18.14.22:577][278]
+[2023.04.12-18.14.22:577][278]Some Platforms were skipped due to invalid SDK setup: IOS, Android, Linux, LinuxArm64.
+[2023.04.12-18.14.22:577][278]See the log file for detailed information
+[2023.04.12-18.14.22:577][278]
+[2023.04.12-18.14.22:577][278]Discovering modules, targets and source code for project...
+[2023.04.12-18.14.31:206][278]Binding IntelliSense data...
+[2023.04.12-18.14.35:430][278]Binding IntelliSense data... 100%
+[2023.04.12-18.14.35:530][278]Writing project files...
+[2023.04.12-18.14.49:280][278]Writing project files... 33%
+[2023.04.12-18.14.49:281][278]Writing project files... 100%
+[2023.04.12-18.14.50:250][278]LogLiveCoding: Display: Starting Live Coding compile.
+[2023.04.12-18.14.50:617][278]LogSlate: Window 'Add C++ Class' being destroyed
+[2023.04.12-18.15.06:080][325]LogAudioMixer: Display: Audio Buffer Underrun (starvation) detected. InstanceID=1
+[2023.04.12-18.15.20:852][370]LogLiveCoding: Display:    Creating library C:\Users\heroo\OneDrive\Documents\k-game-prog-2\Kreye_GP2\Binaries\Win64\UnrealEditor-Kreye_GP2.patch_1.lib and object C:\Users\heroo\OneDrive\Documents\k-game-prog-2\Kreye_GP2\Binaries\Win64\UnrealEditor-Kreye_GP2.patch_1.exp
+[2023.04.12-18.15.21:392][371]LogClass: UPackage /Script/Kreye_GP2 Reload.
+[2023.04.12-18.15.21:394][371]LogClass: Could not find existing class CustomSceneComponent in package /Script/Kreye_GP2 for reload, assuming new or modified class
+[2023.04.12-18.15.21:849][371]LogUObjectHash: Compacting FUObjectHashTables data took   2.59ms
+[2023.04.12-18.15.21:949][372]Display: Reload/Re-instancing Complete: 1 package changed, 1 class new, 4 classes unchanged
+[2023.04.12-18.15.21:949][372]LogLiveCoding: Warning: Live coding succeeded, data type changes may cause packaging to fail if assets reference the new or updated data types
+[2023.04.12-18.15.59:722][208]LogShaderCompilers: Display: ================================================
+[2023.04.12-18.15.59:723][208]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2023.04.12-18.15.59:723][208]LogShaderCompilers: Display: Total job queries 109, among them cache hits 10 (9.17%)
+[2023.04.12-18.15.59:723][208]LogShaderCompilers: Display: Tracking 99 distinct input hashes that result in 83 distinct outputs (83.84%)
+[2023.04.12-18.15.59:723][208]LogShaderCompilers: Display: RAM used: 0.88 MB (0.00 GB) of 819.20 MB (0.80 GB) budget. Usage: 0.11%
+[2023.04.12-18.15.59:723][208]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2023.04.12-18.15.59:723][208]LogShaderCompilers: Display: Shaders Compiled: 0
+[2023.04.12-18.15.59:723][208]LogShaderCompilers: Display: Jobs assigned 0, completed 0 (0.00%)
+[2023.04.12-18.15.59:723][208]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 0.00 s
+[2023.04.12-18.15.59:723][208]LogShaderCompilers: Display: ================================================
+[2023.04.12-18.16.02:290][408]LogSlate: Took 0.000847 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2023.04.12-18.16.07:708][875]LogSlate: Window 'Project Settings' being destroyed
+[2023.04.12-18.16.07:721][875]LogSlate: Window 'Project Settings' being destroyed
