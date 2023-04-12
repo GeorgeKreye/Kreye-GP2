@@ -1370,3 +1370,13 @@ LogConfig: Set CVar [[r.Shadow.DetectVertexShaderLayerAtRuntime:1]]
 [2023.04.12-19.01.33:481][963]LogShaderCompilers: Display: Jobs assigned 0, completed 0 (0.00%)
 [2023.04.12-19.01.33:481][963]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 0.00 s
 [2023.04.12-19.01.33:481][963]LogShaderCompilers: Display: ================================================
+[2023.04.12-19.20.34:815][779]LogLiveCoding: Display: Starting Live Coding compile.
+[2023.04.12-19.21.14:633][138]LogLiveCoding: Display:    Creating library C:\Users\heroo\OneDrive\Documents\k-game-prog-2\Kreye_GP2\Binaries\Win64\UnrealEditor-Kreye_GP2.patch_3.lib and object C:\Users\heroo\OneDrive\Documents\k-game-prog-2\Kreye_GP2\Binaries\Win64\UnrealEditor-Kreye_GP2.patch_3.exp
+[2023.04.12-19.21.15:302][166]LogClass: UPackage /Script/Kreye_GP2 Reload.
+[2023.04.12-19.21.15:303][166]LogClass: UClass CustomSceneComponent Reload.
+[2023.04.12-19.21.15:314][166]LogClass: Could not find existing class CustomSceneComponent in package /Script/Kreye_GP2 for reload, assuming new or modified class
+[2023.04.12-19.21.15:371][166]Re-instancing CustomSceneComponent after reload.
+[2023.04.12-19.21.15:615][166]LogUObjectHash: Compacting FUObjectHashTables data took   2.01ms
+[2023.04.12-19.21.15:674][167]Display: Reload/Re-instancing Complete: 1 package changed, 1 class changed
+[2023.04.12-19.21.15:674][167]LogLiveCoding: Warning: Live coding succeeded, data type changes may cause packaging to fail if assets reference the new or updated data types
+[2023.04.12-19.23.04:223][650]Cmd: SELECT NONE

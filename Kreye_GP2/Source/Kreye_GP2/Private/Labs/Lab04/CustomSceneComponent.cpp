@@ -42,17 +42,17 @@ void UCustomSceneComponent::TickComponent(float DeltaTime, ELevelTick TickType, 
 	// ...
 }
 
-void UCustomSceneComponent::TranslateTransform(const FVector LocationChange)
+void UCustomSceneComponent::TranslateTransform(const FVector& Translation)
 {
-	LocalTransform.SetLocation(LocalTransform.GetLocation() + LocationChange);
+	LocalTransform.SetLocation(LocalTransform.GetLocation() + Translation);
 }
 
-void UCustomSceneComponent::RotateTransform(const FQuat RotationChange)
+void UCustomSceneComponent::RotateTransform(const FQuat& RotationChange)
 {
 	LocalTransform.SetRotation(LocalTransform.GetRotation() + RotationChange);
 }
 
-void UCustomSceneComponent::ScaleTransform(const FVector ScaleChange)
+void UCustomSceneComponent::ScaleTransform(const FVector& ScaleChange)
 {
 	LocalTransform.SetScale3D(LocalTransform.GetScale3D() + ScaleChange);
 }

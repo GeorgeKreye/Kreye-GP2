@@ -22,7 +22,7 @@ public:
 	UPROPERTY(EditAnywhere);
 	TArray<AActor *> Children;
 
-	UPROPERTY(EditAnywhere);
+	UPROPERTY(EditAnywhere,BlueprintReadWrite);
 	FTransform LocalTransform;
 
 protected:
@@ -33,9 +33,15 @@ public:
 	// Called every frame
 	virtual void TickComponent(float DeltaTime, ELevelTick TickType, FActorComponentTickFunction* ThisTickFunction) override;
 
-	void TranslateTransform(const FVector LocationChange);
-	void RotateTransform(const FQuat RotationChange);
-	void ScaleTransform(const FVector ScaleChange);
+	// UFUNCTION(BlueprintCallable, Category = "Transforms");
+	// TODO: Figure out why this UFUNCTION declaration is not working
+	void TranslateTransform(const FVector& Translation);
 
-		
+	// UFUNCTION(BlueprintCallable, Category = "Transforms");
+	// TODO: Figure out why this UFUNCTION declaration is not working
+	void RotateTransform(const FQuat& RotationChange);
+
+	// UFUNCTION(BlueprintCallable, Category = "Transforms");
+	// TODO: Figure out why this UFUNCTION declaration is not working
+	void ScaleTransform(const FVector& ScaleChange);
 };
