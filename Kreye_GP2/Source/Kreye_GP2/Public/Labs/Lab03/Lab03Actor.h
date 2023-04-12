@@ -4,19 +4,19 @@
 
 #include "CoreMinimal.h"
 #include "GameFramework/Actor.h"
-#include "Lab02Actor.generated.h"
+#include "Lab03Actor.generated.h"
 
 UCLASS()
-class KREYE_GP2_API ALab02Actor : public AActor
+class KREYE_GP2_API ALab03Actor : public AActor
 {
 	GENERATED_BODY()
 	
-public:	
+public:
+	
 	// Sets default values for this actor's properties
-	ALab02Actor();
-
-	// Mesh component property
-	UPROPERTY(VisibleAnywhere)
+	ALab03Actor();
+	
+	UPROPERTY(EditAnywhere);
 	UStaticMeshComponent *Mesh;
 
 protected:
