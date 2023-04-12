@@ -1337,3 +1337,36 @@ LogConfig: Set CVar [[r.Shadow.DetectVertexShaderLayerAtRuntime:1]]
 [2023.04.12-18.16.02:290][408]LogSlate: Took 0.000847 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
 [2023.04.12-18.16.07:708][875]LogSlate: Window 'Project Settings' being destroyed
 [2023.04.12-18.16.07:721][875]LogSlate: Window 'Project Settings' being destroyed
+[2023.04.12-18.23.33:506][107]LogShaderCompilers: Display: ================================================
+[2023.04.12-18.23.33:507][107]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2023.04.12-18.23.33:507][107]LogShaderCompilers: Display: Total job queries 124, among them cache hits 10 (8.06%)
+[2023.04.12-18.23.33:508][107]LogShaderCompilers: Display: Tracking 114 distinct input hashes that result in 92 distinct outputs (80.70%)
+[2023.04.12-18.23.33:508][107]LogShaderCompilers: Display: RAM used: 0.97 MB (0.00 GB) of 819.20 MB (0.80 GB) budget. Usage: 0.12%
+[2023.04.12-18.23.33:508][107]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2023.04.12-18.23.33:508][107]LogShaderCompilers: Display: Shaders Compiled: 0
+[2023.04.12-18.23.33:508][107]LogShaderCompilers: Display: Jobs assigned 0, completed 0 (0.00%)
+[2023.04.12-18.23.33:508][107]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 0.00 s
+[2023.04.12-18.23.33:508][107]LogShaderCompilers: Display: ================================================
+[2023.04.12-18.35.42:146][907]LogLiveCoding: Display: Starting Live Coding compile.
+[2023.04.12-18.36.20:625][234]Display: Reload/Re-instancing Complete: No object changes detected
+[2023.04.12-18.36.20:626][234]LogLiveCoding: Error: Live coding failed, please see Live console for more information
+[2023.04.12-18.46.29:874][ 56]LogDerivedDataCache: C:/Users/heroo/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:04.234 and deleted 0 files with total size 0 MiB. Scanned 2384 files in 2372 folders with total size 51 MiB.
+[2023.04.12-18.59.55:204][531]LogLiveCoding: Display: Starting Live Coding compile.
+[2023.04.12-19.00.34:601][788]LogLiveCoding: Display:    Creating library C:\Users\heroo\OneDrive\Documents\k-game-prog-2\Kreye_GP2\Binaries\Win64\UnrealEditor-Kreye_GP2.patch_2.lib and object C:\Users\heroo\OneDrive\Documents\k-game-prog-2\Kreye_GP2\Binaries\Win64\UnrealEditor-Kreye_GP2.patch_2.exp
+[2023.04.12-19.00.35:392][790]LogClass: UPackage /Script/Kreye_GP2 Reload.
+[2023.04.12-19.00.35:394][790]LogClass: UClass CustomSceneComponent Reload.
+[2023.04.12-19.00.35:405][790]LogClass: Could not find existing class CustomSceneComponent in package /Script/Kreye_GP2 for reload, assuming new or modified class
+[2023.04.12-19.00.35:482][790]Re-instancing CustomSceneComponent after reload.
+[2023.04.12-19.00.35:842][790]LogUObjectHash: Compacting FUObjectHashTables data took   1.50ms
+[2023.04.12-19.00.35:915][791]Display: Reload/Re-instancing Complete: 1 package changed, 1 class changed
+[2023.04.12-19.00.35:916][791]LogLiveCoding: Warning: Live coding succeeded, data type changes may cause packaging to fail if assets reference the new or updated data types
+[2023.04.12-19.01.33:481][963]LogShaderCompilers: Display: ================================================
+[2023.04.12-19.01.33:481][963]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2023.04.12-19.01.33:481][963]LogShaderCompilers: Display: Total job queries 128, among them cache hits 10 (7.81%)
+[2023.04.12-19.01.33:481][963]LogShaderCompilers: Display: Tracking 118 distinct input hashes that result in 96 distinct outputs (81.36%)
+[2023.04.12-19.01.33:481][963]LogShaderCompilers: Display: RAM used: 0.99 MB (0.00 GB) of 819.20 MB (0.80 GB) budget. Usage: 0.12%
+[2023.04.12-19.01.33:481][963]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2023.04.12-19.01.33:481][963]LogShaderCompilers: Display: Shaders Compiled: 0
+[2023.04.12-19.01.33:481][963]LogShaderCompilers: Display: Jobs assigned 0, completed 0 (0.00%)
+[2023.04.12-19.01.33:481][963]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 0.00 s
+[2023.04.12-19.01.33:481][963]LogShaderCompilers: Display: ================================================

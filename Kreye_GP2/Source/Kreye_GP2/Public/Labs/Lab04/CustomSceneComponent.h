@@ -16,6 +16,15 @@ public:
 	// Sets default values for this component's properties
 	UCustomSceneComponent();
 
+	UPROPERTY(EditAnywhere);
+	AActor* Parent;
+
+	UPROPERTY(EditAnywhere);
+	TArray<AActor *> Children;
+
+	UPROPERTY(EditAnywhere);
+	FTransform LocalTransform;
+
 protected:
 	// Called when the game starts
 	virtual void BeginPlay() override;
@@ -23,6 +32,10 @@ protected:
 public:	
 	// Called every frame
 	virtual void TickComponent(float DeltaTime, ELevelTick TickType, FActorComponentTickFunction* ThisTickFunction) override;
+
+	void TranslateTransform(const FVector LocationChange);
+	void RotateTransform(const FQuat RotationChange);
+	void ScaleTransform(const FVector ScaleChange);
 
 		
 };
