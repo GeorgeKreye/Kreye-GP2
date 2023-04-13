@@ -3,6 +3,7 @@
 
 #include "Labs/Lab04/CustomSceneComponent.h"
 
+#include "AnimEncoding.h"
 #include "BaseGizmos/TransformSources.h"
 #include "EnvironmentQuery/EnvQueryTypes.h"
 
@@ -39,7 +40,11 @@ void UCustomSceneComponent::TickComponent(float DeltaTime, ELevelTick TickType, 
 {
 	Super::TickComponent(DeltaTime, TickType, ThisTickFunction);
 
-	// ...
+	// Update child transforms
+	for (int i = 0; i < Children.Num(); i++)
+	{
+		
+	}
 }
 
 void UCustomSceneComponent::TranslateTransform(const FVector& Translation)
