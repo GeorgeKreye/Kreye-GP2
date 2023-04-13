@@ -15,6 +15,12 @@ public:
 	// Sets default values for this actor's properties
 	ASpawnPlatform();
 
+	UPROPERTY(VisibleAnywhere);
+	/**
+	 * @brief The mesh used by this object
+	 */
+	UStaticMeshComponent* StaticMesh;
+	
 protected:
 	// Called when the game starts or when spawned
 	virtual void BeginPlay() override;
