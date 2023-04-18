@@ -2420,3 +2420,32 @@ LogConfig: Set CVar [[r.Shadow.DetectVertexShaderLayerAtRuntime:1]]
 [2023.04.18-20.54.01:409][476]LogUObjectHash: Compacting FUObjectHashTables data took   1.14ms
 [2023.04.18-20.54.01:463][478]Display: Reload/Re-instancing Complete: 1 package changed, 1 class changed, 1 class unchanged
 [2023.04.18-20.54.01:464][478]LogLiveCoding: Warning: Live coding succeeded, data type changes may cause packaging to fail if assets reference the new or updated data types
+[2023.04.18-21.01.39:004][926]Cmd: BRUSH ADD SELECTNEWBRUSH
+[2023.04.18-21.01.42:384][294]LogEditorViewport: Clicking Background
+[2023.04.18-21.02.26:165][ 86]LogEditorViewport: Clicking Background
+[2023.04.18-21.02.26:791][157]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.04.18-21.02.26:844][157]LogUObjectHash: Compacting FUObjectHashTables data took   0.47ms
+[2023.04.18-21.02.26:866][157]LogSavePackage: Moving output files for package: /Game/Levels/Level01
+[2023.04.18-21.02.26:868][157]LogSavePackage: Moving '../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Perspective/Saved/Level015D8F04394533039F6A96EEB2E2BF2BC4.tmp' to '../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Perspective/Content/Levels/Level01.umap'
+[2023.04.18-21.02.26:881][157]LogFileHelpers: Saving map 'Level01' took 0.049
+[2023.04.18-21.02.26:894][157]LogFileHelpers: InternalPromptForCheckoutAndSave took 103 ms (total: 2.05 sec)
+[2023.04.18-21.02.26:899][157]AssetCheck: New page: Asset Save: Level01
+[2023.04.18-21.02.26:899][157]LogContentValidation: Display: Validating /Script/Engine.World /Game/Levels/Level01.Level01
+[2023.04.18-21.06.27:689][324]LogViewport: Scene viewport resized to 753x472, mode Windowed.
+[2023.04.18-21.06.29:190][422]LogLiveCoding: Display: Starting Live Coding compile.
+[2023.04.18-21.06.46:231][667]LogLiveCoding: Display:    Creating library C:\Users\heroo\OneDrive\Documents\k-game-prog-2\Perspective\Binaries\Win64\UnrealEditor-Perspective.patch_4.lib and object C:\Users\heroo\OneDrive\Documents\k-game-prog-2\Perspective\Binaries\Win64\UnrealEditor-Perspective.patch_4.exp
+[2023.04.18-21.06.46:474][668]LogClass: UPackage /Script/Perspective Reload.
+[2023.04.18-21.06.46:474][668]LogClass: UClass PlayerPawn Reload.
+[2023.04.18-21.06.46:476][668]LogClass: Could not find existing class PlayerPawn in package /Script/Perspective for reload, assuming new or modified class
+[2023.04.18-21.06.46:482][668]Re-instancing PlayerPawn after reload.
+[2023.04.18-21.06.46:635][668]LogUObjectHash: Compacting FUObjectHashTables data took   0.74ms
+[2023.04.18-21.06.46:714][669]Display: Reload/Re-instancing Complete: 1 package changed, 1 class changed
+[2023.04.18-21.06.46:714][669]LogLiveCoding: Warning: Live coding succeeded, data type changes may cause packaging to fail if assets reference the new or updated data types
+[2023.04.18-21.07.24:595][ 46]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.04.18-21.07.24:651][ 46]LogUObjectHash: Compacting FUObjectHashTables data took   0.20ms
+[2023.04.18-21.07.24:674][ 46]LogSavePackage: Moving output files for package: /Game/Levels/Level01
+[2023.04.18-21.07.24:676][ 46]LogSavePackage: Moving '../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Perspective/Saved/Level015D97A9EF43FC79926FF105BC8F4DAA2A.tmp' to '../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Perspective/Content/Levels/Level01.umap'
+[2023.04.18-21.07.24:688][ 46]LogFileHelpers: Saving map 'Level01' took 0.046
+[2023.04.18-21.07.24:716][ 46]LogFileHelpers: InternalPromptForCheckoutAndSave took 121 ms (total: 2.17 sec)
+[2023.04.18-21.07.24:725][ 46]AssetCheck: New page: Asset Save: Level01
+[2023.04.18-21.07.24:725][ 46]LogContentValidation: Display: Validating /Script/Engine.World /Game/Levels/Level01.Level01

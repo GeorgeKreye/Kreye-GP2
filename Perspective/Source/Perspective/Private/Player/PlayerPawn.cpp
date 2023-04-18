@@ -1,7 +1,7 @@
 // Fill out your copyright notice in the Description page of Project Settings.
 
 
-#include "PlayerPawn.h"
+#include "Player/PlayerPawn.h"
 
 // Sets default values
 APlayerPawn::APlayerPawn()

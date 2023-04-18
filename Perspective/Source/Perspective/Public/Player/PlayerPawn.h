@@ -16,6 +16,9 @@ public:
 	APlayerPawn();
 
 	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = Input);
+	/**
+	 * @brief The input action used for controlling the player's horizontal movement
+	 */
 	TObjectPtr<class UInputAction> PlayerMovementAction;
 
 protected:
