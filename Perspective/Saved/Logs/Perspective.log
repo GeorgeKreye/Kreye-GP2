@@ -2545,3 +2545,8 @@ C:\Users\heroo\OneDrive\Documents\k-game-prog-2\Perspective\Binaries\Win64\Unrea
 [2023.04.18-21.47.17:120][283]LogUObjectHash: Compacting FUObjectHashTables data took   0.24ms
 [2023.04.18-21.47.17:183][285]Display: Reload/Re-instancing Complete: No object changes detected
 [2023.04.18-21.47.17:184][285]LogLiveCoding: Display: Live coding succeeded
+[2023.04.18-21.51.20:968][138]LogLiveCoding: Display: Starting Live Coding compile.
+[2023.04.18-21.51.41:244][266]LogLiveCoding: Display:    Creating library C:\Users\heroo\OneDrive\Documents\k-game-prog-2\Perspective\Binaries\Win64\UnrealEditor-Perspective.patch_8.lib and object C:\Users\heroo\OneDrive\Documents\k-game-prog-2\Perspective\Binaries\Win64\UnrealEditor-Perspective.patch_8.exp
+[2023.04.18-21.51.41:444][267]LogUObjectHash: Compacting FUObjectHashTables data took   0.31ms
+[2023.04.18-21.51.41:638][268]Display: Reload/Re-instancing Complete: No object changes detected
+[2023.04.18-21.51.41:638][268]LogLiveCoding: Display: Live coding succeeded

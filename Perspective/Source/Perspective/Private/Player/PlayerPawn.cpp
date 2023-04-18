@@ -5,6 +5,7 @@
 #include "EnhancedInputComponent.h"
 #include "InputMappingContext.h"
 #include "Perspective/Perspective.h"
+#include "EnhancedInputSubsystems.h"
 
 // Sets default values
 APlayerPawn::APlayerPawn()
@@ -45,7 +46,17 @@ void APlayerPawn::BeginPlay()
 	// Assign and cast controller to a player controller
 	if (TObjectPtr<APlayerController> PlayerController = Cast<APlayerController>(GetController()))
 	{
-		
+		if (TObjectPtr<ULocalPlayer> LocalPlayer = Cast<ULocalPlayer>(PlayerController->GetLocalPlayer()))
+		{
+			if (TObjectPtr<UEnhancedInputLocalPlayerSubsystem> InputSystem =
+				LocalPlayer->GetSubsystem<UEnhancedInputLocalPlayerSubsystem>())
+			{
+				if (!PlayerInputMapping.IsNull())
+				{
+					InputSystem->AddMappingContext(PlayerInputMapping.LoadSynchronous(),0);
+				}
+			}
+		}
 	}
 }
 
