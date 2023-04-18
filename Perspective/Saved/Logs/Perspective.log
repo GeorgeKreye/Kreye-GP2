@@ -2449,3 +2449,99 @@ LogConfig: Set CVar [[r.Shadow.DetectVertexShaderLayerAtRuntime:1]]
 [2023.04.18-21.07.24:716][ 46]LogFileHelpers: InternalPromptForCheckoutAndSave took 121 ms (total: 2.17 sec)
 [2023.04.18-21.07.24:725][ 46]AssetCheck: New page: Asset Save: Level01
 [2023.04.18-21.07.24:725][ 46]LogContentValidation: Display: Validating /Script/Engine.World /Game/Levels/Level01.Level01
+[2023.04.18-21.08.21:505][737]LogDerivedDataCache: C:/Users/heroo/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:09.559 and deleted 0 files with total size 0 MiB. Scanned 4995 files in 4968 folders with total size 335 MiB.
+[2023.04.18-21.14.16:436][193]LogAudioMixer: Warning: Audio Thread Command from SetListenerTransforms()() took 1.229700 milleseconds to execute
+[2023.04.18-21.18.24:955][458]LogViewport: Scene viewport resized to 760x472, mode Windowed.
+[2023.04.18-21.18.25:006][458]LogViewport: Scene viewport resized to 782x472, mode Windowed.
+[2023.04.18-21.18.25:066][458]LogViewport: Scene viewport resized to 804x472, mode Windowed.
+[2023.04.18-21.18.25:158][458]LogViewport: Scene viewport resized to 810x472, mode Windowed.
+[2023.04.18-21.18.25:193][458]LogViewport: Scene viewport resized to 811x472, mode Windowed.
+[2023.04.18-21.19.54:100][754]LogContentBrowser: Attempting asset rename: PlayerMove -> PLayerMovementAtion
+[2023.04.18-21.19.54:346][754]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.04.18-21.19.54:415][754]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Inputs/PlayerMapping" FILE="../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Perspective/Content/Inputs/PlayerMapping.uasset" SILENT=true
+[2023.04.18-21.19.54:427][754]LogSavePackage: Moving output files for package: /Game/Inputs/PlayerMapping
+[2023.04.18-21.19.54:429][754]LogSavePackage: Moving '../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Perspective/Saved/PlayerMapping74FFA42B4B9A7304F87CD1920BA8C63C.tmp' to '../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Perspective/Content/Inputs/PlayerMapping.uasset'
+[2023.04.18-21.19.54:432][754]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Inputs/PLayerMovementAtion" FILE="../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Perspective/Content/Inputs/PLayerMovementAtion.uasset" SILENT=true
+[2023.04.18-21.19.54:434][754]LogSavePackage: Moving output files for package: /Game/Inputs/PLayerMovementAtion
+[2023.04.18-21.19.54:435][754]LogSavePackage: Moving '../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Perspective/Saved/PLayerMovementAtionB4F3B2774E40C743D1D0848F364FBEC0.tmp' to '../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Perspective/Content/Inputs/PLayerMovementAtion.uasset'
+[2023.04.18-21.19.54:466][754]LogFileHelpers: InternalPromptForCheckoutAndSave took 120 ms (total: 2.29 sec)
+[2023.04.18-21.19.54:532][754]LogUObjectHash: Compacting FUObjectHashTables data took   2.58ms
+[2023.04.18-21.19.54:550][754]LogUObjectHash: Compacting FUObjectHashTables data took   0.59ms
+[2023.04.18-21.19.54:559][754]LogUObjectHash: Compacting FUObjectHashTables data took   0.26ms
+[2023.04.18-21.19.54:568][754]AssetCheck: New page: Asset Save: multiple assets
+[2023.04.18-21.19.54:569][754]LogContentValidation: Display: Validating /Script/EnhancedInput.InputAction /Game/Inputs/PLayerMovementAtion.PLayerMovementAtion
+[2023.04.18-21.19.54:569][754]LogContentValidation: Display: Validating /Script/EnhancedInput.InputMappingContext /Game/Inputs/PlayerMapping.PlayerMapping
+[2023.04.18-21.20.03:599][725]LogContentBrowser: Attempting asset rename: PLayerMovementAtion -> PlayerMovementAction
+[2023.04.18-21.20.03:619][725]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.04.18-21.20.03:681][725]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Inputs/PlayerMapping" FILE="../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Perspective/Content/Inputs/PlayerMapping.uasset" SILENT=true
+[2023.04.18-21.20.03:683][725]LogSavePackage: Moving output files for package: /Game/Inputs/PlayerMapping
+[2023.04.18-21.20.03:685][725]LogSavePackage: Moving '../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Perspective/Saved/PlayerMappingB07B03D34A7A45E189B16A984A0F7F6C.tmp' to '../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Perspective/Content/Inputs/PlayerMapping.uasset'
+[2023.04.18-21.20.03:686][725]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Inputs/PlayerMovementAction" FILE="../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Perspective/Content/Inputs/PlayerMovementAction.uasset" SILENT=true
+[2023.04.18-21.20.03:689][725]LogSavePackage: Moving output files for package: /Game/Inputs/PlayerMovementAction
+[2023.04.18-21.20.03:689][725]LogSavePackage: Moving '../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Perspective/Saved/PlayerMovementAction97A465FB4FF8220BC8E90DA30A90C46B.tmp' to '../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Perspective/Content/Inputs/PlayerMovementAction.uasset'
+[2023.04.18-21.20.03:705][725]LogFileHelpers: InternalPromptForCheckoutAndSave took 86 ms (total: 2.38 sec)
+[2023.04.18-21.20.03:722][725]LogUObjectHash: Compacting FUObjectHashTables data took   1.63ms
+[2023.04.18-21.20.03:731][725]LogUObjectHash: Compacting FUObjectHashTables data took   0.47ms
+[2023.04.18-21.20.03:739][725]LogUObjectHash: Compacting FUObjectHashTables data took   0.20ms
+[2023.04.18-21.20.03:743][725]AssetCheck: New page: Asset Save: multiple assets
+[2023.04.18-21.20.03:743][725]LogContentValidation: Display: Validating /Script/EnhancedInput.InputAction /Game/Inputs/PlayerMovementAction.PlayerMovementAction
+[2023.04.18-21.20.03:743][725]LogContentValidation: Display: Validating /Script/EnhancedInput.InputMappingContext /Game/Inputs/PlayerMapping.PlayerMapping
+[2023.04.18-21.26.25:700][588]LogContentBrowser: Attempting asset rename: PlayerMapping -> PlayerMapping
+[2023.04.18-21.26.30:981][149]LogContentBrowser: Attempting asset rename: PlayerMapping -> PLayerInputMapping
+[2023.04.18-21.26.31:009][149]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.04.18-21.26.31:058][149]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Inputs/PLayerInputMapping" FILE="../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Perspective/Content/Inputs/PLayerInputMapping.uasset" SILENT=true
+[2023.04.18-21.26.31:062][149]LogSavePackage: Moving output files for package: /Game/Inputs/PLayerInputMapping
+[2023.04.18-21.26.31:062][149]LogSavePackage: Moving '../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Perspective/Saved/PLayerInputMappingB008B0334B0E7074DDDC348F4093A551.tmp' to '../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Perspective/Content/Inputs/PLayerInputMapping.uasset'
+[2023.04.18-21.26.31:083][149]LogFileHelpers: InternalPromptForCheckoutAndSave took 73 ms (total: 2.45 sec)
+[2023.04.18-21.26.31:098][149]LogUObjectHash: Compacting FUObjectHashTables data took   0.63ms
+[2023.04.18-21.26.31:106][149]LogUObjectHash: Compacting FUObjectHashTables data took   0.61ms
+[2023.04.18-21.26.31:115][149]LogUObjectHash: Compacting FUObjectHashTables data took   0.19ms
+[2023.04.18-21.26.31:120][149]AssetCheck: New page: Asset Save: PLayerInputMapping
+[2023.04.18-21.26.31:120][149]LogContentValidation: Display: Validating /Script/EnhancedInput.InputMappingContext /Game/Inputs/PLayerInputMapping.PLayerInputMapping
+[2023.04.18-21.26.39:265][  9]LogContentBrowser: Attempting asset rename: PLayerInputMapping -> PlayerInputMapping
+[2023.04.18-21.26.39:304][  9]LogUObjectHash: Compacting FUObjectHashTables data took   0.61ms
+[2023.04.18-21.26.39:315][  9]LogUObjectHash: Compacting FUObjectHashTables data took   0.64ms
+[2023.04.18-21.26.39:322][  9]LogUObjectHash: Compacting FUObjectHashTables data took   0.27ms
+[2023.04.18-21.26.39:336][  9]LogUObjectHash: Compacting FUObjectHashTables data took   0.17ms
+[2023.04.18-21.26.39:344][  9]LogUObjectHash: Compacting FUObjectHashTables data took   0.83ms
+[2023.04.18-21.26.39:351][  9]LogUObjectHash: Compacting FUObjectHashTables data took   0.18ms
+[2023.04.18-21.27.07:984][882]LogUObjectHash: Compacting FUObjectHashTables data took   0.38ms
+[2023.04.18-21.27.07:985][882]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Levels/Level01' took 0.009
+[2023.04.18-21.27.07:987][882]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Inputs/PlayerInputMapping] ([1] browsable assets)...
+[2023.04.18-21.27.07:987][882]OBJ SavePackage: Finished generating thumbnails for package [/Game/Inputs/PlayerInputMapping]
+[2023.04.18-21.27.07:990][882]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Inputs/PlayerInputMapping_Auto0
+[2023.04.18-21.27.07:990][882]LogSavePackage: Moving '../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Perspective/Saved/PlayerInputMapping_Auto0DA148CE9489F8AFD37FCEFABE8F4C8AC.tmp' to '../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Perspective/Saved/Autosaves/Game/Inputs/PlayerInputMapping_Auto0.uasset'
+[2023.04.18-21.27.07:992][882]LogFileHelpers: Auto-saving content packages took 0.006
+[2023.04.18-21.35.46:529][566]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.04.18-21.35.46:592][566]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Inputs/PlayerInputMapping" FILE="../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Perspective/Content/Inputs/PlayerInputMapping.uasset" SILENT=true
+[2023.04.18-21.35.46:594][566]LogSavePackage: Moving output files for package: /Game/Inputs/PlayerInputMapping
+[2023.04.18-21.35.46:594][566]LogSavePackage: Moving '../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Perspective/Saved/PlayerInputMapping5E2675ED4CE82AD85754B9B3D864E9D7.tmp' to '../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Perspective/Content/Inputs/PlayerInputMapping.uasset'
+[2023.04.18-21.35.46:611][566]LogFileHelpers: InternalPromptForCheckoutAndSave took 81 ms (total: 2.54 sec)
+[2023.04.18-21.35.46:616][566]AssetCheck: New page: Asset Save: PlayerInputMapping
+[2023.04.18-21.35.46:616][566]LogContentValidation: Display: Validating /Script/EnhancedInput.InputMappingContext /Game/Inputs/PlayerInputMapping.PlayerInputMapping
+[2023.04.18-21.35.47:097][616]LogLiveCoding: Display: Starting Live Coding compile.
+[2023.04.18-21.36.14:924][ 28]LogLiveCoding: Display:    Creating library C:\Users\heroo\OneDrive\Documents\k-game-prog-2\Perspective\Binaries\Win64\UnrealEditor-Perspective.patch_5.lib and object C:\Users\heroo\OneDrive\Documents\k-game-prog-2\Perspective\Binaries\Win64\UnrealEditor-Perspective.patch_5.exp
+PlayerPawn.gen.cpp.obj : error LNK2001: unresolved external symbol "public: virtual void __cdecl APlayerPawn::Move(struct FInputActionInstance const &)" (?Move@APlayerPawn@@UEAAXAEBUFInputActionInstance@@@Z)
+PlayerPawn.cpp.obj : error LNK2001: unresolved external symbol "public: virtual void __cdecl APlayerPawn::Move(struct FInputActionInstance const &)" (?Move@APlayerPawn@@UEAAXAEBUFInputActionInstance@@@Z)
+C:\Users\heroo\OneDrive\Documents\k-game-prog-2\Perspective\Binaries\Win64\UnrealEditor-Perspective.patch_5.exe : fatal error LNK1120: 1 unresolved externals
+[2023.04.18-21.36.14:934][ 29]Display: Reload/Re-instancing Complete: No object changes detected
+[2023.04.18-21.36.14:935][ 29]LogLiveCoding: Error: Live coding failed, please see Live console for more information
+[2023.04.18-21.38.01:382][ 13]LogLiveCoding: Display: Starting Live Coding compile.
+[2023.04.18-21.38.20:793][256]LogLiveCoding: Display:    Creating library C:\Users\heroo\OneDrive\Documents\k-game-prog-2\Perspective\Binaries\Win64\UnrealEditor-Perspective.patch_5.lib and object C:\Users\heroo\OneDrive\Documents\k-game-prog-2\Perspective\Binaries\Win64\UnrealEditor-Perspective.patch_5.exp
+[2023.04.18-21.38.21:320][307]LogClass: UPackage /Script/Perspective Reload.
+[2023.04.18-21.38.21:321][307]LogClass: UClass PlayerPawn Reload.
+[2023.04.18-21.38.21:325][307]LogClass: Could not find existing class PlayerPawn in package /Script/Perspective for reload, assuming new or modified class
+[2023.04.18-21.38.21:439][307]Re-instancing PlayerPawn after reload.
+[2023.04.18-21.38.21:676][307]LogUObjectHash: Compacting FUObjectHashTables data took   1.18ms
+[2023.04.18-21.38.21:751][309]Display: Reload/Re-instancing Complete: 1 package changed, 1 class changed
+[2023.04.18-21.38.21:751][309]LogLiveCoding: Warning: Live coding succeeded, data type changes may cause packaging to fail if assets reference the new or updated data types
+[2023.04.18-21.42.05:089][241]LogLiveCoding: Display: Starting Live Coding compile.
+[2023.04.18-21.42.27:180][216]LogLiveCoding: Display:    Creating library C:\Users\heroo\OneDrive\Documents\k-game-prog-2\Perspective\Binaries\Win64\UnrealEditor-Perspective.patch_6.lib and object C:\Users\heroo\OneDrive\Documents\k-game-prog-2\Perspective\Binaries\Win64\UnrealEditor-Perspective.patch_6.exp
+[2023.04.18-21.42.27:464][228]LogUObjectHash: Compacting FUObjectHashTables data took   1.33ms
+[2023.04.18-21.42.27:529][230]Display: Reload/Re-instancing Complete: No object changes detected
+[2023.04.18-21.42.27:529][230]LogLiveCoding: Display: Live coding succeeded
+[2023.04.18-21.46.58:737][664]LogLiveCoding: Display: Starting Live Coding compile.
+[2023.04.18-21.47.16:947][280]LogLiveCoding: Display:    Creating library C:\Users\heroo\OneDrive\Documents\k-game-prog-2\Perspective\Binaries\Win64\UnrealEditor-Perspective.patch_7.lib and object C:\Users\heroo\OneDrive\Documents\k-game-prog-2\Perspective\Binaries\Win64\UnrealEditor-Perspective.patch_7.exp
+[2023.04.18-21.47.17:120][283]LogUObjectHash: Compacting FUObjectHashTables data took   0.24ms
+[2023.04.18-21.47.17:183][285]Display: Reload/Re-instancing Complete: No object changes detected
+[2023.04.18-21.47.17:184][285]LogLiveCoding: Display: Live coding succeeded

@@ -21,9 +21,22 @@ public:
 	 */
 	TObjectPtr<class UInputAction> PlayerMovementAction;
 
+	UPROPERTY(EditAnywhere);
+	TObjectPtr<UStaticMeshComponent> StaticMesh;
+
+	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = Input);
+	TSoftObjectPtr<class UInputMappingContext> PlayerInputMapping;
+
+	UPROPERTY(EditAnywhere);
+	float MaxMoveSpeed;
+
+	virtual void Move(const struct FInputActionInstance& Instance);
+
 protected:
 	// Called when the game starts or when spawned
 	virtual void BeginPlay() override;
+
+	FVector2d LastInput;
 
 public:	
 	// Called every frame
