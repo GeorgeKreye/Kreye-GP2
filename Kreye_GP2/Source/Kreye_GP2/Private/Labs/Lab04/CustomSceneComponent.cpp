@@ -43,21 +43,29 @@ void UCustomSceneComponent::TickComponent(float DeltaTime, ELevelTick TickType, 
 	// Update child transforms
 	for (int i = 0; i < Children.Num(); i++)
 	{
-		
+		const FTransform ChildTransform = Children[0]->GetActorTransform();
+		Children[0]->SetActorTransform(LocalTransform * ChildTransform);
 	}
 }
 
 void UCustomSceneComponent::TranslateTransform(const FVector& Translation)
 {
-	LocalTransform.SetLocation(LocalTransform.GetLocation() + Translation);
+	// Convert translation into matrix
+	const FTransform TranslationMatrix = FTransform(Translation);
+
+	LocalTransform += TranslationMatrix;
 }
 
 void UCustomSceneComponent::RotateTransform(const FQuat& RotationChange)
 {
-	LocalTransform.SetRotation(LocalTransform.GetRotation() + RotationChange);
+	const FTransform RotationMatrix = FTransform(RotationChange);
+
+	LocalTransform *= RotationMatrix;
 }
 
 void UCustomSceneComponent::ScaleTransform(const FVector& ScaleChange)
 {
-	LocalTransform.SetScale3D(LocalTransform.GetScale3D() + ScaleChange);
+	const FTransform ScaleMatrix = FTransform(ScaleChange);
+
+	LocalTransform *= ScaleMatrix;
 }
