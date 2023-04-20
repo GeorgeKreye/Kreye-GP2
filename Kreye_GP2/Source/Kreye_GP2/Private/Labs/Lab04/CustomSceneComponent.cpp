@@ -3,10 +3,6 @@
 
 #include "Labs/Lab04/CustomSceneComponent.h"
 
-#include "AnimEncoding.h"
-#include "BaseGizmos/TransformSources.h"
-#include "EnvironmentQuery/EnvQueryTypes.h"
-
 // Sets default values for this component's properties
 UCustomSceneComponent::UCustomSceneComponent()
 {
@@ -25,13 +21,14 @@ void UCustomSceneComponent::BeginPlay()
 	FTransform BaseTransform;
 	if (Parent != nullptr)
 	{
-		BaseTransform = Parent->GetTransform();
+		BaseTransform = FTransform::Identity;
+		BaseTransform = GetWorldTransform() * BaseTransform;
 	} else
 	{
-		BaseTransform = GetOwner()->GetTransform();
+		BaseTransform = GetOwner()->GetActorTransform();
 	}
 
-	LocalTransform += BaseTransform;
+	LocalTransform = BaseTransform * LocalTransform;
 }	
 
 
@@ -40,12 +37,8 @@ void UCustomSceneComponent::TickComponent(float DeltaTime, ELevelTick TickType, 
 {
 	Super::TickComponent(DeltaTime, TickType, ThisTickFunction);
 
-	// Update child transforms
-	for (int i = 0; i < Children.Num(); i++)
-	{
-		const FTransform ChildTransform = Children[0]->GetActorTransform();
-		Children[0]->SetActorTransform(LocalTransform * ChildTransform);
-	}
+	// Set world transform
+	GetOwner()->SetActorTransform(GetWorldTransform());
 }
 
 void UCustomSceneComponent::TranslateTransform(const FVector& Translation)
@@ -68,4 +61,31 @@ void UCustomSceneComponent::ScaleTransform(const FVector& ScaleChange)
 	const FTransform ScaleMatrix = FTransform(ScaleChange);
 
 	LocalTransform *= ScaleMatrix;
+}
+
+FTransform UCustomSceneComponent::GetWorldTransform()
+{
+	// Output; stores the world transform that is calculated
+	FTransform WorldTransform = FTransform(LocalTransform);
+	// The currently selected ancestor of this object
+	AActor* Ancestor = Parent;
+
+	// Loop through all ancestors
+	while (Ancestor != nullptr)
+	{
+		// Storage for next ancestor
+		TArray<UCustomSceneComponent*> Next;
+
+		// Get next ancestor
+		Ancestor->GetComponents<UCustomSceneComponent>(Next,false);
+		
+		// Combine transforms
+		WorldTransform = WorldTransform * Next[0]->LocalTransform;
+		
+		// Go to ancestor
+		Ancestor = Next[0]->Parent;
+	}
+
+	// Return final world transform
+	return WorldTransform;
 }

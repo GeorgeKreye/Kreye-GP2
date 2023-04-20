@@ -44,4 +44,10 @@ public:
 	// UFUNCTION(BlueprintCallable, Category = "Transforms");
 	// TODO: Figure out why this UFUNCTION declaration is not working
 	void ScaleTransform(const FVector& ScaleChange);
+
+	/**
+	 * @brief Gets the world transform of this object
+	 * @return The world transform
+	 */
+	FTransform GetWorldTransform();
 };
