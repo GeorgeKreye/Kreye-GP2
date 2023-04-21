@@ -3,8 +3,6 @@
 
 #include "Labs/Lab03/SineBounceComponent.h"
 
-#include "Components/WorldPartitionStreamingSourceComponent.h"
-
 // Sets default values for this component's properties
 USineBounceComponent::USineBounceComponent()
 {
