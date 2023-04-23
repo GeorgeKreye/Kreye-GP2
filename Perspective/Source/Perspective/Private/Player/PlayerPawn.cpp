@@ -64,6 +64,11 @@ void APlayerPawn::BeginPlay()
 void APlayerPawn::Tick(float DeltaTime)
 {
 	Super::Tick(DeltaTime);
+
+	// Move player if movement has been received
+	const FVector LastInput3D = FVector(LastInput.X,LastInput.Y,0);
+	const FVector UpdatedLocation = GetActorLocation() + LastInput3D;
+	SetActorLocation(UpdatedLocation);
 }
 
 // Called to bind functionality to input
