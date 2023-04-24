@@ -15,23 +15,30 @@ APlayerPawn::APlayerPawn()
 
 	// Create mesh component
 	StaticMesh = CreateDefaultSubobject<UStaticMeshComponent>(TEXT("Static Mesh"));
-	SetRootComponent(StaticMesh);
+	RootComponent = StaticMesh;
 
 	// Get mesh
-	auto Mesh = ConstructorHelpers::FObjectFinder<UStaticMesh>(TEXT("/Game/StarterContent/Shapes/Shape_Cube"));
+	static ConstructorHelpers::FObjectFinder<UStaticMesh>
+		Mesh(TEXT("/Game/StarterContent/Shapes/Shape_Cube"));
 	if (Mesh.Succeeded())
 	{
 		StaticMesh->SetStaticMesh(Mesh.Object);
 	}
+
+	// Get mesh texture
+	static ConstructorHelpers::FObjectFinder<UMaterialInterface>
+		Texture(TEXT("/Game/StarterContent/Materials/"));
 	
 	// Get input action
-	auto Action = ConstructorHelpers::FObjectFinder<UInputAction>(TEXT("/Game/Inputs/PlayerMovementAction"));
+	static ConstructorHelpers::FObjectFinder<UInputAction>
+		Action(TEXT("/Game/Inputs/PlayerMovementAction"));
 	if (Action.Succeeded())
 	{
 		PlayerMovementAction = Action.Object;
 	}
-
-	auto Input = ConstructorHelpers::FObjectFinder<UInputMappingContext>(TEXT("/Game/Inputs/PlayerInputMapping"));
+	
+	static ConstructorHelpers::FObjectFinder<UInputMappingContext>
+		Input(TEXT("/Game/Inputs/PlayerInputMapping"));
 	if (Input.Succeeded())
 	{
 		PlayerInputMapping = Input.Object;
