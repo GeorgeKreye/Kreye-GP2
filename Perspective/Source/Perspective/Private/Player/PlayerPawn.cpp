@@ -6,9 +6,10 @@
 #include "InputMappingContext.h"
 #include "Perspective/Perspective.h"
 #include "EnhancedInputSubsystems.h"
+#include "Camera/CameraComponent.h"
 
 // Sets default values
-APlayerPawn::APlayerPawn()
+APlayerPawn::APlayerPawn() : MaxMoveSpeed(5), CameraPosition(-300 * FMath::Cos(PI/4),-300 * FMath::Sin(PI/4),300), CameraRotation(FRotator(-35.264,45.0,0))
 {
  	// Set this pawn to call Tick() every frame.  You can turn this off to improve performance if you don't need it.
 	PrimaryActorTick.bCanEverTick = true;
@@ -23,11 +24,12 @@ APlayerPawn::APlayerPawn()
 	{
 		StaticMesh->SetStaticMesh(Mesh.Object);
 		StaticMesh->SetRelativeLocation(FVector(0.0,0.0,0.0));
-	} else
+	}
+	else
 	{
 		WARN("ERROR: Could not find mesh");
 	}
-
+	
 	// Get mesh material
 	auto Material = ConstructorHelpers::FObjectFinder<UMaterialInterface>
 		(TEXT("/Game/StarterContent/Materials/M_Basic_Floor.M_Basic_Floor"));
@@ -48,7 +50,7 @@ APlayerPawn::APlayerPawn()
 	{
 		WARN("ERROR: Could not find movement action");
 	}
-
+	
 	// Get input mapping
 	auto Input = ConstructorHelpers::FObjectFinder<UInputMappingContext>
 		(TEXT("/Game/Inputs/PlayerInputMapping.PlayerInputMapping"));
@@ -59,6 +61,15 @@ APlayerPawn::APlayerPawn()
 	{
 		WARN("ERROR: Could not find input mapping");
 	}
+
+	// Create camera
+	Camera = CreateDefaultSubobject<UCameraComponent>(TEXT("Camera"));
+	Camera->AttachToComponent(RootComponent,FAttachmentTransformRules::KeepWorldTransform);
+
+	// Edit camera transform
+	Camera->SetRelativeLocation(CameraPosition);
+	LOG("Relative camera position: (%d,%d,%d)",CameraPosition.X,CameraPosition.Y,CameraPosition.Z);
+	Camera->SetWorldRotation(CameraRotation);
 }
 
 // Called when the game starts or when spawned
@@ -101,13 +112,16 @@ void APlayerPawn::Tick(float DeltaTime)
 	Super::Tick(DeltaTime);
 
 	// Move player if movement has been received
-	const FVector LastInput3D = FVector(LastInput.X,LastInput.Y,0);
+	const FVector LastInput3D = FVector(LastInput.X * MaxMoveSpeed,LastInput.Y * MaxMoveSpeed,0);
 	const FVector UpdatedLocation = GetActorLocation() + LastInput3D;
 	if (UpdatedLocation != GetActorLocation())
 	{
 		LOG("New location: (%d,%d,$d)",UpdatedLocation.X,UpdatedLocation.Y,UpdatedLocation.Z);
 	}
 	SetActorLocation(UpdatedLocation);
+
+	// Reset movement
+	LastInput = FVector2d::ZeroVector;
 }
 
 // Called to bind functionality to input

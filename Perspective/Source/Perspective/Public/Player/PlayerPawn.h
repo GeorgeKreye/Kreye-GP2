@@ -45,7 +45,14 @@ public:
 	 */
 	virtual void Move(const struct FInputActionInstance& Instance);
 
-	
+	UPROPERTY(EditAnywhere,BlueprintReadOnly, Category = Camera);
+	TObjectPtr<class UCameraComponent> Camera;
+
+	UPROPERTY(EditAnywhere);
+	FVector CameraPosition;
+
+	UPROPERTY(EditAnywhere);
+	FRotator CameraRotation;
 
 protected:
 	// Called when the game starts or when spawned
