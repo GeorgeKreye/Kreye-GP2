@@ -18,30 +18,46 @@ APlayerPawn::APlayerPawn()
 	RootComponent = StaticMesh;
 
 	// Get mesh
-	static ConstructorHelpers::FObjectFinder<UStaticMesh>
-		Mesh(TEXT("/Game/StarterContent/Shapes/Shape_Cube"));
+	auto Mesh = ConstructorHelpers::FObjectFinder<UStaticMesh>(TEXT("/Game/StarterContent/Shapes/Shape_NarrowCapsule.Shape_NarrowCapsule"));
 	if (Mesh.Succeeded())
 	{
 		StaticMesh->SetStaticMesh(Mesh.Object);
+		StaticMesh->SetRelativeLocation(FVector(0.0,0.0,0.0));
+	} else
+	{
+		WARN("ERROR: Could not find mesh");
 	}
 
-	// Get mesh texture
-	static ConstructorHelpers::FObjectFinder<UMaterialInterface>
-		Texture(TEXT("/Game/StarterContent/Materials/"));
+	// Get mesh material
+	auto Material = ConstructorHelpers::FObjectFinder<UMaterialInterface>
+		(TEXT("/Game/StarterContent/Materials/M_Basic_Floor.M_Basic_Floor"));
+	if (Material.Succeeded())
+	{
+		StaticMesh->SetMaterial(0,Material.Object);
+	} else
+	{
+		WARN("ERROR: Could not find mesh material");
+	}
 	
 	// Get input action
-	static ConstructorHelpers::FObjectFinder<UInputAction>
-		Action(TEXT("/Game/Inputs/PlayerMovementAction"));
+	auto Action = ConstructorHelpers::FObjectFinder<UInputAction>(TEXT("/Game/Inputs/PlayerMovementAction.PlayerMovementAction"));
 	if (Action.Succeeded())
 	{
 		PlayerMovementAction = Action.Object;
+	} else
+	{
+		WARN("ERROR: Could not find movement action");
 	}
-	
-	static ConstructorHelpers::FObjectFinder<UInputMappingContext>
-		Input(TEXT("/Game/Inputs/PlayerInputMapping"));
+
+	// Get input mapping
+	auto Input = ConstructorHelpers::FObjectFinder<UInputMappingContext>
+		(TEXT("/Game/Inputs/PlayerInputMapping.PlayerInputMapping"));
 	if (Input.Succeeded())
 	{
 		PlayerInputMapping = Input.Object;
+	} else
+	{
+		WARN("ERROR: Could not find input mapping");
 	}
 }
 
@@ -51,19 +67,31 @@ void APlayerPawn::BeginPlay()
 	Super::BeginPlay();
 
 	// Assign and cast controller to a player controller
-	if (TObjectPtr<APlayerController> PlayerController = Cast<APlayerController>(GetController()))
+	if (const TObjectPtr<APlayerController> PlayerController = Cast<APlayerController>(GetController()))
 	{
-		if (TObjectPtr<ULocalPlayer> LocalPlayer = Cast<ULocalPlayer>(PlayerController->GetLocalPlayer()))
+		if (const TObjectPtr<ULocalPlayer> LocalPlayer = Cast<ULocalPlayer>(PlayerController->GetLocalPlayer()))
 		{
-			if (TObjectPtr<UEnhancedInputLocalPlayerSubsystem> InputSystem =
+			if (const TObjectPtr<UEnhancedInputLocalPlayerSubsystem> InputSystem =
 				LocalPlayer->GetSubsystem<UEnhancedInputLocalPlayerSubsystem>())
 			{
 				if (!PlayerInputMapping.IsNull())
 				{
 					InputSystem->AddMappingContext(PlayerInputMapping.LoadSynchronous(),0);
+				} else
+				{
+					WARN("Mapping already exists!");
 				}
+			} else
+			{
+				WARN("Mapping failed at input system retrieval!");
 			}
+		} else
+		{
+			WARN("Mapping failed at local player retrieval!");
 		}
+	} else
+	{
+		WARN("Mapping failed at controller cast!");
 	}
 }
 
@@ -75,6 +103,10 @@ void APlayerPawn::Tick(float DeltaTime)
 	// Move player if movement has been received
 	const FVector LastInput3D = FVector(LastInput.X,LastInput.Y,0);
 	const FVector UpdatedLocation = GetActorLocation() + LastInput3D;
+	if (UpdatedLocation != GetActorLocation())
+	{
+		LOG("New location: (%d,%d,$d)",UpdatedLocation.X,UpdatedLocation.Y,UpdatedLocation.Z);
+	}
 	SetActorLocation(UpdatedLocation);
 }
 
