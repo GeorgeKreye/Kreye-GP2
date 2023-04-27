@@ -1100,3 +1100,105 @@ LogConfig: Set CVar [[r.Shadow.DetectVertexShaderLayerAtRuntime:1]]
 [2023.04.27-05.13.35:002][523]LogUObjectHash: Compacting FUObjectHashTables data took   0.44ms
 [2023.04.27-05.13.35:062][525]Display: Reload/Re-instancing Complete: No object changes detected
 [2023.04.27-05.13.35:062][525]LogLiveCoding: Display: Live coding succeeded
+[2023.04.27-05.16.57:569][861]LogShaderCompilers: Display: ================================================
+[2023.04.27-05.16.57:570][861]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2023.04.27-05.16.57:571][861]LogShaderCompilers: Display: Total job queries 101, among them cache hits 14 (13.86%)
+[2023.04.27-05.16.57:571][861]LogShaderCompilers: Display: Tracking 87 distinct input hashes that result in 73 distinct outputs (83.91%)
+[2023.04.27-05.16.57:571][861]LogShaderCompilers: Display: RAM used: 0.78 MB (0.00 GB) of 819.20 MB (0.80 GB) budget. Usage: 0.10%
+[2023.04.27-05.16.57:571][861]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2023.04.27-05.16.57:571][861]LogShaderCompilers: Display: Shaders Compiled: 0
+[2023.04.27-05.16.57:572][861]LogShaderCompilers: Display: Jobs assigned 0, completed 0 (0.00%)
+[2023.04.27-05.16.57:572][861]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 0.00 s
+[2023.04.27-05.16.57:572][861]LogShaderCompilers: Display: ================================================
+[2023.04.27-05.17.06:692][395]LogActorFactory: Loading ActorFactory Class /Script/Engine.LevelInstance
+[2023.04.27-05.17.06:693][395]LogEditor: Attempting to add actor of class 'Lab06Pawn' to level at -6380.00,-220.00,2710.00
+[2023.04.27-05.17.07:266][419]LogEditor: Attempting to add actor of class 'Lab06Pawn' to level at -1790.00,60.00,0.00
+[2023.04.27-05.17.15:866][908]Cmd: DELETE
+[2023.04.27-05.17.15:867][908]Cmd: ACTOR DELETE
+[2023.04.27-05.17.15:881][908]LogEditorActor: Cannot delete component StaticMeshComponent /Game/Labs/Lab06/Lab06.Lab06:PersistentLevel.Lab06Pawn_1.Mesh: Can't delete non-instanced components or the scene root.
+[2023.04.27-05.17.18:023][ 29]Cmd: DELETE
+[2023.04.27-05.17.18:023][ 29]Cmd: ACTOR DELETE
+[2023.04.27-05.17.18:030][ 29]LogEditorActor: Deleted Actor: Lab06Pawn
+[2023.04.27-05.17.18:041][ 29]LogUObjectHash: Compacting FUObjectHashTables data took   0.53ms
+[2023.04.27-05.17.18:042][ 29]LogEditorActor: Deleted 1 Actors (0.019 secs)
+[2023.04.27-05.17.19:918][128]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.04.27-05.17.19:995][128]LogUObjectHash: Compacting FUObjectHashTables data took   0.21ms
+[2023.04.27-05.17.20:008][128]LogSavePackage: Moving output files for package: /Game/Labs/Lab06/Lab06
+[2023.04.27-05.17.20:010][128]LogSavePackage: Moving '../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2/Saved/Lab06132F92AC4E15FF08BE652789F42D3EAD.tmp' to '../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2/Content/Labs/Lab06/Lab06.umap'
+[2023.04.27-05.17.20:033][128]LogFileHelpers: Saving map 'Lab06' took 0.048
+[2023.04.27-05.17.20:047][128]LogFileHelpers: InternalPromptForCheckoutAndSave took 129 ms (total: 250 ms)
+[2023.04.27-05.17.20:050][128]AssetCheck: New page: Asset Save: Lab06
+[2023.04.27-05.17.20:051][128]LogContentValidation: Display: Validating /Script/Engine.World /Game/Labs/Lab06/Lab06.Lab06
+[2023.04.27-05.17.24:075][360]LogEditorClassViewer: Warning: Class /Script/InteractiveToolsFramework.GizmoActor has parent /Script/InteractiveToolsFramework.InternalToolFrameworkActor, but this parent is not found. The Class will not be shown in ClassViewer.
+[2023.04.27-05.17.24:075][360]LogEditorClassViewer: Warning: Class /Script/ModelingComponents.PreviewGeometryActor has parent /Script/InteractiveToolsFramework.InternalToolFrameworkActor, but this parent is not found. The Class will not be shown in ClassViewer.
+[2023.04.27-05.17.24:075][360]LogEditorClassViewer: Warning: Class /Script/ModelingComponents.PreviewMeshActor has parent /Script/InteractiveToolsFramework.InternalToolFrameworkActor, but this parent is not found. The Class will not be shown in ClassViewer.
+[2023.04.27-05.17.24:154][360]LogSlate: Took 0.001114 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2023.04.27-05.17.36:639][ 74]Running C:/Program Files/Epic Games/UE_5.1/Engine/Build/BatchFiles/Build.bat  -projectfiles -project="C:/Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2/Kreye_GP2.uproject" -game -rocket -progress
+[2023.04.27-05.17.36:848][ 74]Running UnrealBuildTool: dotnet "..\..\Engine\Binaries\DotNET\UnrealBuildTool\UnrealBuildTool.dll" -projectfiles -project="C:/Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2/Kreye_GP2.uproject" -game -rocket -progress
+[2023.04.27-05.17.37:350][ 74]Log file: C:\Users\heroo\AppData\Local\UnrealBuildTool\Log_GPF.txt
+[2023.04.27-05.17.37:551][ 74]
+[2023.04.27-05.17.37:551][ 74]Some Platforms were skipped due to invalid SDK setup: IOS, Android, Linux, LinuxArm64.
+[2023.04.27-05.17.37:551][ 74]See the log file for detailed information
+[2023.04.27-05.17.37:551][ 74]
+[2023.04.27-05.17.37:551][ 74]Discovering modules, targets and source code for project...
+[2023.04.27-05.17.45:384][ 74]Binding IntelliSense data...
+[2023.04.27-05.17.49:608][ 74]Binding IntelliSense data... 100%
+[2023.04.27-05.17.49:608][ 74]Writing project files...
+[2023.04.27-05.18.00:948][ 74]Writing project files... 67%
+[2023.04.27-05.18.00:949][ 74]Writing project files... 100%
+[2023.04.27-05.18.01:859][ 74]LogLiveCoding: Display: Starting Live Coding compile.
+[2023.04.27-05.18.01:922][ 74]LogSlate: Window 'Add C++ Class' being destroyed
+[2023.04.27-05.18.01:972][ 74]LogAutomationController: Ignoring very large delta of 25.71 seconds in calls to FAutomationControllerManager::Tick() and not penalizing unresponsive tests
+[2023.04.27-05.18.19:665][129]LogLiveCoding: Display:    Creating library C:\Users\heroo\OneDrive\Documents\k-game-prog-2\Kreye_GP2\Binaries\Win64\UnrealEditor-Kreye_GP2.patch_5.lib and object C:\Users\heroo\OneDrive\Documents\k-game-prog-2\Kreye_GP2\Binaries\Win64\UnrealEditor-Kreye_GP2.patch_5.exp
+Lab06Pawn.gen.cpp.obj : error LNK2001: unresolved external symbol "public: virtual void __cdecl ALab06Pawn::Move(struct FInputActionInstance const &)" (?Move@ALab06Pawn@@UEAAXAEBUFInputActionInstance@@@Z)
+Lab06Pawn.cpp.obj : error LNK2001: unresolved external symbol "public: virtual void __cdecl ALab06Pawn::Move(struct FInputActionInstance const &)" (?Move@ALab06Pawn@@UEAAXAEBUFInputActionInstance@@@Z)
+C:\Users\heroo\OneDrive\Documents\k-game-prog-2\Kreye_GP2\Binaries\Win64\UnrealEditor-Kreye_GP2.patch_5.exe : fatal error LNK1120: 1 unresolved externals
+[2023.04.27-05.18.19:985][130]Display: Reload/Re-instancing Complete: No object changes detected
+[2023.04.27-05.18.19:985][130]LogLiveCoding: Error: Live coding failed, please see Live console for more information
+[2023.04.27-05.21.53:784][845]LogLiveCoding: Display: Starting Live Coding compile.
+[2023.04.27-05.22.14:513][253]LogLiveCoding: Display:    Creating library C:\Users\heroo\OneDrive\Documents\k-game-prog-2\Kreye_GP2\Binaries\Win64\UnrealEditor-Kreye_GP2.patch_5.lib and object C:\Users\heroo\OneDrive\Documents\k-game-prog-2\Kreye_GP2\Binaries\Win64\UnrealEditor-Kreye_GP2.patch_5.exp
+Lab06Pawn.gen.cpp.obj : error LNK2001: unresolved external symbol "public: virtual void __cdecl ALab06Pawn::Move(struct FInputActionInstance const &)" (?Move@ALab06Pawn@@UEAAXAEBUFInputActionInstance@@@Z)
+Lab06Pawn.cpp.obj : error LNK2001: unresolved external symbol "public: virtual void __cdecl ALab06Pawn::Move(struct FInputActionInstance const &)" (?Move@ALab06Pawn@@UEAAXAEBUFInputActionInstance@@@Z)
+C:\Users\heroo\OneDrive\Documents\k-game-prog-2\Kreye_GP2\Binaries\Win64\UnrealEditor-Kreye_GP2.patch_5.exe : fatal error LNK1120: 1 unresolved externals
+[2023.04.27-05.22.14:571][254]Display: Reload/Re-instancing Complete: No object changes detected
+[2023.04.27-05.22.14:571][254]LogLiveCoding: Error: Live coding failed, please see Live console for more information
+[2023.04.27-05.23.21:744][663]LogLiveCoding: Display: Starting Live Coding compile.
+[2023.04.27-05.23.36:175][528]LogLiveCoding: Display:    Creating library C:\Users\heroo\OneDrive\Documents\k-game-prog-2\Kreye_GP2\Binaries\Win64\UnrealEditor-Kreye_GP2.patch_5.lib and object C:\Users\heroo\OneDrive\Documents\k-game-prog-2\Kreye_GP2\Binaries\Win64\UnrealEditor-Kreye_GP2.patch_5.exp
+[2023.04.27-05.23.36:838][554]LogClass: UPackage /Script/Kreye_GP2 Reload.
+[2023.04.27-05.23.36:839][554]LogClass: UClass Lab06Pawn Reload.
+[2023.04.27-05.23.36:852][554]LogClass: Could not find existing class Lab06GameModeBase in package /Script/Kreye_GP2 for reload, assuming new or modified class
+[2023.04.27-05.23.36:853][554]LogClass: Could not find existing class Lab06Pawn in package /Script/Kreye_GP2 for reload, assuming new or modified class
+[2023.04.27-05.23.36:938][554]Re-instancing Lab06Pawn after reload.
+[2023.04.27-05.23.37:245][554]LogUObjectHash: Compacting FUObjectHashTables data took   1.91ms
+[2023.04.27-05.23.37:319][556]Display: Reload/Re-instancing Complete: 1 package changed, 1 class new, 1 class changed
+[2023.04.27-05.23.37:319][556]LogLiveCoding: Warning: Live coding succeeded, data type changes may cause packaging to fail if assets reference the new or updated data types
+[2023.04.27-05.23.48:539][174]LogEditorClassViewer: Warning: Class /Script/InteractiveToolsFramework.GizmoActor has parent /Script/InteractiveToolsFramework.InternalToolFrameworkActor, but this parent is not found. The Class will not be shown in ClassViewer.
+[2023.04.27-05.23.48:539][174]LogEditorClassViewer: Warning: Class /Script/ModelingComponents.PreviewGeometryActor has parent /Script/InteractiveToolsFramework.InternalToolFrameworkActor, but this parent is not found. The Class will not be shown in ClassViewer.
+[2023.04.27-05.23.48:539][174]LogEditorClassViewer: Warning: Class /Script/ModelingComponents.PreviewMeshActor has parent /Script/InteractiveToolsFramework.InternalToolFrameworkActor, but this parent is not found. The Class will not be shown in ClassViewer.
+[2023.04.27-05.24.01:914][945]Running C:/Program Files/Epic Games/UE_5.1/Engine/Build/BatchFiles/Build.bat  -projectfiles -project="C:/Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2/Kreye_GP2.uproject" -game -rocket -progress
+[2023.04.27-05.24.02:132][945]Running UnrealBuildTool: dotnet "..\..\Engine\Binaries\DotNET\UnrealBuildTool\UnrealBuildTool.dll" -projectfiles -project="C:/Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2/Kreye_GP2.uproject" -game -rocket -progress
+[2023.04.27-05.24.02:634][945]Log file: C:\Users\heroo\AppData\Local\UnrealBuildTool\Log_GPF.txt
+[2023.04.27-05.24.02:734][945]
+[2023.04.27-05.24.02:734][945]Some Platforms were skipped due to invalid SDK setup: IOS, Android, Linux, LinuxArm64.
+[2023.04.27-05.24.02:734][945]See the log file for detailed information
+[2023.04.27-05.24.02:734][945]
+[2023.04.27-05.24.02:835][945]Discovering modules, targets and source code for project...
+[2023.04.27-05.24.07:759][945]Binding IntelliSense data...
+[2023.04.27-05.24.11:575][945]Binding IntelliSense data... 100%
+[2023.04.27-05.24.11:575][945]Writing project files...
+[2023.04.27-05.24.33:591][945]Writing project files... 33%
+[2023.04.27-05.24.33:598][945]Writing project files... 100%
+[2023.04.27-05.24.34:515][945]LogLiveCoding: Display: Starting Live Coding compile.
+[2023.04.27-05.24.34:588][945]LogSlate: Window 'Add C++ Class' being destroyed
+[2023.04.27-05.24.34:651][946]LogAutomationController: Ignoring very large delta of 33.13 seconds in calls to FAutomationControllerManager::Tick() and not penalizing unresponsive tests
+[2023.04.27-05.24.54:599][  6]LogLiveCoding: Display:    Creating library C:\Users\heroo\OneDrive\Documents\k-game-prog-2\Kreye_GP2\Binaries\Win64\UnrealEditor-Kreye_GP2.patch_6.lib and object C:\Users\heroo\OneDrive\Documents\k-game-prog-2\Kreye_GP2\Binaries\Win64\UnrealEditor-Kreye_GP2.patch_6.exp
+[2023.04.27-05.24.54:767][  7]LogClass: UPackage /Script/Kreye_GP2 Reload.
+[2023.04.27-05.24.54:767][  7]LogClass: Could not find existing class Lab06GameStateBase in package /Script/Kreye_GP2 for reload, assuming new or modified class
+[2023.04.27-05.24.54:834][  7]LogUObjectHash: Compacting FUObjectHashTables data took   1.38ms
+[2023.04.27-05.24.55:009][  8]Display: Reload/Re-instancing Complete: 1 package changed, 1 class new
+[2023.04.27-05.24.55:010][  8]LogLiveCoding: Warning: Live coding succeeded, data type changes may cause packaging to fail if assets reference the new or updated data types
+[2023.04.27-05.28.05:146][637]LogLiveCoding: Display: Starting Live Coding compile.
+[2023.04.27-05.28.26:014][886]LogLiveCoding: Display:    Creating library C:\Users\heroo\OneDrive\Documents\k-game-prog-2\Kreye_GP2\Binaries\Win64\UnrealEditor-Kreye_GP2.patch_7.lib and object C:\Users\heroo\OneDrive\Documents\k-game-prog-2\Kreye_GP2\Binaries\Win64\UnrealEditor-Kreye_GP2.patch_7.exp
+[2023.04.27-05.28.26:285][889]LogUObjectHash: Compacting FUObjectHashTables data took   0.53ms
+[2023.04.27-05.28.26:341][891]Display: Reload/Re-instancing Complete: 1 package changed, 1 class unchanged
+[2023.04.27-05.28.26:341][891]LogLiveCoding: Display: Live coding succeeded

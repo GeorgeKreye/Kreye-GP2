@@ -50,3 +50,10 @@ void ALab06Pawn::SetupPlayerInputComponent(UInputComponent* PlayerInputComponent
 
 }
 
+// Called when movement is inputted
+void ALab06Pawn::Move(const FInputActionInstance& Instance)
+{
+	
+}
+
+
