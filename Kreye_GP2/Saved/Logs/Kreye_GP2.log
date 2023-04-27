@@ -1120,3 +1120,20 @@ LogConfig: Set CVar [[r.Shadow.DetectVertexShaderLayerAtRuntime:1]]
 [2023.04.27-06.28.33:664][552]LogUObjectHash: Compacting FUObjectHashTables data took   0.28ms
 [2023.04.27-06.28.33:718][554]Display: Reload/Re-instancing Complete: No object changes detected
 [2023.04.27-06.28.33:719][554]LogLiveCoding: Display: Live coding succeeded
+[2023.04.27-06.54.00:915][831]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.04.27-06.54.01:408][831]LogPackageLocalizationCache: Processed 43 localized package path(s) for 1 prioritized culture(s) in 0.356371 seconds
+[2023.04.27-06.54.01:430][831]LogSerialization: UsePackageTrailer: 'true'
+[2023.04.27-06.54.01:435][831]LogSavePackage: Moving output files for package: /Game/Labs/Lab06/Input/Lab06MappingContext
+[2023.04.27-06.54.01:437][831]LogSavePackage: Moving '../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2/Saved/Lab06MappingContext58236330467DC0445800F09D3294CE5D.tmp' to '../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2/Content/Labs/Lab06/Input/Lab06MappingContext.uasset'
+[2023.04.27-06.54.01:460][831]LogFileHelpers: InternalPromptForCheckoutAndSave took 547 ms
+[2023.04.27-06.54.01:468][831]AssetCheck: New page: Asset Save: Lab06MappingContext
+[2023.04.27-06.54.01:471][831]LogContentValidation: Display: Validating /Script/EnhancedInput.InputMappingContext /Game/Labs/Lab06/Input/Lab06MappingContext.Lab06MappingContext
+[2023.04.27-06.54.01:922][877]LogLiveCoding: Display: Starting Live Coding compile.
+[2023.04.27-06.54.44:673][460]LogLiveCoding: Display:    Creating library C:\Users\heroo\OneDrive\Documents\k-game-prog-2\Kreye_GP2\Binaries\Win64\UnrealEditor-Kreye_GP2.patch_9.lib and object C:\Users\heroo\OneDrive\Documents\k-game-prog-2\Kreye_GP2\Binaries\Win64\UnrealEditor-Kreye_GP2.patch_9.exp
+[2023.04.27-06.54.45:266][497]LogClass: UPackage /Script/Kreye_GP2 Reload.
+[2023.04.27-06.54.45:268][497]LogClass: UClass Lab06Pawn Reload.
+[2023.04.27-06.54.45:278][497]LogClass: Could not find existing class Lab06Pawn in package /Script/Kreye_GP2 for reload, assuming new or modified class
+[2023.04.27-06.54.45:454][497]Re-instancing Lab06Pawn after reload.
+[2023.04.27-06.54.45:658][497]LogUObjectHash: Compacting FUObjectHashTables data took   1.03ms
+[2023.04.27-06.54.45:724][498]Display: Reload/Re-instancing Complete: 1 package changed, 1 class changed
+[2023.04.27-06.54.45:725][498]LogLiveCoding: Warning: Live coding succeeded, data type changes may cause packaging to fail if assets reference the new or updated data types

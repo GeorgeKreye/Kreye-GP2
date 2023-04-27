@@ -31,7 +31,7 @@ public:
 	 * @brief The movement action component used by this pawn
 	 */
 	UPROPERTY(EditAnywhere,BlueprintReadOnly,Category = Input)
-	TSoftObjectPtr<class UInputAction> MovementAction;
+	TObjectPtr<class UInputAction> MovementAction;
 
 	/**
 	 * @brief The input mapping used by this pawn
@@ -60,5 +60,5 @@ private:
 	/**
 	 * @brief The last movement input received
 	 */
-	FVector2D LastMovement;
+	FVector2D LastInput;
 };
