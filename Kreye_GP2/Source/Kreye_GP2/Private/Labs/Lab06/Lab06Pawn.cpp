@@ -14,21 +14,19 @@ ALab06Pawn::ALab06Pawn()
 	RootComponent = Mesh;
 
 	// Get default pawn mesh
-	// auto CapsuleMesh = ConstructorHelpers::FObjectFinder<UStaticMesh>(
-	// 	TEXT("/Game/StarterContent/Shapes/Shape_NarrowCapsule.Shape_NarrowCapsule"));
-	// if (CapsuleMesh.Succeeded())
-	// {
-	// 	Mesh->SetStaticMesh(CapsuleMesh.Object);
-	// 	Mesh->SetRelativeLocation(FVector(0.0,0.0,0.0));
-	// }
-	//
-	// // Get default pawn material
-	// auto PawnMaterial = ConstructorHelpers::FObjectFinder<UMaterialInterface>(
-	// 	TEXT("/Game/StarterContent/Materials/M_Basic_Floor.M_Basic_Floor"));
-	// if(PawnMaterial.Succeeded())
-	// {
-	// 	Mesh->SetMaterial(0,PawnMaterial.Object);
-	// }
+	auto CapsuleMesh = ConstructorHelpers::FObjectFinder<UStaticMesh>(TEXT("/Game/StarterContent/Shapes/Shape_NarrowCapsule.Shape_NarrowCapsule"));
+	if (CapsuleMesh.Succeeded())
+	{
+		Mesh->SetStaticMesh(CapsuleMesh.Object);
+		Mesh->SetRelativeLocation(FVector(0.0,0.0,0.0));
+	}
+	
+	// Get default pawn material
+	auto PawnMaterial = ConstructorHelpers::FObjectFinder<UMaterialInterface>(TEXT("/Game/StarterContent/Materials/M_Basic_Floor.M_Basic_Floor"));
+	if(PawnMaterial.Succeeded())
+	{
+		Mesh->SetMaterial(0,PawnMaterial.Object);
+	}
 }
 
 // Called when the game starts or when spawned

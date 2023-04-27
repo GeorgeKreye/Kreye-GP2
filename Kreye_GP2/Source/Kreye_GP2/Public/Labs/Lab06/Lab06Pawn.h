@@ -21,6 +21,12 @@ public:
 	UPROPERTY(EditAnywhere,BlueprintReadOnly)
 	TObjectPtr<UStaticMeshComponent> Mesh;
 
+	/**
+	 * @brief The maximum movement speed that this pawn can move horizontally
+	 */
+	UPROPERTY(EditAnywhere)
+	float MaxMoveSpeed;
+
 protected:
 	// Called when the game starts or when spawned
 	virtual void BeginPlay() override;
@@ -32,4 +38,9 @@ public:
 	// Called to bind functionality to input
 	virtual void SetupPlayerInputComponent(class UInputComponent* PlayerInputComponent) override;
 
+	/**
+	 * @brief Recieves movement input from the controller
+	 * @param Instance The movement input instance recieved
+	 */
+	virtual void Move(const struct FInputActionInstance& Instance);
 };
