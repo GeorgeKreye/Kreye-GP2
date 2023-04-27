@@ -98,5 +98,5 @@ private:
 	/**
 	 * @brief The last rotation input received
 	 */
-	FRotator LastRotationInput;
+	FQuat LastRotationInput;
 };
