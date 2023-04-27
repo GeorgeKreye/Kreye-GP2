@@ -1202,3 +1202,12 @@ C:\Users\heroo\OneDrive\Documents\k-game-prog-2\Kreye_GP2\Binaries\Win64\UnrealE
 [2023.04.27-05.28.26:285][889]LogUObjectHash: Compacting FUObjectHashTables data took   0.53ms
 [2023.04.27-05.28.26:341][891]Display: Reload/Re-instancing Complete: 1 package changed, 1 class unchanged
 [2023.04.27-05.28.26:341][891]LogLiveCoding: Display: Live coding succeeded
+[2023.04.27-05.39.02:918][723]LogLiveCoding: Display: Starting Live Coding compile.
+[2023.04.27-05.39.33:767][936]LogLiveCoding: Display:    Creating library C:\Users\heroo\OneDrive\Documents\k-game-prog-2\Kreye_GP2\Binaries\Win64\UnrealEditor-Kreye_GP2.patch_8.lib and object C:\Users\heroo\OneDrive\Documents\k-game-prog-2\Kreye_GP2\Binaries\Win64\UnrealEditor-Kreye_GP2.patch_8.exp
+[2023.04.27-05.39.34:339][937]LogClass: UPackage /Script/Kreye_GP2 Reload.
+[2023.04.27-05.39.34:341][937]LogClass: UClass Lab06Pawn Reload.
+[2023.04.27-05.39.34:356][937]LogClass: Could not find existing class Lab06Pawn in package /Script/Kreye_GP2 for reload, assuming new or modified class
+[2023.04.27-05.39.34:427][937]Re-instancing Lab06Pawn after reload.
+[2023.04.27-05.39.34:700][937]LogUObjectHash: Compacting FUObjectHashTables data took   1.64ms
+[2023.04.27-05.39.34:759][938]Display: Reload/Re-instancing Complete: 1 package changed, 1 class changed, 1 class unchanged
+[2023.04.27-05.39.34:759][938]LogLiveCoding: Warning: Live coding succeeded, data type changes may cause packaging to fail if assets reference the new or updated data types

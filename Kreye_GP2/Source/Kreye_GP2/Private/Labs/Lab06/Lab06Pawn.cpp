@@ -2,6 +2,10 @@
 
 
 #include "Labs/Lab06/Lab06Pawn.h"
+#include "EnhancedInputComponent.h"
+#include "InputMappingContext.h"
+#include "Kreye_GP2/Kreye_GP2.h"
+#include "EnhancedInputSubsystems.h"
 
 // Sets default values
 ALab06Pawn::ALab06Pawn()

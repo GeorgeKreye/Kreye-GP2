@@ -27,6 +27,18 @@ public:
 	UPROPERTY(EditAnywhere)
 	float MaxMoveSpeed;
 
+	/**
+	 * @brief The movement action component used by this pawn
+	 */
+	UPROPERTY(EditAnywhere,BlueprintReadOnly,Category = Input)
+	TSoftObjectPtr<class UInputAction> MovementAction;
+
+	/**
+	 * @brief The input mapping used by this pawn
+	 */
+	UPROPERTY(EditAnywhere,BlueprintReadOnly,Category = Input)
+	TSoftObjectPtr<class UInputMappingContext> InputMap;
+
 protected:
 	// Called when the game starts or when spawned
 	virtual void BeginPlay() override;
@@ -39,7 +51,7 @@ public:
 	virtual void SetupPlayerInputComponent(class UInputComponent* PlayerInputComponent) override;
 
 	/**
-	 * @brief Recieves movement input from the controller
+	 * @brief Receives movement input from the controller
 	 * @param Instance The movement input instance recieved
 	 */
 	virtual void Move(const struct FInputActionInstance& Instance);
