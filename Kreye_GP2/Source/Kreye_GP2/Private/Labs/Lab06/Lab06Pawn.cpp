@@ -9,7 +9,8 @@
 #include "Camera/CameraComponent.h"
 
 // Sets default values
-ALab06Pawn::ALab06Pawn() : MaxMoveSpeed(10.0), CameraPosition(FVector(-200,0,BaseEyeHeight)), CameraRotation(FRotator(0,0,0)), LastInput(FVector2d::ZeroVector)
+ALab06Pawn::ALab06Pawn() : MaxMoveSpeed(10.0), MaxRotationSpeed(5.0), CameraPosition(FVector(-200,0,50)),
+	CameraRotation(FRotator(0,0,30)), LastMovementInput(FVector2d::ZeroVector), LastRotationInput(FRotator::ZeroRotator)
 {
  	// Set this pawn to call Tick() every frame.  You can turn this off to improve performance if you don't need it.
 	PrimaryActorTick.bCanEverTick = true;
@@ -19,15 +20,16 @@ ALab06Pawn::ALab06Pawn() : MaxMoveSpeed(10.0), CameraPosition(FVector(-200,0,Bas
 	RootComponent = Mesh;
 
 	// Get default pawn mesh
-	auto CapsuleMesh = ConstructorHelpers::FObjectFinder<UStaticMesh>(TEXT("/Game/StarterContent/Shapes/Shape_NarrowCapsule.Shape_NarrowCapsule"));
-	if (CapsuleMesh.Succeeded())
+	auto SphereMesh = ConstructorHelpers::FObjectFinder<UStaticMesh>(TEXT("/Game/StarterContent/Shapes/Shape_Sphere.Shape_Sphere"));
+	if (SphereMesh.Succeeded())
 	{
-		Mesh->SetStaticMesh(CapsuleMesh.Object);
+		Mesh->SetStaticMesh(SphereMesh.Object);
 		Mesh->SetRelativeLocation(FVector(0.0,0.0,0.0));
+		Mesh->SetRelativeRotation(FRotator(0.0,0.0,0.0));
 	}
 	else
 	{
-		WARN("Error: Could not find pawn mesh");
+		WARN("ERROR: Could not find pawn mesh");
 	}
 	
 	// Get default pawn material
@@ -38,18 +40,29 @@ ALab06Pawn::ALab06Pawn() : MaxMoveSpeed(10.0), CameraPosition(FVector(-200,0,Bas
 	}
 	else
 	{
-		WARN("Error: Could not find pawn material");
+		WARN("ERROR: Could not find pawn material");
 	}
 	
 	// Get pawn movement action
-	auto InputAction = ConstructorHelpers::FObjectFinder<UInputAction>(TEXT("/Game/Labs/Lab06/Input/Lab06MovementAction.Lab06MovementAction"));
-	if (InputAction.Succeeded())
+	auto MovementInputAction = ConstructorHelpers::FObjectFinder<UInputAction>(TEXT("/Game/Labs/Lab06/Input/Lab06MovementAction.Lab06MovementAction"));
+	if (MovementInputAction.Succeeded())
 	{
-		MovementAction = InputAction.Object;
+		MovementAction = MovementInputAction.Object;
 	}
 	else
 	{
-		WARN("Error: Could not find pawn movement action");
+		WARN("ERROR: Could not find pawn movement action");
+	}
+
+	// Get pawn rotation action
+	auto RotationInputAction = ConstructorHelpers::FObjectFinder<UInputAction>(TEXT("/Game/Labs/Lab06/Input/Lab06RotationAction.Lab06RotationAction"));
+	if (RotationInputAction.Succeeded())
+	{
+		RotationAction = RotationInputAction.Object;
+	}
+	else
+	{
+		WARN("ERROR: Could not find pawn rotation action");
 	}
 
 	// Get pawn input mapping
@@ -60,7 +73,7 @@ ALab06Pawn::ALab06Pawn() : MaxMoveSpeed(10.0), CameraPosition(FVector(-200,0,Bas
 	}
 	else
 	{
-		WARN("Error: Could not find pawn input map");
+		WARN("ERROR: Could not find pawn input map");
 	}
 
 	// Create camera
@@ -118,13 +131,19 @@ void ALab06Pawn::Tick(float DeltaTime)
 {
 	Super::Tick(DeltaTime);
 
+	// Rotate pawn if rotation has been received
+	const FRotator Rotation = FRotator(LastRotationInput.Pitch * MaxRotationSpeed,LastRotationInput.Yaw * MaxRotationSpeed,LastRotationInput.Roll * MaxRotationSpeed);
+	const FRotator UpdatedRotation = GetActorRotation() + Rotation;
+	SetActorRotation(UpdatedRotation);
+
 	// Move pawn if movement has been received
-	const FVector Movement = FVector(LastInput.X * MaxMoveSpeed,LastInput.Y * MaxMoveSpeed,0);
+	const FVector Movement = FVector(LastMovementInput.X * MaxMoveSpeed, 0.0,.0);
 	const FVector UpdatedLocation = GetActorLocation() + Movement;
 	SetActorLocation(UpdatedLocation);
 
 	// Reset input
-	LastInput = FVector2d::ZeroVector;
+	LastRotationInput = FRotator::ZeroRotator;
+	LastMovementInput = FVector2d::ZeroVector;
 }
 
 // Called to bind functionality to input
@@ -136,17 +155,24 @@ void ALab06Pawn::SetupPlayerInputComponent(UInputComponent* PlayerInputComponent
 	LOG("Getting enhanced input component");
 	TObjectPtr<UEnhancedInputComponent> EIS = CastChecked<UEnhancedInputComponent>(PlayerInputComponent);
 
-	// Bind movement action to enhanced input component
-	LOG("Binding move actions");
+	// Bind movement action & rotation actions to enhanced input component
+	LOG("Binding move action");
 	EIS->BindAction(MovementAction,ETriggerEvent::Triggered,this,&ALab06Pawn::Move);
+	LOG("Binding rotation actions");
+	EIS->BindAction(RotationAction,ETriggerEvent::Triggered,this,&ALab06Pawn::Rotate);
 }
 
 // Called when movement is inputted
 void ALab06Pawn::Move(const FInputActionInstance& Instance)
 {
 	// Pass received movement input vector to LastInput
-	LastInput = Instance.GetValue().Get<FVector2d>();
-	LOG("Move input: (%f, %f)",LastInput.X,LastInput.Y);
+	LastMovementInput = Instance.GetValue().Get<FVector2d>();
 }
 
+void ALab06Pawn::Rotate(const FInputActionInstance& Instance)
+{
+	// Pass received rotation input rotator to LastRotationInput
+	const FVector RotationInput = Instance.GetValue().Get<FVector>();
+	LastRotationInput = FRotator(RotationInput.X,RotationInput.Y,RotationInput.Z);
+}
 

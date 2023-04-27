@@ -27,11 +27,20 @@ public:
 	UPROPERTY(EditAnywhere)
 	float MaxMoveSpeed;
 
+	UPROPERTY(EditAnywhere)
+	float MaxRotationSpeed;
+
 	/**
 	 * @brief The movement action component used by this pawn
 	 */
 	UPROPERTY(EditAnywhere,BlueprintReadOnly,Category = Input)
 	TObjectPtr<class UInputAction> MovementAction;
+	
+	/**
+	 * @brief The rotation action component used by this pawn
+	 */
+	UPROPERTY(EditAnywhere,BlueprintReadOnly,Category = Input)
+	TObjectPtr<UInputAction> RotationAction;
 
 	/**
 	 * @brief The input mapping used by this pawn
@@ -70,13 +79,24 @@ public:
 
 	/**
 	 * @brief Receives movement input from the controller
-	 * @param Instance The movement input instance recieved
+	 * @param Instance The movement input instance received
 	 */
 	virtual void Move(const struct FInputActionInstance& Instance);
 
+	/**
+	 * @brief Receives rotation input from the controller
+	 * @param Instance The rotation input instance received
+	 */
+	virtual void Rotate(const struct FInputActionInstance& Instance);
+	
 private:
 	/**
 	 * @brief The last movement input received
 	 */
-	FVector2D LastInput;
+	FVector2D LastMovementInput;
+
+	/**
+	 * @brief The last rotation input received
+	 */
+	FRotator LastRotationInput;
 };
