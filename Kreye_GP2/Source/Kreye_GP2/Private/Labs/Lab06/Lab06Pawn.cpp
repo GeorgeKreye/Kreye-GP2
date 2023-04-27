@@ -8,7 +8,7 @@
 #include "EnhancedInputSubsystems.h"
 
 // Sets default values
-ALab06Pawn::ALab06Pawn()
+ALab06Pawn::ALab06Pawn() : MaxMoveSpeed(10.0)
 {
  	// Set this pawn to call Tick() every frame.  You can turn this off to improve performance if you don't need it.
 	PrimaryActorTick.bCanEverTick = true;
@@ -30,6 +30,20 @@ ALab06Pawn::ALab06Pawn()
 	if(PawnMaterial.Succeeded())
 	{
 		Mesh->SetMaterial(0,PawnMaterial.Object);
+	}
+	
+	// Get pawn movement action
+	auto InputAction = ConstructorHelpers::FObjectFinder<UInputAction>(TEXT("/Game/Labs/Lab06/Input/Lab06MovementAction.Lab06MovementAction"));
+	if (InputAction.Succeeded())
+	{
+		MovementAction = InputAction.Object;
+	}
+
+	// Get pawn input mapping
+	auto InputMapping = ConstructorHelpers::FObjectFinder<UInputMappingContext>(TEXT("/Game/Labs/Lab06/Input/Lab06MappingContext.Lab06MappingContext"));
+	if (InputMapping.Succeeded())
+	{
+		InputMap = InputMapping.Object;
 	}
 }
 
