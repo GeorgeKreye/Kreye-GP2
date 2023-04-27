@@ -2,15 +2,14 @@
 
 
 #include "Labs/Lab06/Lab06Pawn.h"
-
-#include "AITypes.h"
 #include "EnhancedInputComponent.h"
 #include "InputMappingContext.h"
 #include "Kreye_GP2/Kreye_GP2.h"
 #include "EnhancedInputSubsystems.h"
+#include "Camera/CameraComponent.h"
 
 // Sets default values
-ALab06Pawn::ALab06Pawn() : MaxMoveSpeed(10.0), LastInput(FVector2d::ZeroVector)
+ALab06Pawn::ALab06Pawn() : MaxMoveSpeed(10.0), CameraPosition(FVector(-200,0,BaseEyeHeight)), CameraRotation(FRotator(0,0,0)), LastInput(FVector2d::ZeroVector)
 {
  	// Set this pawn to call Tick() every frame.  You can turn this off to improve performance if you don't need it.
 	PrimaryActorTick.bCanEverTick = true;
@@ -63,6 +62,16 @@ ALab06Pawn::ALab06Pawn() : MaxMoveSpeed(10.0), LastInput(FVector2d::ZeroVector)
 	{
 		WARN("Error: Could not find pawn input map");
 	}
+
+	// Create camera
+	Camera = CreateDefaultSubobject<UCameraComponent>(TEXT("Camera"));
+	Camera->AttachToComponent(RootComponent,FAttachmentTransformRules::KeepWorldTransform);
+
+	// Edit camera transform
+	Camera->SetRelativeLocation(CameraPosition);
+	LOG("Relative camera position: (%d,%d,%d)",CameraPosition.X,CameraPosition.Y,CameraPosition.Z);
+	Camera->SetRelativeRotation(CameraRotation);
+	LOG("Relative camera rotation: (%d,%d,%d)",CameraRotation.Pitch,CameraRotation.Yaw,CameraRotation.Roll);
 }
 
 // Called when the game starts or when spawned

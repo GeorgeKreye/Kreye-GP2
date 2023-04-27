@@ -39,6 +39,24 @@ public:
 	UPROPERTY(EditAnywhere,BlueprintReadOnly,Category = Input)
 	TSoftObjectPtr<class UInputMappingContext> InputMap;
 
+	/**
+	 * @brief The camera attached to this pawn
+	 */
+	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = Camera)
+	TObjectPtr<class UCameraComponent> Camera;
+
+	/**
+	 * @brief The position of the camera relative to the actor
+	 */
+	UPROPERTY(EditAnywhere,BlueprintReadWrite, Category = Camera)
+	FVector CameraPosition;
+
+	/**
+	 * @brief The rotation of the camera relative to the actor
+	 */
+	UPROPERTY(EditAnywhere,BlueprintReadWrite, Category = Camera)
+	FRotator CameraRotation;
+
 protected:
 	// Called when the game starts or when spawned
 	virtual void BeginPlay() override;
