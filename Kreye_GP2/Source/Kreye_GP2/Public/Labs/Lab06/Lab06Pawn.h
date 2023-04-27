@@ -55,4 +55,10 @@ public:
 	 * @param Instance The movement input instance recieved
 	 */
 	virtual void Move(const struct FInputActionInstance& Instance);
+
+private:
+	/**
+	 * @brief The last movement input received
+	 */
+	FVector2D LastMovement;
 };

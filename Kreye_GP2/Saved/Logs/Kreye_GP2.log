@@ -1211,3 +1211,74 @@ C:\Users\heroo\OneDrive\Documents\k-game-prog-2\Kreye_GP2\Binaries\Win64\UnrealE
 [2023.04.27-05.39.34:700][937]LogUObjectHash: Compacting FUObjectHashTables data took   1.64ms
 [2023.04.27-05.39.34:759][938]Display: Reload/Re-instancing Complete: 1 package changed, 1 class changed, 1 class unchanged
 [2023.04.27-05.39.34:759][938]LogLiveCoding: Warning: Live coding succeeded, data type changes may cause packaging to fail if assets reference the new or updated data types
+[2023.04.27-05.40.31:208][605]LogContentBrowser: Deferred new asset folder creation: NewFolder
+[2023.04.27-05.40.31:224][605]LogContentBrowser: Creating deferred item: NewFolder
+[2023.04.27-05.40.31:241][606]LogContentBrowser: Renaming the item being created (Deferred Item: NewFolder).
+[2023.04.27-05.40.33:094][714]LogContentBrowser: Attempting asset rename: NewFolder -> Input
+[2023.04.27-05.40.33:098][714]LogContentBrowser: End creating deferred item NewFolder
+[2023.04.27-05.40.38:030][958]LogContentBrowser: Deferred new asset file creation: NewInputAction
+[2023.04.27-05.40.38:038][958]LogContentBrowser: Creating deferred item: NewInputAction
+[2023.04.27-05.40.38:081][960]LogContentBrowser: Renaming the item being created (Deferred Item: NewInputAction).
+[2023.04.27-05.40.43:804][301]LogContentBrowser: Attempting asset rename: NewInputAction -> Lab06MovementAction
+[2023.04.27-05.40.44:063][301]LogContentBrowser: End creating deferred item NewInputAction
+[2023.04.27-05.40.55:542][952]LogContentBrowser: Deferred new asset file creation: NewInputMappingContext
+[2023.04.27-05.40.55:562][952]LogContentBrowser: Creating deferred item: NewInputMappingContext
+[2023.04.27-05.40.55:582][953]LogContentBrowser: Renaming the item being created (Deferred Item: NewInputMappingContext).
+[2023.04.27-05.41.00:480][243]LogContentBrowser: Attempting asset rename: NewInputMappingContext -> Lab06MappingContext
+[2023.04.27-05.41.00:687][243]LogContentBrowser: End creating deferred item NewInputMappingContext
+[2023.04.27-05.41.06:792][606]LogAssetEditorSubsystem: Opening Asset editor for InputAction /Game/Labs/Lab06/Input/Lab06MovementAction.Lab06MovementAction
+[2023.04.27-05.41.32:168][ 39]LogAssetEditorSubsystem: Opening Asset editor for InputMappingContext /Game/Labs/Lab06/Input/Lab06MappingContext.Lab06MappingContext
+[2023.04.27-05.41.36:330][276]LogSlate: Took 0.000986 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2023.04.27-05.42.46:150][401]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.04.27-05.42.46:241][401]LogSavePackage: Moving output files for package: /Game/Labs/Lab06/Input/Lab06MappingContext
+[2023.04.27-05.42.46:241][401]LogSavePackage: Moving '../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2/Saved/Lab06MappingContextC28EE1AB486CDD95C44362B11D6EC1B2.tmp' to '../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2/Content/Labs/Lab06/Input/Lab06MappingContext.uasset'
+[2023.04.27-05.42.46:663][401]LogFileHelpers: InternalPromptForCheckoutAndSave took 513 ms (total: 764 ms)
+[2023.04.27-05.42.46:674][401]AssetCheck: New page: Asset Save: Lab06MappingContext
+[2023.04.27-05.42.46:674][401]LogContentValidation: Display: Validating /Script/EnhancedInput.InputMappingContext /Game/Labs/Lab06/Input/Lab06MappingContext.Lab06MappingContext
+[2023.04.27-05.42.58:439][ 91]LogEditorClassViewer: Warning: Class /Script/InteractiveToolsFramework.GizmoActor has parent /Script/InteractiveToolsFramework.InternalToolFrameworkActor, but this parent is not found. The Class will not be shown in ClassViewer.
+[2023.04.27-05.42.58:439][ 91]LogEditorClassViewer: Warning: Class /Script/ModelingComponents.PreviewGeometryActor has parent /Script/InteractiveToolsFramework.InternalToolFrameworkActor, but this parent is not found. The Class will not be shown in ClassViewer.
+[2023.04.27-05.42.58:439][ 91]LogEditorClassViewer: Warning: Class /Script/ModelingComponents.PreviewMeshActor has parent /Script/InteractiveToolsFramework.InternalToolFrameworkActor, but this parent is not found. The Class will not be shown in ClassViewer.
+[2023.04.27-05.43.47:832][815]LogSlate: Window 'Lab06MappingContext' being destroyed
+[2023.04.27-05.43.47:900][815]LogSlate: Window 'Lab06MappingContext' being destroyed
+[2023.04.27-05.43.49:392][838]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.04.27-05.43.49:577][838]LogUObjectHash: Compacting FUObjectHashTables data took   1.11ms
+[2023.04.27-05.43.49:601][838]LogSavePackage: Moving output files for package: /Game/Labs/Lab06/Lab06
+[2023.04.27-05.43.49:605][838]LogSavePackage: Moving '../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2/Saved/Lab0641E1C037474A0A14B140289C8F0D4898.tmp' to '../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2/Content/Labs/Lab06/Lab06.umap'
+[2023.04.27-05.43.49:628][838]LogFileHelpers: Saving map 'Lab06' took 0.085
+[2023.04.27-05.43.49:667][838]LogFileHelpers: InternalPromptForCheckoutAndSave took 274 ms (total: 1.03 sec)
+[2023.04.27-05.43.49:678][838]AssetCheck: New page: Asset Save: Lab06
+[2023.04.27-05.43.49:678][838]LogContentValidation: Display: Validating /Script/Engine.World /Game/Labs/Lab06/Lab06.Lab06
+[2023.04.27-05.43.51:397][900]LogUObjectHash: Compacting FUObjectHashTables data took   0.76ms
+[2023.04.27-05.43.52:958][900]LogSlate: Window 'Save Content' being destroyed
+[2023.04.27-05.43.53:418][900]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.04.27-05.43.53:506][900]LogSavePackage: Moving output files for package: /Game/Labs/Lab06/Input/Lab06MappingContext
+[2023.04.27-05.43.53:509][900]LogSavePackage: Moving '../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2/Saved/Lab06MappingContextFA526145423AA47FF7B61BBEC119FBC9.tmp' to '../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2/Content/Labs/Lab06/Input/Lab06MappingContext.uasset'
+[2023.04.27-05.43.53:516][900]LogSavePackage: Moving output files for package: /Game/Labs/Lab06/Input/Lab06MovementAction
+[2023.04.27-05.43.53:516][900]LogSavePackage: Moving '../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2/Saved/Lab06MovementAction69316F664E09B4942675E3BD373102AE.tmp' to '../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2/Content/Labs/Lab06/Input/Lab06MovementAction.uasset'
+[2023.04.27-05.43.54:150][900]LogFileHelpers: InternalPromptForCheckoutAndSave took 732 ms (total: 1.77 sec)
+[2023.04.27-05.43.54:176][900]AssetCheck: New page: Asset Save: multiple assets
+[2023.04.27-05.43.54:177][900]LogContentValidation: Display: Validating /Script/EnhancedInput.InputAction /Game/Labs/Lab06/Input/Lab06MovementAction.Lab06MovementAction
+[2023.04.27-05.43.54:177][900]LogContentValidation: Display: Validating /Script/EnhancedInput.InputMappingContext /Game/Labs/Lab06/Input/Lab06MappingContext.Lab06MappingContext
+[2023.04.27-05.43.54:192][901]LogAutomationController: Ignoring very large delta of 2.82 seconds in calls to FAutomationControllerManager::Tick() and not penalizing unresponsive tests
+[2023.04.27-05.43.56:397][967]LogAssetEditorSubsystem: Opening Asset editor for InputAction /Game/Labs/Lab06/Input/Lab06MovementAction.Lab06MovementAction
+[2023.04.27-05.43.57:231][978]LogAssetEditorSubsystem: Opening Asset editor for InputMappingContext /Game/Labs/Lab06/Input/Lab06MappingContext.Lab06MappingContext
+[2023.04.27-05.47.37:015][392]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.04.27-05.47.37:114][392]LogSavePackage: Moving output files for package: /Game/Labs/Lab06/Input/Lab06MappingContext
+[2023.04.27-05.47.37:116][392]LogSavePackage: Moving '../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2/Saved/Lab06MappingContext935BB3294358EC7BB38D579DC70CF594.tmp' to '../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2/Content/Labs/Lab06/Input/Lab06MappingContext.uasset'
+[2023.04.27-05.47.37:171][392]LogFileHelpers: InternalPromptForCheckoutAndSave took 156 ms (total: 1.92 sec)
+[2023.04.27-05.47.37:180][392]AssetCheck: New page: Asset Save: Lab06MappingContext
+[2023.04.27-05.47.37:180][392]LogContentValidation: Display: Validating /Script/EnhancedInput.InputMappingContext /Game/Labs/Lab06/Input/Lab06MappingContext.Lab06MappingContext
+[2023.04.27-05.47.51:277][764]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.04.27-05.47.51:513][764]LogSavePackage: Moving output files for package: /Game/Labs/Lab06/Input/Lab06MappingContext
+[2023.04.27-05.47.51:515][764]LogSavePackage: Moving '../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2/Saved/Lab06MappingContextAE13EF3F478781B5411A1A8339EC72F9.tmp' to '../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2/Content/Labs/Lab06/Input/Lab06MappingContext.uasset'
+[2023.04.27-05.47.51:637][764]LogFileHelpers: InternalPromptForCheckoutAndSave took 360 ms (total: 2.28 sec)
+[2023.04.27-05.47.51:645][764]AssetCheck: New page: Asset Save: Lab06MappingContext
+[2023.04.27-05.47.51:645][764]LogContentValidation: Display: Validating /Script/EnhancedInput.InputMappingContext /Game/Labs/Lab06/Input/Lab06MappingContext.Lab06MappingContext
+[2023.04.27-05.51.42:223][871]LogLiveCoding: Display: Starting Live Coding compile.
+[2023.04.27-05.52.44:198][814]LogLiveCoding: Display:    Creating library C:\Users\heroo\OneDrive\Documents\k-game-prog-2\Kreye_GP2\Binaries\Win64\UnrealEditor-Kreye_GP2.patch_9.lib and object C:\Users\heroo\OneDrive\Documents\k-game-prog-2\Kreye_GP2\Binaries\Win64\UnrealEditor-Kreye_GP2.patch_9.exp
+[2023.04.27-05.52.44:726][815]LogClass: UClass Lab06Pawn Reload.
+[2023.04.27-05.52.44:743][815]LogClass: Could not find existing class Lab06Pawn in package /Script/Kreye_GP2 for reload, assuming new or modified class
+[2023.04.27-05.52.44:847][815]Re-instancing Lab06Pawn after reload.
+[2023.04.27-05.52.45:319][815]LogUObjectHash: Compacting FUObjectHashTables data took   3.67ms
+[2023.04.27-05.52.45:924][817]Display: Reload/Re-instancing Complete: 1 package changed, 1 class changed
+[2023.04.27-05.52.45:924][817]LogLiveCoding: Warning: Live coding succeeded, data type changes may cause packaging to fail if assets reference the new or updated data types
