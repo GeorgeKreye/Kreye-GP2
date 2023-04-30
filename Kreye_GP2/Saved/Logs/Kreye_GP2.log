@@ -1131,3 +1131,206 @@ LogConfig: Set CVar [[r.Shadow.DetectVertexShaderLayerAtRuntime:1]]
 [2023.04.30-21.56.11:462][304]LogFileHelpers: InternalPromptForCheckoutAndSave took 89 ms
 [2023.04.30-21.56.11:465][304]AssetCheck: New page: Asset Save: Lab07
 [2023.04.30-21.56.11:466][304]LogContentValidation: Display: Validating /Script/Engine.World /Game/Labs/Lab07/Lab07.Lab07
+[2023.04.30-21.58.03:443][957]LogAutomationController: Ignoring very large delta of 7.62 seconds in calls to FAutomationControllerManager::Tick() and not penalizing unresponsive tests
+[2023.04.30-21.58.09:418][298]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Engine/BasicShapes/Cube.Cube
+[2023.04.30-21.58.09:418][298]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Engine/BasicShapes/Cube.Cube
+[2023.04.30-21.58.09:420][298]LogActorFactory: Actor Factory spawned StaticMesh /Engine/BasicShapes/Cube.Cube as actor: StaticMeshActor /Game/Labs/Lab07/Lab07.Lab07:PersistentLevel.StaticMeshActor_0
+[2023.04.30-21.58.09:459][298]LogActorFactory: Actor Factory spawned StaticMesh /Engine/BasicShapes/Cube.Cube as actor: StaticMeshActor /Game/Labs/Lab07/Lab07.Lab07:PersistentLevel.StaticMeshActor_0
+[2023.04.30-21.58.10:186][339]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Engine/BasicShapes/Cube.Cube
+[2023.04.30-21.58.10:186][339]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Engine/BasicShapes/Cube.Cube
+[2023.04.30-21.58.10:193][339]LogActorFactory: Actor Factory spawned StaticMesh /Engine/BasicShapes/Cube.Cube as actor: StaticMeshActor /Game/Labs/Lab07/Lab07.Lab07:PersistentLevel.StaticMeshActor_2
+[2023.04.30-21.58.10:193][339]LogActorFactory: Actor Factory spawned StaticMesh /Engine/BasicShapes/Cube.Cube as actor: StaticMeshActor /Game/Labs/Lab07/Lab07.Lab07:PersistentLevel.StaticMeshActor_2
+[2023.04.30-21.58.12:480][462]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Engine/BasicShapes/Cube.Cube
+[2023.04.30-21.58.12:480][462]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Engine/BasicShapes/Cube.Cube
+[2023.04.30-21.58.12:481][462]LogActorFactory: Actor Factory spawned StaticMesh /Engine/BasicShapes/Cube.Cube as actor: StaticMeshActor /Game/Labs/Lab07/Lab07.Lab07:PersistentLevel.StaticMeshActor_3
+[2023.04.30-21.58.12:481][462]LogActorFactory: Actor Factory spawned StaticMesh /Engine/BasicShapes/Cube.Cube as actor: StaticMeshActor /Game/Labs/Lab07/Lab07.Lab07:PersistentLevel.StaticMeshActor_3
+[2023.04.30-21.58.13:212][505]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Engine/BasicShapes/Cube.Cube
+[2023.04.30-21.58.13:212][505]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Engine/BasicShapes/Cube.Cube
+[2023.04.30-21.58.13:213][505]LogActorFactory: Actor Factory spawned StaticMesh /Engine/BasicShapes/Cube.Cube as actor: StaticMeshActor /Game/Labs/Lab07/Lab07.Lab07:PersistentLevel.StaticMeshActor_4
+[2023.04.30-21.58.13:213][505]LogActorFactory: Actor Factory spawned StaticMesh /Engine/BasicShapes/Cube.Cube as actor: StaticMeshActor /Game/Labs/Lab07/Lab07.Lab07:PersistentLevel.StaticMeshActor_4
+[2023.04.30-21.58.28:255][393]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Engine/BasicShapes/Cube.Cube
+[2023.04.30-21.58.28:255][393]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Engine/BasicShapes/Cube.Cube
+[2023.04.30-21.58.28:256][393]LogActorFactory: Actor Factory spawned StaticMesh /Engine/BasicShapes/Cube.Cube as actor: StaticMeshActor /Game/Labs/Lab07/Lab07.Lab07:PersistentLevel.StaticMeshActor_5
+[2023.04.30-21.58.28:256][393]LogActorFactory: Actor Factory spawned StaticMesh /Engine/BasicShapes/Cube.Cube as actor: StaticMeshActor /Game/Labs/Lab07/Lab07.Lab07:PersistentLevel.StaticMeshActor_5
+[2023.04.30-21.58.28:715][419]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Engine/BasicShapes/Cube.Cube
+[2023.04.30-21.58.28:715][419]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Engine/BasicShapes/Cube.Cube
+[2023.04.30-21.58.28:715][419]LogActorFactory: Actor Factory spawned StaticMesh /Engine/BasicShapes/Cube.Cube as actor: StaticMeshActor /Game/Labs/Lab07/Lab07.Lab07:PersistentLevel.StaticMeshActor_6
+[2023.04.30-21.58.28:716][419]LogActorFactory: Actor Factory spawned StaticMesh /Engine/BasicShapes/Cube.Cube as actor: StaticMeshActor /Game/Labs/Lab07/Lab07.Lab07:PersistentLevel.StaticMeshActor_6
+[2023.04.30-21.59.06:834][570]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.04.30-21.59.06:852][570]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.04.30-21.59.06:853][570]PIE: New page: PIE session: Lab07 (Apr 30, 2023, 9:59:06 AM)
+[2023.04.30-21.59.06:875][570]LogOnline: OSS: Created online subsystem instance for: NULL
+[2023.04.30-21.59.06:875][570]LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for module [NULL]
+[2023.04.30-21.59.06:877][570]LogPlayLevel: Creating play world package: /Game/Labs/Lab07/UEDPIE_0_Lab07
+[2023.04.30-21.59.06:882][570]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004259s)
+[2023.04.30-21.59.06:882][570]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Labs/Lab07/Lab07.Lab07 to /Game/Labs/Lab07/UEDPIE_0_Lab07.Lab07 (0.004950s)
+[2023.04.30-21.59.06:884][570]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.04.30-21.59.06:885][570]LogAIModule: Creating AISystem for world Lab07
+[2023.04.30-21.59.06:886][570]LogPlayLevel: PIE: World Init took: (0.003721s)
+[2023.04.30-21.59.06:895][570]LogUObjectHash: Compacting FUObjectHashTables data took   0.34ms
+[2023.04.30-21.59.06:901][570]LogAudio: Display: Creating Audio Device:                 Id: 2, Scope: Unique, Realtime: True
+[2023.04.30-21.59.06:902][570]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.04.30-21.59.06:902][570]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.04.30-21.59.06:902][570]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.04.30-21.59.06:902][570]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.04.30-21.59.06:902][570]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.04.30-21.59.06:902][570]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.04.30-21.59.06:902][570]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.04.30-21.59.06:903][570]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.04.30-21.59.06:905][570]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.04.30-21.59.06:905][570]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.04.30-21.59.06:905][570]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.04.30-21.59.06:909][570]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.04.30-21.59.06:949][570]LogAudioMixer: Display: Using Audio Hardware Device Headphones (Realtek(R) Audio)
+[2023.04.30-21.59.06:956][570]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.04.30-21.59.06:956][570]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.04.30-21.59.06:957][570]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.04.30-21.59.06:970][570]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=2
+[2023.04.30-21.59.06:971][570]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=2
+[2023.04.30-21.59.06:974][570]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=2
+[2023.04.30-21.59.06:974][570]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=2
+[2023.04.30-21.59.06:974][570]LogInit: FAudioDevice initialized.
+[2023.04.30-21.59.06:974][570]LogAudio: Display: Audio Device (ID: 2) registered with world 'Lab07'.
+[2023.04.30-21.59.07:008][570]LogLoad: Game class is 'Kreye_GP2GameMode'
+[2023.04.30-21.59.07:010][570]LogWorld: Bringing World /Game/Labs/Lab07/UEDPIE_0_Lab07.Lab07 up for play (max tick rate 60) at 2023.04.30-15.59.07
+[2023.04.30-21.59.07:012][570]LogWorld: Bringing up level for play took: 0.003603
+[2023.04.30-21.59.07:016][570]LogOnline: OSS: Created online subsystem instance for: :Context_3
+[2023.04.30-21.59.07:188][570]PIE: Server logged in
+[2023.04.30-21.59.07:189][570]PIE: Play in editor total start time 0.342 seconds.
+[2023.04.30-21.59.07:377][571]LogShaderCompilers: Display: ================================================
+[2023.04.30-21.59.07:377][571]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2023.04.30-21.59.07:377][571]LogShaderCompilers: Display: Total job queries 121, among them cache hits 15 (12.40%)
+[2023.04.30-21.59.07:377][571]LogShaderCompilers: Display: Tracking 106 distinct input hashes that result in 88 distinct outputs (83.02%)
+[2023.04.30-21.59.07:377][571]LogShaderCompilers: Display: RAM used: 0.92 MB (0.00 GB) of 819.20 MB (0.80 GB) budget. Usage: 0.11%
+[2023.04.30-21.59.07:377][571]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2023.04.30-21.59.07:377][571]LogShaderCompilers: Display: Shaders Compiled: 0
+[2023.04.30-21.59.07:377][571]LogShaderCompilers: Display: Jobs assigned 0, completed 0 (0.00%)
+[2023.04.30-21.59.07:377][571]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 0.00 s
+[2023.04.30-21.59.07:377][571]LogShaderCompilers: Display: ================================================
+[2023.04.30-21.59.25:413][645]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.04.30-21.59.25:413][645]LogWorld: BeginTearingDown for /Game/Labs/Lab07/UEDPIE_0_Lab07
+[2023.04.30-21.59.25:414][645]LogWorld: UWorld::CleanupWorld for Lab07, bSessionEnded=true, bCleanupResources=true
+[2023.04.30-21.59.25:414][645]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.04.30-21.59.25:419][645]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.04.30-21.59.25:421][645]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.04.30-21.59.25:428][645]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.04.30-21.59.25:429][645]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=2
+[2023.04.30-21.59.25:431][645]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=2
+[2023.04.30-21.59.25:442][645]LogUObjectHash: Compacting FUObjectHashTables data took   0.47ms
+[2023.04.30-21.59.25:481][646]LogPlayLevel: Display: Destroying online subsystem :Context_3
+[2023.04.30-21.59.27:464][745]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.04.30-21.59.27:511][745]LogUObjectHash: Compacting FUObjectHashTables data took   0.27ms
+[2023.04.30-21.59.27:521][745]LogSavePackage: Moving output files for package: /Game/Labs/Lab07/Lab07
+[2023.04.30-21.59.27:522][745]LogSavePackage: Moving '../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2/Saved/Lab0786098D574E2CD450A10FA2ABAD2D145B.tmp' to '../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2/Content/Labs/Lab07/Lab07.umap'
+[2023.04.30-21.59.27:534][745]LogFileHelpers: Saving map 'Lab07' took 0.031
+[2023.04.30-21.59.27:564][745]LogFileHelpers: InternalPromptForCheckoutAndSave took 99 ms (total: 188 ms)
+[2023.04.30-21.59.27:567][745]AssetCheck: New page: Asset Save: Lab07
+[2023.04.30-21.59.27:567][745]LogContentValidation: Display: Validating /Script/Engine.World /Game/Labs/Lab07/Lab07.Lab07
+[2023.04.30-21.59.44:030][692]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.04.30-21.59.44:082][692]LogUObjectHash: Compacting FUObjectHashTables data took   0.21ms
+[2023.04.30-21.59.44:092][692]LogSavePackage: Moving output files for package: /Game/Labs/Lab07/Lab07
+[2023.04.30-21.59.44:093][692]LogSavePackage: Moving '../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2/Saved/Lab07E8B6224242D585D86FC756B3EC8CD407.tmp' to '../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2/Content/Labs/Lab07/Lab07.umap'
+[2023.04.30-21.59.44:103][692]LogFileHelpers: Saving map 'Lab07' took 0.030
+[2023.04.30-21.59.44:124][692]LogFileHelpers: InternalPromptForCheckoutAndSave took 93 ms (total: 282 ms)
+[2023.04.30-21.59.44:127][692]AssetCheck: New page: Asset Save: Lab07
+[2023.04.30-21.59.44:127][692]LogContentValidation: Display: Validating /Script/Engine.World /Game/Labs/Lab07/Lab07.Lab07
+[2023.04.30-21.59.47:449][886]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.04.30-21.59.47:455][886]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.04.30-21.59.47:455][886]PIE: New page: PIE session: Lab07 (Apr 30, 2023, 9:59:47 AM)
+[2023.04.30-21.59.47:455][886]LogPlayLevel: Creating play world package: /Game/Labs/Lab07/UEDPIE_0_Lab07
+[2023.04.30-21.59.47:457][886]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001780s)
+[2023.04.30-21.59.47:457][886]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Labs/Lab07/Lab07.Lab07 to /Game/Labs/Lab07/UEDPIE_0_Lab07.Lab07 (0.001819s)
+[2023.04.30-21.59.47:457][886]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.04.30-21.59.47:457][886]LogAIModule: Creating AISystem for world Lab07
+[2023.04.30-21.59.47:458][886]LogPlayLevel: PIE: World Init took: (0.000751s)
+[2023.04.30-21.59.47:465][886]LogUObjectHash: Compacting FUObjectHashTables data took   0.44ms
+[2023.04.30-21.59.47:466][886]LogAudio: Display: Creating Audio Device:                 Id: 3, Scope: Unique, Realtime: True
+[2023.04.30-21.59.47:466][886]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.04.30-21.59.47:466][886]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.04.30-21.59.47:466][886]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.04.30-21.59.47:466][886]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.04.30-21.59.47:466][886]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.04.30-21.59.47:466][886]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.04.30-21.59.47:466][886]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.04.30-21.59.47:466][886]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.04.30-21.59.47:466][886]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.04.30-21.59.47:466][886]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.04.30-21.59.47:467][886]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.04.30-21.59.47:469][886]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.04.30-21.59.47:495][886]LogAudioMixer: Display: Using Audio Hardware Device Headphones (Realtek(R) Audio)
+[2023.04.30-21.59.47:495][886]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.04.30-21.59.47:495][886]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.04.30-21.59.47:496][886]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.04.30-21.59.47:497][886]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=3
+[2023.04.30-21.59.47:497][886]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=3
+[2023.04.30-21.59.47:499][886]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=3
+[2023.04.30-21.59.47:499][886]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=3
+[2023.04.30-21.59.47:499][886]LogInit: FAudioDevice initialized.
+[2023.04.30-21.59.47:499][886]LogAudio: Display: Audio Device (ID: 3) registered with world 'Lab07'.
+[2023.04.30-21.59.47:502][886]LogLoad: Game class is 'Kreye_GP2GameMode'
+[2023.04.30-21.59.47:503][886]LogWorld: Bringing World /Game/Labs/Lab07/UEDPIE_0_Lab07.Lab07 up for play (max tick rate 60) at 2023.04.30-15.59.47
+[2023.04.30-21.59.47:503][886]LogWorld: Bringing up level for play took: 0.001102
+[2023.04.30-21.59.47:505][886]LogOnline: OSS: Created online subsystem instance for: :Context_4
+[2023.04.30-21.59.47:509][886]PIE: Server logged in
+[2023.04.30-21.59.47:510][886]PIE: Play in editor total start time 0.056 seconds.
+[2023.04.30-22.00.01:890][739]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.04.30-22.00.01:891][739]LogWorld: BeginTearingDown for /Game/Labs/Lab07/UEDPIE_0_Lab07
+[2023.04.30-22.00.01:891][739]LogWorld: UWorld::CleanupWorld for Lab07, bSessionEnded=true, bCleanupResources=true
+[2023.04.30-22.00.01:891][739]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.04.30-22.00.01:895][739]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.04.30-22.00.01:897][739]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.04.30-22.00.01:905][739]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.04.30-22.00.01:905][739]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=3
+[2023.04.30-22.00.01:907][739]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=3
+[2023.04.30-22.00.01:914][739]LogUObjectHash: Compacting FUObjectHashTables data took   0.45ms
+[2023.04.30-22.00.01:956][740]LogPlayLevel: Display: Destroying online subsystem :Context_4
+[2023.04.30-22.00.33:105][508]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.04.30-22.00.33:113][508]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.04.30-22.00.33:113][508]PIE: New page: PIE session: Lab07 (Apr 30, 2023, 10:00:33 AM)
+[2023.04.30-22.00.33:140][508]LogPlayLevel: Creating play world package: /Game/Labs/Lab07/UEDPIE_0_Lab07
+[2023.04.30-22.00.33:142][508]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002302s)
+[2023.04.30-22.00.33:142][508]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Labs/Lab07/Lab07.Lab07 to /Game/Labs/Lab07/UEDPIE_0_Lab07.Lab07 (0.002360s)
+[2023.04.30-22.00.33:142][508]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.04.30-22.00.33:143][508]LogAIModule: Creating AISystem for world Lab07
+[2023.04.30-22.00.33:143][508]LogPlayLevel: PIE: World Init took: (0.001165s)
+[2023.04.30-22.00.33:153][508]LogUObjectHash: Compacting FUObjectHashTables data took   0.41ms
+[2023.04.30-22.00.33:156][508]LogAudio: Display: Creating Audio Device:                 Id: 4, Scope: Unique, Realtime: True
+[2023.04.30-22.00.33:156][508]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.04.30-22.00.33:156][508]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.04.30-22.00.33:156][508]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.04.30-22.00.33:156][508]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.04.30-22.00.33:156][508]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.04.30-22.00.33:156][508]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.04.30-22.00.33:156][508]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.04.30-22.00.33:156][508]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.04.30-22.00.33:156][508]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.04.30-22.00.33:156][508]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.04.30-22.00.33:156][508]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.04.30-22.00.33:159][508]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.04.30-22.00.33:189][508]LogAudioMixer: Display: Using Audio Hardware Device Headphones (Realtek(R) Audio)
+[2023.04.30-22.00.33:189][508]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.04.30-22.00.33:189][508]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.04.30-22.00.33:189][508]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.04.30-22.00.33:191][508]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=4
+[2023.04.30-22.00.33:191][508]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=4
+[2023.04.30-22.00.33:193][508]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=4
+[2023.04.30-22.00.33:193][508]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=4
+[2023.04.30-22.00.33:193][508]LogInit: FAudioDevice initialized.
+[2023.04.30-22.00.33:193][508]LogAudio: Display: Audio Device (ID: 4) registered with world 'Lab07'.
+[2023.04.30-22.00.33:197][508]LogLoad: Game class is 'Kreye_GP2GameMode'
+[2023.04.30-22.00.33:197][508]LogWorld: Bringing World /Game/Labs/Lab07/UEDPIE_0_Lab07.Lab07 up for play (max tick rate 60) at 2023.04.30-16.00.33
+[2023.04.30-22.00.33:197][508]LogWorld: Bringing up level for play took: 0.000760
+[2023.04.30-22.00.33:200][508]LogOnline: OSS: Created online subsystem instance for: :Context_5
+[2023.04.30-22.00.33:205][508]PIE: Server logged in
+[2023.04.30-22.00.33:206][508]PIE: Play in editor total start time 0.094 seconds.
+[2023.04.30-22.01.00:651][143]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.04.30-22.01.00:651][143]LogWorld: BeginTearingDown for /Game/Labs/Lab07/UEDPIE_0_Lab07
+[2023.04.30-22.01.00:651][143]LogWorld: UWorld::CleanupWorld for Lab07, bSessionEnded=true, bCleanupResources=true
+[2023.04.30-22.01.00:651][143]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.04.30-22.01.00:661][143]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.04.30-22.01.00:663][143]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.04.30-22.01.00:670][143]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.04.30-22.01.00:671][143]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=4
+[2023.04.30-22.01.00:672][143]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=4
+[2023.04.30-22.01.00:679][143]LogUObjectHash: Compacting FUObjectHashTables data took   0.47ms
+[2023.04.30-22.01.00:762][145]LogPlayLevel: Display: Destroying online subsystem :Context_5
