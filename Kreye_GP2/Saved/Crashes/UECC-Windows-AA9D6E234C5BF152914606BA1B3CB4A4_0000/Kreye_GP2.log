@@ -1920,21 +1920,3 @@ Script Stack (0 frames) :
 [2023.04.30-22.30.48:067][676]LogOutputDevice: Error: [Callstack] 0x00007ffc9aa9269d KERNEL32.DLL!UnknownFunction []
 [2023.04.30-22.30.48:067][676]LogOutputDevice: Error: [Callstack] 0x00007ffc9b9aa9f8 ntdll.dll!UnknownFunction []
 [2023.04.30-22.30.48:067][676]LogOutputDevice: Error: 
-[2023.04.30-22.30.48:076][676]LogStats:                SubmitErrorReport -  0.000 s
-[2023.04.30-22.30.49:881][676]LogStats:                    SendNewReport -  1.805 s
-[2023.04.30-22.30.49:881][676]LogStats:             FDebug::EnsureFailed -  1.902 s
-[2023.04.30-22.30.49:881][676]GP2Log: Relative camera position: (0,0,0)
-[2023.04.30-22.30.49:881][676]GP2Log: Relative camera rotation: (0,0,0)
-[2023.04.30-22.30.49:917][676]Re-instancing Lab03Actor after reload.
-[2023.04.30-22.30.50:121][676]LogUObjectHash: Compacting FUObjectHashTables data took   0.72ms
-[2023.04.30-22.30.50:185][677]LogAutomationController: Ignoring very large delta of 2.38 seconds in calls to FAutomationControllerManager::Tick() and not penalizing unresponsive tests
-[2023.04.30-22.30.50:519][678]Display: Reload/Re-instancing Complete: 1 package changed, 8 classes new, 1 class changed, 2 classes unchanged
-[2023.04.30-22.30.50:519][678]LogLiveCoding: Warning: Live coding succeeded, data type changes may cause packaging to fail if assets reference the new or updated data types
-[2023.04.30-22.43.49:042][728]LogFileHelpers: InternalPromptForCheckoutAndSave started...
-[2023.04.30-22.43.49:237][728]LogUObjectHash: Compacting FUObjectHashTables data took   4.84ms
-[2023.04.30-22.43.49:301][728]LogSavePackage: Moving output files for package: /Game/Labs/Lab07/Lab07
-[2023.04.30-22.43.49:303][728]LogSavePackage: Moving '../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2/Saved/Lab077A85620A4E35C31FCD45709CBBA41A90.tmp' to '../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2/Content/Labs/Lab07/Lab07.umap'
-[2023.04.30-22.43.49:350][728]LogFileHelpers: Saving map 'Lab07' took 0.233
-[2023.04.30-22.43.49:363][728]LogFileHelpers: InternalPromptForCheckoutAndSave took 324 ms (total: 1.14 sec)
-[2023.04.30-22.43.49:448][728]AssetCheck: New page: Asset Save: Lab07
-[2023.04.30-22.43.49:450][728]LogContentValidation: Display: Validating /Script/Engine.World /Game/Labs/Lab07/Lab07.Lab07
