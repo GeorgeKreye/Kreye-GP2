@@ -15,13 +15,9 @@ public:
 	// Sets default values for this actor's properties
 	AMovingPhysicsObject();
 
-	// The speed that the object can move at
-	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = Movement)
-	float MoveSpeed;
-
-	// The waypoints used for movement
-	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = Movement)
-	TArray<FVector> Waypoints;
+	// The mesh used by this object
+	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = StaticMesh)
+	TObjectPtr<UStaticMeshComponent> Mesh;
 
 protected:
 	// Called when the game starts or when spawned
