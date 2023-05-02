@@ -2,8 +2,6 @@
 
 
 #include "Labs/Lab06/Lab06Pawn.h"
-
-#include "AITypes.h"
 #include "EnhancedInputComponent.h"
 #include "InputMappingContext.h"
 #include "Kreye_GP2/Kreye_GP2.h"
@@ -35,7 +33,7 @@ ALab06Pawn::ALab06Pawn() : MaxMoveSpeed(10.0), MaxRotationSpeed(5.0), CameraPosi
 	{
 		WARN("ERROR: Could not find pawn mesh");
 	}
-
+	
 	// Get default pawn material
 	auto PawnMaterial = ConstructorHelpers::FObjectFinder<UMaterialInterface>(
 		TEXT("/Game/StarterContent/Materials/M_Basic_Floor.M_Basic_Floor"));

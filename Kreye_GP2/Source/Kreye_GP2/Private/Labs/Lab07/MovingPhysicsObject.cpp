@@ -19,19 +19,17 @@ AMovingPhysicsObject::AMovingPhysicsObject()
 	{
 		Mesh->SetStaticMesh(CubeMesh.Object);
 		Mesh->SetRelativeLocation(FVector(0.0,0.0,0.0));
-
+	
 		// Modify scale to alter mesh into platform shape
 		Mesh->SetRelativeScale3D(FVector(1.5,1.5,0.25));
 	}
-
+	
 	// Get mesh texture
 	auto MeshTexture = ConstructorHelpers::FObjectFinder<UMaterialInterface>(TEXT("/Game/StarterContent/Materials/M_Basic_Floor.M_Basic_Floor"));
 	if (MeshTexture.Succeeded())
 	{
 		Mesh->SetMaterial(0,MeshTexture.Object);
 	}
-
-	// Create physics movement component
 }
 
 // Called when the game starts or when spawned
