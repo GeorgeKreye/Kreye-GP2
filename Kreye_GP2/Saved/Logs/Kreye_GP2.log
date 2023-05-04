@@ -1109,3 +1109,213 @@ LogConfig: Set CVar [[r.Occlusion.SingleRHIThreadStall:1]]
 [2023.05.04-04.13.04:282][857]LogSlate: Took 0.000340 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
 [2023.05.04-04.13.10:769][ 48]LogSlate: Window 'Project Settings' being destroyed
 [2023.05.04-04.13.10:820][ 48]LogSlate: Window 'Project Settings' being destroyed
+[2023.05.04-04.50.53:588][899]LogAudioMixer: Warning: AudioMixerPlatformInterface Timeout [5001ms] waiting for h/w. InstanceID=1
+[2023.05.04-04.50.53:632][899]LogAudioMixer: Display: FMixerNullCallback: Simulating a h/w device callback at [21ms], ThreadID=51500
+[2023.05.04-04.50.54:764][902]LogAudioMixer: Display: Successful Swap new Device is (NumChannels=2, SampleRate=48000, DeviceID={0.0.0.00000000}.{5ba5d838-f949-4a17-824f-ab36a6e880d2}, Name=Speakers (Realtek(R) Audio)), Reason=AudioMixerPlatformInterface. Timeout waiting for h/w., InstanceID=1, DurationMS=979.47
+[2023.05.04-04.50.54:766][902]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=1
+[2023.05.04-04.50.54:772][902]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=1
+[2023.05.04-04.51.04:317][931]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2023.05.04-04.51.08:441][931]LogAudioMixer: Warning: AudioMixerPlatformInterface Timeout [4999ms] waiting for h/w. InstanceID=1
+[2023.05.04-04.51.13:442][931]LogAudioMixer: Warning: AudioMixerPlatformInterface Timeout [5000ms] waiting for h/w. InstanceID=1
+[2023.05.04-04.51.18:459][931]LogAudioMixer: Warning: AudioMixerPlatformInterface Timeout [5000ms] waiting for h/w. InstanceID=1
+[2023.05.04-04.51.23:477][931]LogAudioMixer: Warning: AudioMixerPlatformInterface Timeout [5000ms] waiting for h/w. InstanceID=1
+[2023.05.04-04.51.28:443][931]LogAudioMixer: Warning: AudioMixerPlatformInterface Timeout [4999ms] waiting for h/w. InstanceID=1
+[2023.05.04-04.51.33:463][931]LogAudioMixer: Warning: AudioMixerPlatformInterface Timeout [5004ms] waiting for h/w. InstanceID=1
+[2023.05.04-04.51.38:461][931]LogAudioMixer: Warning: AudioMixerPlatformInterface Timeout [5000ms] waiting for h/w. InstanceID=1
+[2023.05.04-05.00.31:597][931]LogAudioMixer: Display: Audio Buffer Underrun (starvation) detected. InstanceID=1
+[2023.05.04-05.00.37:400][931]LogAudioMixer: Display: FMixerNullCallback: Simulating a h/w device callback at [21ms], ThreadID=51500
+[2023.05.04-05.00.39:688][932]LogUdpMessaging: Display: Added local interface '10.0.0.100' to multicast group '230.0.0.1:6666'
+[2023.05.04-05.00.40:141][932]LogAudioMixer: Display: Successful Swap new Device is (NumChannels=2, SampleRate=48000, DeviceID={0.0.0.00000000}.{5ba5d838-f949-4a17-824f-ab36a6e880d2}, Name=Speakers (Realtek(R) Audio)), Reason=AudioMixerPlatformInterface. Timeout waiting for h/w., InstanceID=1, DurationMS=737.02
+[2023.05.04-05.00.40:143][932]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=1
+[2023.05.04-05.00.40:170][932]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=1
+[2023.05.04-05.21.47:779][727]LogDerivedDataCache: C:/Users/heroo/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:06.244 and deleted 0 files with total size 0 MiB. Scanned 3726 files in 3712 folders with total size 328 MiB.
+[2023.05.04-05.48.15:850][848]LogAudioMixer: Warning: Audio Thread Command from SetListenerTransforms()() took 1.013700 milleseconds to execute
+[2023.05.04-05.48.35:579][402]LogContentBrowser: Deferred new asset folder creation: NewFolder
+[2023.05.04-05.48.35:628][402]LogContentBrowser: Creating deferred item: NewFolder
+[2023.05.04-05.48.35:660][403]LogContentBrowser: Renaming the item being created (Deferred Item: NewFolder).
+[2023.05.04-05.48.38:373][515]LogContentBrowser: Attempting asset rename: NewFolder -> Sound
+[2023.05.04-05.48.38:386][515]LogContentBrowser: End creating deferred item NewFolder
+[2023.05.04-06.03.56:322][300]LogAssetTools: Warning: Two factories registered with same priority : WmfFileMediaSourceFactory_0 and AvfFileMediaSourceFactory_0
+[2023.05.04-06.03.56:576][300]LogFactory: FactoryCreateFile: FileMediaSource with WmfFileMediaSourceFactory (0 0 ../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/External (non-Unreal Marketplace) assets/Clouds.mp3)
+[2023.05.04-06.04.00:183][363]LogUObjectHash: Compacting FUObjectHashTables data took  21.33ms
+[2023.05.04-06.04.00:208][363]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Labs/Lab08/Lab08' took 0.159
+[2023.05.04-06.04.00:220][363]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Labs/Lab08/Sound/Clouds] ([1] browsable assets)...
+[2023.05.04-06.04.00:220][363]OBJ SavePackage: Finished generating thumbnails for package [/Game/Labs/Lab08/Sound/Clouds]
+[2023.05.04-06.04.00:240][363]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Labs/Lab08/Sound/Clouds_Auto1
+[2023.05.04-06.04.00:240][363]LogSavePackage: Moving '../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2/Saved/Clouds_Auto1AF3A31AC4A702F1FB99B5F86E25E5057.tmp' to '../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2/Saved/Autosaves/Game/Labs/Lab08/Sound/Clouds_Auto1.uasset'
+[2023.05.04-06.04.00:247][363]LogFileHelpers: Auto-saving content packages took 0.034
+[2023.05.04-06.04.06:886][465]LogActorFactory: Actor Factory attempting to spawn FileMediaSource /Game/Labs/Lab08/Sound/Clouds.Clouds
+[2023.05.04-06.04.06:886][465]LogActorFactory: Actor Factory attempting to spawn FileMediaSource /Game/Labs/Lab08/Sound/Clouds.Clouds
+[2023.05.04-06.04.07:027][465]LogActorFactory: Actor Factory spawned FileMediaSource /Game/Labs/Lab08/Sound/Clouds.Clouds as actor: MediaPlate /Game/Labs/Lab08/Lab08.Lab08:PersistentLevel.MediaPlate_0
+[2023.05.04-06.04.07:029][465]LogActorFactory: Actor Factory spawned FileMediaSource /Game/Labs/Lab08/Sound/Clouds.Clouds as actor: MediaPlate /Game/Labs/Lab08/Lab08.Lab08:PersistentLevel.MediaPlate_0
+[2023.05.04-06.04.07:222][465]LogActorFactory: Actor Factory attempting to spawn FileMediaSource /Game/Labs/Lab08/Sound/Clouds.Clouds
+[2023.05.04-06.04.07:222][465]LogActorFactory: Actor Factory attempting to spawn FileMediaSource /Game/Labs/Lab08/Sound/Clouds.Clouds
+[2023.05.04-06.04.07:257][465]LogActorFactory: Actor Factory spawned FileMediaSource /Game/Labs/Lab08/Sound/Clouds.Clouds as actor: MediaPlate /Game/Labs/Lab08/Lab08.Lab08:PersistentLevel.MediaPlate_1
+[2023.05.04-06.04.07:257][465]LogActorFactory: Actor Factory spawned FileMediaSource /Game/Labs/Lab08/Sound/Clouds.Clouds as actor: MediaPlate /Game/Labs/Lab08/Lab08.Lab08:PersistentLevel.MediaPlate_1
+[2023.05.04-06.04.16:510][578]Cmd: TRANSACTION UNDO
+[2023.05.04-06.04.16:514][578]LogEditorTransaction: Undo Create Actors
+[2023.05.04-06.04.17:208][581]LogShaderCompilers: Display: ================================================
+[2023.05.04-06.04.17:208][581]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2023.05.04-06.04.17:208][581]LogShaderCompilers: Display: Total job queries 118, among them cache hits 10 (8.47%)
+[2023.05.04-06.04.17:209][581]LogShaderCompilers: Display: Tracking 105 distinct input hashes that result in 85 distinct outputs (80.95%)
+[2023.05.04-06.04.17:209][581]LogShaderCompilers: Display: RAM used: 0.88 MB (0.00 GB) of 819.20 MB (0.80 GB) budget. Usage: 0.11%
+[2023.05.04-06.04.17:209][581]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2023.05.04-06.04.17:209][581]LogShaderCompilers: Display: Shaders Compiled: 1
+[2023.05.04-06.04.17:209][581]LogShaderCompilers: Display: Jobs assigned 4, completed 1 (25.00%)
+[2023.05.04-06.04.17:209][581]LogShaderCompilers: Display: Time job spent in pending queue: average 0.08 s, longest 0.09 s
+[2023.05.04-06.04.17:209][581]LogShaderCompilers: Display: Job execution time: average 9.86 s, max 9.86 s
+[2023.05.04-06.04.17:209][581]LogShaderCompilers: Display: Job life time (pending + execution): average 9.95 s, max 9.95
+[2023.05.04-06.04.17:209][581]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 9.95 s
+[2023.05.04-06.04.17:210][581]LogShaderCompilers: Display: Jobs were issued in 4 batches (only local compilation was used), average 1.00 jobs/batch
+[2023.05.04-06.04.17:210][581]LogShaderCompilers: Display: Average processing rate: 0.10 jobs/sec
+[2023.05.04-06.04.17:210][581]LogShaderCompilers: Display: Total thread time: 2.86 s
+[2023.05.04-06.04.17:211][581]LogShaderCompilers: Display: Total thread preprocess time: 0.10 s
+[2023.05.04-06.04.17:211][581]LogShaderCompilers: Display: Percentage time preprocessing: 3.44%
+[2023.05.04-06.04.17:211][581]LogShaderCompilers: Display: Effective parallelization: 0.29 (times faster than compiling all shaders on one thread). Compare with number of workers: 10
+[2023.05.04-06.04.17:211][581]LogShaderCompilers: Display: Top 1 most expensive shader types by average time:
+[2023.05.04-06.04.17:211][581]LogShaderCompilers: Display:                                                  FHitProxyPS (compiled    1 times, average 2.86 sec, max 2.86 sec, min 2.86 sec)
+[2023.05.04-06.04.17:211][581]LogShaderCompilers: Display: Top 1 shader types by total compile time:
+[2023.05.04-06.04.17:211][581]LogShaderCompilers: Display:                                                  FHitProxyPS - 100.00% of total time (compiled    1 times, average 2.86 sec, max 2.86 sec, min 2.86 sec)
+[2023.05.04-06.04.17:211][581]LogShaderCompilers: Display: ================================================
+[2023.05.04-06.04.27:651][664]LogAssetEditorSubsystem: Opening Asset editor for FileMediaSource /Game/Labs/Lab08/Sound/Clouds.Clouds
+[2023.05.04-06.04.41:999][875]LogSlate: Window 'Clouds' being destroyed
+[2023.05.04-06.04.42:135][875]LogSlate: Window 'Clouds' being destroyed
+[2023.05.04-06.04.45:744][933]LogUObjectHash: Compacting FUObjectHashTables data took   1.05ms
+[2023.05.04-06.04.47:123][933]LogSlate: Window 'Delete Assets' being destroyed
+[2023.05.04-06.04.47:237][933]LogUObjectHash: Compacting FUObjectHashTables data took   0.75ms
+[2023.05.04-06.04.47:254][933]LogUObjectHash: Compacting FUObjectHashTables data took   0.87ms
+[2023.05.04-06.04.47:269][933]LogUObjectHash: Compacting FUObjectHashTables data took   0.43ms
+[2023.05.04-06.14.00:538][235]LogUObjectHash: Compacting FUObjectHashTables data took   0.62ms
+[2023.05.04-06.14.00:540][235]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Labs/Lab08/Lab08' took 0.016
+[2023.05.04-06.18.45:053][172]LogFactory: FactoryCreateFile: SoundWave with SoundFactory (0 0 ../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/External (non-Unreal Marketplace) assets/Clouds.wav)
+[2023.05.04-06.18.45:243][172]LogAudioDerivedData: Display: Building compressed audio format BINKA hash BINKA_1000_StreamCache_Ver5027_MEM_65536MaxChnkSize_00483224128 wave Clouds...
+[2023.05.04-06.18.46:939][172]LogAudio: Display: Chunk size for SoundWave /Game/Labs/Lab08/Sound/Clouds.Clouds: 262144
+[2023.05.04-06.18.46:975][172]LogAudioDerivedData: Display: Building compressed audio format BINKA hash BINKA_1000_StreamCache_Ver5027_MEM_65536MaxChnkSize_00483224128 wave Clouds...
+[2023.05.04-06.18.48:793][290]LogAudio: Display: Chunk size for SoundWave /Game/Labs/Lab08/Sound/Clouds.Clouds: 262144
+[2023.05.04-06.18.50:619][436]LogAudioMixer: Warning: Audio Thread Command from InitSource() took 2.509100 milleseconds to execute
+[2023.05.04-06.19.05:521][849]LogAssetEditorSubsystem: Opening Asset editor for SoundWave /Game/Labs/Lab08/Sound/Clouds.Clouds
+[2023.05.04-06.19.07:515][990]LogSlate: Window 'Clouds' being destroyed
+[2023.05.04-06.19.07:542][990]LogSlate: Window 'Clouds' being destroyed
+[2023.05.04-06.19.09:443][154]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.05.04-06.19.09:551][154]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Labs/Lab08/Sound/Clouds" FILE="../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2/Content/Labs/Lab08/Sound/Clouds.uasset" SILENT=true
+[2023.05.04-06.19.09:679][154]LogSavePackage: Moving output files for package: /Game/Labs/Lab08/Sound/Clouds
+[2023.05.04-06.19.09:679][154]LogSavePackage: Moving '../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2/Saved/Clouds9ACBE4544FDF19517E2B94BCDD048AB4.tmp' to '../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2/Content/Labs/Lab08/Sound/Clouds.uasset'
+[2023.05.04-06.19.11:438][154]LogFileHelpers: InternalPromptForCheckoutAndSave took 1.99 sec
+[2023.05.04-06.19.11:448][154]AssetCheck: New page: Asset Save: Clouds
+[2023.05.04-06.19.11:449][154]LogContentValidation: Display: Validating /Script/Engine.SoundWave /Game/Labs/Lab08/Sound/Clouds.Clouds
+[2023.05.04-06.19.13:244][236]LogActorFactory: Actor Factory attempting to spawn SoundWave /Game/Labs/Lab08/Sound/Clouds.Clouds
+[2023.05.04-06.19.13:244][236]LogActorFactory: Actor Factory attempting to spawn SoundWave /Game/Labs/Lab08/Sound/Clouds.Clouds
+[2023.05.04-06.19.13:259][236]LogActorFactory: Actor Factory spawned SoundWave /Game/Labs/Lab08/Sound/Clouds.Clouds as actor: AmbientSound /Game/Labs/Lab08/Lab08.Lab08:PersistentLevel.AmbientSound_0
+[2023.05.04-06.19.13:260][236]LogActorFactory: Actor Factory spawned SoundWave /Game/Labs/Lab08/Sound/Clouds.Clouds as actor: AmbientSound /Game/Labs/Lab08/Lab08.Lab08:PersistentLevel.AmbientSound_0
+[2023.05.04-06.19.14:163][311]LogActorFactory: Actor Factory attempting to spawn SoundWave /Game/Labs/Lab08/Sound/Clouds.Clouds
+[2023.05.04-06.19.14:163][311]LogActorFactory: Actor Factory attempting to spawn SoundWave /Game/Labs/Lab08/Sound/Clouds.Clouds
+[2023.05.04-06.19.14:167][311]LogActorFactory: Actor Factory spawned SoundWave /Game/Labs/Lab08/Sound/Clouds.Clouds as actor: AmbientSound /Game/Labs/Lab08/Lab08.Lab08:PersistentLevel.AmbientSound_1
+[2023.05.04-06.19.14:167][311]LogActorFactory: Actor Factory spawned SoundWave /Game/Labs/Lab08/Sound/Clouds.Clouds as actor: AmbientSound /Game/Labs/Lab08/Lab08.Lab08:PersistentLevel.AmbientSound_1
+[2023.05.04-06.19.59:161][308]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.05.04-06.19.59:239][308]LogUObjectHash: Compacting FUObjectHashTables data took   0.60ms
+[2023.05.04-06.19.59:266][308]LogSavePackage: Moving output files for package: /Game/Labs/Lab08/Lab08
+[2023.05.04-06.19.59:267][308]LogSavePackage: Moving '../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2/Saved/Lab08C5D6A31442D8F63B848591B78B2C679E.tmp' to '../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2/Content/Labs/Lab08/Lab08.umap'
+[2023.05.04-06.19.59:283][308]LogFileHelpers: Saving map 'Lab08' took 0.059
+[2023.05.04-06.19.59:336][308]LogFileHelpers: InternalPromptForCheckoutAndSave took 175 ms (total: 2.17 sec)
+[2023.05.04-06.19.59:348][308]AssetCheck: New page: Asset Save: Lab08
+[2023.05.04-06.19.59:348][308]LogContentValidation: Display: Validating /Script/Engine.World /Game/Labs/Lab08/Lab08.Lab08
+[2023.05.04-06.19.59:875][343]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.05.04-06.19.59:901][343]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.05.04-06.19.59:913][343]PIE: New page: PIE session: Lab08 (May 3, 2023, 6:19:59 PM)
+[2023.05.04-06.19.59:951][343]LogOnline: OSS: Created online subsystem instance for: NULL
+[2023.05.04-06.19.59:951][343]LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for module [NULL]
+[2023.05.04-06.19.59:953][343]LogPlayLevel: Creating play world package: /Game/Labs/Lab08/UEDPIE_0_Lab08
+[2023.05.04-06.19.59:969][343]LogPlayLevel: PIE: StaticDuplicateObject took: (0.014589s)
+[2023.05.04-06.19.59:969][343]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Labs/Lab08/Lab08.Lab08 to /Game/Labs/Lab08/UEDPIE_0_Lab08.Lab08 (0.015542s)
+[2023.05.04-06.19.59:976][343]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.05.04-06.19.59:988][343]LogAIModule: Creating AISystem for world Lab08
+[2023.05.04-06.19.59:994][343]LogPlayLevel: PIE: World Init took: (0.024977s)
+[2023.05.04-06.20.00:005][343]LogUObjectHash: Compacting FUObjectHashTables data took   0.52ms
+[2023.05.04-06.20.00:011][343]LogAudio: Display: Creating Audio Device:                 Id: 2, Scope: Unique, Realtime: True
+[2023.05.04-06.20.00:013][343]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.05.04-06.20.00:013][343]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.05.04-06.20.00:013][343]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.05.04-06.20.00:013][343]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.05.04-06.20.00:013][343]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.05.04-06.20.00:013][343]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.05.04-06.20.00:013][343]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.05.04-06.20.00:013][343]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.05.04-06.20.00:016][343]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.05.04-06.20.00:016][343]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.05.04-06.20.00:016][343]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.05.04-06.20.00:023][343]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.05.04-06.20.00:068][343]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Realtek(R) Audio)
+[2023.05.04-06.20.00:070][343]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.05.04-06.20.00:070][343]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.05.04-06.20.00:070][343]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.05.04-06.20.00:075][343]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=2
+[2023.05.04-06.20.00:075][343]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=2
+[2023.05.04-06.20.00:077][343]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=2
+[2023.05.04-06.20.00:077][343]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=2
+[2023.05.04-06.20.00:077][343]LogInit: FAudioDevice initialized.
+[2023.05.04-06.20.00:077][343]LogAudio: Display: Audio Device (ID: 2) registered with world 'Lab08'.
+[2023.05.04-06.20.00:115][343]LogLoad: Game class is 'Kreye_GP2GameMode'
+[2023.05.04-06.20.00:118][343]LogWorld: Bringing World /Game/Labs/Lab08/UEDPIE_0_Lab08.Lab08 up for play (max tick rate 0) at 2023.05.04-00.20.00
+[2023.05.04-06.20.00:120][343]LogWorld: Bringing up level for play took: 0.003376
+[2023.05.04-06.20.00:125][343]LogOnline: OSS: Created online subsystem instance for: :Context_3
+[2023.05.04-06.20.00:294][343]PIE: Server logged in
+[2023.05.04-06.20.00:297][343]PIE: Play in editor total start time 0.401 seconds.
+[2023.05.04-06.20.00:524][344]LogShaderCompilers: Display: ================================================
+[2023.05.04-06.20.00:524][344]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2023.05.04-06.20.00:524][344]LogShaderCompilers: Display: Total job queries 124, among them cache hits 10 (8.06%)
+[2023.05.04-06.20.00:524][344]LogShaderCompilers: Display: Tracking 114 distinct input hashes that result in 94 distinct outputs (82.46%)
+[2023.05.04-06.20.00:524][344]LogShaderCompilers: Display: RAM used: 0.96 MB (0.00 GB) of 819.20 MB (0.80 GB) budget. Usage: 0.12%
+[2023.05.04-06.20.00:524][344]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2023.05.04-06.20.00:524][344]LogShaderCompilers: Display: Shaders Compiled: 4
+[2023.05.04-06.20.00:524][344]LogShaderCompilers: Display: Jobs assigned 4, completed 4 (100.00%)
+[2023.05.04-06.20.00:524][344]LogShaderCompilers: Display: Time job spent in pending queue: average 0.08 s, longest 0.09 s
+[2023.05.04-06.20.00:524][344]LogShaderCompilers: Display: Job execution time: average 10.25 s, max 10.48 s
+[2023.05.04-06.20.00:524][344]LogShaderCompilers: Display: Job life time (pending + execution): average 10.33 s, max 10.55
+[2023.05.04-06.20.00:524][344]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 10.58 s
+[2023.05.04-06.20.00:524][344]LogShaderCompilers: Display: Jobs were issued in 4 batches (only local compilation was used), average 1.00 jobs/batch
+[2023.05.04-06.20.00:524][344]LogShaderCompilers: Display: Average processing rate: 0.38 jobs/sec
+[2023.05.04-06.20.00:524][344]LogShaderCompilers: Display: Total thread time: 13.04 s
+[2023.05.04-06.20.00:524][344]LogShaderCompilers: Display: Total thread preprocess time: 0.44 s
+[2023.05.04-06.20.00:524][344]LogShaderCompilers: Display: Percentage time preprocessing: 3.35%
+[2023.05.04-06.20.00:524][344]LogShaderCompilers: Display: Effective parallelization: 1.23 (times faster than compiling all shaders on one thread). Compare with number of workers: 10
+[2023.05.04-06.20.00:524][344]LogShaderCompilers: Display: Top 4 most expensive shader types by average time:
+[2023.05.04-06.20.00:524][344]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy (compiled    1 times, average 3.52 sec, max 3.52 sec, min 3.52 sec)
+[2023.05.04-06.20.00:524][344]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy (compiled    1 times, average 3.49 sec, max 3.49 sec, min 3.49 sec)
+[2023.05.04-06.20.00:524][344]LogShaderCompilers: Display:                                                  FHitProxyVS (compiled    1 times, average 3.17 sec, max 3.17 sec, min 3.17 sec)
+[2023.05.04-06.20.00:524][344]LogShaderCompilers: Display:                                                  FHitProxyPS (compiled    1 times, average 2.86 sec, max 2.86 sec, min 2.86 sec)
+[2023.05.04-06.20.00:525][344]LogShaderCompilers: Display: Top 4 shader types by total compile time:
+[2023.05.04-06.20.00:525][344]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 26.99% of total time (compiled    1 times, average 3.52 sec, max 3.52 sec, min 3.52 sec)
+[2023.05.04-06.20.00:525][344]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy - 26.77% of total time (compiled    1 times, average 3.49 sec, max 3.49 sec, min 3.49 sec)
+[2023.05.04-06.20.00:525][344]LogShaderCompilers: Display:                                                  FHitProxyVS - 24.29% of total time (compiled    1 times, average 3.17 sec, max 3.17 sec, min 3.17 sec)
+[2023.05.04-06.20.00:525][344]LogShaderCompilers: Display:                                                  FHitProxyPS - 21.95% of total time (compiled    1 times, average 2.86 sec, max 2.86 sec, min 2.86 sec)
+[2023.05.04-06.20.00:525][344]LogShaderCompilers: Display: ================================================
+[2023.05.04-06.20.10:771][291]LogAudioMixer: Warning: Audio Thread Command from SetListenerTransforms()() took 3.147700 milleseconds to execute
+[2023.05.04-06.20.12:712][480]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.05.04-06.20.12:712][480]LogWorld: BeginTearingDown for /Game/Labs/Lab08/UEDPIE_0_Lab08
+[2023.05.04-06.20.12:716][480]LogWorld: UWorld::CleanupWorld for Lab08, bSessionEnded=true, bCleanupResources=true
+[2023.05.04-06.20.12:718][480]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.05.04-06.20.12:740][480]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.05.04-06.20.12:742][480]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.05.04-06.20.12:752][480]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.05.04-06.20.12:754][480]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=2
+[2023.05.04-06.20.12:756][480]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=2
+[2023.05.04-06.20.12:790][480]LogUObjectHash: Compacting FUObjectHashTables data took   0.57ms
+[2023.05.04-06.20.12:850][481]LogPlayLevel: Display: Destroying online subsystem :Context_3
+[2023.05.04-06.20.14:142][547]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.05.04-06.20.14:245][547]LogUObjectHash: Compacting FUObjectHashTables data took   0.69ms
+[2023.05.04-06.20.14:256][547]LogSavePackage: Moving output files for package: /Game/Labs/Lab08/Lab08
+[2023.05.04-06.20.14:257][547]LogSavePackage: Moving '../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2/Saved/Lab088EECF4A643FF9816DEA847A8BAC67132.tmp' to '../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2/Content/Labs/Lab08/Lab08.umap'
+[2023.05.04-06.20.14:269][547]LogFileHelpers: Saving map 'Lab08' took 0.033
+[2023.05.04-06.20.14:288][547]LogFileHelpers: InternalPromptForCheckoutAndSave took 146 ms (total: 2.31 sec)
+[2023.05.04-06.20.14:293][547]AssetCheck: New page: Asset Save: Lab08
+[2023.05.04-06.20.14:293][547]LogContentValidation: Display: Validating /Script/Engine.World /Game/Labs/Lab08/Lab08.Lab08
+[2023.05.04-06.20.54:106][706]LogAssetEditorSubsystem: Opening Asset editor for SoundWave /Game/Labs/Lab08/Sound/Clouds.Clouds
+[2023.05.04-06.20.58:008][885]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.05.04-06.20.58:185][885]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Labs/Lab08/Sound/Clouds" FILE="../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2/Content/Labs/Lab08/Sound/Clouds.uasset" SILENT=true
+[2023.05.04-06.20.58:325][885]LogSavePackage: Moving output files for package: /Game/Labs/Lab08/Sound/Clouds
+[2023.05.04-06.20.58:327][885]LogSavePackage: Moving '../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2/Saved/Clouds25441956474A52748CCC2F954ED73A43.tmp' to '../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2/Content/Labs/Lab08/Sound/Clouds.uasset'
+[2023.05.04-06.20.58:356][885]LogFileHelpers: InternalPromptForCheckoutAndSave took 347 ms (total: 2.66 sec)
+[2023.05.04-06.20.58:362][885]AssetCheck: New page: Asset Save: Clouds
+[2023.05.04-06.20.58:362][885]LogContentValidation: Display: Validating /Script/Engine.SoundWave /Game/Labs/Lab08/Sound/Clouds.Clouds
+[2023.05.04-06.20.59:272][936]LogSlate: Window 'Clouds' being destroyed
+[2023.05.04-06.20.59:297][936]LogSlate: Window 'Clouds' being destroyed
