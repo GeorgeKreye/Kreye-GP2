@@ -154,4 +154,8 @@ void ALab08SoundPawn::SoundTriggered(const FInputActionInstance& Instance)
 {
 	// Use bool value to determine whether to play a sound this tick
 	PlaySoundThisTick = Instance.GetValue().Get<bool>();
+	if (PlaySoundThisTick)
+	{
+		LOG("Spacebar pressed");
+	}
 }
