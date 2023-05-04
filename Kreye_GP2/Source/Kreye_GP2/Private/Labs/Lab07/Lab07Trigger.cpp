@@ -7,7 +7,7 @@
 // Sets default values
 ALab07Trigger::ALab07Trigger()
 {
- 	// Set this actor to call Tick() every frame.  You can turn this off to improve performance if you don't need it.
+	// Set this actor to call Tick() every frame.  You can turn this off to improve performance if you don't need it.
 	PrimaryActorTick.bCanEverTick = false;
 
 	// Create mesh component
@@ -15,7 +15,8 @@ ALab07Trigger::ALab07Trigger()
 	SetRootComponent(Mesh);
 
 	// Get cube mesh
-	auto CubeMesh = ConstructorHelpers::FObjectFinder<UStaticMesh>(TEXT("/Game/StarterContent/Shapes/Shape_Cube.Shape_Cube"));
+	auto CubeMesh = ConstructorHelpers::FObjectFinder<UStaticMesh>(
+		TEXT("/Game/StarterContent/Shapes/Shape_Cube.Shape_Cube"));
 	if (CubeMesh.Succeeded())
 	{
 		Mesh->SetStaticMesh(CubeMesh.Object);
@@ -23,12 +24,13 @@ ALab07Trigger::ALab07Trigger()
 	}
 
 	// Get material
-	auto Material = ConstructorHelpers::FObjectFinder<UMaterialInterface>(TEXT("/Game/StarterContent/Materials/M_Metal_Copper.M_Metal_Copper"));
+	auto Material = ConstructorHelpers::FObjectFinder<UMaterialInterface>(
+		TEXT("/Game/StarterContent/Materials/M_Metal_Copper.M_Metal_Copper"));
 	if (Material.Succeeded())
 	{
-		Mesh->SetMaterial(0,Material.Object);
+		Mesh->SetMaterial(0, Material.Object);
 	}
-	
+
 	// Assign OnTriggerHit to actor collision
 	OnActorHit.AddDynamic(this, &ALab07Trigger::OnTriggerHit);
 
@@ -40,14 +42,12 @@ ALab07Trigger::ALab07Trigger()
 void ALab07Trigger::BeginPlay()
 {
 	Super::BeginPlay();
-	
 }
 
 // Called every frame
 void ALab07Trigger::Tick(float DeltaTime)
 {
 	Super::Tick(DeltaTime);
-
 }
 
 // Called when trigger has been hit

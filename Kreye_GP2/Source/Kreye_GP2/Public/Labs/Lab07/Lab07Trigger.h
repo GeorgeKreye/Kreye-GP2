@@ -10,18 +10,20 @@ UCLASS()
 class KREYE_GP2_API ALab07Trigger : public AActor
 {
 	GENERATED_BODY()
-	
-public:	
+
+public:
 	// Sets default values for this actor's properties
 	ALab07Trigger();
+
+	// The mesh used by this object
+	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = Mesh)
+	TObjectPtr<UStaticMeshComponent> Mesh;
 
 protected:
 	// Called when the game starts or when spawned
 	virtual void BeginPlay() override;
 
-	TObjectPtr<UStaticMeshComponent> Mesh;
-
-public:	
+public:
 	// Called every frame
 	virtual void Tick(float DeltaTime) override;
 
