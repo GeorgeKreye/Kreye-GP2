@@ -1096,35 +1096,3 @@ Script Stack (0 frames) :
 [2023.05.05-19.13.45:956][764]LogOutputDevice: Error: [Callstack] 0x00007ffedb31269d KERNEL32.DLL!UnknownFunction []
 [2023.05.05-19.13.45:957][764]LogOutputDevice: Error: [Callstack] 0x00007ffedbf4a9f8 ntdll.dll!UnknownFunction []
 [2023.05.05-19.13.45:957][764]LogOutputDevice: Error: 
-[2023.05.05-19.13.45:962][764]LogStats:                SubmitErrorReport -  0.000 s
-[2023.05.05-19.13.48:345][764]LogStats:                    SendNewReport -  2.383 s
-[2023.05.05-19.13.48:345][764]LogStats:             FDebug::EnsureFailed -  2.505 s
-[2023.05.05-19.13.48:346][764]MilestoneLog: Relative camera position: (-1610612736,-1610612736,0)
-[2023.05.05-19.13.49:092][764]LogUObjectHash: Compacting FUObjectHashTables data took   5.06ms
-[2023.05.05-19.13.49:269][769]Display: Reload/Re-instancing Complete: 1 package changed, 3 classes new, 1 class unchanged
-[2023.05.05-19.13.49:269][769]LogLiveCoding: Warning: Live coding succeeded, data type changes may cause packaging to fail if assets reference the new or updated data types
-[2023.05.05-19.38.28:208][860]LogDerivedDataCache: C:/Users/heroo/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:07.422 and deleted 0 files with total size 0 MiB. Scanned 3822 files in 3808 folders with total size 351 MiB.
-[2023.05.05-19.45.34:070][136]LogLiveCoding: Display: Starting Live Coding compile.
-[2023.05.05-19.46.10:418][ 43]LogLiveCoding: Display:    Creating library C:\Users\heroo\OneDrive\Documents\k-game-prog-2\Perspective\Binaries\Win64\UnrealEditor-Perspective.patch_1.lib and object C:\Users\heroo\OneDrive\Documents\k-game-prog-2\Perspective\Binaries\Win64\UnrealEditor-Perspective.patch_1.exp
-[2023.05.05-19.46.11:567][ 51]LogUObjectHash: Compacting FUObjectHashTables data took   3.97ms
-[2023.05.05-19.46.11:652][ 52]Display: Reload/Re-instancing Complete: No object changes detected
-[2023.05.05-19.46.11:653][ 52]LogLiveCoding: Display: Live coding succeeded
-[2023.05.05-20.27.25:448][253]LogLiveCoding: Display: Starting Live Coding compile.
-[2023.05.05-20.27.58:192][663]LogLiveCoding: Display:    Creating library C:\Users\heroo\OneDrive\Documents\k-game-prog-2\Perspective\Binaries\Win64\UnrealEditor-Perspective.patch_2.lib and object C:\Users\heroo\OneDrive\Documents\k-game-prog-2\Perspective\Binaries\Win64\UnrealEditor-Perspective.patch_2.exp
-[2023.05.05-20.27.59:309][664]LogUObjectHash: Compacting FUObjectHashTables data took   4.20ms
-[2023.05.05-20.27.59:385][665]Display: Reload/Re-instancing Complete: No object changes detected
-[2023.05.05-20.27.59:385][665]LogLiveCoding: Display: Live coding succeeded
-[2023.05.05-20.28.16:361][207]LogLiveCoding: Display: Starting Live Coding compile.
-[2023.05.05-20.28.37:792][598]Display: Reload/Re-instancing Complete: No object changes detected
-[2023.05.05-20.28.37:793][598]LogLiveCoding: Error: Live coding failed, please see Live console for more information
-[2023.05.05-20.29.25:232][740]LogLiveCoding: Display: Starting Live Coding compile.
-[2023.05.05-20.29.54:978][829]LogLiveCoding: Display:    Creating library C:\Users\heroo\OneDrive\Documents\k-game-prog-2\Perspective\Binaries\Win64\UnrealEditor-Perspective.patch_3.lib and object C:\Users\heroo\OneDrive\Documents\k-game-prog-2\Perspective\Binaries\Win64\UnrealEditor-Perspective.patch_3.exp
-[2023.05.05-20.29.55:336][830]LogUObjectHash: Compacting FUObjectHashTables data took   0.24ms
-[2023.05.05-20.29.55:501][831]Display: Reload/Re-instancing Complete: No object changes detected
-[2023.05.05-20.29.55:502][831]LogLiveCoding: Display: Live coding succeeded
-[2023.05.05-20.36.15:105][969]LogLiveCoding: Display: Starting Live Coding compile.
-[2023.05.05-20.36.46:735][ 64]LogLiveCoding: Display:    Creating library C:\Users\heroo\OneDrive\Documents\k-game-prog-2\Perspective\Binaries\Win64\UnrealEditor-Perspective.patch_4.lib and object C:\Users\heroo\OneDrive\Documents\k-game-prog-2\Perspective\Binaries\Win64\UnrealEditor-Perspective.patch_4.exp
-[2023.05.05-20.36.47:096][ 65]LogUObjectHash: Compacting FUObjectHashTables data took   0.22ms
-[2023.05.05-20.36.47:285][ 66]Display: Reload/Re-instancing Complete: No object changes detected
-[2023.05.05-20.36.47:285][ 66]LogLiveCoding: Display: Live coding succeeded
-[2023.05.05-20.38.27:330][778]LogDerivedDataCache: C:/Users/heroo/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:06.542 and deleted 0 files with total size 0 MiB. Scanned 3822 files in 3808 folders with total size 351 MiB.
