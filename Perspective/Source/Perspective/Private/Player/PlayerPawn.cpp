@@ -9,9 +9,10 @@
 #include "Camera/CameraComponent.h"
 
 // Sets default values
-APlayerPawn::APlayerPawn() : MaxMoveSpeed(5), CameraPosition(-300 * FMath::Cos(PI/4),-300 * FMath::Sin(PI/4),300), CameraRotation(FRotator(-35.264,45.0,0))
+APlayerPawn::APlayerPawn() : CameraPosition(-300 * FMath::Cos(PI / 4), -300 * FMath::Sin(PI / 4), 300),
+                             CameraRotation(-35.264, 45.0, 0)
 {
- 	// Set this pawn to call Tick() every frame.  You can turn this off to improve performance if you don't need it.
+	// Set this pawn to call Tick() every frame.  You can turn this off to improve performance if you don't need it.
 	PrimaryActorTick.bCanEverTick = true;
 
 	// Create mesh component
@@ -19,57 +20,66 @@ APlayerPawn::APlayerPawn() : MaxMoveSpeed(5), CameraPosition(-300 * FMath::Cos(P
 	RootComponent = StaticMesh;
 
 	// Get mesh
-	auto Mesh = ConstructorHelpers::FObjectFinder<UStaticMesh>(TEXT("/Game/StarterContent/Shapes/Shape_NarrowCapsule.Shape_NarrowCapsule"));
+	auto Mesh = ConstructorHelpers::FObjectFinder<UStaticMesh>(
+		TEXT("/Game/StarterContent/Shapes/Shape_NarrowCapsule.Shape_NarrowCapsule"));
 	if (Mesh.Succeeded())
 	{
 		StaticMesh->SetStaticMesh(Mesh.Object);
-		StaticMesh->SetRelativeLocation(FVector(0.0,0.0,0.0));
+		StaticMesh->SetRelativeLocation(FVector(0.0, 0.0, 0.0));
+		StaticMesh->SetSimulatePhysics(true); // Enable physics
 	}
 	else
 	{
 		WARN("ERROR: Could not find mesh");
 	}
-	
+
 	// Get mesh material
 	auto Material = ConstructorHelpers::FObjectFinder<UMaterialInterface>
 		(TEXT("/Game/StarterContent/Materials/M_Basic_Floor.M_Basic_Floor"));
 	if (Material.Succeeded())
 	{
-		StaticMesh->SetMaterial(0,Material.Object);
-	} else
+		StaticMesh->SetMaterial(0, Material.Object);
+	}
+	else
 	{
 		WARN("ERROR: Could not find mesh material");
 	}
-	
+
 	// Get input action
-	auto Action = ConstructorHelpers::FObjectFinder<UInputAction>(TEXT("/Game/Inputs/PlayerMovementAction.PlayerMovementAction"));
+	auto Action = ConstructorHelpers::FObjectFinder<UInputAction>(
+		TEXT("/Game/Inputs/PlayerMovementAction.PlayerMovementAction"));
 	if (Action.Succeeded())
 	{
 		PlayerMovementAction = Action.Object;
-	} else
+	}
+	else
 	{
 		WARN("ERROR: Could not find movement action");
 	}
-	
+
 	// Get input mapping
 	auto Input = ConstructorHelpers::FObjectFinder<UInputMappingContext>
 		(TEXT("/Game/Inputs/PlayerInputMapping.PlayerInputMapping"));
 	if (Input.Succeeded())
 	{
 		PlayerInputMapping = Input.Object;
-	} else
+	}
+	else
 	{
 		WARN("ERROR: Could not find input mapping");
 	}
 
 	// Create camera
 	Camera = CreateDefaultSubobject<UCameraComponent>(TEXT("Camera"));
-	Camera->AttachToComponent(RootComponent,FAttachmentTransformRules::KeepWorldTransform);
+	Camera->AttachToComponent(RootComponent, FAttachmentTransformRules::KeepWorldTransform);
 
 	// Edit camera transform
 	Camera->SetRelativeLocation(CameraPosition);
-	LOG("Relative camera position: (%d,%d,%d)",CameraPosition.X,CameraPosition.Y,CameraPosition.Z);
 	Camera->SetWorldRotation(CameraRotation);
+
+	// Create movement component
+	Movement = CreateDefaultSubobject<UPlayerMovementComponent>(TEXT("Movement"));
+	Movement->ConfirmPawnOwner();
 }
 
 // Called when the game starts or when spawned
@@ -87,20 +97,24 @@ void APlayerPawn::BeginPlay()
 			{
 				if (!PlayerInputMapping.IsNull())
 				{
-					InputSystem->AddMappingContext(PlayerInputMapping.LoadSynchronous(),0);
-				} else
+					InputSystem->AddMappingContext(PlayerInputMapping.LoadSynchronous(), 0);
+				}
+				else
 				{
 					WARN("Mapping already exists!");
 				}
-			} else
+			}
+			else
 			{
 				WARN("Mapping failed at input system retrieval!");
 			}
-		} else
+		}
+		else
 		{
 			WARN("Mapping failed at local player retrieval!");
 		}
-	} else
+	}
+	else
 	{
 		WARN("Mapping failed at controller cast!");
 	}
@@ -110,18 +124,6 @@ void APlayerPawn::BeginPlay()
 void APlayerPawn::Tick(float DeltaTime)
 {
 	Super::Tick(DeltaTime);
-
-	// Move player if movement has been received
-	const FVector LastInput3D = FVector(LastInput.X * MaxMoveSpeed,LastInput.Y * MaxMoveSpeed,0);
-	const FVector UpdatedLocation = GetActorLocation() + LastInput3D;
-	if (UpdatedLocation != GetActorLocation())
-	{
-		LOG("New location: (%d,%d,$d)",UpdatedLocation.X,UpdatedLocation.Y,UpdatedLocation.Z);
-	}
-	SetActorLocation(UpdatedLocation);
-
-	// Reset movement
-	LastInput = FVector2d::ZeroVector;
 }
 
 // Called to bind functionality to input
@@ -136,9 +138,8 @@ void APlayerPawn::SetupPlayerInputComponent(UInputComponent* PlayerInputComponen
 	EIS->BindAction(PlayerMovementAction, ETriggerEvent::Triggered, this, &APlayerPawn::Move);
 }
 
-void APlayerPawn::Move (const struct FInputActionInstance& Instance)
+void APlayerPawn::Move(const struct FInputActionInstance& Instance)
 {
-	LastInput = Instance.GetValue().Get<FVector2d>();
-	LOG("Move input: (%f, %f)",LastInput.X,LastInput.Y);
+	// Pass movement input to movement component
+	Movement->SetLastMovementInput(Instance.GetValue().Get<FVector2d>());
 }
-

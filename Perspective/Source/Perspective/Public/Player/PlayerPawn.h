@@ -3,6 +3,7 @@
 #pragma once
 
 #include "CoreMinimal.h"
+#include "PlayerMovementComponent.h"
 #include "GameFramework/Pawn.h"
 #include "PlayerPawn.generated.h"
 
@@ -33,12 +34,6 @@ public:
 	 */
 	TSoftObjectPtr<class UInputMappingContext> PlayerInputMapping;
 
-	UPROPERTY(EditAnywhere);
-	/**
-	 * @brief The maximum movement speed the player can horizontally move at
-	 */
-	float MaxMoveSpeed;
-
 	/**
 	 * @brief Receives movement input from the player
 	 * @param Instance The movement input instance received
@@ -48,18 +43,18 @@ public:
 	UPROPERTY(EditAnywhere,BlueprintReadOnly, Category = Camera);
 	TObjectPtr<class UCameraComponent> Camera;
 
-	UPROPERTY(EditAnywhere);
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = Camera);
 	FVector CameraPosition;
 
-	UPROPERTY(EditAnywhere);
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = Camera);
 	FRotator CameraRotation;
+
+	UPROPERTY(EditAnywhere,BlueprintReadOnly, Category = Movement)
+	TObjectPtr<UPlayerMovementComponent> Movement;
 
 protected:
 	// Called when the game starts or when spawned
 	virtual void BeginPlay() override;
-
-	// The last movement input made by the player
-	FVector2d LastInput;
 
 public:	
 	// Called every frame

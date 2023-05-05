@@ -1128,3 +1128,175 @@ Script Stack (0 frames) :
 [2023.05.05-20.36.47:285][ 66]Display: Reload/Re-instancing Complete: No object changes detected
 [2023.05.05-20.36.47:285][ 66]LogLiveCoding: Display: Live coding succeeded
 [2023.05.05-20.38.27:330][778]LogDerivedDataCache: C:/Users/heroo/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:06.542 and deleted 0 files with total size 0 MiB. Scanned 3822 files in 3808 folders with total size 351 MiB.
+[2023.05.05-21.20.15:807][318]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.05.05-21.20.17:570][318]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.05.05-21.20.18:110][318]PIE: New page: PIE session: Level01 (May 5, 2023, 9:20:17 AM)
+[2023.05.05-21.20.19:095][318]LogOnline: OSS: Created online subsystem instance for: NULL
+[2023.05.05-21.20.19:096][318]LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for module [NULL]
+[2023.05.05-21.20.19:104][318]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Level01
+[2023.05.05-21.20.19:326][318]LogPlayLevel: PIE: StaticDuplicateObject took: (0.214501s)
+[2023.05.05-21.20.19:326][318]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Level01.Level01 to /Game/Levels/UEDPIE_0_Level01.Level01 (0.222943s)
+[2023.05.05-21.20.19:351][318]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.05.05-21.20.19:374][318]LogAIModule: Creating AISystem for world Level01
+[2023.05.05-21.20.19:401][318]LogPlayLevel: PIE: World Init took: (0.074322s)
+[2023.05.05-21.20.19:562][318]LogUObjectHash: Compacting FUObjectHashTables data took  15.27ms
+[2023.05.05-21.20.19:596][318]LogAudio: Display: Creating Audio Device:                 Id: 2, Scope: Unique, Realtime: True
+[2023.05.05-21.20.19:598][318]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.05.05-21.20.19:598][318]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.05.05-21.20.19:599][318]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.05.05-21.20.19:599][318]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.05.05-21.20.19:599][318]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.05.05-21.20.19:599][318]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.05.05-21.20.19:599][318]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.05.05-21.20.19:599][318]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.05.05-21.20.19:649][318]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.05.05-21.20.19:650][318]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.05.05-21.20.19:650][318]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.05.05-21.20.19:664][318]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.05.05-21.20.20:027][318]LogAudioMixer: Display: Using Audio Hardware Device Headset Earphone (CORSAIR VIRTUOSO XT Wireless Gaming Headset)
+[2023.05.05-21.20.20:035][318]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.05.05-21.20.20:036][318]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.05.05-21.20.20:037][318]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.05.05-21.20.20:049][318]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=2
+[2023.05.05-21.20.20:050][318]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=8, Samples=8192, InstanceID=2
+[2023.05.05-21.20.20:056][318]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=2
+[2023.05.05-21.20.20:056][318]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=2
+[2023.05.05-21.20.20:057][318]LogInit: FAudioDevice initialized.
+[2023.05.05-21.20.20:057][318]LogAudio: Display: Audio Device (ID: 2) registered with world 'Level01'.
+[2023.05.05-21.20.20:128][318]LogLoad: Game class is 'GameModeBase'
+[2023.05.05-21.20.20:156][318]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Level01.Level01 up for play (max tick rate 60) at 2023.05.05-15.20.20
+[2023.05.05-21.20.20:163][318]LogWorld: Bringing up level for play took: 0.030496
+[2023.05.05-21.20.20:176][318]LogOnline: OSS: Created online subsystem instance for: :Context_1
+[2023.05.05-21.20.20:496][318]PIE: Server logged in
+[2023.05.05-21.20.20:507][318]PIE: Play in editor total start time 3.93 seconds.
+[2023.05.05-21.20.21:747][324]LogLiveCoding: Display: Starting Live Coding compile.
+[2023.05.05-21.20.23:661][434]Cmd: SELECT NONE
+[2023.05.05-21.20.25:049][502]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.05.05-21.20.25:049][502]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_Level01
+[2023.05.05-21.20.25:073][502]LogWorld: UWorld::CleanupWorld for Level01, bSessionEnded=true, bCleanupResources=true
+[2023.05.05-21.20.25:091][502]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.05.05-21.20.25:137][502]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.05.05-21.20.25:142][502]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.05.05-21.20.25:156][502]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.05.05-21.20.25:159][502]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=2
+[2023.05.05-21.20.25:163][502]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=2
+[2023.05.05-21.20.25:237][502]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.05.05-21.20.25:269][502]LogUObjectHash: Compacting FUObjectHashTables data took   1.49ms
+[2023.05.05-21.20.25:375][503]LogPlayLevel: Display: Destroying online subsystem :Context_1
+[2023.05.05-21.20.29:945][762]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.05.05-21.20.29:954][762]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.05.05-21.20.29:955][762]PIE: New page: PIE session: Level01 (May 5, 2023, 9:20:29 AM)
+[2023.05.05-21.20.29:956][762]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Level01
+[2023.05.05-21.20.29:983][762]LogPlayLevel: PIE: StaticDuplicateObject took: (0.026369s)
+[2023.05.05-21.20.29:983][762]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Level01.Level01 to /Game/Levels/UEDPIE_0_Level01.Level01 (0.026624s)
+[2023.05.05-21.20.29:983][762]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.05.05-21.20.29:984][762]LogAIModule: Creating AISystem for world Level01
+[2023.05.05-21.20.29:985][762]LogPlayLevel: PIE: World Init took: (0.002086s)
+[2023.05.05-21.20.29:995][762]LogUObjectHash: Compacting FUObjectHashTables data took   0.54ms
+[2023.05.05-21.20.29:996][762]LogAudio: Display: Creating Audio Device:                 Id: 3, Scope: Unique, Realtime: True
+[2023.05.05-21.20.29:996][762]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.05.05-21.20.29:996][762]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.05.05-21.20.29:996][762]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.05.05-21.20.29:996][762]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.05.05-21.20.29:996][762]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.05.05-21.20.29:996][762]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.05.05-21.20.29:996][762]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.05.05-21.20.29:996][762]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.05.05-21.20.29:996][762]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.05.05-21.20.29:996][762]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.05.05-21.20.29:996][762]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.05.05-21.20.30:003][762]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.05.05-21.20.30:263][762]LogAudioMixer: Display: Using Audio Hardware Device Headset Earphone (CORSAIR VIRTUOSO XT Wireless Gaming Headset)
+[2023.05.05-21.20.30:264][762]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.05.05-21.20.30:264][762]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.05.05-21.20.30:264][762]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.05.05-21.20.30:265][762]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=3
+[2023.05.05-21.20.30:265][762]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=8, Samples=8192, InstanceID=3
+[2023.05.05-21.20.30:268][762]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=3
+[2023.05.05-21.20.30:268][762]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=3
+[2023.05.05-21.20.30:268][762]LogInit: FAudioDevice initialized.
+[2023.05.05-21.20.30:268][762]LogAudio: Display: Audio Device (ID: 3) registered with world 'Level01'.
+[2023.05.05-21.20.30:276][762]LogLoad: Game class is 'GameModeBase'
+[2023.05.05-21.20.30:278][762]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Level01.Level01 up for play (max tick rate 60) at 2023.05.05-15.20.30
+[2023.05.05-21.20.30:278][762]LogWorld: Bringing up level for play took: 0.002503
+[2023.05.05-21.20.30:283][762]LogOnline: OSS: Created online subsystem instance for: :Context_2
+[2023.05.05-21.20.30:284][762]PIE: Server logged in
+[2023.05.05-21.20.30:286][762]PIE: Play in editor total start time 0.331 seconds.
+[2023.05.05-21.20.31:420][818]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.05.05-21.20.31:420][818]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_Level01
+[2023.05.05-21.20.31:420][818]LogWorld: UWorld::CleanupWorld for Level01, bSessionEnded=true, bCleanupResources=true
+[2023.05.05-21.20.31:421][818]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.05.05-21.20.31:438][818]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.05.05-21.20.31:439][818]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.05.05-21.20.31:447][818]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.05.05-21.20.31:447][818]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=3
+[2023.05.05-21.20.31:449][818]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=3
+[2023.05.05-21.20.31:489][818]LogUObjectHash: Compacting FUObjectHashTables data took   0.34ms
+[2023.05.05-21.20.31:505][819]LogPlayLevel: Display: Destroying online subsystem :Context_2
+[2023.05.05-21.20.32:566][874]Display: Reload/Re-instancing Complete: No object changes detected
+[2023.05.05-21.20.32:567][874]LogLiveCoding: Error: Live coding failed, please see Live console for more information
+[2023.05.05-21.20.37:279][890]LogLiveCoding: Display: Starting Live Coding compile.
+[2023.05.05-21.20.42:365][906]Display: Reload/Re-instancing Complete: No object changes detected
+[2023.05.05-21.20.42:365][906]LogLiveCoding: Error: Live coding failed, please see Live console for more information
+[2023.05.05-21.20.51:318][932]LogLiveCoding: Display: Starting Live Coding compile.
+[2023.05.05-21.22.04:062][151]Display: Reload/Re-instancing Complete: No object changes detected
+[2023.05.05-21.22.04:062][151]LogLiveCoding: Error: Live coding failed, please see Live console for more information
+[2023.05.05-21.22.12:306][175]LogLiveCoding: Display: Starting Live Coding compile.
+[2023.05.05-21.22.45:747][276]LogLiveCoding: Display:    Creating library C:\Users\heroo\OneDrive\Documents\k-game-prog-2\Perspective\Binaries\Win64\UnrealEditor-Perspective.patch_5.lib and object C:\Users\heroo\OneDrive\Documents\k-game-prog-2\Perspective\Binaries\Win64\UnrealEditor-Perspective.patch_5.exp
+[2023.05.05-21.22.46:781][277]LogUObjectHash: Compacting FUObjectHashTables data took   0.95ms
+[2023.05.05-21.22.46:817][278]Display: Reload/Re-instancing Complete: No object changes detected
+[2023.05.05-21.22.46:817][278]LogLiveCoding: Display: Live coding succeeded
+[2023.05.05-21.38.28:181][101]LogDerivedDataCache: C:/Users/heroo/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:07.388 and deleted 0 files with total size 0 MiB. Scanned 3822 files in 3808 folders with total size 351 MiB.
+[2023.05.05-22.38.28:115][889]LogDerivedDataCache: C:/Users/heroo/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:07.319 and deleted 0 files with total size 0 MiB. Scanned 3822 files in 3808 folders with total size 351 MiB.
+[2023.05.05-22.40.08:482][237]LogSlate: Took 0.001875 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2023.05.05-22.40.18:287][778]LogEditorClassViewer: Warning: Class /Script/InteractiveToolsFramework.GizmoActor has parent /Script/InteractiveToolsFramework.InternalToolFrameworkActor, but this parent is not found. The Class will not be shown in ClassViewer.
+[2023.05.05-22.40.18:288][778]LogEditorClassViewer: Warning: Class /Script/ModelingComponents.PreviewGeometryActor has parent /Script/InteractiveToolsFramework.InternalToolFrameworkActor, but this parent is not found. The Class will not be shown in ClassViewer.
+[2023.05.05-22.40.18:289][778]LogEditorClassViewer: Warning: Class /Script/ModelingComponents.PreviewMeshActor has parent /Script/InteractiveToolsFramework.InternalToolFrameworkActor, but this parent is not found. The Class will not be shown in ClassViewer.
+[2023.05.05-22.40.18:420][778]LogSlate: Took 0.001132 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2023.05.05-22.40.51:556][700]Running C:/Program Files/Epic Games/UE_5.1/Engine/Build/BatchFiles/Build.bat  -projectfiles -project="C:/Users/heroo/OneDrive/Documents/k-game-prog-2/Perspective/Perspective.uproject" -game -rocket -progress
+[2023.05.05-22.40.51:771][700]Running UnrealBuildTool: dotnet "..\..\Engine\Binaries\DotNET\UnrealBuildTool\UnrealBuildTool.dll" -projectfiles -project="C:/Users/heroo/OneDrive/Documents/k-game-prog-2/Perspective/Perspective.uproject" -game -rocket -progress
+[2023.05.05-22.40.52:373][700]Log file: C:\Users\heroo\AppData\Local\UnrealBuildTool\Log_GPF.txt
+[2023.05.05-22.40.52:673][700]
+[2023.05.05-22.40.52:673][700]Some Platforms were skipped due to invalid SDK setup: IOS, Android, Linux, LinuxArm64.
+[2023.05.05-22.40.52:673][700]See the log file for detailed information
+[2023.05.05-22.40.52:673][700]
+[2023.05.05-22.40.52:673][700]Discovering modules, targets and source code for project...
+[2023.05.05-22.40.59:197][700]Binding IntelliSense data...
+[2023.05.05-22.41.02:917][700]Binding IntelliSense data... 100%
+[2023.05.05-22.41.03:018][700]Writing project files...
+[2023.05.05-22.41.18:978][700]Writing project files... 33%
+[2023.05.05-22.41.19:081][700]Writing project files... 100%
+[2023.05.05-22.41.19:492][700]LogLiveCoding: Display: Starting Live Coding compile.
+[2023.05.05-22.41.19:605][700]LogSlate: Window 'Add C++ Class' being destroyed
+[2023.05.05-22.41.37:956][834]LogLiveCoding: Display:    Creating library C:\Users\heroo\OneDrive\Documents\k-game-prog-2\Perspective\Binaries\Win64\UnrealEditor-Perspective.patch_6.lib and object C:\Users\heroo\OneDrive\Documents\k-game-prog-2\Perspective\Binaries\Win64\UnrealEditor-Perspective.patch_6.exp
+[2023.05.05-22.41.38:309][835]LogClass: UPackage /Script/Perspective Reload.
+[2023.05.05-22.41.38:310][835]LogClass: Could not find existing class PlayerMovementComponent in package /Script/Perspective for reload, assuming new or modified class
+[2023.05.05-22.41.38:580][835]LogUObjectHash: Compacting FUObjectHashTables data took   3.66ms
+[2023.05.05-22.41.38:620][836]Display: Reload/Re-instancing Complete: 1 package changed, 1 class new
+[2023.05.05-22.41.38:620][836]LogLiveCoding: Warning: Live coding succeeded, data type changes may cause packaging to fail if assets reference the new or updated data types
+[2023.05.05-23.06.00:818][408]LogLiveCoding: Display: Starting Live Coding compile.
+[2023.05.05-23.06.21:625][481]Display: Reload/Re-instancing Complete: No object changes detected
+[2023.05.05-23.06.21:626][481]LogLiveCoding: Error: Live coding canceled
+[2023.05.05-23.07.59:828][  4]LogLiveCoding: Display: Starting Live Coding compile.
+[2023.05.05-23.08.20:008][362]LogLiveCoding: Display:    Creating library C:\Users\heroo\OneDrive\Documents\k-game-prog-2\Perspective\Binaries\Win64\UnrealEditor-Perspective.patch_7.lib and object C:\Users\heroo\OneDrive\Documents\k-game-prog-2\Perspective\Binaries\Win64\UnrealEditor-Perspective.patch_7.exp
+[2023.05.05-23.08.20:836][417]LogClass: UPackage /Script/Perspective Reload.
+[2023.05.05-23.08.20:838][417]LogClass: UClass PlayerMovementComponent Reload.
+[2023.05.05-23.08.20:851][417]LogClass: UClass PlayerPawn Reload.
+[2023.05.05-23.08.20:856][417]LogClass: Could not find existing class PlayerMovementComponent in package /Script/Perspective for reload, assuming new or modified class
+[2023.05.05-23.08.20:857][417]LogClass: Could not find existing class PlayerPawn in package /Script/Perspective for reload, assuming new or modified class
+[2023.05.05-23.08.21:027][417]Re-instancing PlayerMovementComponent after reload.
+[2023.05.05-23.08.21:112][417]Re-instancing PlayerPawn after reload.
+[2023.05.05-23.08.21:561][417]LogUObjectHash: Compacting FUObjectHashTables data took   3.08ms
+[2023.05.05-23.08.21:642][418]Display: Reload/Re-instancing Complete: 1 package changed, 2 classes changed
+[2023.05.05-23.08.21:643][418]LogLiveCoding: Warning: Live coding succeeded, data type changes may cause packaging to fail if assets reference the new or updated data types
+[2023.05.05-23.08.22:058][421]LogShaderCompilers: Display: ================================================
+[2023.05.05-23.08.22:058][421]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2023.05.05-23.08.22:059][421]LogShaderCompilers: Display: Total job queries 83, among them cache hits 0 (0.00%)
+[2023.05.05-23.08.22:059][421]LogShaderCompilers: Display: Tracking 83 distinct input hashes that result in 67 distinct outputs (80.72%)
+[2023.05.05-23.08.22:059][421]LogShaderCompilers: Display: RAM used: 0.75 MB (0.00 GB) of 819.20 MB (0.80 GB) budget. Usage: 0.09%
+[2023.05.05-23.08.22:059][421]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2023.05.05-23.08.22:059][421]LogShaderCompilers: Display: Shaders Compiled: 0
+[2023.05.05-23.08.22:059][421]LogShaderCompilers: Display: Jobs assigned 0, completed 0 (0.00%)
+[2023.05.05-23.08.22:059][421]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 0.00 s
+[2023.05.05-23.08.22:059][421]LogShaderCompilers: Display: ================================================
+[2023.05.05-23.08.25:772][814]LogEditorViewport: Clicking Background
