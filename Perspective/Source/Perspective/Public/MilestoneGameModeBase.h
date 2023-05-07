@@ -16,4 +16,10 @@ class PERSPECTIVE_API AMilestoneGameModeBase : public AGameModeBase
 
 public:
 	AMilestoneGameModeBase();
+
+	UFUNCTION()
+	void EndGame();
+
+protected:
+	virtual void BeginPlay() override;
 };
