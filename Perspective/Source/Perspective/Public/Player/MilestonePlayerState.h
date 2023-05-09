@@ -13,5 +13,9 @@ UCLASS()
 class PERSPECTIVE_API AMilestonePlayerState : public APlayerState
 {
 	GENERATED_BODY()
+public:
 	AMilestonePlayerState();
+
+	UPROPERTY(EditAnywhere,BlueprintReadOnly, Category = Spawning)
+	FVector StartPosition;
 };

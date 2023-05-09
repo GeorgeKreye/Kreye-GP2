@@ -17,33 +17,7 @@ APlayerPawn::APlayerPawn() : CameraPosition(-300 * FMath::Cos(PI / 4), -300 * FM
 
 	// Create mesh component
 	StaticMesh = CreateDefaultSubobject<UStaticMeshComponent>(TEXT("Static Mesh"));
-	RootComponent = StaticMesh;
-
-	// Get mesh
-	auto Mesh = ConstructorHelpers::FObjectFinder<UStaticMesh>(
-		TEXT("/Game/StarterContent/Shapes/Shape_NarrowCapsule.Shape_NarrowCapsule"));
-	if (Mesh.Succeeded())
-	{
-		StaticMesh->SetStaticMesh(Mesh.Object);
-		StaticMesh->SetRelativeLocation(FVector(0.0, 0.0, 0.0));
-		StaticMesh->SetSimulatePhysics(true); // Enable physics
-	}
-	else
-	{
-		WARN("ERROR: Could not find mesh");
-	}
-
-	// Get mesh material
-	auto Material = ConstructorHelpers::FObjectFinder<UMaterialInterface>
-		(TEXT("/Game/StarterContent/Materials/M_Basic_Floor.M_Basic_Floor"));
-	if (Material.Succeeded())
-	{
-		StaticMesh->SetMaterial(0, Material.Object);
-	}
-	else
-	{
-		WARN("ERROR: Could not find mesh material");
-	}
+	SetRootComponent(StaticMesh);
 
 	// Get input action
 	auto Action = ConstructorHelpers::FObjectFinder<UInputAction>(
@@ -54,7 +28,7 @@ APlayerPawn::APlayerPawn() : CameraPosition(-300 * FMath::Cos(PI / 4), -300 * FM
 	}
 	else
 	{
-		WARN("ERROR: Could not find movement action");
+		WARN("PlayerPawn: Could not find movement action");
 	}
 
 	// Get input mapping
@@ -66,7 +40,7 @@ APlayerPawn::APlayerPawn() : CameraPosition(-300 * FMath::Cos(PI / 4), -300 * FM
 	}
 	else
 	{
-		WARN("ERROR: Could not find input mapping");
+		WARN("PlayerPawn: Could not find input mapping");
 	}
 
 	// Create camera

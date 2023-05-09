@@ -17,6 +17,9 @@ class PERSPECTIVE_API AMilestoneGameModeBase : public AGameModeBase
 public:
 	AMilestoneGameModeBase();
 
+	/**
+	 * @brief Used to tell the game to end
+	 */
 	UFUNCTION()
 	void EndGame();
 
