@@ -16,5 +16,8 @@ class PERSPECTIVE_API AMilestoneGameStateBase : public AGameStateBase
 
 public:
 	AMilestoneGameStateBase();
-	
+
+	// The current camera; used to determine view as well as position of view-dependent objects
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = Camera)
+	int CurrentCamera;
 };

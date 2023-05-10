@@ -39,6 +39,8 @@ public:
 	 * @param Instance The movement input instance received
 	 */
 	virtual void Move(const struct FInputActionInstance& Instance);
+	
+	virtual void Jump(const struct FInputActionInstance& Instance);
 
 	UPROPERTY(EditAnywhere,BlueprintReadOnly, Category = Camera);
 	TObjectPtr<class UCameraComponent> Camera;

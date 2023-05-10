@@ -1702,3 +1702,84 @@ Script Stack (0 frames) :
 [2023.05.09-23.16.49:611][520]LogFileHelpers: InternalPromptForCheckoutAndSave took 455 ms (total: 993 ms)
 [2023.05.09-23.16.49:616][520]AssetCheck: New page: Asset Save: Level01
 [2023.05.09-23.16.49:616][520]LogContentValidation: Display: Validating /Script/Engine.World /Game/Levels/Level01.Level01
+[2023.05.10-00.11.06:164][489]LogDerivedDataCache: C:/Users/heroo/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:07.638 and deleted 0 files with total size 0 MiB. Scanned 3826 files in 3811 folders with total size 351 MiB.
+[2023.05.10-00.53.11:627][ 37]LogAudioMixer: Warning: AudioMixerPlatformInterface Timeout [5000ms] waiting for h/w. InstanceID=1
+[2023.05.10-00.53.11:720][ 37]LogAudioMixer: Display: FMixerNullCallback: Simulating a h/w device callback at [21ms], ThreadID=45752
+[2023.05.10-00.53.13:752][ 41]LogAudioMixer: Display: Successful Swap new Device is (NumChannels=2, SampleRate=48000, DeviceID={0.0.0.00000000}.{5ba5d838-f949-4a17-824f-ab36a6e880d2}, Name=Speakers (Realtek(R) Audio)), Reason=AudioMixerPlatformInterface. Timeout waiting for h/w., InstanceID=1, DurationMS=1489.61
+[2023.05.10-00.53.13:755][ 41]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=1
+[2023.05.10-00.53.13:858][ 41]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=1
+[2023.05.10-00.53.27:766][ 77]LogUdpMessaging: Error: Socket error detected when communicating with 10.5.22.177:51282. Banning communication to that endpoint.
+[2023.05.10-00.53.32:736][ 77]LogAudioMixer: Warning: AudioMixerPlatformInterface Timeout [4999ms] waiting for h/w. InstanceID=1
+[2023.05.10-00.53.37:744][ 77]LogAudioMixer: Warning: AudioMixerPlatformInterface Timeout [5000ms] waiting for h/w. InstanceID=1
+[2023.05.10-00.53.42:736][ 77]LogAudioMixer: Warning: AudioMixerPlatformInterface Timeout [5000ms] waiting for h/w. InstanceID=1
+[2023.05.10-00.53.47:736][ 77]LogAudioMixer: Warning: AudioMixerPlatformInterface Timeout [5000ms] waiting for h/w. InstanceID=1
+[2023.05.10-00.53.52:742][ 77]LogAudioMixer: Warning: AudioMixerPlatformInterface Timeout [5000ms] waiting for h/w. InstanceID=1
+[2023.05.10-00.53.57:736][ 77]LogAudioMixer: Warning: AudioMixerPlatformInterface Timeout [5000ms] waiting for h/w. InstanceID=1
+[2023.05.10-00.54.02:737][ 77]LogAudioMixer: Warning: AudioMixerPlatformInterface Timeout [4999ms] waiting for h/w. InstanceID=1
+[2023.05.10-00.54.07:767][ 77]LogAudioMixer: Warning: AudioMixerPlatformInterface Timeout [5009ms] waiting for h/w. InstanceID=1
+[2023.05.10-00.54.12:752][ 77]LogAudioMixer: Warning: AudioMixerPlatformInterface Timeout [5000ms] waiting for h/w. InstanceID=1
+[2023.05.10-02.35.20:304][ 77]LogAudioMixer: Warning: AudioMixerPlatformInterface Timeout [6070416ms] waiting for h/w. InstanceID=1
+[2023.05.10-02.35.23:003][ 77]LogAudioMixer: Display: Audio Buffer Underrun (starvation) detected. InstanceID=1
+[2023.05.10-02.35.26:364][ 77]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2023.05.10-02.35.26:584][ 77]LogAudioMixer: Display: FMixerNullCallback: Simulating a h/w device callback at [21ms], ThreadID=45752
+[2023.05.10-02.35.29:012][ 78]LogUdpMessaging: Display: Added local interface '10.0.0.100' to multicast group '230.0.0.1:6666'
+[2023.05.10-02.35.29:867][ 78]LogAudioMixer: Display: Successful Swap new Device is (NumChannels=2, SampleRate=48000, DeviceID={0.0.0.00000000}.{5ba5d838-f949-4a17-824f-ab36a6e880d2}, Name=Speakers (Realtek(R) Audio)), Reason=AudioMixerPlatformInterface. Timeout waiting for h/w., InstanceID=1, DurationMS=2081.99
+[2023.05.10-02.35.29:871][ 78]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=1
+[2023.05.10-02.35.29:886][ 78]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=1
+[2023.05.10-02.52.07:527][ 68]LogDerivedDataCache: C:/Users/heroo/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:06.574 and deleted 0 files with total size 0 MiB. Scanned 3826 files in 3811 folders with total size 351 MiB.
+[2023.05.10-03.37.37:420][254]LogAudioMixer: Display: Audio Buffer Underrun (starvation) detected. InstanceID=1
+[2023.05.10-03.38.28:769][407]LogAudioMixer: Display: Audio Buffer Underrun (starvation) detected. InstanceID=1
+[2023.05.10-03.39.11:907][537]LogAudioMixer: Display: Audio Buffer Underrun (starvation) detected. InstanceID=1
+[2023.05.10-03.39.46:246][640]LogAudioMixer: Display: Audio Buffer Underrun (starvation) detected. InstanceID=1
+[2023.05.10-03.40.40:367][801]LogAudioMixer: Display: Audio Buffer Underrun (starvation) detected. InstanceID=1
+[2023.05.10-03.44.21:000][660]LogAudioMixer: Display: Audio Buffer Underrun (starvation) detected. InstanceID=1
+[2023.05.10-03.52.08:420][ 62]LogDerivedDataCache: C:/Users/heroo/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:07.465 and deleted 0 files with total size 0 MiB. Scanned 3826 files in 3811 folders with total size 351 MiB.
+[2023.05.10-04.52.08:620][861]LogDerivedDataCache: C:/Users/heroo/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:07.659 and deleted 0 files with total size 0 MiB. Scanned 3826 files in 3811 folders with total size 351 MiB.
+[2023.05.10-05.52.07:505][656]LogDerivedDataCache: C:/Users/heroo/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:06.544 and deleted 0 files with total size 0 MiB. Scanned 3826 files in 3811 folders with total size 351 MiB.
+[2023.05.10-06.52.08:396][457]LogDerivedDataCache: C:/Users/heroo/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:07.433 and deleted 0 files with total size 0 MiB. Scanned 3826 files in 3811 folders with total size 351 MiB.
+[2023.05.10-07.52.08:425][256]LogDerivedDataCache: C:/Users/heroo/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:07.460 and deleted 0 files with total size 0 MiB. Scanned 3826 files in 3811 folders with total size 351 MiB.
+[2023.05.10-08.52.07:458][ 52]LogDerivedDataCache: C:/Users/heroo/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:06.491 and deleted 0 files with total size 0 MiB. Scanned 3826 files in 3811 folders with total size 351 MiB.
+[2023.05.10-09.52.08:411][853]LogDerivedDataCache: C:/Users/heroo/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:07.437 and deleted 0 files with total size 0 MiB. Scanned 3826 files in 3811 folders with total size 351 MiB.
+[2023.05.10-10.52.07:543][649]LogDerivedDataCache: C:/Users/heroo/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:06.569 and deleted 0 files with total size 0 MiB. Scanned 3826 files in 3811 folders with total size 351 MiB.
+[2023.05.10-11.18.37:741][413]LogAudioMixer: Display: Audio Buffer Underrun (starvation) detected. InstanceID=1
+[2023.05.10-11.18.38:093][413]LogAudioMixer: Warning: Audio Thread Command from SetListenerTransforms()() took 1.327900 milleseconds to execute
+[2023.05.10-11.18.45:209][424]LogAudioMixer: Warning: AudioMixerPlatformInterface Timeout [5000ms] waiting for h/w. InstanceID=1
+[2023.05.10-11.18.45:310][424]LogAudioMixer: Display: FMixerNullCallback: Simulating a h/w device callback at [21ms], ThreadID=45752
+[2023.05.10-11.18.45:671][425]LogAudioMixer: Display: Successful Swap new Device is (NumChannels=2, SampleRate=48000, DeviceID={0.0.0.00000000}.{5ba5d838-f949-4a17-824f-ab36a6e880d2}, Name=Speakers (Realtek(R) Audio)), Reason=AudioMixerPlatformInterface. Timeout waiting for h/w., InstanceID=1, DurationMS=108.76
+[2023.05.10-11.18.45:675][425]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=1
+[2023.05.10-11.18.45:684][425]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=1
+[2023.05.10-11.19.05:639][471]LogAudioMixer: Warning: AudioMixerPlatformInterface Timeout [5000ms] waiting for h/w. InstanceID=1
+[2023.05.10-11.20.12:094][471]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2023.05.10-11.20.12:236][471]LogAudioMixer: Display: FMixerNullCallback: Simulating a h/w device callback at [21ms], ThreadID=45752
+[2023.05.10-11.20.13:052][472]LogAudioMixer: Display: Successful Swap new Device is (NumChannels=2, SampleRate=48000, DeviceID={0.0.0.00000000}.{5ba5d838-f949-4a17-824f-ab36a6e880d2}, Name=Speakers (Realtek(R) Audio)), Reason=AudioMixerPlatformInterface. Timeout waiting for h/w., InstanceID=1, DurationMS=710.69
+[2023.05.10-11.20.13:054][472]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=1
+[2023.05.10-11.20.13:082][472]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=1
+[2023.05.10-11.20.13:424][473]LogUdpMessaging: Display: Added local interface '10.0.0.100' to multicast group '230.0.0.1:6666'
+[2023.05.10-11.53.07:599][395]LogDerivedDataCache: C:/Users/heroo/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:07.055 and deleted 0 files with total size 0 MiB. Scanned 3826 files in 3811 folders with total size 351 MiB.
+[2023.05.10-12.53.07:982][194]LogDerivedDataCache: C:/Users/heroo/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:07.437 and deleted 0 files with total size 0 MiB. Scanned 3826 files in 3811 folders with total size 351 MiB.
+[2023.05.10-13.53.06:979][989]LogDerivedDataCache: C:/Users/heroo/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:06.428 and deleted 0 files with total size 0 MiB. Scanned 3826 files in 3811 folders with total size 351 MiB.
+[2023.05.10-14.53.07:946][791]LogDerivedDataCache: C:/Users/heroo/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:07.392 and deleted 0 files with total size 0 MiB. Scanned 3826 files in 3811 folders with total size 351 MiB.
+[2023.05.10-15.53.07:925][589]LogDerivedDataCache: C:/Users/heroo/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:07.367 and deleted 0 files with total size 0 MiB. Scanned 3826 files in 3811 folders with total size 351 MiB.
+[2023.05.10-16.53.07:007][384]LogDerivedDataCache: C:/Users/heroo/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:06.443 and deleted 0 files with total size 0 MiB. Scanned 3826 files in 3811 folders with total size 351 MiB.
+[2023.05.10-17.40.15:637][861]LogAudioMixer: Warning: AudioMixerPlatformInterface Timeout [5000ms] waiting for h/w. InstanceID=1
+[2023.05.10-17.48.43:219][861]LogAudioMixer: Display: FMixerNullCallback: Simulating a h/w device callback at [21ms], ThreadID=45752
+[2023.05.10-17.48.43:910][863]LogAudioMixer: Display: Successful Swap new Device is (NumChannels=2, SampleRate=48000, DeviceID={0.0.0.00000000}.{5ba5d838-f949-4a17-824f-ab36a6e880d2}, Name=Speakers (Realtek(R) Audio)), Reason=AudioMixerPlatformInterface. Timeout waiting for h/w., InstanceID=1, DurationMS=575.35
+[2023.05.10-17.48.43:914][863]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=1
+[2023.05.10-17.48.43:920][863]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=1
+[2023.05.10-17.48.53:600][893]LogAudioMixer: Warning: AudioMixerPlatformInterface Timeout [5000ms] waiting for h/w. InstanceID=1
+[2023.05.10-17.59.10:960][893]LogAudioMixer: Display: FMixerNullCallback: Simulating a h/w device callback at [21ms], ThreadID=45752
+[2023.05.10-17.59.11:713][895]LogAudioMixer: Display: Successful Swap new Device is (NumChannels=2, SampleRate=48000, DeviceID={0.0.0.00000000}.{5ba5d838-f949-4a17-824f-ab36a6e880d2}, Name=Speakers (Realtek(R) Audio)), Reason=AudioMixerPlatformInterface. Timeout waiting for h/w., InstanceID=1, DurationMS=457.46
+[2023.05.10-17.59.11:713][895]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=1
+[2023.05.10-17.59.11:718][895]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=1
+[2023.05.10-17.59.25:997][938]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2023.05.10-17.59.30:067][939]LogAudioMixer: Warning: AudioMixerPlatformInterface Timeout [5001ms] waiting for h/w. InstanceID=1
+[2023.05.10-18.06.53:034][939]LogAudioMixer: Warning: AudioMixerPlatformInterface Timeout [5010ms] waiting for h/w. InstanceID=1
+[2023.05.10-18.06.57:634][939]LogAudioMixer: Display: FMixerNullCallback: Simulating a h/w device callback at [21ms], ThreadID=45752
+[2023.05.10-18.06.59:300][940]LogUdpMessaging: Display: Added local interface '10.5.22.32' to multicast group '230.0.0.1:6666'
+[2023.05.10-18.06.59:423][940]LogAudioMixer: Display: Successful Swap new Device is (NumChannels=2, SampleRate=48000, DeviceID={0.0.0.00000000}.{5ba5d838-f949-4a17-824f-ab36a6e880d2}, Name=Speakers (Realtek(R) Audio)), Reason=AudioMixerPlatformInterface. Timeout waiting for h/w., InstanceID=1, DurationMS=1345.19
+[2023.05.10-18.06.59:427][940]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=1
+[2023.05.10-18.06.59:432][940]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=1
+[2023.05.10-18.19.09:697][129]LogDerivedDataCache: C:/Users/heroo/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:07.411 and deleted 0 files with total size 0 MiB. Scanned 3826 files in 3811 folders with total size 351 MiB.
+[2023.05.10-18.32.55:567][598]LogAudioMixer: Warning: Audio Thread Command from SetListenerTransforms()() took 1.065400 milleseconds to execute
+[2023.05.10-18.33.12:486][647]LogAudioMixer: Display: Audio Buffer Underrun (starvation) detected. InstanceID=1
+[2023.05.10-18.33.43:578][655]LogAudioMixer: Display: Audio Buffer Underrun (starvation) detected. InstanceID=1

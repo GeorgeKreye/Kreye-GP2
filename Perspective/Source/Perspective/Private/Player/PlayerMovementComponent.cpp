@@ -57,3 +57,9 @@ void UPlayerMovementComponent::SetLastMovementInput(const FVector2d& Input)
 	LastMovementInput = Input;
 	LOG("Movement input received : (%d, %d)", LastMovementInput.X, LastMovementInput.Y);
 }
+
+// Sets whether to jump this frame when called
+void UPlayerMovementComponent::SetJump(const bool& JumpThisFrame)
+{
+	this->JumpThisFrame = JumpThisFrame;
+}

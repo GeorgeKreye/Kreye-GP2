@@ -105,10 +105,10 @@ void APlayerPawn::SetupPlayerInputComponent(UInputComponent* PlayerInputComponen
 {
 	Super::SetupPlayerInputComponent(PlayerInputComponent);
 
-	WARN("Getting enhanced input component");
+	LOG("Getting enhanced input component");
 	TObjectPtr<UEnhancedInputComponent> EIS = CastChecked<UEnhancedInputComponent>(PlayerInputComponent);
 
-	WARN("Binding move actions");
+	LOG("Binding move actions");
 	EIS->BindAction(PlayerMovementAction, ETriggerEvent::Triggered, this, &APlayerPawn::Move);
 }
 
@@ -116,4 +116,10 @@ void APlayerPawn::Move(const struct FInputActionInstance& Instance)
 {
 	// Pass movement input to movement component
 	Movement->SetLastMovementInput(Instance.GetValue().Get<FVector2d>());
+}
+
+void APlayerPawn::Jump(const struct FInputActionInstance& Instance)
+{
+	// Pass jump input to movement component
+	Movement->SetJump(Instance.GetValue().Get<bool>());
 }
