@@ -4,6 +4,7 @@
 #include "MilestoneGameModeBase.h"
 #include "MilestoneGameStateBase.h"
 #include "Perspective/Perspective.h"
+#include "Player/MilestonePlayerState.h"
 #include "Player/PlayerPawn.h"
 
 // Constructor to set the game state
@@ -11,6 +12,8 @@ AMilestoneGameModeBase::AMilestoneGameModeBase()
 {
 	DefaultPawnClass = APlayerPawn::StaticClass();
 	GameStateClass = AMilestoneGameStateBase::StaticClass();
+	PlayerStateClass = AMilestonePlayerState::StaticClass();
+	PlayerControllerClass = APlayerController::StaticClass();
 }
 
 void AMilestoneGameModeBase::BeginPlay()
@@ -20,7 +23,9 @@ void AMilestoneGameModeBase::BeginPlay()
 	LOG_G("Game started");
 }
 
+// End the game
 void AMilestoneGameModeBase::EndGame()
 {
+	// TODO: Currently does nothing, should boot player to a game over screen
 	LOG_G("Game ended");
 }

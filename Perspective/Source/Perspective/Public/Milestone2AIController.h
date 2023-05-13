@@ -27,13 +27,14 @@ public:
 	UPROPERTY(VisibleInstanceOnly, BlueprintReadOnly, Category = Pawn)
 	TObjectPtr<AMilestone2AIPawn> AIPawn;
 
-protected:
-	virtual void BeginPlay() override;
-
-private:
+	
 	/**
 	 * @brief Has the AI-controlled pawn move towards the current waypoint.
 	 * @param AIPawn The pawn controlled by the AI.
 	 */
+	UFUNCTION()
 	void GoToWaypoint();
+
+protected:
+	virtual void BeginPlay() override;
 };
