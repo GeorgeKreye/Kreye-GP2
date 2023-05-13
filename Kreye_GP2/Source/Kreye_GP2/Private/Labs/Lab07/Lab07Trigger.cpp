@@ -14,22 +14,22 @@ ALab07Trigger::ALab07Trigger()
 	Mesh = CreateDefaultSubobject<UStaticMeshComponent>(TEXT("Mesh"));
 	SetRootComponent(Mesh);
 
-	// Get cube mesh
-	auto CubeMesh = ConstructorHelpers::FObjectFinder<UStaticMesh>(
-		TEXT("/Game/StarterContent/Shapes/Shape_Cube.Shape_Cube"));
-	if (CubeMesh.Succeeded())
-	{
-		Mesh->SetStaticMesh(CubeMesh.Object);
-		Mesh->SetRelativeLocation(FVector::ZeroVector);
-	}
-
-	// Get material
-	auto Material = ConstructorHelpers::FObjectFinder<UMaterialInterface>(
-		TEXT("/Game/StarterContent/Materials/M_Metal_Copper.M_Metal_Copper"));
-	if (Material.Succeeded())
-	{
-		Mesh->SetMaterial(0, Material.Object);
-	}
+	// // Get cube mesh
+	// auto CubeMesh = ConstructorHelpers::FObjectFinder<UStaticMesh>(
+	// 	TEXT("/Game/StarterContent/Shapes/Shape_Cube.Shape_Cube"));
+	// if (CubeMesh.Succeeded())
+	// {
+	// 	Mesh->SetStaticMesh(CubeMesh.Object);
+	// 	Mesh->SetRelativeLocation(FVector::ZeroVector);
+	// }
+	//
+	// // Get material
+	// auto Material = ConstructorHelpers::FObjectFinder<UMaterialInterface>(
+	// 	TEXT("/Game/StarterContent/Materials/M_Metal_Copper.M_Metal_Copper"));
+	// if (Material.Succeeded())
+	// {
+	// 	Mesh->SetMaterial(0, Material.Object);
+	// }
 
 	// Assign OnTriggerHit to actor collision
 	OnActorHit.AddDynamic(this, &ALab07Trigger::OnTriggerHit);
