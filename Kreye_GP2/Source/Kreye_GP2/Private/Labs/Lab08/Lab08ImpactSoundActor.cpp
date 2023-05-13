@@ -14,25 +14,25 @@ ALab08ImpactSoundActor::ALab08ImpactSoundActor()
 	Mesh = CreateDefaultSubobject<UStaticMeshComponent>(TEXT("Mesh"));
 	SetRootComponent(Mesh);
 
-	// Get mesh
-	auto CubeMesh = ConstructorHelpers::FObjectFinder<UStaticMesh>(
-		TEXT("/Game/StarterContent/Shapes/Shape_Cube.Shape_Cube"));
-	if (CubeMesh.Succeeded())
-	{
-		Mesh->SetStaticMesh(CubeMesh.Object);
-		Mesh->SetRelativeLocation(FVector::ZeroVector);
-	
-		// Set mesh to obey physics
-		Mesh->SetSimulatePhysics(true);
-	}
-	
-	// Get mesh material
-	auto Material = ConstructorHelpers::FObjectFinder<UMaterialInterface>(
-		TEXT("/Game/StarterContent/Materials/M_Basic_Floor.M_Basic_Floor"));
-	if (Material.Succeeded())
-	{
-		Mesh->SetMaterial(0, Material.Object);
-	}
+	// // Get mesh
+	// auto CubeMesh = ConstructorHelpers::FObjectFinder<UStaticMesh>(
+	// 	TEXT("/Game/StarterContent/Shapes/Shape_Cube.Shape_Cube"));
+	// if (CubeMesh.Succeeded())
+	// {
+	// 	Mesh->SetStaticMesh(CubeMesh.Object);
+	// 	Mesh->SetRelativeLocation(FVector::ZeroVector);
+	//
+	// 	// Set mesh to obey physics
+	// 	Mesh->SetSimulatePhysics(true);
+	// }
+	//
+	// // Get mesh material
+	// auto Material = ConstructorHelpers::FObjectFinder<UMaterialInterface>(
+	// 	TEXT("/Game/StarterContent/Materials/M_Basic_Floor.M_Basic_Floor"));
+	// if (Material.Succeeded())
+	// {
+	// 	Mesh->SetMaterial(0, Material.Object);
+	// }
 
 	// Create audio component
 	Sound = CreateDefaultSubobject<UAudioComponent>(TEXT("Sound"));

@@ -18,20 +18,20 @@ ALab07Pawn::ALab07Pawn() : CameraPosition(-300,0,300), CameraRotation(-45,0,0)
 	Mesh = CreateDefaultSubobject<UStaticMeshComponent>(TEXT("Mesh"));
 	SetRootComponent(Mesh);
 
-	// Get capsule mesh
-	auto CapsuleMesh = ConstructorHelpers::FObjectFinder<UStaticMesh>(TEXT("/Game/StarterContent/Shapes/Shape_NarrowCapsule.Shape_NarrowCapsule"));
-	if (CapsuleMesh.Succeeded())
-	{
-		Mesh->SetStaticMesh(CapsuleMesh.Object);
-		Mesh->SetRelativeLocation(FVector(0.0,0.0,0.0));
-	}
-	
-	// Get material
-	auto MeshMaterial = ConstructorHelpers::FObjectFinder<UMaterialInterface>(TEXT("/Game/StarterContent/Materials/M_AssetPlatform.M_AssetPlatform"));
-	if (MeshMaterial.Succeeded())
-	{
-		Mesh->SetMaterial(0,MeshMaterial.Object);
-	}
+	// // Get capsule mesh
+	// auto CapsuleMesh = ConstructorHelpers::FObjectFinder<UStaticMesh>(TEXT("/Game/StarterContent/Shapes/Shape_NarrowCapsule.Shape_NarrowCapsule"));
+	// if (CapsuleMesh.Succeeded())
+	// {
+	// 	Mesh->SetStaticMesh(CapsuleMesh.Object);
+	// 	Mesh->SetRelativeLocation(FVector(0.0,0.0,0.0));
+	// }
+	//
+	// // Get material
+	// auto MeshMaterial = ConstructorHelpers::FObjectFinder<UMaterialInterface>(TEXT("/Game/StarterContent/Materials/M_AssetPlatform.M_AssetPlatform"));
+	// if (MeshMaterial.Succeeded())
+	// {
+	// 	Mesh->SetMaterial(0,MeshMaterial.Object);
+	// }
 
 	// Create camera
 	Camera = CreateDefaultSubobject<UCameraComponent>(TEXT("Camera"));
