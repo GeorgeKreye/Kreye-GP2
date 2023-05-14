@@ -1120,3 +1120,81 @@ Script Stack (0 frames) :
 [2023.05.14-23.25.15:154][709]LogUObjectHash: Compacting FUObjectHashTables data took   0.66ms
 [2023.05.14-23.25.15:604][711]Display: Reload/Re-instancing Complete: 1 package changed, 14 classes new, 1 class changed, 2 classes unchanged
 [2023.05.14-23.25.15:604][711]LogLiveCoding: Warning: Live coding succeeded, data type changes may cause packaging to fail if assets reference the new or updated data types
+[2023.05.14-23.28.28:922][876]LogContentBrowser: Deferred new asset folder creation: NewFolder
+[2023.05.14-23.28.28:931][876]LogContentBrowser: Creating deferred item: NewFolder
+[2023.05.14-23.28.28:942][877]LogContentBrowser: Renaming the item being created (Deferred Item: NewFolder).
+[2023.05.14-23.28.35:808][655]LogContentBrowser: Attempting asset rename: NewFolder -> StateTree
+[2023.05.14-23.28.35:809][655]LogContentBrowser: End creating deferred item NewFolder
+[2023.05.14-23.28.39:701][ 54]LogAssetEditorSubsystem: Opening Asset editor for StateTree /Game/Labs/Lab09/ST_Lab09StateTree.ST_Lab09StateTree
+[2023.05.14-23.28.39:891][ 54]LogSlate: Took 0.000906 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2023.05.14-23.28.41:317][180]LogSlate: Window 'ST_Lab09StateTree' being destroyed
+[2023.05.14-23.28.41:330][180]LogSlate: Window 'ST_Lab09StateTree' being destroyed
+[2023.05.14-23.28.45:454][515]LogMetaData: Removing '/Game/Labs/Lab09/StateTree/STT_FindNextLocation.STT_FindNextLocation_C' ref from Metadata '/Game/Labs/Lab09/STT_FindNextLocation.PackageMetaData'
+[2023.05.14-23.28.45:454][515]LogMetaData: Removing '/Game/Labs/Lab09/StateTree/STT_FindNextLocation.STT_FindNextLocation:ReceiveEnterState.K2Node_FunctionEntry_0' ref from Metadata '/Game/Labs/Lab09/STT_FindNextLocation.PackageMetaData'
+[2023.05.14-23.28.45:454][515]LogMetaData: Removing '/Game/Labs/Lab09/StateTree/STT_FindNextLocation.STT_FindNextLocation:ReceiveEnterState.K2Node_FunctionResult_0' ref from Metadata '/Game/Labs/Lab09/STT_FindNextLocation.PackageMetaData'
+[2023.05.14-23.28.45:454][515]LogMetaData: Removing '/Game/Labs/Lab09/StateTree/STT_FindNextLocation.SKEL_STT_FindNextLocation_C:ReceiveEnterState' ref from Metadata '/Game/Labs/Lab09/STT_FindNextLocation.PackageMetaData'
+[2023.05.14-23.28.45:455][515]LogMetaData: Removing '/Game/Labs/Lab09/StateTree/STT_FindNextLocation.SKEL_STT_FindNextLocation_C' ref from Metadata '/Game/Labs/Lab09/STT_FindNextLocation.PackageMetaData'
+[2023.05.14-23.28.45:455][515]LogMetaData: Removing '/Game/Labs/Lab09/StateTree/STT_FindNextLocation.STT_FindNextLocation_C:ReceiveEnterState' ref from Metadata '/Game/Labs/Lab09/STT_FindNextLocation.PackageMetaData'
+[2023.05.14-23.28.45:465][515]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.05.14-23.28.45:532][515]LogPackageLocalizationCache: Processed 45 localized package path(s) for 1 prioritized culture(s) in 0.006365 seconds
+[2023.05.14-23.28.45:551][515]LogSerialization: UsePackageTrailer: 'true'
+[2023.05.14-23.28.45:556][515]LogSavePackage: Moving output files for package: /Game/Labs/Lab09/StateTree/STT_FindNextLocation
+[2023.05.14-23.28.45:556][515]LogSavePackage: Moving '../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2/Saved/STT_FindNextLocationD50BAA814080531948B548BA9954601D.tmp' to '../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2/Content/Labs/Lab09/StateTree/STT_FindNextLocation.uasset'
+[2023.05.14-23.28.45:561][515]LogSavePackage: Moving output files for package: /Game/Labs/Lab09/STT_FindNextLocation
+[2023.05.14-23.28.45:562][515]LogSavePackage: Moving '../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2/Saved/STT_FindNextLocationE7C105CC4BE72A2DC37204BE4DC7B386.tmp' to '../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2/Content/Labs/Lab09/STT_FindNextLocation.uasset'
+[2023.05.14-23.28.45:567][515]LogSavePackage: Moving output files for package: /Game/Labs/Lab09/StateTree/ST_Lab09StateTree
+[2023.05.14-23.28.45:567][515]LogSavePackage: Moving '../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2/Saved/ST_Lab09StateTreeA8258E7D4417ECEF6AB3CC8497E275E6.tmp' to '../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2/Content/Labs/Lab09/StateTree/ST_Lab09StateTree.uasset'
+[2023.05.14-23.28.45:569][515]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Labs/Lab09/ST_Lab09StateTree" FILE="../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2/Content/Labs/Lab09/ST_Lab09StateTree.uasset" SILENT=true
+[2023.05.14-23.28.45:570][515]LogSavePackage: Moving output files for package: /Game/Labs/Lab09/ST_Lab09StateTree
+[2023.05.14-23.28.45:571][515]LogSavePackage: Moving '../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2/Saved/ST_Lab09StateTreeBDE0C27342CE6934352D88BBCCF727B1.tmp' to '../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2/Content/Labs/Lab09/ST_Lab09StateTree.uasset'
+[2023.05.14-23.28.45:915][515]LogFileHelpers: InternalPromptForCheckoutAndSave took 449 ms
+[2023.05.14-23.28.46:609][515]AssetCheck: New page: Asset Save: multiple assets
+[2023.05.14-23.28.46:610][515]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Labs/Lab09/StateTree/STT_FindNextLocation.STT_FindNextLocation
+[2023.05.14-23.28.46:610][515]LogContentValidation: Display: Validating /Script/StateTreeModule.StateTree /Game/Labs/Lab09/StateTree/ST_Lab09StateTree.ST_Lab09StateTree
+[2023.05.14-23.28.46:610][515]LogContentValidation: Display: Validating /Script/CoreUObject.ObjectRedirector /Game/Labs/Lab09/STT_FindNextLocation.STT_FindNextLocation_C
+[2023.05.14-23.28.46:610][515]LogContentValidation: Display: Validating /Script/CoreUObject.ObjectRedirector /Game/Labs/Lab09/STT_FindNextLocation.Default__STT_FindNextLocation_C
+[2023.05.14-23.28.46:610][515]LogContentValidation: Display: Validating /Script/CoreUObject.ObjectRedirector /Game/Labs/Lab09/STT_FindNextLocation.STT_FindNextLocation
+[2023.05.14-23.28.46:610][515]LogContentValidation: Display: Validating /Script/CoreUObject.ObjectRedirector /Game/Labs/Lab09/ST_Lab09StateTree.ST_Lab09StateTree
+[2023.05.14-23.28.49:884][813]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.05.14-23.28.49:943][813]LogUObjectHash: Compacting FUObjectHashTables data took   0.66ms
+[2023.05.14-23.28.49:957][813]LogSavePackage: Moving output files for package: /Game/Labs/Lab09/Lab09
+[2023.05.14-23.28.49:958][813]LogSavePackage: Moving '../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2/Saved/Lab09E35F7EA747A1FB71AC8CE3960E2006E2.tmp' to '../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2/Content/Labs/Lab09/Lab09.umap'
+[2023.05.14-23.28.49:969][813]LogFileHelpers: Saving map 'Lab09' took 0.039
+[2023.05.14-23.28.49:981][813]LogFileHelpers: InternalPromptForCheckoutAndSave took 96 ms (total: 545 ms)
+[2023.05.14-23.28.49:984][813]AssetCheck: New page: Asset Save: Lab09
+[2023.05.14-23.28.49:984][813]LogContentValidation: Display: Validating /Script/Engine.World /Game/Labs/Lab09/Lab09.Lab09
+[2023.05.14-23.28.53:571][ 23]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Labs/Lab09/Lab09AICharacter.Lab09AICharacter
+[2023.05.14-23.28.53:574][ 23]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.05.14-23.28.55:162][ 23]LogSlate: Took 0.000989 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2023.05.14-23.28.55:419][ 24]LogShaderCompilers: Display: ================================================
+[2023.05.14-23.28.55:419][ 24]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2023.05.14-23.28.55:419][ 24]LogShaderCompilers: Display: Total job queries 126, among them cache hits 13 (10.32%)
+[2023.05.14-23.28.55:419][ 24]LogShaderCompilers: Display: Tracking 113 distinct input hashes that result in 91 distinct outputs (80.53%)
+[2023.05.14-23.28.55:419][ 24]LogShaderCompilers: Display: RAM used: 0.97 MB (0.00 GB) of 819.20 MB (0.80 GB) budget. Usage: 0.12%
+[2023.05.14-23.28.55:419][ 24]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2023.05.14-23.28.55:419][ 24]LogShaderCompilers: Display: Shaders Compiled: 0
+[2023.05.14-23.28.55:419][ 24]LogShaderCompilers: Display: Jobs assigned 0, completed 0 (0.00%)
+[2023.05.14-23.28.55:419][ 24]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 0.00 s
+[2023.05.14-23.28.55:420][ 24]LogShaderCompilers: Display: ================================================
+[2023.05.14-23.28.57:713][ 79]LogViewport: Scene viewport resized to 928x430, mode Windowed.
+[2023.05.14-23.28.58:454][117]BlueprintLog: New page: Compile Lab09AICharacter
+[2023.05.14-23.28.58:615][117]LogUObjectHash: Compacting FUObjectHashTables data took   1.05ms
+[2023.05.14-23.28.59:354][141]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.05.14-23.28.59:435][141]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Labs/Lab09/Lab09AICharacter" FILE="../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2/Content/Labs/Lab09/Lab09AICharacter.uasset" SILENT=true
+[2023.05.14-23.28.59:442][141]LogSavePackage: Moving output files for package: /Game/Labs/Lab09/Lab09AICharacter
+[2023.05.14-23.28.59:443][141]LogSavePackage: Moving '../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2/Saved/Lab09AICharacter6231EF6C46F625E18A32C08FF7DFF615.tmp' to '../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2/Content/Labs/Lab09/Lab09AICharacter.uasset'
+[2023.05.14-23.28.59:463][141]LogFileHelpers: InternalPromptForCheckoutAndSave took 108 ms (total: 654 ms)
+[2023.05.14-23.28.59:469][141]AssetCheck: New page: Asset Save: Lab09AICharacter
+[2023.05.14-23.28.59:469][141]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Labs/Lab09/Lab09AICharacter.Lab09AICharacter
+[2023.05.14-23.29.07:230][592]LogSlate: Window 'Lab09AICharacter' being destroyed
+[2023.05.14-23.29.07:239][592]LogSlate: Window 'Lab09AICharacter' being destroyed
+[2023.05.14-23.29.07:244][592]LogWorld: UWorld::CleanupWorld for World_2, bSessionEnded=true, bCleanupResources=true
+[2023.05.14-23.29.07:245][592]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.05.14-23.29.10:432][761]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.05.14-23.29.10:523][761]LogUObjectHash: Compacting FUObjectHashTables data took   1.43ms
+[2023.05.14-23.29.10:535][761]LogSavePackage: Moving output files for package: /Game/Labs/Lab09/Lab09
+[2023.05.14-23.29.10:536][761]LogSavePackage: Moving '../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2/Saved/Lab090864434548D069020F25189841A9CCE8.tmp' to '../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2/Content/Labs/Lab09/Lab09.umap'
+[2023.05.14-23.29.10:546][761]LogFileHelpers: Saving map 'Lab09' took 0.056
+[2023.05.14-23.29.10:561][761]LogFileHelpers: InternalPromptForCheckoutAndSave took 128 ms (total: 782 ms)
+[2023.05.14-23.29.10:565][761]AssetCheck: New page: Asset Save: Lab09
+[2023.05.14-23.29.10:565][761]LogContentValidation: Display: Validating /Script/Engine.World /Game/Labs/Lab09/Lab09.Lab09
