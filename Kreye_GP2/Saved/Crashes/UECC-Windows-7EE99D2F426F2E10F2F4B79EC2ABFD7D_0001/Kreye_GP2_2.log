@@ -1210,14 +1210,3 @@ Script Stack (0 frames) :
 [2023.05.14-02.35.56:576][926]LogOutputDevice: Error: [Callstack] 0x00007ffc7cd226ad KERNEL32.DLL!UnknownFunction []
 [2023.05.14-02.35.56:576][926]LogOutputDevice: Error: [Callstack] 0x00007ffc7d80a9f8 ntdll.dll!UnknownFunction []
 [2023.05.14-02.35.56:576][926]LogOutputDevice: Error: 
-[2023.05.14-02.35.56:581][926]LogStats:                SubmitErrorReport -  0.000 s
-[2023.05.14-02.35.59:026][926]LogStats:                    SendNewReport -  2.446 s
-[2023.05.14-02.35.59:026][926]LogStats:             FDebug::EnsureFailed -  2.609 s
-[2023.05.14-02.35.59:065][926]GP2Log: Relative camera position: (0,0,0)
-[2023.05.14-02.35.59:066][926]GP2Log: Relative camera rotation: (0,0,0)
-[2023.05.14-02.35.59:129][926]Re-instancing Lab03Actor after reload.
-[2023.05.14-02.35.59:511][926]LogUObjectHash: Compacting FUObjectHashTables data took   2.55ms
-[2023.05.14-02.35.59:989][927]Display: Reload/Re-instancing Complete: 1 package changed, 14 classes new, 1 class changed, 2 classes unchanged
-[2023.05.14-02.35.59:990][927]LogLiveCoding: Warning: Live coding succeeded, data type changes may cause packaging to fail if assets reference the new or updated data types
-[2023.05.14-02.37.30:219][948]LogAssetEditorSubsystem: Opening Asset editor for StateTree /Game/Labs/Lab09/Lab09StateTree.Lab09StateTree
-[2023.05.14-02.37.30:422][948]LogSlate: Took 0.001706 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
