@@ -1111,12 +1111,3 @@ Script Stack (0 frames) :
 [2023.05.14-23.25.12:403][709]LogOutputDevice: Error: [Callstack] 0x00007ffe079626ad KERNEL32.DLL!UnknownFunction []
 [2023.05.14-23.25.12:403][709]LogOutputDevice: Error: [Callstack] 0x00007ffe0854a9f8 ntdll.dll!UnknownFunction []
 [2023.05.14-23.25.12:403][709]LogOutputDevice: Error: 
-[2023.05.14-23.25.12:412][709]LogStats:                SubmitErrorReport -  0.000 s
-[2023.05.14-23.25.14:868][709]LogStats:                    SendNewReport -  2.456 s
-[2023.05.14-23.25.14:868][709]LogStats:             FDebug::EnsureFailed -  2.588 s
-[2023.05.14-23.25.14:891][709]GP2Log: Relative camera position: (0,0,0)
-[2023.05.14-23.25.14:891][709]GP2Log: Relative camera rotation: (0,0,0)
-[2023.05.14-23.25.14:945][709]Re-instancing Lab03Actor after reload.
-[2023.05.14-23.25.15:154][709]LogUObjectHash: Compacting FUObjectHashTables data took   0.66ms
-[2023.05.14-23.25.15:604][711]Display: Reload/Re-instancing Complete: 1 package changed, 14 classes new, 1 class changed, 2 classes unchanged
-[2023.05.14-23.25.15:604][711]LogLiveCoding: Warning: Live coding succeeded, data type changes may cause packaging to fail if assets reference the new or updated data types

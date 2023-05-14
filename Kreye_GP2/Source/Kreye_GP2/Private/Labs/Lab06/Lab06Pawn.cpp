@@ -20,31 +20,31 @@ ALab06Pawn::ALab06Pawn() : MaxMoveSpeed(10.0), MaxRotationSpeed(5.0), CameraPosi
 	Mesh = CreateDefaultSubobject<UStaticMeshComponent>(TEXT("Mesh"));
 	RootComponent = Mesh;
 
-	// Get default pawn mesh
-	auto SphereMesh = ConstructorHelpers::FObjectFinder<UStaticMesh>(
-		TEXT("/Game/StarterContent/Shapes/Shape_Sphere.Shape_Sphere"));
-	if (SphereMesh.Succeeded())
-	{
-		Mesh->SetStaticMesh(SphereMesh.Object);
-		Mesh->SetRelativeLocation(FVector(0.0, 0.0, 0.0));
-		Mesh->SetRelativeRotation(FRotator(0.0, 0.0, 0.0));
-	}
-	else
-	{
-		WARN("ERROR: Could not find pawn mesh");
-	}
-	
-	// Get default pawn material
-	auto PawnMaterial = ConstructorHelpers::FObjectFinder<UMaterialInterface>(
-		TEXT("/Game/StarterContent/Materials/M_Basic_Floor.M_Basic_Floor"));
-	if (PawnMaterial.Succeeded())
-	{
-		Mesh->SetMaterial(0, PawnMaterial.Object);
-	}
-	else
-	{
-		WARN("ERROR: Could not find pawn material");
-	}
+	// // Get default pawn mesh
+	// auto SphereMesh = ConstructorHelpers::FObjectFinder<UStaticMesh>(
+	// 	TEXT("/Game/StarterContent/Shapes/Shape_Sphere.Shape_Sphere"));
+	// if (SphereMesh.Succeeded())
+	// {
+	// 	Mesh->SetStaticMesh(SphereMesh.Object);
+	// 	Mesh->SetRelativeLocation(FVector(0.0, 0.0, 0.0));
+	// 	Mesh->SetRelativeRotation(FRotator(0.0, 0.0, 0.0));
+	// }
+	// else
+	// {
+	// 	WARN("ERROR: Could not find pawn mesh");
+	// }
+	//
+	// // Get default pawn material
+	// auto PawnMaterial = ConstructorHelpers::FObjectFinder<UMaterialInterface>(
+	// 	TEXT("/Game/StarterContent/Materials/M_Basic_Floor.M_Basic_Floor"));
+	// if (PawnMaterial.Succeeded())
+	// {
+	// 	Mesh->SetMaterial(0, PawnMaterial.Object);
+	// }
+	// else
+	// {
+	// 	WARN("ERROR: Could not find pawn material");
+	// }
 
 	// Get pawn movement action
 	auto MovementInputAction = ConstructorHelpers::FObjectFinder<UInputAction>(
