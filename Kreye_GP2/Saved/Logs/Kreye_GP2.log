@@ -2738,3 +2738,32 @@ LogConfig: Set CVar [[r.setres:1280x720]]
 [2023.05.16-08.45.58:773][219]LogFileHelpers: InternalPromptForCheckoutAndSave took 66 ms (total: 47.2 sec)
 [2023.05.16-08.45.58:780][219]AssetCheck: New page: Asset Save: ST_Lab09StateTree
 [2023.05.16-08.45.58:780][219]LogContentValidation: Display: Validating /Script/StateTreeModule.StateTree /Game/Labs/Lab09/StateTree/ST_Lab09StateTree.ST_Lab09StateTree
+[2023.05.16-08.46.54:573][617]LogSlate: Window 'ST_Lab09StateTree' being destroyed
+[2023.05.16-08.46.54:644][617]LogSlate: Window 'ST_Lab09StateTree' being destroyed
+[2023.05.16-08.46.54:650][617]LogWorld: UWorld::CleanupWorld for World_10, bSessionEnded=true, bCleanupResources=true
+[2023.05.16-08.46.54:650][617]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.05.16-08.47.06:010][ 26]LogEditorClassViewer: Warning: Class /Script/InteractiveToolsFramework.GizmoActor has parent /Script/InteractiveToolsFramework.InternalToolFrameworkActor, but this parent is not found. The Class will not be shown in ClassViewer.
+[2023.05.16-08.47.06:010][ 26]LogEditorClassViewer: Warning: Class /Script/ModelingComponents.PreviewGeometryActor has parent /Script/InteractiveToolsFramework.InternalToolFrameworkActor, but this parent is not found. The Class will not be shown in ClassViewer.
+[2023.05.16-08.47.06:010][ 26]LogEditorClassViewer: Warning: Class /Script/ModelingComponents.PreviewMeshActor has parent /Script/InteractiveToolsFramework.InternalToolFrameworkActor, but this parent is not found. The Class will not be shown in ClassViewer.
+[2023.05.16-08.47.11:300][ 26]LogSlate: Window 'Pick Parent Class' being destroyed
+[2023.05.16-08.47.11:436][ 26]LogContentBrowser: Deferred new asset file creation: NewBlueprint
+[2023.05.16-08.47.11:468][ 26]LogContentBrowser: Creating deferred item: NewBlueprint
+[2023.05.16-08.47.11:525][ 27]LogContentBrowser: Renaming the item being created (Deferred Item: NewBlueprint).
+[2023.05.16-08.47.17:958][347]LogContentBrowser: Attempting asset rename: NewBlueprint -> STT_ChasePlayer
+[2023.05.16-08.47.18:373][347]LogContentBrowser: End creating deferred item NewBlueprint
+[2023.05.16-08.47.19:270][384]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.05.16-08.47.19:386][384]LogSavePackage: Moving output files for package: /Game/Labs/Lab09/StateTree/STT_ChasePlayer
+[2023.05.16-08.47.19:386][384]LogSavePackage: Moving '../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2/Saved/STT_ChasePlayerEF58A56A4CF75BD3527EB7BA53D7444A.tmp' to '../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2/Content/Labs/Lab09/StateTree/STT_ChasePlayer.uasset'
+[2023.05.16-08.47.19:839][384]LogFileHelpers: InternalPromptForCheckoutAndSave took 569 ms (total: 47.8 sec)
+[2023.05.16-08.47.19:849][384]AssetCheck: New page: Asset Save: STT_ChasePlayer
+[2023.05.16-08.47.19:849][384]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Labs/Lab09/StateTree/STT_ChasePlayer.STT_ChasePlayer
+[2023.05.16-08.47.22:447][519]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Labs/Lab09/StateTree/STT_ChasePlayer.STT_ChasePlayer
+[2023.05.16-08.47.22:448][519]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.05.16-08.47.40:596][139]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.05.16-08.47.40:827][139]LogSavePackage: Moving output files for package: /Game/Labs/Lab09/StateTree/STT_ChasePlayer
+[2023.05.16-08.47.40:828][139]LogSavePackage: Moving '../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2/Saved/STT_ChasePlayerF574576E4F4A00E7ED9D1CA50261C9E3.tmp' to '../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2/Content/Labs/Lab09/StateTree/STT_ChasePlayer.uasset'
+[2023.05.16-08.47.40:936][139]LogFileHelpers: InternalPromptForCheckoutAndSave took 339 ms (total: 48.1 sec)
+[2023.05.16-08.47.40:998][139]AssetCheck: New page: Asset Save: STT_ChasePlayer
+[2023.05.16-08.47.40:998][139]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Labs/Lab09/StateTree/STT_ChasePlayer.STT_ChasePlayer
+[2023.05.16-08.47.41:485][145]BlueprintLog: New page: Compile STT_ChasePlayer
+[2023.05.16-08.47.41:523][145]LogUObjectHash: Compacting FUObjectHashTables data took   1.09ms
