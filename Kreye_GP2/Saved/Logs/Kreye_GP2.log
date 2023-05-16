@@ -1958,3 +1958,494 @@ LogConfig: Set CVar [[r.setres:1280x720]]
 [2023.05.16-07.31.26:513][581]LogFileHelpers: InternalPromptForCheckoutAndSave took 395 ms (total: 11.9 sec)
 [2023.05.16-07.31.26:525][581]AssetCheck: New page: Asset Save: Lab09
 [2023.05.16-07.31.26:525][581]LogContentValidation: Display: Validating /Script/Engine.World /Game/Labs/Lab09/Lab09.Lab09
+[2023.05.16-07.32.12:975][987]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Labs/Lab09/Lab09AIController.Lab09AIController
+[2023.05.16-07.32.12:986][987]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.05.16-07.32.21:117][185]LogViewport: Scene viewport resized to 933x436, mode Windowed.
+[2023.05.16-07.32.32:446][467]LogSlate: Window 'C++ Header Preview' being destroyed
+[2023.05.16-07.32.32:606][467]LogSlate: Window 'C++ Header Preview' being destroyed
+[2023.05.16-07.32.42:569][699]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.05.16-07.32.42:843][699]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Labs/Lab09/Lab09AIController" FILE="../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2/Content/Labs/Lab09/Lab09AIController.uasset" SILENT=true
+[2023.05.16-07.32.42:846][699]LogSavePackage: Moving output files for package: /Game/Labs/Lab09/Lab09AIController
+[2023.05.16-07.32.42:847][699]LogSavePackage: Moving '../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2/Saved/Lab09AIControllerCEF4390B4D43EF90AF431E8C20506F3C.tmp' to '../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2/Content/Labs/Lab09/Lab09AIController.uasset'
+[2023.05.16-07.32.42:978][699]LogFileHelpers: InternalPromptForCheckoutAndSave took 408 ms (total: 12.3 sec)
+[2023.05.16-07.32.42:996][699]AssetCheck: New page: Asset Save: Lab09AIController
+[2023.05.16-07.32.42:996][699]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Labs/Lab09/Lab09AIController.Lab09AIController
+[2023.05.16-07.32.43:623][710]BlueprintLog: New page: Compile Lab09AIController
+[2023.05.16-07.32.43:674][710]LogUObjectHash: Compacting FUObjectHashTables data took   0.97ms
+[2023.05.16-07.32.49:457][846]LogSlate: Window 'C++ Header Preview' being destroyed
+[2023.05.16-07.32.49:639][846]LogSlate: Window 'C++ Header Preview' being destroyed
+[2023.05.16-07.33.05:997][401]BlueprintLog: New page: Compile Lab09AIController
+[2023.05.16-07.33.06:049][401]LogUObjectHash: Compacting FUObjectHashTables data took   1.11ms
+[2023.05.16-07.33.06:890][419]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.05.16-07.33.07:006][419]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Labs/Lab09/Lab09AIController" FILE="../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2/Content/Labs/Lab09/Lab09AIController.uasset" SILENT=true
+[2023.05.16-07.33.07:010][419]LogSavePackage: Moving output files for package: /Game/Labs/Lab09/Lab09AIController
+[2023.05.16-07.33.07:012][419]LogSavePackage: Moving '../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2/Saved/Lab09AIController14E7E1384DE78AA825B6E3929D6EC225.tmp' to '../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2/Content/Labs/Lab09/Lab09AIController.uasset'
+[2023.05.16-07.33.07:034][419]LogFileHelpers: InternalPromptForCheckoutAndSave took 143 ms (total: 12.4 sec)
+[2023.05.16-07.33.07:041][419]AssetCheck: New page: Asset Save: Lab09AIController
+[2023.05.16-07.33.07:041][419]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Labs/Lab09/Lab09AIController.Lab09AIController
+[2023.05.16-07.33.21:021][807]LogSlate: Window 'C++ Header Preview' being destroyed
+[2023.05.16-07.33.21:164][807]LogSlate: Window 'C++ Header Preview' being destroyed
+[2023.05.16-07.33.37:865][271]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.05.16-07.33.38:091][271]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Labs/Lab09/Lab09AIController" FILE="../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2/Content/Labs/Lab09/Lab09AIController.uasset" SILENT=true
+[2023.05.16-07.33.38:095][271]LogSavePackage: Moving output files for package: /Game/Labs/Lab09/Lab09AIController
+[2023.05.16-07.33.38:095][271]LogSavePackage: Moving '../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2/Saved/Lab09AIController2A4F189D4C1074E584BC8BB30F5CB42D.tmp' to '../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2/Content/Labs/Lab09/Lab09AIController.uasset'
+[2023.05.16-07.33.38:189][271]LogFileHelpers: InternalPromptForCheckoutAndSave took 324 ms (total: 12.8 sec)
+[2023.05.16-07.33.38:251][271]AssetCheck: New page: Asset Save: Lab09AIController
+[2023.05.16-07.33.38:251][271]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Labs/Lab09/Lab09AIController.Lab09AIController
+[2023.05.16-07.33.38:761][286]BlueprintLog: New page: Compile Lab09AIController
+[2023.05.16-07.33.38:815][286]LogUObjectHash: Compacting FUObjectHashTables data took   1.07ms
+[2023.05.16-07.33.53:188][721]LogSlate: Window 'C++ Header Preview' being destroyed
+[2023.05.16-07.33.53:291][721]LogSlate: Window 'C++ Header Preview' being destroyed
+[2023.05.16-07.34.24:136][ 58]LogEditorClassViewer: Warning: Class /Script/InteractiveToolsFramework.GizmoActor has parent /Script/InteractiveToolsFramework.InternalToolFrameworkActor, but this parent is not found. The Class will not be shown in ClassViewer.
+[2023.05.16-07.34.24:136][ 58]LogEditorClassViewer: Warning: Class /Script/ModelingComponents.PreviewGeometryActor has parent /Script/InteractiveToolsFramework.InternalToolFrameworkActor, but this parent is not found. The Class will not be shown in ClassViewer.
+[2023.05.16-07.34.24:136][ 58]LogEditorClassViewer: Warning: Class /Script/ModelingComponents.PreviewMeshActor has parent /Script/InteractiveToolsFramework.InternalToolFrameworkActor, but this parent is not found. The Class will not be shown in ClassViewer.
+[2023.05.16-07.34.36:199][403]BlueprintLog: New page: Compile Lab09AIController
+[2023.05.16-07.34.36:253][403]LogUObjectHash: Compacting FUObjectHashTables data took   1.48ms
+[2023.05.16-07.34.37:823][421]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.05.16-07.34.38:053][421]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Labs/Lab09/Lab09AIController" FILE="../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2/Content/Labs/Lab09/Lab09AIController.uasset" SILENT=true
+[2023.05.16-07.34.38:056][421]LogSavePackage: Moving output files for package: /Game/Labs/Lab09/Lab09AIController
+[2023.05.16-07.34.38:057][421]LogSavePackage: Moving '../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2/Saved/Lab09AIController7D877C734BC2B30967606D820CC862D9.tmp' to '../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2/Content/Labs/Lab09/Lab09AIController.uasset'
+[2023.05.16-07.34.38:223][421]LogFileHelpers: InternalPromptForCheckoutAndSave took 400 ms (total: 13.2 sec)
+[2023.05.16-07.34.38:280][421]AssetCheck: New page: Asset Save: Lab09AIController
+[2023.05.16-07.34.38:280][421]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Labs/Lab09/Lab09AIController.Lab09AIController
+[2023.05.16-07.35.08:748][871]LogEditorClassViewer: Warning: Class /Script/InteractiveToolsFramework.GizmoActor has parent /Script/InteractiveToolsFramework.InternalToolFrameworkActor, but this parent is not found. The Class will not be shown in ClassViewer.
+[2023.05.16-07.35.08:748][871]LogEditorClassViewer: Warning: Class /Script/ModelingComponents.PreviewGeometryActor has parent /Script/InteractiveToolsFramework.InternalToolFrameworkActor, but this parent is not found. The Class will not be shown in ClassViewer.
+[2023.05.16-07.35.08:748][871]LogEditorClassViewer: Warning: Class /Script/ModelingComponents.PreviewMeshActor has parent /Script/InteractiveToolsFramework.InternalToolFrameworkActor, but this parent is not found. The Class will not be shown in ClassViewer.
+[2023.05.16-07.35.12:488][955]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.05.16-07.35.12:586][955]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Labs/Lab09/Lab09AIController" FILE="../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2/Content/Labs/Lab09/Lab09AIController.uasset" SILENT=true
+[2023.05.16-07.35.12:589][955]LogSavePackage: Moving output files for package: /Game/Labs/Lab09/Lab09AIController
+[2023.05.16-07.35.12:590][955]LogSavePackage: Moving '../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2/Saved/Lab09AIControllerDBC5A6024C263F3E5FF217B684C48078.tmp' to '../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2/Content/Labs/Lab09/Lab09AIController.uasset'
+[2023.05.16-07.35.12:684][955]LogFileHelpers: InternalPromptForCheckoutAndSave took 196 ms (total: 13.4 sec)
+[2023.05.16-07.35.12:694][955]AssetCheck: New page: Asset Save: Lab09AIController
+[2023.05.16-07.35.12:694][955]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Labs/Lab09/Lab09AIController.Lab09AIController
+[2023.05.16-07.35.13:425][979]BlueprintLog: New page: Compile Lab09AIController
+[2023.05.16-07.35.13:486][979]LogUObjectHash: Compacting FUObjectHashTables data took   1.04ms
+[2023.05.16-07.35.43:129][502]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.05.16-07.35.43:353][502]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Labs/Lab09/Lab09AIController" FILE="../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2/Content/Labs/Lab09/Lab09AIController.uasset" SILENT=true
+[2023.05.16-07.35.43:356][502]LogSavePackage: Moving output files for package: /Game/Labs/Lab09/Lab09AIController
+[2023.05.16-07.35.43:357][502]LogSavePackage: Moving '../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2/Saved/Lab09AIController5D86D32945389FCE390D82B44BADC508.tmp' to '../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2/Content/Labs/Lab09/Lab09AIController.uasset'
+[2023.05.16-07.35.43:458][502]LogFileHelpers: InternalPromptForCheckoutAndSave took 328 ms (total: 13.7 sec)
+[2023.05.16-07.35.43:542][502]AssetCheck: New page: Asset Save: Lab09AIController
+[2023.05.16-07.35.43:542][502]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Labs/Lab09/Lab09AIController.Lab09AIController
+[2023.05.16-07.35.46:567][611]BlueprintLog: New page: Compile Lab09AIController
+[2023.05.16-07.35.46:620][611]LogUObjectHash: Compacting FUObjectHashTables data took   1.03ms
+[2023.05.16-07.37.38:726][479]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.05.16-07.37.38:864][479]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Labs/Lab09/Lab09AIController" FILE="../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2/Content/Labs/Lab09/Lab09AIController.uasset" SILENT=true
+[2023.05.16-07.37.38:868][479]LogSavePackage: Moving output files for package: /Game/Labs/Lab09/Lab09AIController
+[2023.05.16-07.37.38:869][479]LogSavePackage: Moving '../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2/Saved/Lab09AIControllerF5AFA4254B15AD7EBF45268F00AF632E.tmp' to '../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2/Content/Labs/Lab09/Lab09AIController.uasset'
+[2023.05.16-07.37.39:001][479]LogFileHelpers: InternalPromptForCheckoutAndSave took 275 ms (total: 14.0 sec)
+[2023.05.16-07.37.39:023][479]AssetCheck: New page: Asset Save: Lab09AIController
+[2023.05.16-07.37.39:023][479]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Labs/Lab09/Lab09AIController.Lab09AIController
+[2023.05.16-07.37.43:046][635]BlueprintLog: New page: Compile Lab09AIController
+[2023.05.16-07.37.43:098][635]LogUObjectHash: Compacting FUObjectHashTables data took   1.37ms
+[2023.05.16-07.38.08:190][559]LogSlate: Window 'C++ Header Preview' being destroyed
+[2023.05.16-07.38.08:317][559]LogSlate: Window 'C++ Header Preview' being destroyed
+[2023.05.16-07.38.50:113][426]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.05.16-07.38.50:294][426]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Labs/Lab09/Lab09AIController" FILE="../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2/Content/Labs/Lab09/Lab09AIController.uasset" SILENT=true
+[2023.05.16-07.38.50:300][426]LogSavePackage: Moving output files for package: /Game/Labs/Lab09/Lab09AIController
+[2023.05.16-07.38.50:301][426]LogSavePackage: Moving '../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2/Saved/Lab09AIController3AF49A5F46C6CC0E6070A592289DA5C4.tmp' to '../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2/Content/Labs/Lab09/Lab09AIController.uasset'
+[2023.05.16-07.38.50:381][426]LogFileHelpers: InternalPromptForCheckoutAndSave took 268 ms (total: 14.2 sec)
+[2023.05.16-07.38.50:393][426]AssetCheck: New page: Asset Save: Lab09AIController
+[2023.05.16-07.38.50:393][426]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Labs/Lab09/Lab09AIController.Lab09AIController
+[2023.05.16-07.38.51:487][445]BlueprintLog: New page: Compile Lab09AIController
+[2023.05.16-07.38.51:539][445]LogUObjectHash: Compacting FUObjectHashTables data took   1.36ms
+[2023.05.16-07.41.01:851][817]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.05.16-07.41.02:147][817]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Labs/Lab09/Lab09AIController" FILE="../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2/Content/Labs/Lab09/Lab09AIController.uasset" SILENT=true
+[2023.05.16-07.41.02:155][817]LogSavePackage: Moving output files for package: /Game/Labs/Lab09/Lab09AIController
+[2023.05.16-07.41.02:157][817]LogSavePackage: Moving '../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2/Saved/Lab09AIController5807586E4FC77CFB91AC83A40A0D7DE0.tmp' to '../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2/Content/Labs/Lab09/Lab09AIController.uasset'
+[2023.05.16-07.41.02:275][817]LogFileHelpers: InternalPromptForCheckoutAndSave took 423 ms (total: 14.7 sec)
+[2023.05.16-07.41.02:292][817]AssetCheck: New page: Asset Save: Lab09AIController
+[2023.05.16-07.41.02:292][817]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Labs/Lab09/Lab09AIController.Lab09AIController
+[2023.05.16-07.41.02:478][820]BlueprintLog: New page: Compile Lab09AIController
+[2023.05.16-07.41.02:531][820]LogUObjectHash: Compacting FUObjectHashTables data took   1.15ms
+[2023.05.16-07.41.55:579][569]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.05.16-07.41.55:828][569]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Labs/Lab09/Lab09AIController" FILE="../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2/Content/Labs/Lab09/Lab09AIController.uasset" SILENT=true
+[2023.05.16-07.41.55:837][569]LogSavePackage: Moving output files for package: /Game/Labs/Lab09/Lab09AIController
+[2023.05.16-07.41.55:838][569]LogSavePackage: Moving '../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2/Saved/Lab09AIControllerEDB93E9D4747C8F4D107BCA19EB176C7.tmp' to '../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2/Content/Labs/Lab09/Lab09AIController.uasset'
+[2023.05.16-07.41.55:993][569]LogFileHelpers: InternalPromptForCheckoutAndSave took 414 ms (total: 15.1 sec)
+[2023.05.16-07.41.56:025][569]AssetCheck: New page: Asset Save: Lab09AIController
+[2023.05.16-07.41.56:025][569]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Labs/Lab09/Lab09AIController.Lab09AIController
+[2023.05.16-07.41.56:584][576]BlueprintLog: New page: Compile Lab09AIController
+[2023.05.16-07.41.56:655][576]LogUObjectHash: Compacting FUObjectHashTables data took   1.93ms
+[2023.05.16-07.43.13:556][591]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.05.16-07.43.13:952][591]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Labs/Lab09/Lab09AIController" FILE="../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2/Content/Labs/Lab09/Lab09AIController.uasset" SILENT=true
+[2023.05.16-07.43.13:965][591]LogSavePackage: Moving output files for package: /Game/Labs/Lab09/Lab09AIController
+[2023.05.16-07.43.13:967][591]LogSavePackage: Moving '../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2/Saved/Lab09AIController7F492AA64B24C2616172B7B7FD5A93ED.tmp' to '../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2/Content/Labs/Lab09/Lab09AIController.uasset'
+[2023.05.16-07.43.14:035][591]LogFileHelpers: InternalPromptForCheckoutAndSave took 479 ms (total: 15.6 sec)
+[2023.05.16-07.43.14:045][591]AssetCheck: New page: Asset Save: Lab09AIController
+[2023.05.16-07.43.14:045][591]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Labs/Lab09/Lab09AIController.Lab09AIController
+[2023.05.16-07.43.47:440][150]BlueprintLog: New page: Compile Lab09AIController
+[2023.05.16-07.43.47:522][150]LogUObjectHash: Compacting FUObjectHashTables data took   1.77ms
+[2023.05.16-07.45.34:652][282]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.05.16-07.45.34:810][282]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Labs/Lab09/Lab09AIController" FILE="../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2/Content/Labs/Lab09/Lab09AIController.uasset" SILENT=true
+[2023.05.16-07.45.34:819][282]LogSavePackage: Moving output files for package: /Game/Labs/Lab09/Lab09AIController
+[2023.05.16-07.45.34:822][282]LogSavePackage: Moving '../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2/Saved/Lab09AIController09627894479F32694AE1CCA85B46DE31.tmp' to '../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2/Content/Labs/Lab09/Lab09AIController.uasset'
+[2023.05.16-07.45.34:944][282]LogFileHelpers: InternalPromptForCheckoutAndSave took 292 ms (total: 15.8 sec)
+[2023.05.16-07.45.34:957][282]AssetCheck: New page: Asset Save: Lab09AIController
+[2023.05.16-07.45.34:957][282]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Labs/Lab09/Lab09AIController.Lab09AIController
+[2023.05.16-07.45.36:277][303]BlueprintLog: New page: Compile Lab09AIController
+[2023.05.16-07.45.36:283][303]LogBlueprint: Error: [AssetLog] C:\Users\heroo\OneDrive\Documents\k-game-prog-2\Kreye_GP2\Content\Labs\Lab09\Lab09AIController.uasset: [Compiler] The current value of the ' Event ' pin is invalid: Unsupported type Delegate on pin Delegate
+[2023.05.16-07.45.36:358][303]LogUObjectHash: Compacting FUObjectHashTables data took   1.57ms
+[2023.05.16-07.46.35:070][829]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.05.16-07.46.35:470][829]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Labs/Lab09/Lab09AIController" FILE="../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2/Content/Labs/Lab09/Lab09AIController.uasset" SILENT=true
+[2023.05.16-07.46.35:477][829]LogSavePackage: Moving output files for package: /Game/Labs/Lab09/Lab09AIController
+[2023.05.16-07.46.35:478][829]LogSavePackage: Moving '../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2/Saved/Lab09AIControllerBEDFD47A4D5445B201FFA1BCF01592AC.tmp' to '../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2/Content/Labs/Lab09/Lab09AIController.uasset'
+[2023.05.16-07.46.35:624][829]LogFileHelpers: InternalPromptForCheckoutAndSave took 554 ms (total: 16.4 sec)
+[2023.05.16-07.46.35:636][829]AssetCheck: New page: Asset Save: Lab09AIController
+[2023.05.16-07.46.35:636][829]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Labs/Lab09/Lab09AIController.Lab09AIController
+[2023.05.16-07.46.42:171][910]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.05.16-07.46.42:375][910]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Labs/Lab09/Lab09AIController" FILE="../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2/Content/Labs/Lab09/Lab09AIController.uasset" SILENT=true
+[2023.05.16-07.46.42:388][910]LogSavePackage: Moving output files for package: /Game/Labs/Lab09/Lab09AIController
+[2023.05.16-07.46.42:389][910]LogSavePackage: Moving '../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2/Saved/Lab09AIControllerE226F04248BE1557C4874B816075BB75.tmp' to '../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2/Content/Labs/Lab09/Lab09AIController.uasset'
+[2023.05.16-07.46.42:471][910]LogFileHelpers: InternalPromptForCheckoutAndSave took 300 ms (total: 16.7 sec)
+[2023.05.16-07.46.42:482][910]AssetCheck: New page: Asset Save: Lab09AIController
+[2023.05.16-07.46.42:482][910]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Labs/Lab09/Lab09AIController.Lab09AIController
+[2023.05.16-07.46.43:518][925]BlueprintLog: New page: Compile Lab09AIController
+[2023.05.16-07.46.43:572][925]LogUObjectHash: Compacting FUObjectHashTables data took   1.41ms
+[2023.05.16-07.47.34:628][538]LogUObjectHash: Compacting FUObjectHashTables data took   1.51ms
+[2023.05.16-07.47.34:632][538]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Labs/Lab09/Lab09' took 0.052
+[2023.05.16-07.47.34:633][538]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Labs/Lab09/Lab09AIController] ([2] browsable assets)...
+[2023.05.16-07.47.34:634][538]OBJ SavePackage: Finished generating thumbnails for package [/Game/Labs/Lab09/Lab09AIController]
+[2023.05.16-07.47.34:643][538]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Labs/Lab09/Lab09AIController_Auto1
+[2023.05.16-07.47.34:643][538]LogSavePackage: Moving '../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2/Saved/Lab09AIController_Auto129B3CB954014928A3A4A89AEEA2874DC.tmp' to '../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2/Saved/Autosaves/Game/Labs/Lab09/Lab09AIController_Auto1.uasset'
+[2023.05.16-07.47.34:646][538]LogFileHelpers: Auto-saving content packages took 0.014
+[2023.05.16-07.47.38:930][586]BlueprintLog: New page: Compile Lab09AIController
+[2023.05.16-07.47.39:034][586]LogUObjectHash: Compacting FUObjectHashTables data took   1.90ms
+[2023.05.16-07.47.41:352][604]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.05.16-07.47.41:925][604]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Labs/Lab09/Lab09AIController" FILE="../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2/Content/Labs/Lab09/Lab09AIController.uasset" SILENT=true
+[2023.05.16-07.47.41:939][604]LogSavePackage: Moving output files for package: /Game/Labs/Lab09/Lab09AIController
+[2023.05.16-07.47.41:942][604]LogSavePackage: Moving '../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2/Saved/Lab09AIController1BBF75574F97D049963F64B9F80DB132.tmp' to '../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2/Content/Labs/Lab09/Lab09AIController.uasset'
+[2023.05.16-07.47.42:164][604]LogFileHelpers: InternalPromptForCheckoutAndSave took 812 ms (total: 17.5 sec)
+[2023.05.16-07.47.42:175][604]AssetCheck: New page: Asset Save: Lab09AIController
+[2023.05.16-07.47.42:175][604]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Labs/Lab09/Lab09AIController.Lab09AIController
+[2023.05.16-07.49.01:385][563]LogSlate: Window 'C++ Header Preview' being destroyed
+[2023.05.16-07.49.01:610][563]LogSlate: Window 'C++ Header Preview' being destroyed
+[2023.05.16-07.50.46:437][433]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.05.16-07.50.46:897][433]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Labs/Lab09/Lab09AIController" FILE="../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2/Content/Labs/Lab09/Lab09AIController.uasset" SILENT=true
+[2023.05.16-07.50.46:907][433]LogSavePackage: Moving output files for package: /Game/Labs/Lab09/Lab09AIController
+[2023.05.16-07.50.46:909][433]LogSavePackage: Moving '../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2/Saved/Lab09AIController93626D84435C8E31F54DF2A65CA33EDA.tmp' to '../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2/Content/Labs/Lab09/Lab09AIController.uasset'
+[2023.05.16-07.50.47:055][433]LogFileHelpers: InternalPromptForCheckoutAndSave took 617 ms (total: 18.1 sec)
+[2023.05.16-07.50.47:081][433]AssetCheck: New page: Asset Save: Lab09AIController
+[2023.05.16-07.50.47:081][433]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Labs/Lab09/Lab09AIController.Lab09AIController
+[2023.05.16-07.51.01:996][613]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.05.16-07.51.02:523][613]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Labs/Lab09/Lab09AIController" FILE="../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2/Content/Labs/Lab09/Lab09AIController.uasset" SILENT=true
+[2023.05.16-07.51.02:533][613]LogSavePackage: Moving output files for package: /Game/Labs/Lab09/Lab09AIController
+[2023.05.16-07.51.02:534][613]LogSavePackage: Moving '../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2/Saved/Lab09AIController51BC5BA948E1F6A6A73B2E9AAA7B65E9.tmp' to '../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2/Content/Labs/Lab09/Lab09AIController.uasset'
+[2023.05.16-07.51.02:608][613]LogFileHelpers: InternalPromptForCheckoutAndSave took 611 ms (total: 18.7 sec)
+[2023.05.16-07.51.02:623][613]AssetCheck: New page: Asset Save: Lab09AIController
+[2023.05.16-07.51.02:623][613]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Labs/Lab09/Lab09AIController.Lab09AIController
+[2023.05.16-07.51.06:514][660]BlueprintLog: New page: Compile Lab09AIController
+[2023.05.16-07.51.06:607][660]LogUObjectHash: Compacting FUObjectHashTables data took   1.28ms
+[2023.05.16-07.51.19:548][778]LogSlate: Window 'C++ Header Preview' being destroyed
+[2023.05.16-07.51.19:911][778]LogSlate: Window 'C++ Header Preview' being destroyed
+[2023.05.16-07.51.34:312][896]BlueprintLog: New page: Compile Lab09AIController
+[2023.05.16-07.51.34:442][896]LogUObjectHash: Compacting FUObjectHashTables data took   1.88ms
+[2023.05.16-07.51.36:761][904]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.05.16-07.51.37:122][904]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Labs/Lab09/Lab09AIController" FILE="../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2/Content/Labs/Lab09/Lab09AIController.uasset" SILENT=true
+[2023.05.16-07.51.37:167][904]LogSavePackage: Moving output files for package: /Game/Labs/Lab09/Lab09AIController
+[2023.05.16-07.51.37:172][904]LogSavePackage: Moving '../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2/Saved/Lab09AIController477F825D43E2511092F2879684167EFF.tmp' to '../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2/Content/Labs/Lab09/Lab09AIController.uasset'
+[2023.05.16-07.51.37:309][904]LogFileHelpers: InternalPromptForCheckoutAndSave took 547 ms (total: 19.3 sec)
+[2023.05.16-07.51.37:357][904]AssetCheck: New page: Asset Save: Lab09AIController
+[2023.05.16-07.51.37:358][904]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Labs/Lab09/Lab09AIController.Lab09AIController
+[2023.05.16-07.52.24:370][961]LogSlate: Window 'C++ Header Preview' being destroyed
+[2023.05.16-07.52.24:386][961]LogSlate: Window 'C++ Header Preview' being destroyed
+[2023.05.16-07.52.27:453][ 94]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.05.16-07.52.27:487][ 94]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Labs/Lab09/Lab09AIController" FILE="../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2/Content/Labs/Lab09/Lab09AIController.uasset" SILENT=true
+[2023.05.16-07.52.27:492][ 94]LogSavePackage: Moving output files for package: /Game/Labs/Lab09/Lab09AIController
+[2023.05.16-07.52.27:493][ 94]LogSavePackage: Moving '../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2/Saved/Lab09AIControllerDF6E49054F63DF886FC70395FE61DC37.tmp' to '../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2/Content/Labs/Lab09/Lab09AIController.uasset'
+[2023.05.16-07.52.27:508][ 94]LogFileHelpers: InternalPromptForCheckoutAndSave took 54 ms (total: 19.3 sec)
+[2023.05.16-07.52.27:516][ 94]AssetCheck: New page: Asset Save: Lab09AIController
+[2023.05.16-07.52.27:516][ 94]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Labs/Lab09/Lab09AIController.Lab09AIController
+[2023.05.16-07.52.28:192][106]BlueprintLog: New page: Compile Lab09AIController
+[2023.05.16-07.52.28:239][106]LogUObjectHash: Compacting FUObjectHashTables data took   0.92ms
+[2023.05.16-07.52.44:861][672]LogSlate: Window 'C++ Header Preview' being destroyed
+[2023.05.16-07.52.44:988][672]LogSlate: Window 'C++ Header Preview' being destroyed
+[2023.05.16-07.53.00:587][ 21]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.05.16-07.53.00:827][ 21]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Labs/Lab09/Lab09AIController" FILE="../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2/Content/Labs/Lab09/Lab09AIController.uasset" SILENT=true
+[2023.05.16-07.53.00:834][ 21]LogSavePackage: Moving output files for package: /Game/Labs/Lab09/Lab09AIController
+[2023.05.16-07.53.00:836][ 21]LogSavePackage: Moving '../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2/Saved/Lab09AIControllerB596271E42F9DEABAD7DDB840173DCBF.tmp' to '../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2/Content/Labs/Lab09/Lab09AIController.uasset'
+[2023.05.16-07.53.00:975][ 21]LogFileHelpers: InternalPromptForCheckoutAndSave took 387 ms (total: 19.7 sec)
+[2023.05.16-07.53.00:988][ 21]AssetCheck: New page: Asset Save: Lab09AIController
+[2023.05.16-07.53.00:988][ 21]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Labs/Lab09/Lab09AIController.Lab09AIController
+[2023.05.16-07.53.14:593][423]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.05.16-07.53.14:897][423]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Labs/Lab09/Lab09AIController" FILE="../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2/Content/Labs/Lab09/Lab09AIController.uasset" SILENT=true
+[2023.05.16-07.53.14:903][423]LogSavePackage: Moving output files for package: /Game/Labs/Lab09/Lab09AIController
+[2023.05.16-07.53.14:904][423]LogSavePackage: Moving '../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2/Saved/Lab09AIController211A39644E44697A674616B3505EBA5F.tmp' to '../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2/Content/Labs/Lab09/Lab09AIController.uasset'
+[2023.05.16-07.53.15:041][423]LogFileHelpers: InternalPromptForCheckoutAndSave took 448 ms (total: 20.2 sec)
+[2023.05.16-07.53.15:126][423]AssetCheck: New page: Asset Save: Lab09AIController
+[2023.05.16-07.53.15:126][423]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Labs/Lab09/Lab09AIController.Lab09AIController
+[2023.05.16-07.53.15:417][425]BlueprintLog: New page: Compile Lab09AIController
+[2023.05.16-07.53.15:468][425]LogUObjectHash: Compacting FUObjectHashTables data took   1.15ms
+[2023.05.16-07.53.49:868][982]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.05.16-07.53.49:954][982]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Labs/Lab09/Lab09AIController" FILE="../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2/Content/Labs/Lab09/Lab09AIController.uasset" SILENT=true
+[2023.05.16-07.53.49:960][982]LogSavePackage: Moving output files for package: /Game/Labs/Lab09/Lab09AIController
+[2023.05.16-07.53.49:961][982]LogSavePackage: Moving '../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2/Saved/Lab09AIController3EA252384FAB5AD7E6E052A29330AA3E.tmp' to '../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2/Content/Labs/Lab09/Lab09AIController.uasset'
+[2023.05.16-07.53.50:030][982]LogFileHelpers: InternalPromptForCheckoutAndSave took 161 ms (total: 20.3 sec)
+[2023.05.16-07.53.50:046][982]AssetCheck: New page: Asset Save: Lab09AIController
+[2023.05.16-07.53.50:046][982]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Labs/Lab09/Lab09AIController.Lab09AIController
+[2023.05.16-07.53.50:695][990]BlueprintLog: New page: Compile Lab09AIController
+[2023.05.16-07.53.50:738][990]LogUObjectHash: Compacting FUObjectHashTables data took   1.00ms
+[2023.05.16-07.54.34:649][750]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.05.16-07.54.34:927][750]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Labs/Lab09/Lab09AIController" FILE="../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2/Content/Labs/Lab09/Lab09AIController.uasset" SILENT=true
+[2023.05.16-07.54.34:933][750]LogSavePackage: Moving output files for package: /Game/Labs/Lab09/Lab09AIController
+[2023.05.16-07.54.34:933][750]LogSavePackage: Moving '../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2/Saved/Lab09AIController1120AFC54CB516E01142AA914139D815.tmp' to '../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2/Content/Labs/Lab09/Lab09AIController.uasset'
+[2023.05.16-07.54.35:045][750]LogFileHelpers: InternalPromptForCheckoutAndSave took 395 ms (total: 20.7 sec)
+[2023.05.16-07.54.35:054][750]AssetCheck: New page: Asset Save: Lab09AIController
+[2023.05.16-07.54.35:054][750]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Labs/Lab09/Lab09AIController.Lab09AIController
+[2023.05.16-07.55.59:054][820]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.05.16-07.55.59:268][820]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Labs/Lab09/Lab09AIController" FILE="../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2/Content/Labs/Lab09/Lab09AIController.uasset" SILENT=true
+[2023.05.16-07.55.59:274][820]LogSavePackage: Moving output files for package: /Game/Labs/Lab09/Lab09AIController
+[2023.05.16-07.55.59:275][820]LogSavePackage: Moving '../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2/Saved/Lab09AIControllerAAAD77D647E3E87782BEE18279C0970E.tmp' to '../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2/Content/Labs/Lab09/Lab09AIController.uasset'
+[2023.05.16-07.55.59:371][820]LogFileHelpers: InternalPromptForCheckoutAndSave took 316 ms (total: 21.1 sec)
+[2023.05.16-07.55.59:391][820]AssetCheck: New page: Asset Save: Lab09AIController
+[2023.05.16-07.55.59:391][820]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Labs/Lab09/Lab09AIController.Lab09AIController
+[2023.05.16-07.56.08:886][151]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.05.16-07.56.09:194][151]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Labs/Lab09/Lab09AIController" FILE="../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2/Content/Labs/Lab09/Lab09AIController.uasset" SILENT=true
+[2023.05.16-07.56.09:200][151]LogSavePackage: Moving output files for package: /Game/Labs/Lab09/Lab09AIController
+[2023.05.16-07.56.09:200][151]LogSavePackage: Moving '../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2/Saved/Lab09AIControllerA2F3DC734B1A7D2F2F62FBBAF303B5A4.tmp' to '../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2/Content/Labs/Lab09/Lab09AIController.uasset'
+[2023.05.16-07.56.09:291][151]LogFileHelpers: InternalPromptForCheckoutAndSave took 405 ms (total: 21.5 sec)
+[2023.05.16-07.56.09:307][151]AssetCheck: New page: Asset Save: Lab09AIController
+[2023.05.16-07.56.09:307][151]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Labs/Lab09/Lab09AIController.Lab09AIController
+[2023.05.16-07.57.01:706][ 58]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.05.16-07.57.01:908][ 58]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Labs/Lab09/Lab09AIController" FILE="../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2/Content/Labs/Lab09/Lab09AIController.uasset" SILENT=true
+[2023.05.16-07.57.01:914][ 58]LogSavePackage: Moving output files for package: /Game/Labs/Lab09/Lab09AIController
+[2023.05.16-07.57.01:915][ 58]LogSavePackage: Moving '../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2/Saved/Lab09AIControllerE352D09E4281BFA0D31F789B7DDECB51.tmp' to '../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2/Content/Labs/Lab09/Lab09AIController.uasset'
+[2023.05.16-07.57.02:038][ 58]LogFileHelpers: InternalPromptForCheckoutAndSave took 331 ms (total: 21.8 sec)
+[2023.05.16-07.57.02:077][ 58]AssetCheck: New page: Asset Save: Lab09AIController
+[2023.05.16-07.57.02:077][ 58]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Labs/Lab09/Lab09AIController.Lab09AIController
+[2023.05.16-07.57.02:728][ 74]BlueprintLog: New page: Compile Lab09AIController
+[2023.05.16-07.57.02:772][ 74]LogUObjectHash: Compacting FUObjectHashTables data took   0.87ms
+[2023.05.16-07.58.26:366][128]LogUObjectHash: Compacting FUObjectHashTables data took   1.08ms
+[2023.05.16-07.58.26:368][128]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Labs/Lab09/Lab09' took 0.040
+[2023.05.16-07.58.26:369][128]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Labs/Lab09/Lab09AIController] ([2] browsable assets)...
+[2023.05.16-07.58.26:369][128]OBJ SavePackage: Finished generating thumbnails for package [/Game/Labs/Lab09/Lab09AIController]
+[2023.05.16-07.58.26:374][128]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Labs/Lab09/Lab09AIController_Auto2
+[2023.05.16-07.58.26:375][128]LogSavePackage: Moving '../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2/Saved/Lab09AIController_Auto2BFC8407C4AD04DEB7D1C9C925810F859.tmp' to '../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2/Saved/Autosaves/Game/Labs/Lab09/Lab09AIController_Auto2.uasset'
+[2023.05.16-07.58.26:376][128]LogFileHelpers: Auto-saving content packages took 0.008
+[2023.05.16-07.58.49:737][311]LogSlate: Window 'C++ Header Preview' being destroyed
+[2023.05.16-07.58.49:750][311]LogSlate: Window 'C++ Header Preview' being destroyed
+[2023.05.16-07.59.59:563][725]BlueprintLog: New page: Compile Lab09AIController
+[2023.05.16-07.59.59:613][725]LogUObjectHash: Compacting FUObjectHashTables data took   1.03ms
+[2023.05.16-08.00.02:003][785]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.05.16-08.00.02:106][785]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Labs/Lab09/Lab09AIController" FILE="../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2/Content/Labs/Lab09/Lab09AIController.uasset" SILENT=true
+[2023.05.16-08.00.02:112][785]LogSavePackage: Moving output files for package: /Game/Labs/Lab09/Lab09AIController
+[2023.05.16-08.00.02:113][785]LogSavePackage: Moving '../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2/Saved/Lab09AIController21F4EF9E428B837B19635A97B81C42C7.tmp' to '../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2/Content/Labs/Lab09/Lab09AIController.uasset'
+[2023.05.16-08.00.02:181][785]LogFileHelpers: InternalPromptForCheckoutAndSave took 177 ms (total: 22.0 sec)
+[2023.05.16-08.00.02:194][785]AssetCheck: New page: Asset Save: Lab09AIController
+[2023.05.16-08.00.02:195][785]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Labs/Lab09/Lab09AIController.Lab09AIController
+[2023.05.16-08.00.16:107][232]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.05.16-08.00.16:334][232]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Labs/Lab09/Lab09AIController" FILE="../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2/Content/Labs/Lab09/Lab09AIController.uasset" SILENT=true
+[2023.05.16-08.00.16:341][232]LogSavePackage: Moving output files for package: /Game/Labs/Lab09/Lab09AIController
+[2023.05.16-08.00.16:343][232]LogSavePackage: Moving '../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2/Saved/Lab09AIController7FD6F22C49E70B8F6434238117AB299B.tmp' to '../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2/Content/Labs/Lab09/Lab09AIController.uasset'
+[2023.05.16-08.00.16:448][232]LogFileHelpers: InternalPromptForCheckoutAndSave took 341 ms (total: 22.3 sec)
+[2023.05.16-08.00.16:466][232]AssetCheck: New page: Asset Save: Lab09AIController
+[2023.05.16-08.00.16:466][232]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Labs/Lab09/Lab09AIController.Lab09AIController
+[2023.05.16-08.00.22:068][309]LogBlueprint: Warning: [AssetLog] C:\Users\heroo\OneDrive\Documents\k-game-prog-2\Kreye_GP2\Content\Labs\Lab09\Lab09AIController.uasset: [Compiler] Variable HasLineOfSight is marked as 'Expose on Spawn' but not marked as 'Instance Editable'; please make it 'Instance Editable'
+[2023.05.16-08.00.35:063][681]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.05.16-08.00.35:437][681]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Labs/Lab09/Lab09AIController" FILE="../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2/Content/Labs/Lab09/Lab09AIController.uasset" SILENT=true
+[2023.05.16-08.00.35:447][681]LogSavePackage: Moving output files for package: /Game/Labs/Lab09/Lab09AIController
+[2023.05.16-08.00.35:448][681]LogSavePackage: Moving '../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2/Saved/Lab09AIController43959CF14AA458C856FE41B79C78BEFA.tmp' to '../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2/Content/Labs/Lab09/Lab09AIController.uasset'
+[2023.05.16-08.00.35:606][681]LogFileHelpers: InternalPromptForCheckoutAndSave took 543 ms (total: 22.9 sec)
+[2023.05.16-08.00.36:579][681]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.05.16-08.00.36:850][681]LogUObjectHash: Compacting FUObjectHashTables data took   0.87ms
+[2023.05.16-08.00.36:862][681]LogSavePackage: Moving output files for package: /Game/Labs/Lab09/Lab09
+[2023.05.16-08.00.36:863][681]LogSavePackage: Moving '../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2/Saved/Lab096932850C465A4B164326B2B28AE4A22D.tmp' to '../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2/Content/Labs/Lab09/Lab09.umap'
+[2023.05.16-08.00.36:872][681]LogFileHelpers: Saving map 'Lab09' took 0.054
+[2023.05.16-08.00.36:996][681]LogFileHelpers: InternalPromptForCheckoutAndSave took 416 ms (total: 23.3 sec)
+[2023.05.16-08.00.37:007][681]AssetCheck: New page: Asset Save: multiple assets
+[2023.05.16-08.00.37:007][681]LogContentValidation: Display: Validating /Script/Engine.World /Game/Labs/Lab09/Lab09.Lab09
+[2023.05.16-08.00.37:007][681]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Labs/Lab09/Lab09AIController.Lab09AIController
+[2023.05.16-08.00.37:545][692]BlueprintLog: New page: Compile Lab09AIController
+[2023.05.16-08.00.37:595][692]LogUObjectHash: Compacting FUObjectHashTables data took   1.28ms
+[2023.05.16-08.00.39:333][718]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.05.16-08.00.39:577][718]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Labs/Lab09/Lab09AIController" FILE="../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2/Content/Labs/Lab09/Lab09AIController.uasset" SILENT=true
+[2023.05.16-08.00.39:583][718]LogSavePackage: Moving output files for package: /Game/Labs/Lab09/Lab09AIController
+[2023.05.16-08.00.39:584][718]LogSavePackage: Moving '../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2/Saved/Lab09AIController47B2FC3A4808D02DF3F956A7DCA5AD76.tmp' to '../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2/Content/Labs/Lab09/Lab09AIController.uasset'
+[2023.05.16-08.00.39:711][718]LogFileHelpers: InternalPromptForCheckoutAndSave took 378 ms (total: 23.6 sec)
+[2023.05.16-08.00.39:729][718]AssetCheck: New page: Asset Save: Lab09AIController
+[2023.05.16-08.00.39:729][718]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Labs/Lab09/Lab09AIController.Lab09AIController
+[2023.05.16-08.01.01:624][850]LogSlate: Window 'C++ Header Preview' being destroyed
+[2023.05.16-08.01.01:638][850]LogSlate: Window 'C++ Header Preview' being destroyed
+[2023.05.16-08.01.25:864][616]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.05.16-08.01.26:118][616]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Labs/Lab09/Lab09AIController" FILE="../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2/Content/Labs/Lab09/Lab09AIController.uasset" SILENT=true
+[2023.05.16-08.01.26:123][616]LogSavePackage: Moving output files for package: /Game/Labs/Lab09/Lab09AIController
+[2023.05.16-08.01.26:124][616]LogSavePackage: Moving '../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2/Saved/Lab09AIController68D53DC64C7BDABD78AD85881ED7257D.tmp' to '../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2/Content/Labs/Lab09/Lab09AIController.uasset'
+[2023.05.16-08.01.26:244][616]LogFileHelpers: InternalPromptForCheckoutAndSave took 380 ms (total: 24.0 sec)
+[2023.05.16-08.01.26:260][616]AssetCheck: New page: Asset Save: Lab09AIController
+[2023.05.16-08.01.26:260][616]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Labs/Lab09/Lab09AIController.Lab09AIController
+[2023.05.16-08.01.30:518][750]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.05.16-08.01.30:787][750]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Labs/Lab09/Lab09AIController" FILE="../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2/Content/Labs/Lab09/Lab09AIController.uasset" SILENT=true
+[2023.05.16-08.01.30:794][750]LogSavePackage: Moving output files for package: /Game/Labs/Lab09/Lab09AIController
+[2023.05.16-08.01.30:796][750]LogSavePackage: Moving '../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2/Saved/Lab09AIController30E210064E288908317030BAAFF71B27.tmp' to '../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2/Content/Labs/Lab09/Lab09AIController.uasset'
+[2023.05.16-08.01.30:899][750]LogFileHelpers: InternalPromptForCheckoutAndSave took 380 ms (total: 24.4 sec)
+[2023.05.16-08.01.30:915][750]AssetCheck: New page: Asset Save: Lab09AIController
+[2023.05.16-08.01.30:916][750]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Labs/Lab09/Lab09AIController.Lab09AIController
+[2023.05.16-08.01.31:723][763]BlueprintLog: New page: Compile Lab09AIController
+[2023.05.16-08.01.31:768][763]LogUObjectHash: Compacting FUObjectHashTables data took   0.94ms
+[2023.05.16-08.04.11:757][291]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.05.16-08.04.11:880][291]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Labs/Lab09/Lab09AIController" FILE="../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2/Content/Labs/Lab09/Lab09AIController.uasset" SILENT=true
+[2023.05.16-08.04.11:889][291]LogSavePackage: Moving output files for package: /Game/Labs/Lab09/Lab09AIController
+[2023.05.16-08.04.11:891][291]LogSavePackage: Moving '../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2/Saved/Lab09AIControllerB3BF10194BEB7654DF550D9761F699BD.tmp' to '../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2/Content/Labs/Lab09/Lab09AIController.uasset'
+[2023.05.16-08.04.11:959][291]LogFileHelpers: InternalPromptForCheckoutAndSave took 201 ms (total: 24.6 sec)
+[2023.05.16-08.04.11:974][291]AssetCheck: New page: Asset Save: Lab09AIController
+[2023.05.16-08.04.11:974][291]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Labs/Lab09/Lab09AIController.Lab09AIController
+[2023.05.16-08.04.15:542][347]BlueprintLog: New page: Compile Lab09AIController
+[2023.05.16-08.04.15:644][347]LogUObjectHash: Compacting FUObjectHashTables data took   2.00ms
+[2023.05.16-08.05.17:641][796]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.05.16-08.05.18:112][796]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Labs/Lab09/Lab09AIController" FILE="../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2/Content/Labs/Lab09/Lab09AIController.uasset" SILENT=true
+[2023.05.16-08.05.18:123][796]LogSavePackage: Moving output files for package: /Game/Labs/Lab09/Lab09AIController
+[2023.05.16-08.05.18:125][796]LogSavePackage: Moving '../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2/Saved/Lab09AIController90C0F31044AA8E6D7457BD9B24388673.tmp' to '../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2/Content/Labs/Lab09/Lab09AIController.uasset'
+[2023.05.16-08.05.18:187][796]LogFileHelpers: InternalPromptForCheckoutAndSave took 546 ms (total: 25.2 sec)
+[2023.05.16-08.05.18:199][796]AssetCheck: New page: Asset Save: Lab09AIController
+[2023.05.16-08.05.18:199][796]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Labs/Lab09/Lab09AIController.Lab09AIController
+[2023.05.16-08.05.36:283][987]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.05.16-08.05.36:681][987]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Labs/Lab09/Lab09AIController" FILE="../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2/Content/Labs/Lab09/Lab09AIController.uasset" SILENT=true
+[2023.05.16-08.05.36:697][987]LogSavePackage: Moving output files for package: /Game/Labs/Lab09/Lab09AIController
+[2023.05.16-08.05.36:698][987]LogSavePackage: Moving '../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2/Saved/Lab09AIControllerEF90FBE24E6B8C35007B569601ECA36F.tmp' to '../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2/Content/Labs/Lab09/Lab09AIController.uasset'
+[2023.05.16-08.05.36:797][987]LogFileHelpers: InternalPromptForCheckoutAndSave took 514 ms (total: 25.7 sec)
+[2023.05.16-08.05.36:808][987]AssetCheck: New page: Asset Save: Lab09AIController
+[2023.05.16-08.05.36:809][987]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Labs/Lab09/Lab09AIController.Lab09AIController
+[2023.05.16-08.06.20:546][497]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.05.16-08.06.20:768][497]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Labs/Lab09/Lab09AIController" FILE="../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2/Content/Labs/Lab09/Lab09AIController.uasset" SILENT=true
+[2023.05.16-08.06.20:786][497]LogSavePackage: Moving output files for package: /Game/Labs/Lab09/Lab09AIController
+[2023.05.16-08.06.20:789][497]LogSavePackage: Moving '../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2/Saved/Lab09AIController07067DC44B16FD90511074990B8F6D63.tmp' to '../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2/Content/Labs/Lab09/Lab09AIController.uasset'
+[2023.05.16-08.06.20:832][497]LogFileHelpers: InternalPromptForCheckoutAndSave took 286 ms (total: 26.0 sec)
+[2023.05.16-08.06.20:839][497]AssetCheck: New page: Asset Save: Lab09AIController
+[2023.05.16-08.06.20:839][497]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Labs/Lab09/Lab09AIController.Lab09AIController
+[2023.05.16-08.06.29:790][611]BlueprintLog: New page: Compile Lab09AIController
+[2023.05.16-08.06.29:902][611]LogUObjectHash: Compacting FUObjectHashTables data took   1.85ms
+[2023.05.16-08.07.51:051][220]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.05.16-08.07.51:564][220]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Labs/Lab09/Lab09AIController" FILE="../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2/Content/Labs/Lab09/Lab09AIController.uasset" SILENT=true
+[2023.05.16-08.07.51:577][220]LogSavePackage: Moving output files for package: /Game/Labs/Lab09/Lab09AIController
+[2023.05.16-08.07.51:580][220]LogSavePackage: Moving '../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2/Saved/Lab09AIControllerAA229F274FB213664C85D2B318831D16.tmp' to '../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2/Content/Labs/Lab09/Lab09AIController.uasset'
+[2023.05.16-08.07.51:823][220]LogFileHelpers: InternalPromptForCheckoutAndSave took 771 ms (total: 26.7 sec)
+[2023.05.16-08.07.51:870][220]AssetCheck: New page: Asset Save: Lab09AIController
+[2023.05.16-08.07.51:870][220]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Labs/Lab09/Lab09AIController.Lab09AIController
+[2023.05.16-08.07.53:207][234]BlueprintLog: New page: Compile Lab09AIController
+[2023.05.16-08.07.53:214][234]LogBlueprint: Error: [AssetLog] C:\Users\heroo\OneDrive\Documents\k-game-prog-2\Kreye_GP2\Content\Labs\Lab09\Lab09AIController.uasset: [Compiler] The type of  Target Array  is undetermined.  Connect something to  Clear  to imply a specific type.
+[2023.05.16-08.07.53:214][234]LogBlueprint: Error: [AssetLog] C:\Users\heroo\OneDrive\Documents\k-game-prog-2\Kreye_GP2\Content\Labs\Lab09\Lab09AIController.uasset: [Compiler] The current value of the ' Target Array ' pin is invalid: Array inputs (like 'Target Array') must have an input wired into them (try connecting a MakeArray node).
+[2023.05.16-08.07.53:278][234]LogUObjectHash: Compacting FUObjectHashTables data took   1.66ms
+[2023.05.16-08.08.12:393][365]LogEditorTransaction: Undo Move Node
+[2023.05.16-08.09.07:743][865]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.05.16-08.09.08:183][865]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Labs/Lab09/Lab09AIController" FILE="../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2/Content/Labs/Lab09/Lab09AIController.uasset" SILENT=true
+[2023.05.16-08.09.08:206][865]LogSavePackage: Moving output files for package: /Game/Labs/Lab09/Lab09AIController
+[2023.05.16-08.09.08:209][865]LogSavePackage: Moving '../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2/Saved/Lab09AIController5C1A7CDF46AB780D29B764868A18DBB5.tmp' to '../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2/Content/Labs/Lab09/Lab09AIController.uasset'
+[2023.05.16-08.09.08:423][865]LogFileHelpers: InternalPromptForCheckoutAndSave took 680 ms (total: 27.4 sec)
+[2023.05.16-08.09.08:465][865]AssetCheck: New page: Asset Save: Lab09AIController
+[2023.05.16-08.09.08:465][865]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Labs/Lab09/Lab09AIController.Lab09AIController
+[2023.05.16-08.09.18:208][948]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.05.16-08.09.18:490][948]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Labs/Lab09/Lab09AIController" FILE="../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2/Content/Labs/Lab09/Lab09AIController.uasset" SILENT=true
+[2023.05.16-08.09.18:514][948]LogSavePackage: Moving output files for package: /Game/Labs/Lab09/Lab09AIController
+[2023.05.16-08.09.18:518][948]LogSavePackage: Moving '../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2/Saved/Lab09AIController7E24AE8A4BFE88862E08B1A3B509F10C.tmp' to '../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2/Content/Labs/Lab09/Lab09AIController.uasset'
+[2023.05.16-08.09.18:649][948]LogFileHelpers: InternalPromptForCheckoutAndSave took 440 ms (total: 27.8 sec)
+[2023.05.16-08.09.18:746][948]AssetCheck: New page: Asset Save: Lab09AIController
+[2023.05.16-08.09.18:746][948]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Labs/Lab09/Lab09AIController.Lab09AIController
+[2023.05.16-08.09.19:466][956]BlueprintLog: New page: Compile Lab09AIController
+[2023.05.16-08.09.19:586][956]LogUObjectHash: Compacting FUObjectHashTables data took   2.03ms
+[2023.05.16-08.09.30:460][ 64]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.05.16-08.09.30:770][ 64]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Labs/Lab09/Lab09AIController" FILE="../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2/Content/Labs/Lab09/Lab09AIController.uasset" SILENT=true
+[2023.05.16-08.09.30:793][ 64]LogSavePackage: Moving output files for package: /Game/Labs/Lab09/Lab09AIController
+[2023.05.16-08.09.30:797][ 64]LogSavePackage: Moving '../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2/Saved/Lab09AIControllerCD4C1C814EA2A8978E1DD79AAE80B380.tmp' to '../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2/Content/Labs/Lab09/Lab09AIController.uasset'
+[2023.05.16-08.09.30:885][ 64]LogFileHelpers: InternalPromptForCheckoutAndSave took 424 ms (total: 28.3 sec)
+[2023.05.16-08.09.30:908][ 64]AssetCheck: New page: Asset Save: Lab09AIController
+[2023.05.16-08.09.30:909][ 64]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Labs/Lab09/Lab09AIController.Lab09AIController
+[2023.05.16-08.10.15:704][540]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.05.16-08.10.15:979][540]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Labs/Lab09/Lab09AIController" FILE="../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2/Content/Labs/Lab09/Lab09AIController.uasset" SILENT=true
+[2023.05.16-08.10.15:995][540]LogSavePackage: Moving output files for package: /Game/Labs/Lab09/Lab09AIController
+[2023.05.16-08.10.15:998][540]LogSavePackage: Moving '../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2/Saved/Lab09AIControllerA10A1A6C4FFCAEA1F5BF2185DB01B1D4.tmp' to '../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2/Content/Labs/Lab09/Lab09AIController.uasset'
+[2023.05.16-08.10.16:096][540]LogFileHelpers: InternalPromptForCheckoutAndSave took 391 ms (total: 28.7 sec)
+[2023.05.16-08.10.16:114][540]AssetCheck: New page: Asset Save: Lab09AIController
+[2023.05.16-08.10.16:114][540]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Labs/Lab09/Lab09AIController.Lab09AIController
+[2023.05.16-08.10.26:562][658]LogSlate: Warning: Ignoring SetUserFocus because it's not an active modal Window (user 0 not set to SGraphPanel [SGraphEditorImpl.cpp(735)].
+[2023.05.16-08.10.27:285][658]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.05.16-08.10.27:606][658]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Labs/Lab09/Lab09AIController" FILE="../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2/Content/Labs/Lab09/Lab09AIController.uasset" SILENT=true
+[2023.05.16-08.10.27:620][658]LogSavePackage: Moving output files for package: /Game/Labs/Lab09/Lab09AIController
+[2023.05.16-08.10.27:622][658]LogSavePackage: Moving '../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2/Saved/Lab09AIControllerFF0A0AF34A6EB739AAF7C78B018B1DE7.tmp' to '../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2/Content/Labs/Lab09/Lab09AIController.uasset'
+[2023.05.16-08.10.27:684][658]LogFileHelpers: InternalPromptForCheckoutAndSave took 398 ms (total: 29.1 sec)
+[2023.05.16-08.10.27:693][658]AssetCheck: New page: Asset Save: Lab09AIController
+[2023.05.16-08.10.27:693][658]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Labs/Lab09/Lab09AIController.Lab09AIController
+[2023.05.16-08.10.34:471][710]BlueprintLog: New page: Compile Lab09AIController
+[2023.05.16-08.10.34:553][710]LogUObjectHash: Compacting FUObjectHashTables data took   1.98ms
+[2023.05.16-08.10.47:389][860]BlueprintLog: New page: Compile Lab09AIController
+[2023.05.16-08.10.47:507][860]LogUObjectHash: Compacting FUObjectHashTables data took   1.57ms
+[2023.05.16-08.11.00:186][998]LogDerivedDataCache: C:/Users/heroo/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:08.046 and deleted 0 files with total size 0 MiB. Scanned 3957 files in 3942 folders with total size 351 MiB.
+[2023.05.16-08.11.09:404][ 88]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.05.16-08.11.09:831][ 88]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Labs/Lab09/Lab09AIController" FILE="../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2/Content/Labs/Lab09/Lab09AIController.uasset" SILENT=true
+[2023.05.16-08.11.09:852][ 88]LogSavePackage: Moving output files for package: /Game/Labs/Lab09/Lab09AIController
+[2023.05.16-08.11.09:855][ 88]LogSavePackage: Moving '../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2/Saved/Lab09AIController4F21CF744490A728CB056C86CE1CB58C.tmp' to '../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2/Content/Labs/Lab09/Lab09AIController.uasset'
+[2023.05.16-08.11.10:051][ 88]LogFileHelpers: InternalPromptForCheckoutAndSave took 647 ms (total: 29.7 sec)
+[2023.05.16-08.11.10:066][ 88]AssetCheck: New page: Asset Save: Lab09AIController
+[2023.05.16-08.11.10:066][ 88]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Labs/Lab09/Lab09AIController.Lab09AIController
+[2023.05.16-08.11.15:937][152]BlueprintLog: New page: Compile Lab09AIController
+[2023.05.16-08.11.16:042][152]LogUObjectHash: Compacting FUObjectHashTables data took   2.01ms
+[2023.05.16-08.12.05:270][665]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.05.16-08.12.05:484][665]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Labs/Lab09/Lab09AIController" FILE="../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2/Content/Labs/Lab09/Lab09AIController.uasset" SILENT=true
+[2023.05.16-08.12.05:499][665]LogSavePackage: Moving output files for package: /Game/Labs/Lab09/Lab09AIController
+[2023.05.16-08.12.05:501][665]LogSavePackage: Moving '../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2/Saved/Lab09AIController6893CE70405D6CBBBB1D57A890223883.tmp' to '../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2/Content/Labs/Lab09/Lab09AIController.uasset'
+[2023.05.16-08.12.05:581][665]LogFileHelpers: InternalPromptForCheckoutAndSave took 311 ms (total: 30.0 sec)
+[2023.05.16-08.12.05:592][665]AssetCheck: New page: Asset Save: Lab09AIController
+[2023.05.16-08.12.05:592][665]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Labs/Lab09/Lab09AIController.Lab09AIController
+[2023.05.16-08.12.06:184][672]BlueprintLog: New page: Compile Lab09AIController
+[2023.05.16-08.12.06:283][672]LogUObjectHash: Compacting FUObjectHashTables data took   1.86ms
+[2023.05.16-08.13.08:984][141]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.05.16-08.13.09:494][141]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Labs/Lab09/Lab09AIController" FILE="../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2/Content/Labs/Lab09/Lab09AIController.uasset" SILENT=true
+[2023.05.16-08.13.09:514][141]LogSavePackage: Moving output files for package: /Game/Labs/Lab09/Lab09AIController
+[2023.05.16-08.13.09:517][141]LogSavePackage: Moving '../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2/Saved/Lab09AIControllerA1D79E164343A9E4977539B2CB98D9FB.tmp' to '../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2/Content/Labs/Lab09/Lab09AIController.uasset'
+[2023.05.16-08.13.09:591][141]LogFileHelpers: InternalPromptForCheckoutAndSave took 606 ms (total: 30.6 sec)
+[2023.05.16-08.13.09:615][141]AssetCheck: New page: Asset Save: Lab09AIController
+[2023.05.16-08.13.09:615][141]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Labs/Lab09/Lab09AIController.Lab09AIController
+[2023.05.16-08.13.10:922][161]BlueprintLog: New page: Compile Lab09AIController
+[2023.05.16-08.13.11:062][161]LogUObjectHash: Compacting FUObjectHashTables data took   2.07ms
+[2023.05.16-08.13.56:391][639]BlueprintLog: New page: Compile Lab09AIController
+[2023.05.16-08.13.56:507][639]LogUObjectHash: Compacting FUObjectHashTables data took   2.54ms
+[2023.05.16-08.13.58:461][645]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.05.16-08.13.58:849][645]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Labs/Lab09/Lab09AIController" FILE="../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2/Content/Labs/Lab09/Lab09AIController.uasset" SILENT=true
+[2023.05.16-08.13.58:864][645]LogSavePackage: Moving output files for package: /Game/Labs/Lab09/Lab09AIController
+[2023.05.16-08.13.58:867][645]LogSavePackage: Moving '../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2/Saved/Lab09AIController725083D24E96047A3A4C9EB9613BB9E1.tmp' to '../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2/Content/Labs/Lab09/Lab09AIController.uasset'
+[2023.05.16-08.13.58:955][645]LogFileHelpers: InternalPromptForCheckoutAndSave took 494 ms (total: 31.1 sec)
+[2023.05.16-08.13.58:964][645]AssetCheck: New page: Asset Save: Lab09AIController
+[2023.05.16-08.13.58:964][645]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Labs/Lab09/Lab09AIController.Lab09AIController
+[2023.05.16-08.15.16:973][407]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.05.16-08.15.17:405][407]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Labs/Lab09/Lab09AIController" FILE="../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2/Content/Labs/Lab09/Lab09AIController.uasset" SILENT=true
+[2023.05.16-08.15.17:421][407]LogSavePackage: Moving output files for package: /Game/Labs/Lab09/Lab09AIController
+[2023.05.16-08.15.17:423][407]LogSavePackage: Moving '../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2/Saved/Lab09AIController67092DE94FEA67120C36939F7DD6E6AF.tmp' to '../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2/Content/Labs/Lab09/Lab09AIController.uasset'
+[2023.05.16-08.15.17:544][407]LogFileHelpers: InternalPromptForCheckoutAndSave took 570 ms (total: 31.7 sec)
+[2023.05.16-08.15.17:556][407]AssetCheck: New page: Asset Save: Lab09AIController
+[2023.05.16-08.15.17:557][407]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Labs/Lab09/Lab09AIController.Lab09AIController
+[2023.05.16-08.15.18:216][416]BlueprintLog: New page: Compile Lab09AIController
+[2023.05.16-08.15.18:332][416]LogUObjectHash: Compacting FUObjectHashTables data took   2.67ms
+[2023.05.16-08.16.19:653][871]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.05.16-08.16.20:190][871]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Labs/Lab09/Lab09AIController" FILE="../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2/Content/Labs/Lab09/Lab09AIController.uasset" SILENT=true
+[2023.05.16-08.16.20:202][871]LogSavePackage: Moving output files for package: /Game/Labs/Lab09/Lab09AIController
+[2023.05.16-08.16.20:204][871]LogSavePackage: Moving '../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2/Saved/Lab09AIControllerA556662B473BB544B9647787FB599CA1.tmp' to '../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2/Content/Labs/Lab09/Lab09AIController.uasset'
+[2023.05.16-08.16.20:286][871]LogFileHelpers: InternalPromptForCheckoutAndSave took 633 ms (total: 32.3 sec)
+[2023.05.16-08.16.20:302][871]AssetCheck: New page: Asset Save: Lab09AIController
+[2023.05.16-08.16.20:302][871]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Labs/Lab09/Lab09AIController.Lab09AIController
+[2023.05.16-08.16.38:812][ 47]LogEditorTransaction: Undo Move Node
+[2023.05.16-08.16.55:116][204]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.05.16-08.16.55:372][204]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Labs/Lab09/Lab09AIController" FILE="../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2/Content/Labs/Lab09/Lab09AIController.uasset" SILENT=true
+[2023.05.16-08.16.55:390][204]LogSavePackage: Moving output files for package: /Game/Labs/Lab09/Lab09AIController
+[2023.05.16-08.16.55:392][204]LogSavePackage: Moving '../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2/Saved/Lab09AIController09F9112F4D38AE8CAFCC1A8DF3D526B5.tmp' to '../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2/Content/Labs/Lab09/Lab09AIController.uasset'
+[2023.05.16-08.16.55:643][204]LogFileHelpers: InternalPromptForCheckoutAndSave took 526 ms (total: 32.9 sec)
+[2023.05.16-08.16.55:668][204]AssetCheck: New page: Asset Save: Lab09AIController
+[2023.05.16-08.16.55:668][204]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Labs/Lab09/Lab09AIController.Lab09AIController
+[2023.05.16-08.16.58:003][228]BlueprintLog: New page: Compile Lab09AIController
+[2023.05.16-08.16.58:072][228]LogUObjectHash: Compacting FUObjectHashTables data took   1.63ms
+[2023.05.16-08.17.17:944][412]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.05.16-08.17.18:320][412]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Labs/Lab09/Lab09AIController" FILE="../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2/Content/Labs/Lab09/Lab09AIController.uasset" SILENT=true
+[2023.05.16-08.17.18:339][412]LogSavePackage: Moving output files for package: /Game/Labs/Lab09/Lab09AIController
+[2023.05.16-08.17.18:343][412]LogSavePackage: Moving '../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2/Saved/Lab09AIController7737E0724AD834FF36B0DE86884F5273.tmp' to '../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2/Content/Labs/Lab09/Lab09AIController.uasset'
+[2023.05.16-08.17.18:480][412]LogFileHelpers: InternalPromptForCheckoutAndSave took 535 ms (total: 33.4 sec)
+[2023.05.16-08.17.18:498][412]AssetCheck: New page: Asset Save: Lab09AIController
+[2023.05.16-08.17.18:498][412]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Labs/Lab09/Lab09AIController.Lab09AIController
+[2023.05.16-08.17.19:225][422]BlueprintLog: New page: Compile Lab09AIController
+[2023.05.16-08.17.19:341][422]LogUObjectHash: Compacting FUObjectHashTables data took   2.73ms
+[2023.05.16-08.17.31:840][488]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.05.16-08.17.32:181][488]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Labs/Lab09/Lab09AIController" FILE="../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2/Content/Labs/Lab09/Lab09AIController.uasset" SILENT=true
+[2023.05.16-08.17.32:212][488]LogSavePackage: Moving output files for package: /Game/Labs/Lab09/Lab09AIController
+[2023.05.16-08.17.32:216][488]LogSavePackage: Moving '../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2/Saved/Lab09AIControllerCF0D0A5A46B230D9430E83BE38C0CF3B.tmp' to '../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2/Content/Labs/Lab09/Lab09AIController.uasset'
+[2023.05.16-08.17.32:319][488]LogFileHelpers: InternalPromptForCheckoutAndSave took 478 ms (total: 33.9 sec)
+[2023.05.16-08.17.32:341][488]AssetCheck: New page: Asset Save: Lab09AIController
+[2023.05.16-08.17.32:341][488]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Labs/Lab09/Lab09AIController.Lab09AIController
+[2023.05.16-08.17.33:227][496]BlueprintLog: New page: Compile Lab09AIController
+[2023.05.16-08.17.33:315][496]LogUObjectHash: Compacting FUObjectHashTables data took   1.60ms
