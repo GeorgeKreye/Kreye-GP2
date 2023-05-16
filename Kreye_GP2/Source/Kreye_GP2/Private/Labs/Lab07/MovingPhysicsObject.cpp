@@ -13,25 +13,25 @@ AMovingPhysicsObject::AMovingPhysicsObject()
 	Mesh = CreateDefaultSubobject<UStaticMeshComponent>(TEXT("Mesh"));
 	SetRootComponent(Mesh);
 
-	// Get mesh
-	auto CubeMesh = ConstructorHelpers::FObjectFinder<UStaticMesh>(
-		TEXT("/Game/StarterContent/Shapes/Shape_Cube.Shape_Cube"));
-	if (CubeMesh.Succeeded())
-	{
-		Mesh->SetStaticMesh(CubeMesh.Object);
-		Mesh->SetRelativeLocation(FVector(0.0, 0.0, 0.0));
-
-		// Modify scale to alter mesh into platform shape
-		Mesh->SetRelativeScale3D(FVector(1.5, 1.5, 0.25));
-	}
-
-	// Get mesh texture
-	auto MeshTexture = ConstructorHelpers::FObjectFinder<UMaterialInterface>(
-		TEXT("/Game/StarterContent/Materials/M_Basic_Floor.M_Basic_Floor"));
-	if (MeshTexture.Succeeded())
-	{
-		Mesh->SetMaterial(0,MeshTexture.Object);
-	}
+	// // Get mesh
+	// auto CubeMesh = ConstructorHelpers::FObjectFinder<UStaticMesh>(
+	// 	TEXT("/Game/StarterContent/Shapes/Shape_Cube.Shape_Cube"));
+	// if (CubeMesh.Succeeded())
+	// {
+	// 	Mesh->SetStaticMesh(CubeMesh.Object);
+	// 	Mesh->SetRelativeLocation(FVector(0.0, 0.0, 0.0));
+	//
+	// 	// Modify scale to alter mesh into platform shape
+	// 	Mesh->SetRelativeScale3D(FVector(1.5, 1.5, 0.25));
+	// }
+	//
+	// // Get mesh texture
+	// auto MeshTexture = ConstructorHelpers::FObjectFinder<UMaterialInterface>(
+	// 	TEXT("/Game/StarterContent/Materials/M_Basic_Floor.M_Basic_Floor"));
+	// if (MeshTexture.Succeeded())
+	// {
+	// 	Mesh->SetMaterial(0,MeshTexture.Object);
+	// }
 }
 
 // Called when the game starts or when spawned

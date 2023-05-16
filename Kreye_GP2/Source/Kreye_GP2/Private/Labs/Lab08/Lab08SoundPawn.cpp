@@ -17,22 +17,22 @@ ALab08SoundPawn::ALab08SoundPawn()
 	Mesh = CreateDefaultSubobject<UStaticMeshComponent>(TEXT("Mesh"));
 	SetRootComponent(Mesh);
 
-	// Get mesh
-	auto CylinderMesh = ConstructorHelpers::FObjectFinder<UStaticMesh>(
-		TEXT("/Game/StarterContent/Shapes/Shape_Cylinder.Shape_Cylinder"));
-	if (CylinderMesh.Succeeded())
-	{
-		Mesh->SetStaticMesh(CylinderMesh.Object);
-		Mesh->SetRelativeLocation(FVector::ZeroVector);
-	}
-
-	// Get mesh material
-	auto Material = ConstructorHelpers::FObjectFinder<UMaterialInterface>(
-		TEXT("/Game/StarterContent/Materials/M_Metal_Brushed_Nickel.M_Metal_Brushed_Nickel"));
-	if (Material.Succeeded())
-	{
-		Mesh->SetMaterial(0, Material.Object);
-	}
+	// // Get mesh
+	// auto CylinderMesh = ConstructorHelpers::FObjectFinder<UStaticMesh>(
+	// 	TEXT("/Game/StarterContent/Shapes/Shape_Cylinder.Shape_Cylinder"));
+	// if (CylinderMesh.Succeeded())
+	// {
+	// 	Mesh->SetStaticMesh(CylinderMesh.Object);
+	// 	Mesh->SetRelativeLocation(FVector::ZeroVector);
+	// }
+	//
+	// // Get mesh material
+	// auto Material = ConstructorHelpers::FObjectFinder<UMaterialInterface>(
+	// 	TEXT("/Game/StarterContent/Materials/M_Metal_Brushed_Nickel.M_Metal_Brushed_Nickel"));
+	// if (Material.Succeeded())
+	// {
+	// 	Mesh->SetMaterial(0, Material.Object);
+	// }
 
 	// Create audio component
 	Sound = CreateDefaultSubobject<UAudioComponent>(TEXT("Sound"));
