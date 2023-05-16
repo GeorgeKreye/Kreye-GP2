@@ -2767,3 +2767,571 @@ LogConfig: Set CVar [[r.setres:1280x720]]
 [2023.05.16-08.47.40:998][139]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Labs/Lab09/StateTree/STT_ChasePlayer.STT_ChasePlayer
 [2023.05.16-08.47.41:485][145]BlueprintLog: New page: Compile STT_ChasePlayer
 [2023.05.16-08.47.41:523][145]LogUObjectHash: Compacting FUObjectHashTables data took   1.09ms
+[2023.05.16-08.50.14:479][333]LogAudioMixer: Warning: AudioMixerPlatformInterface Timeout [5001ms] waiting for h/w. InstanceID=1
+[2023.05.16-08.50.14:743][333]LogAudioMixer: Display: FMixerNullCallback: Simulating a h/w device callback at [21ms], ThreadID=52376
+[2023.05.16-08.50.15:079][334]LogAudioMixer: Display: Successful Swap new Device is (NumChannels=2, SampleRate=48000, DeviceID={0.0.0.00000000}.{5ba5d838-f949-4a17-824f-ab36a6e880d2}, Name=Speakers (Realtek(R) Audio)), Reason=AudioMixerPlatformInterface. Timeout waiting for h/w., InstanceID=1, DurationMS=182.70
+[2023.05.16-08.50.15:080][334]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=1
+[2023.05.16-08.50.15:081][334]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=1
+[2023.05.16-08.50.24:863][364]LogAudioMixer: Warning: AudioMixerPlatformInterface Timeout [5070ms] waiting for h/w. InstanceID=1
+[2023.05.16-08.50.25:084][364]LogAudioMixer: Display: FMixerNullCallback: Simulating a h/w device callback at [21ms], ThreadID=52376
+[2023.05.16-08.50.25:417][365]LogAudioMixer: Display: Successful Swap new Device is (NumChannels=2, SampleRate=48000, DeviceID={0.0.0.00000000}.{5ba5d838-f949-4a17-824f-ab36a6e880d2}, Name=Speakers (Realtek(R) Audio)), Reason=AudioMixerPlatformInterface. Timeout waiting for h/w., InstanceID=1, DurationMS=239.59
+[2023.05.16-08.50.25:418][365]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=1
+[2023.05.16-08.50.25:419][365]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=1
+[2023.05.16-08.50.30:487][381]LogAudioMixer: Warning: AudioMixerPlatformInterface Timeout [5067ms] waiting for h/w. InstanceID=1
+[2023.05.16-08.50.30:751][381]LogAudioMixer: Display: FMixerNullCallback: Simulating a h/w device callback at [21ms], ThreadID=52376
+[2023.05.16-08.50.31:087][382]LogAudioMixer: Display: Successful Swap new Device is (NumChannels=2, SampleRate=48000, DeviceID={0.0.0.00000000}.{5ba5d838-f949-4a17-824f-ab36a6e880d2}, Name=Speakers (Realtek(R) Audio)), Reason=AudioMixerPlatformInterface. Timeout waiting for h/w., InstanceID=1, DurationMS=155.36
+[2023.05.16-08.50.31:087][382]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=1
+[2023.05.16-08.50.31:090][382]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=1
+[2023.05.16-08.57.03:788][560]LogAudioMixer: Warning: AudioMixerPlatformInterface Timeout [5000ms] waiting for h/w. InstanceID=1
+[2023.05.16-08.57.03:853][560]LogAudioMixer: Display: FMixerNullCallback: Simulating a h/w device callback at [21ms], ThreadID=52376
+[2023.05.16-08.57.04:191][561]LogAudioMixer: Display: Successful Swap new Device is (NumChannels=2, SampleRate=48000, DeviceID={0.0.0.00000000}.{5ba5d838-f949-4a17-824f-ab36a6e880d2}, Name=Speakers (Realtek(R) Audio)), Reason=AudioMixerPlatformInterface. Timeout waiting for h/w., InstanceID=1, DurationMS=289.42
+[2023.05.16-08.57.04:191][561]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=1
+[2023.05.16-08.57.04:193][561]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=1
+[2023.05.16-08.58.17:128][780]LogAudioMixer: Warning: AudioMixerPlatformInterface Timeout [4999ms] waiting for h/w. InstanceID=1
+[2023.05.16-08.58.17:204][780]LogAudioMixer: Display: FMixerNullCallback: Simulating a h/w device callback at [21ms], ThreadID=52376
+[2023.05.16-08.58.17:540][781]LogAudioMixer: Display: Successful Swap new Device is (NumChannels=2, SampleRate=48000, DeviceID={0.0.0.00000000}.{5ba5d838-f949-4a17-824f-ab36a6e880d2}, Name=Speakers (Realtek(R) Audio)), Reason=AudioMixerPlatformInterface. Timeout waiting for h/w., InstanceID=1, DurationMS=228.81
+[2023.05.16-08.58.17:540][781]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=1
+[2023.05.16-08.58.17:541][781]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=1
+[2023.05.16-09.00.01:622][796]LogAudioMixer: Warning: AudioMixerPlatformInterface Timeout [104080ms] waiting for h/w. InstanceID=1
+[2023.05.16-09.00.01:633][796]LogAudioMixer: Display: FMixerNullCallback: Simulating a h/w device callback at [21ms], ThreadID=52376
+[2023.05.16-09.00.01:907][798]LogHttp: Warning: 0000074DF6BC3200: invalid HTTP response code received. URL: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B2663E34A-41B4-35DF-49DE-7E87F4FCA81E%7D&AppID=UEEditor.Rocket.Release&AppVersion=5.1.1-23901901%2B%2B%2BUE5%2BRelease-5.1&UserID=d3c73c7544f962957a848f8e5d4c6275%7C03eca827c1d0430abf91319fdc9f9f76%7Cb53413d2-5676-4aa1-b4f5-0428ee0ec9f2&AppEnvironment=datacollector-binary&UploadType=eteventstream, HTTP code: 0, content length: 0, actual payload size: 0
+[2023.05.16-09.00.01:907][798]LogHttp: Warning: 0000074DF6BC3200: request failed, libcurl error: 56 (Failure when receiving data from the peer)
+[2023.05.16-09.00.01:907][798]LogHttp: Warning: 0000074DF6BC3200: libcurl info message cache 0 (Found bundle for host: 0x74daf170000 [serially])
+[2023.05.16-09.00.01:907][798]LogHttp: Warning: 0000074DF6BC3200: libcurl info message cache 1 (Re-using existing connection #0 with host datarouter.ol.epicgames.com)
+[2023.05.16-09.00.01:907][798]LogHttp: Warning: 0000074DF6BC3200: libcurl info message cache 2 (Connected to datarouter.ol.epicgames.com (3.215.249.230) port 443 (#0))
+[2023.05.16-09.00.01:907][798]LogHttp: Warning: 0000074DF6BC3200: libcurl info message cache 3 (We are completely uploaded and fine)
+[2023.05.16-09.00.01:907][798]LogHttp: Warning: 0000074DF6BC3200: libcurl info message cache 4 (OpenSSL SSL_read: Connection was reset, errno 10054)
+[2023.05.16-09.00.01:907][798]LogHttp: Warning: 0000074DF6BC3200: libcurl info message cache 5 (Connection died, retrying a fresh connect (retry count: 1))
+[2023.05.16-09.00.01:907][798]LogHttp: Warning: 0000074DF6BC3200: libcurl info message cache 6 (necessary data rewind wasn't possible)
+[2023.05.16-09.00.01:907][798]LogHttp: Warning: 0000074DF6BC3200: libcurl info message cache 7 (Closing connection 0)
+[2023.05.16-09.00.01:907][798]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B2663E34A-41B4-35DF-49DE-7E87F4FCA81E%7D&AppID=UEEditor.Rocket.Release&AppVersion=5.1.1-23901901%2B%2B%2BUE5%2BRelease-5.1&UserID=d3c73c7544f962957a848f8e5d4c6275%7C03eca827c1d0430abf91319fdc9f9f76%7Cb53413d2-5676-4aa1-b4f5-0428ee0ec9f2&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2023.05.16-09.00.02:222][798]LogAudioMixer: Display: Successful Swap new Device is (NumChannels=2, SampleRate=48000, DeviceID={0.0.0.00000000}.{5ba5d838-f949-4a17-824f-ab36a6e880d2}, Name=Speakers (Realtek(R) Audio)), Reason=AudioMixerPlatformInterface. Timeout waiting for h/w., InstanceID=1, DurationMS=526.38
+[2023.05.16-09.00.02:222][798]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=1
+[2023.05.16-09.00.02:223][798]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=1
+[2023.05.16-17.57.31:702][484]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.05.16-17.57.31:827][484]LogSavePackage: Moving output files for package: /Game/Labs/Lab09/StateTree/STT_ChasePlayer
+[2023.05.16-17.57.31:829][484]LogSavePackage: Moving '../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2/Saved/STT_ChasePlayerB782BCC449925AEF1FCB2E933284EEEA.tmp' to '../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2/Content/Labs/Lab09/StateTree/STT_ChasePlayer.uasset'
+[2023.05.16-17.57.31:870][484]LogFileHelpers: InternalPromptForCheckoutAndSave took 171 ms (total: 48.3 sec)
+[2023.05.16-17.57.32:488][484]AssetCheck: New page: Asset Save: STT_ChasePlayer
+[2023.05.16-17.57.32:489][484]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Labs/Lab09/StateTree/STT_ChasePlayer.STT_ChasePlayer
+[2023.05.16-17.57.39:246][828]BlueprintLog: New page: Compile STT_ChasePlayer
+[2023.05.16-17.57.39:612][828]LogUObjectHash: Compacting FUObjectHashTables data took  15.78ms
+[2023.05.16-17.58.04:445][826]BlueprintLog: New page: Compile STT_ChasePlayer
+[2023.05.16-17.58.04:481][826]LogUObjectHash: Compacting FUObjectHashTables data took   2.42ms
+[2023.05.16-17.58.30:247][653]LogSlate: Took 0.000830 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2023.05.16-17.58.31:464][668]LogSkeletalMesh: Display: Waiting for skinned assets to be ready 0/1 (SKM_Manny_Simple) ...
+[2023.05.16-17.58.31:599][669]LogShaderCompilers: Display: ================================================
+[2023.05.16-17.58.31:599][669]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2023.05.16-17.58.31:600][669]LogShaderCompilers: Display: Total job queries 151, among them cache hits 23 (15.23%)
+[2023.05.16-17.58.31:600][669]LogShaderCompilers: Display: Tracking 128 distinct input hashes that result in 100 distinct outputs (78.12%)
+[2023.05.16-17.58.31:600][669]LogShaderCompilers: Display: RAM used: 1.06 MB (0.00 GB) of 819.20 MB (0.80 GB) budget. Usage: 0.13%
+[2023.05.16-17.58.31:600][669]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2023.05.16-17.58.31:600][669]LogShaderCompilers: Display: Shaders Compiled: 2
+[2023.05.16-17.58.31:600][669]LogShaderCompilers: Display: Jobs assigned 2, completed 2 (100.00%)
+[2023.05.16-17.58.31:600][669]LogShaderCompilers: Display: Time job spent in pending queue: average 0.09 s, longest 0.09 s
+[2023.05.16-17.58.31:600][669]LogShaderCompilers: Display: Job execution time: average 2.81 s, max 2.81 s
+[2023.05.16-17.58.31:600][669]LogShaderCompilers: Display: Job life time (pending + execution): average 2.90 s, max 2.90
+[2023.05.16-17.58.31:600][669]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 2.90 s
+[2023.05.16-17.58.31:600][669]LogShaderCompilers: Display: Jobs were issued in 2 batches (only local compilation was used), average 1.00 jobs/batch
+[2023.05.16-17.58.31:600][669]LogShaderCompilers: Display: Average processing rate: 0.69 jobs/sec
+[2023.05.16-17.58.31:600][669]LogShaderCompilers: Display: Total thread time: 1.02 s
+[2023.05.16-17.58.31:600][669]LogShaderCompilers: Display: Total thread preprocess time: 0.09 s
+[2023.05.16-17.58.31:600][669]LogShaderCompilers: Display: Percentage time preprocessing: 9.06%
+[2023.05.16-17.58.31:600][669]LogShaderCompilers: Display: Effective parallelization: 0.35 (times faster than compiling all shaders on one thread). Compare with number of workers: 10
+[2023.05.16-17.58.31:600][669]LogShaderCompilers: Display: Top 2 most expensive shader types by average time:
+[2023.05.16-17.58.31:600][669]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy (compiled    1 times, average 0.51 sec, max 0.51 sec, min 0.51 sec)
+[2023.05.16-17.58.31:600][669]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy (compiled    1 times, average 0.51 sec, max 0.51 sec, min 0.51 sec)
+[2023.05.16-17.58.31:600][669]LogShaderCompilers: Display: Top 2 shader types by total compile time:
+[2023.05.16-17.58.31:600][669]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy - 50.18% of total time (compiled    1 times, average 0.51 sec, max 0.51 sec, min 0.51 sec)
+[2023.05.16-17.58.31:600][669]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 49.82% of total time (compiled    1 times, average 0.51 sec, max 0.51 sec, min 0.51 sec)
+[2023.05.16-17.58.31:600][669]LogShaderCompilers: Display: ================================================
+[2023.05.16-17.59.26:326][526]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.05.16-17.59.26:500][526]LogSavePackage: Moving output files for package: /Game/Labs/Lab09/StateTree/STT_ChasePlayer
+[2023.05.16-17.59.26:501][526]LogSavePackage: Moving '../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2/Saved/STT_ChasePlayer6A00434647C72FC1D86B7CB258C0F2F4.tmp' to '../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2/Content/Labs/Lab09/StateTree/STT_ChasePlayer.uasset'
+[2023.05.16-17.59.26:547][526]LogFileHelpers: InternalPromptForCheckoutAndSave took 220 ms (total: 48.5 sec)
+[2023.05.16-17.59.26:557][526]AssetCheck: New page: Asset Save: STT_ChasePlayer
+[2023.05.16-17.59.26:557][526]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Labs/Lab09/StateTree/STT_ChasePlayer.STT_ChasePlayer
+[2023.05.16-17.59.26:991][543]BlueprintLog: New page: Compile STT_ChasePlayer
+[2023.05.16-17.59.27:034][543]LogUObjectHash: Compacting FUObjectHashTables data took   1.10ms
+[2023.05.16-18.00.08:749][387]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.05.16-18.00.08:950][387]LogSavePackage: Moving output files for package: /Game/Labs/Lab09/StateTree/STT_ChasePlayer
+[2023.05.16-18.00.08:952][387]LogSavePackage: Moving '../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2/Saved/STT_ChasePlayer172C51C144EF9E050DAE1E937B539C0D.tmp' to '../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2/Content/Labs/Lab09/StateTree/STT_ChasePlayer.uasset'
+[2023.05.16-18.00.09:071][387]LogFileHelpers: InternalPromptForCheckoutAndSave took 322 ms (total: 48.9 sec)
+[2023.05.16-18.00.09:119][387]AssetCheck: New page: Asset Save: STT_ChasePlayer
+[2023.05.16-18.00.09:119][387]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Labs/Lab09/StateTree/STT_ChasePlayer.STT_ChasePlayer
+[2023.05.16-18.00.11:476][451]BlueprintLog: New page: Compile STT_ChasePlayer
+[2023.05.16-18.00.11:526][451]LogUObjectHash: Compacting FUObjectHashTables data took   3.09ms
+[2023.05.16-18.00.45:647][710]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.05.16-18.00.45:718][710]LogSavePackage: Moving output files for package: /Game/Labs/Lab09/StateTree/STT_ChasePlayer
+[2023.05.16-18.00.45:720][710]LogSavePackage: Moving '../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2/Saved/STT_ChasePlayer7991997B42B9F11BE481118404D855EA.tmp' to '../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2/Content/Labs/Lab09/StateTree/STT_ChasePlayer.uasset'
+[2023.05.16-18.00.45:745][710]LogFileHelpers: InternalPromptForCheckoutAndSave took 98 ms (total: 49.0 sec)
+[2023.05.16-18.00.45:757][710]AssetCheck: New page: Asset Save: STT_ChasePlayer
+[2023.05.16-18.00.45:757][710]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Labs/Lab09/StateTree/STT_ChasePlayer.STT_ChasePlayer
+[2023.05.16-18.00.48:407][783]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.05.16-18.00.48:552][783]LogSavePackage: Moving output files for package: /Game/Labs/Lab09/StateTree/STT_ChasePlayer
+[2023.05.16-18.00.48:555][783]LogSavePackage: Moving '../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2/Saved/STT_ChasePlayer12D6676547D25CAE12D916B32ED48DE8.tmp' to '../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2/Content/Labs/Lab09/StateTree/STT_ChasePlayer.uasset'
+[2023.05.16-18.00.48:735][783]LogFileHelpers: InternalPromptForCheckoutAndSave took 328 ms (total: 49.3 sec)
+[2023.05.16-18.00.48:774][783]AssetCheck: New page: Asset Save: STT_ChasePlayer
+[2023.05.16-18.00.48:774][783]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Labs/Lab09/StateTree/STT_ChasePlayer.STT_ChasePlayer
+[2023.05.16-18.00.56:602][ 58]BlueprintLog: New page: Compile STT_ChasePlayer
+[2023.05.16-18.00.56:637][ 58]LogUObjectHash: Compacting FUObjectHashTables data took   1.17ms
+[2023.05.16-18.01.35:359][494]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.05.16-18.01.35:580][494]LogSavePackage: Moving output files for package: /Game/Labs/Lab09/StateTree/STT_ChasePlayer
+[2023.05.16-18.01.35:581][494]LogSavePackage: Moving '../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2/Saved/STT_ChasePlayer815BDE34444625B137C7D6BC5501DB06.tmp' to '../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2/Content/Labs/Lab09/StateTree/STT_ChasePlayer.uasset'
+[2023.05.16-18.01.35:735][494]LogFileHelpers: InternalPromptForCheckoutAndSave took 376 ms (total: 49.7 sec)
+[2023.05.16-18.01.35:813][494]AssetCheck: New page: Asset Save: STT_ChasePlayer
+[2023.05.16-18.01.35:813][494]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Labs/Lab09/StateTree/STT_ChasePlayer.STT_ChasePlayer
+[2023.05.16-18.01.59:768][428]LogSlate: Window 'C++ Header Preview' being destroyed
+[2023.05.16-18.01.59:855][428]LogSlate: Window 'C++ Header Preview' being destroyed
+[2023.05.16-18.02.41:818][ 37]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.05.16-18.02.41:942][ 37]LogSavePackage: Moving output files for package: /Game/Labs/Lab09/StateTree/STT_ChasePlayer
+[2023.05.16-18.02.41:943][ 37]LogSavePackage: Moving '../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2/Saved/STT_ChasePlayer79E4A9374A40F9784862318FB0D44554.tmp' to '../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2/Content/Labs/Lab09/StateTree/STT_ChasePlayer.uasset'
+[2023.05.16-18.02.42:030][ 37]LogFileHelpers: InternalPromptForCheckoutAndSave took 212 ms (total: 49.9 sec)
+[2023.05.16-18.02.42:041][ 37]AssetCheck: New page: Asset Save: STT_ChasePlayer
+[2023.05.16-18.02.42:041][ 37]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Labs/Lab09/StateTree/STT_ChasePlayer.STT_ChasePlayer
+[2023.05.16-18.02.54:960][427]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.05.16-18.02.55:199][427]LogSavePackage: Moving output files for package: /Game/Labs/Lab09/StateTree/STT_ChasePlayer
+[2023.05.16-18.02.55:200][427]LogSavePackage: Moving '../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2/Saved/STT_ChasePlayer97F982FC4CDFD3A158718789B5535C66.tmp' to '../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2/Content/Labs/Lab09/StateTree/STT_ChasePlayer.uasset'
+[2023.05.16-18.02.55:298][427]LogFileHelpers: InternalPromptForCheckoutAndSave took 337 ms (total: 50.2 sec)
+[2023.05.16-18.02.55:344][427]AssetCheck: New page: Asset Save: STT_ChasePlayer
+[2023.05.16-18.02.55:344][427]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Labs/Lab09/StateTree/STT_ChasePlayer.STT_ChasePlayer
+[2023.05.16-18.04.32:755][ 28]BlueprintLog: New page: Compile STT_ChasePlayer
+[2023.05.16-18.04.32:802][ 28]LogUObjectHash: Compacting FUObjectHashTables data took   2.72ms
+[2023.05.16-18.05.04:709][679]BlueprintLog: New page: Compile STT_ChasePlayer
+[2023.05.16-18.05.04:776][679]LogUObjectHash: Compacting FUObjectHashTables data took   1.45ms
+[2023.05.16-18.05.38:377][701]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.05.16-18.05.38:500][701]LogSavePackage: Moving output files for package: /Game/Labs/Lab09/StateTree/STT_ChasePlayer
+[2023.05.16-18.05.38:501][701]LogSavePackage: Moving '../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2/Saved/STT_ChasePlayer237F9E8C4512C84DF1F9FFACCB9ABC14.tmp' to '../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2/Content/Labs/Lab09/StateTree/STT_ChasePlayer.uasset'
+[2023.05.16-18.05.38:568][701]LogFileHelpers: InternalPromptForCheckoutAndSave took 190 ms (total: 50.4 sec)
+[2023.05.16-18.05.38:582][701]AssetCheck: New page: Asset Save: STT_ChasePlayer
+[2023.05.16-18.05.38:582][701]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Labs/Lab09/StateTree/STT_ChasePlayer.STT_ChasePlayer
+[2023.05.16-18.08.08:115][831]LogAudioMixer: Warning: Audio Thread Command from SetListenerTransforms()() took 5.471600 milleseconds to execute
+[2023.05.16-18.08.48:288][599]LogDerivedDataCache: C:/Users/heroo/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:07.686 and deleted 0 files with total size 0 MiB. Scanned 3958 files in 3943 folders with total size 351 MiB.
+[2023.05.16-18.09.14:957][ 13]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.05.16-18.09.15:176][ 13]LogSavePackage: Moving output files for package: /Game/Labs/Lab09/StateTree/STT_ChasePlayer
+[2023.05.16-18.09.15:177][ 13]LogSavePackage: Moving '../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2/Saved/STT_ChasePlayer25EEC2B647AAB9B4D9B529B5CA5F0897.tmp' to '../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2/Content/Labs/Lab09/StateTree/STT_ChasePlayer.uasset'
+[2023.05.16-18.09.15:276][ 13]LogFileHelpers: InternalPromptForCheckoutAndSave took 318 ms (total: 50.7 sec)
+[2023.05.16-18.09.15:287][ 13]AssetCheck: New page: Asset Save: STT_ChasePlayer
+[2023.05.16-18.09.15:287][ 13]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Labs/Lab09/StateTree/STT_ChasePlayer.STT_ChasePlayer
+[2023.05.16-18.09.16:210][ 36]BlueprintLog: New page: Compile STT_ChasePlayer
+[2023.05.16-18.09.16:257][ 36]LogUObjectHash: Compacting FUObjectHashTables data took   1.91ms
+[2023.05.16-18.09.39:120][471]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.05.16-18.09.39:551][471]LogSavePackage: Moving output files for package: /Game/Labs/Lab09/StateTree/STT_ChasePlayer
+[2023.05.16-18.09.39:553][471]LogSavePackage: Moving '../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2/Saved/STT_ChasePlayer14FBD0A74370837266BA5E9D76C59A4D.tmp' to '../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2/Content/Labs/Lab09/StateTree/STT_ChasePlayer.uasset'
+[2023.05.16-18.09.39:689][471]LogFileHelpers: InternalPromptForCheckoutAndSave took 569 ms (total: 51.3 sec)
+[2023.05.16-18.09.39:703][471]AssetCheck: New page: Asset Save: STT_ChasePlayer
+[2023.05.16-18.09.39:703][471]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Labs/Lab09/StateTree/STT_ChasePlayer.STT_ChasePlayer
+[2023.05.16-18.09.40:307][480]BlueprintLog: New page: Compile STT_ChasePlayer
+[2023.05.16-18.09.40:357][480]LogUObjectHash: Compacting FUObjectHashTables data took   1.39ms
+[2023.05.16-18.09.56:564][726]LogSlate: Window 'C++ Header Preview' being destroyed
+[2023.05.16-18.09.56:787][726]LogSlate: Window 'C++ Header Preview' being destroyed
+[2023.05.16-18.11.42:806][584]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.05.16-18.11.42:933][584]LogSavePackage: Moving output files for package: /Game/Labs/Lab09/StateTree/STT_ChasePlayer
+[2023.05.16-18.11.42:934][584]LogSavePackage: Moving '../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2/Saved/STT_ChasePlayerE2D5C60A430F5FE75DF0308F8CF9169F.tmp' to '../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2/Content/Labs/Lab09/StateTree/STT_ChasePlayer.uasset'
+[2023.05.16-18.11.43:017][584]LogFileHelpers: InternalPromptForCheckoutAndSave took 210 ms (total: 51.5 sec)
+[2023.05.16-18.11.43:027][584]AssetCheck: New page: Asset Save: STT_ChasePlayer
+[2023.05.16-18.11.43:027][584]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Labs/Lab09/StateTree/STT_ChasePlayer.STT_ChasePlayer
+[2023.05.16-18.11.44:128][601]BlueprintLog: New page: Compile STT_ChasePlayer
+[2023.05.16-18.11.44:178][601]LogUObjectHash: Compacting FUObjectHashTables data took   1.37ms
+[2023.05.16-18.12.42:175][783]LogEditorTransaction: Undo Move Node
+[2023.05.16-18.14.49:074][ 42]BlueprintLog: New page: Compile STT_ChasePlayer
+[2023.05.16-18.14.49:116][ 42]LogUObjectHash: Compacting FUObjectHashTables data took   1.89ms
+[2023.05.16-18.14.54:942][141]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.05.16-18.14.55:081][141]LogSavePackage: Moving output files for package: /Game/Labs/Lab09/StateTree/STT_ChasePlayer
+[2023.05.16-18.14.55:082][141]LogSavePackage: Moving '../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2/Saved/STT_ChasePlayer2D1870384196073FA69379AC37214F41.tmp' to '../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2/Content/Labs/Lab09/StateTree/STT_ChasePlayer.uasset'
+[2023.05.16-18.14.55:139][141]LogFileHelpers: InternalPromptForCheckoutAndSave took 197 ms (total: 51.7 sec)
+[2023.05.16-18.14.55:144][141]AssetCheck: New page: Asset Save: STT_ChasePlayer
+[2023.05.16-18.14.55:144][141]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Labs/Lab09/StateTree/STT_ChasePlayer.STT_ChasePlayer
+[2023.05.16-18.15.06:106][344]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.05.16-18.15.06:263][344]LogSavePackage: Moving output files for package: /Game/Labs/Lab09/StateTree/STT_ChasePlayer
+[2023.05.16-18.15.06:265][344]LogSavePackage: Moving '../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2/Saved/STT_ChasePlayerC67395CA495EF15FD4B014B4E9380948.tmp' to '../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2/Content/Labs/Lab09/StateTree/STT_ChasePlayer.uasset'
+[2023.05.16-18.15.06:362][344]LogFileHelpers: InternalPromptForCheckoutAndSave took 256 ms (total: 51.9 sec)
+[2023.05.16-18.15.06:375][344]AssetCheck: New page: Asset Save: STT_ChasePlayer
+[2023.05.16-18.15.06:376][344]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Labs/Lab09/StateTree/STT_ChasePlayer.STT_ChasePlayer
+[2023.05.16-18.15.07:054][355]BlueprintLog: New page: Compile STT_ChasePlayer
+[2023.05.16-18.15.07:088][355]LogUObjectHash: Compacting FUObjectHashTables data took   1.23ms
+[2023.05.16-18.15.12:292][442]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.05.16-18.15.12:393][442]LogSavePackage: Moving output files for package: /Game/Labs/Lab09/StateTree/STT_ChasePlayer
+[2023.05.16-18.15.12:394][442]LogSavePackage: Moving '../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2/Saved/STT_ChasePlayer02D03DA6487F23E06571978F3F2CB379.tmp' to '../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2/Content/Labs/Lab09/StateTree/STT_ChasePlayer.uasset'
+[2023.05.16-18.15.12:473][442]LogFileHelpers: InternalPromptForCheckoutAndSave took 181 ms (total: 52.1 sec)
+[2023.05.16-18.15.12:482][442]AssetCheck: New page: Asset Save: STT_ChasePlayer
+[2023.05.16-18.15.12:482][442]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Labs/Lab09/StateTree/STT_ChasePlayer.STT_ChasePlayer
+[2023.05.16-18.15.13:536][453]BlueprintLog: New page: Compile STT_ChasePlayer
+[2023.05.16-18.15.13:570][453]LogUObjectHash: Compacting FUObjectHashTables data took   1.46ms
+[2023.05.16-18.15.21:643][565]LogSlate: Window 'C++ Header Preview' being destroyed
+[2023.05.16-18.15.21:862][565]LogSlate: Window 'C++ Header Preview' being destroyed
+[2023.05.16-18.15.45:719][ 24]LogSlate: Window 'STT_ChasePlayer' being destroyed
+[2023.05.16-18.15.45:888][ 24]LogSlate: Window 'STT_ChasePlayer' being destroyed
+[2023.05.16-18.15.45:898][ 24]LogWorld: UWorld::CleanupWorld for World_11, bSessionEnded=true, bCleanupResources=true
+[2023.05.16-18.15.45:902][ 24]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.05.16-18.15.50:008][118]Cmd: PARTICLE RESET SELECTED
+[2023.05.16-18.15.50:008][118]LogEditorServer: Exec Particle!
+[2023.05.16-18.15.55:173][263]LogAssetEditorSubsystem: Opening Asset editor for StateTree /Game/Labs/Lab09/StateTree/ST_Lab09StateTree.ST_Lab09StateTree
+[2023.05.16-18.16.30:596][843]LogUObjectHash: Compacting FUObjectHashTables data took   1.06ms
+[2023.05.16-18.16.30:602][843]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Labs/Lab09/Lab09' took 0.063
+[2023.05.16-18.16.30:604][843]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Labs/Lab09/StateTree/ST_Lab09StateTree] ([1] browsable assets)...
+[2023.05.16-18.16.30:604][843]OBJ SavePackage: Finished generating thumbnails for package [/Game/Labs/Lab09/StateTree/ST_Lab09StateTree]
+[2023.05.16-18.16.30:615][843]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Labs/Lab09/StateTree/ST_Lab09StateTree_Auto3
+[2023.05.16-18.16.30:615][843]LogSavePackage: Moving '../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2/Saved/ST_Lab09StateTree_Auto3D6750E4A4EFE67806C08399558C056FF.tmp' to '../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2/Saved/Autosaves/Game/Labs/Lab09/StateTree/ST_Lab09StateTree_Auto3.uasset'
+[2023.05.16-18.16.30:619][843]LogFileHelpers: Auto-saving content packages took 0.015
+[2023.05.16-18.16.38:482][997]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.05.16-18.16.38:737][997]LogSavePackage: Moving output files for package: /Game/Labs/Lab09/StateTree/ST_Lab09StateTree
+[2023.05.16-18.16.38:738][997]LogSavePackage: Moving '../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2/Saved/ST_Lab09StateTree381B467B49D350A0723A23A631C3AF06.tmp' to '../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2/Content/Labs/Lab09/StateTree/ST_Lab09StateTree.uasset'
+[2023.05.16-18.16.38:847][997]LogFileHelpers: InternalPromptForCheckoutAndSave took 364 ms (total: 52.5 sec)
+[2023.05.16-18.16.38:956][997]AssetCheck: New page: Asset Save: ST_Lab09StateTree
+[2023.05.16-18.16.38:956][997]LogContentValidation: Display: Validating /Script/StateTreeModule.StateTree /Game/Labs/Lab09/StateTree/ST_Lab09StateTree.ST_Lab09StateTree
+[2023.05.16-18.17.19:648][882]LogSlate: Window 'ST_Lab09StateTree' being destroyed
+[2023.05.16-18.17.19:763][882]LogSlate: Window 'ST_Lab09StateTree' being destroyed
+[2023.05.16-18.17.20:955][913]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.05.16-18.17.20:991][913]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.05.16-18.17.21:000][913]PIE: New page: PIE session: Lab09 (May 16, 2023, 6:17:20 AM)
+[2023.05.16-18.17.21:003][913]LogPlayLevel: Creating play world package: /Game/Labs/Lab09/UEDPIE_0_Lab09
+[2023.05.16-18.17.21:059][913]LogPlayLevel: PIE: StaticDuplicateObject took: (0.055470s)
+[2023.05.16-18.17.21:059][913]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Labs/Lab09/Lab09.Lab09 to /Game/Labs/Lab09/UEDPIE_0_Lab09.Lab09 (0.055917s)
+[2023.05.16-18.17.21:064][913]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.05.16-18.17.21:073][913]LogAIModule: Creating AISystem for world Lab09
+[2023.05.16-18.17.21:080][913]LogPlayLevel: PIE: World Init took: (0.020696s)
+[2023.05.16-18.17.21:135][913]LogUObjectHash: Compacting FUObjectHashTables data took   1.27ms
+[2023.05.16-18.17.21:147][913]LogAudio: Display: Creating Audio Device:                 Id: 10, Scope: Unique, Realtime: True
+[2023.05.16-18.17.21:150][913]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.05.16-18.17.21:150][913]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.05.16-18.17.21:150][913]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.05.16-18.17.21:150][913]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.05.16-18.17.21:150][913]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.05.16-18.17.21:150][913]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.05.16-18.17.21:151][913]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.05.16-18.17.21:151][913]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.05.16-18.17.21:155][913]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.05.16-18.17.21:155][913]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.05.16-18.17.21:155][913]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.05.16-18.17.21:163][913]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.05.16-18.17.21:229][913]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Realtek(R) Audio)
+[2023.05.16-18.17.21:234][913]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.05.16-18.17.21:234][913]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.05.16-18.17.21:235][913]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.05.16-18.17.21:242][913]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=10
+[2023.05.16-18.17.21:242][913]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=10
+[2023.05.16-18.17.21:245][913]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=10
+[2023.05.16-18.17.21:245][913]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=10
+[2023.05.16-18.17.21:246][913]LogInit: FAudioDevice initialized.
+[2023.05.16-18.17.21:246][913]LogAudio: Display: Audio Device (ID: 10) registered with world 'Lab09'.
+[2023.05.16-18.17.21:305][913]LogLoad: Game class is 'Kreye_GP2GameMode'
+[2023.05.16-18.17.21:341][913]LogWorld: Bringing World /Game/Labs/Lab09/UEDPIE_0_Lab09.Lab09 up for play (max tick rate 60) at 2023.05.16-12.17.21
+[2023.05.16-18.17.21:364][913]LogWorld: Bringing up level for play took: 0.055894
+[2023.05.16-18.17.21:382][913]LogOnline: OSS: Created online subsystem instance for: :Context_26
+[2023.05.16-18.17.21:451][913]PIE: Server logged in
+[2023.05.16-18.17.21:453][913]PIE: Play in editor total start time 0.47 seconds.
+[2023.05.16-18.17.39:348][482]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.05.16-18.17.39:348][482]LogWorld: BeginTearingDown for /Game/Labs/Lab09/UEDPIE_0_Lab09
+[2023.05.16-18.17.39:357][482]LogWorld: UWorld::CleanupWorld for Lab09, bSessionEnded=true, bCleanupResources=true
+[2023.05.16-18.17.39:363][482]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.05.16-18.17.39:395][482]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.05.16-18.17.39:405][482]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.05.16-18.17.39:462][482]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.05.16-18.17.39:468][482]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=10
+[2023.05.16-18.17.39:473][482]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=10
+[2023.05.16-18.17.39:498][482]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.05.16-18.17.39:521][482]LogUObjectHash: Compacting FUObjectHashTables data took   2.21ms
+[2023.05.16-18.17.39:604][483]LogPlayLevel: Display: Destroying online subsystem :Context_26
+[2023.05.16-18.17.59:443][612]LogAssetEditorSubsystem: Opening Asset editor for StateTree /Game/Labs/Lab09/StateTree/ST_Lab09StateTree.ST_Lab09StateTree
+[2023.05.16-18.18.41:491][513]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.05.16-18.18.41:613][513]LogSavePackage: Moving output files for package: /Game/Labs/Lab09/StateTree/ST_Lab09StateTree
+[2023.05.16-18.18.41:614][513]LogSavePackage: Moving '../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2/Saved/ST_Lab09StateTreeECED99A04186D88BEB3092B0CB77DBD7.tmp' to '../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2/Content/Labs/Lab09/StateTree/ST_Lab09StateTree.uasset'
+[2023.05.16-18.18.41:668][513]LogFileHelpers: InternalPromptForCheckoutAndSave took 177 ms (total: 52.7 sec)
+[2023.05.16-18.18.41:679][513]AssetCheck: New page: Asset Save: ST_Lab09StateTree
+[2023.05.16-18.18.41:679][513]LogContentValidation: Display: Validating /Script/StateTreeModule.StateTree /Game/Labs/Lab09/StateTree/ST_Lab09StateTree.ST_Lab09StateTree
+[2023.05.16-18.19.30:849][712]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.05.16-18.19.31:577][712]LogSavePackage: Moving output files for package: /Game/Labs/Lab09/StateTree/ST_Lab09StateTree
+[2023.05.16-18.19.31:578][712]LogSavePackage: Moving '../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2/Saved/ST_Lab09StateTree4F9C92CC479F21DD50F4308B36E80A1F.tmp' to '../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2/Content/Labs/Lab09/StateTree/ST_Lab09StateTree.uasset'
+[2023.05.16-18.19.31:720][712]LogFileHelpers: InternalPromptForCheckoutAndSave took 871 ms (total: 53.5 sec)
+[2023.05.16-18.19.31:795][712]AssetCheck: New page: Asset Save: ST_Lab09StateTree
+[2023.05.16-18.19.31:795][712]LogContentValidation: Display: Validating /Script/StateTreeModule.StateTree /Game/Labs/Lab09/StateTree/ST_Lab09StateTree.ST_Lab09StateTree
+[2023.05.16-18.19.37:865][893]LogSlate: Window 'ST_Lab09StateTree' being destroyed
+[2023.05.16-18.19.38:022][893]LogSlate: Window 'ST_Lab09StateTree' being destroyed
+[2023.05.16-18.19.39:380][912]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.05.16-18.19.39:404][912]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.05.16-18.19.39:404][912]PIE: New page: PIE session: Lab09 (May 16, 2023, 6:19:39 AM)
+[2023.05.16-18.19.39:404][912]LogPlayLevel: Creating play world package: /Game/Labs/Lab09/UEDPIE_0_Lab09
+[2023.05.16-18.19.39:414][912]LogPlayLevel: PIE: StaticDuplicateObject took: (0.008833s)
+[2023.05.16-18.19.39:414][912]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Labs/Lab09/Lab09.Lab09 to /Game/Labs/Lab09/UEDPIE_0_Lab09.Lab09 (0.008880s)
+[2023.05.16-18.19.39:414][912]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.05.16-18.19.39:414][912]LogAIModule: Creating AISystem for world Lab09
+[2023.05.16-18.19.39:415][912]LogPlayLevel: PIE: World Init took: (0.001219s)
+[2023.05.16-18.19.39:452][912]LogUObjectHash: Compacting FUObjectHashTables data took   1.40ms
+[2023.05.16-18.19.39:458][912]LogAudio: Display: Creating Audio Device:                 Id: 11, Scope: Unique, Realtime: True
+[2023.05.16-18.19.39:458][912]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.05.16-18.19.39:458][912]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.05.16-18.19.39:459][912]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.05.16-18.19.39:459][912]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.05.16-18.19.39:459][912]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.05.16-18.19.39:459][912]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.05.16-18.19.39:459][912]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.05.16-18.19.39:459][912]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.05.16-18.19.39:459][912]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.05.16-18.19.39:459][912]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.05.16-18.19.39:459][912]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.05.16-18.19.39:463][912]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.05.16-18.19.39:497][912]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Realtek(R) Audio)
+[2023.05.16-18.19.39:497][912]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.05.16-18.19.39:497][912]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.05.16-18.19.39:497][912]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.05.16-18.19.39:499][912]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=11
+[2023.05.16-18.19.39:499][912]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=11
+[2023.05.16-18.19.39:502][912]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=11
+[2023.05.16-18.19.39:502][912]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=11
+[2023.05.16-18.19.39:502][912]LogInit: FAudioDevice initialized.
+[2023.05.16-18.19.39:502][912]LogAudio: Display: Audio Device (ID: 11) registered with world 'Lab09'.
+[2023.05.16-18.19.39:507][912]LogLoad: Game class is 'Kreye_GP2GameMode'
+[2023.05.16-18.19.39:511][912]LogWorld: Bringing World /Game/Labs/Lab09/UEDPIE_0_Lab09.Lab09 up for play (max tick rate 60) at 2023.05.16-12.19.39
+[2023.05.16-18.19.39:512][912]LogWorld: Bringing up level for play took: 0.004078
+[2023.05.16-18.19.39:514][912]LogOnline: OSS: Created online subsystem instance for: :Context_27
+[2023.05.16-18.19.39:518][912]PIE: Server logged in
+[2023.05.16-18.19.39:520][912]PIE: Play in editor total start time 0.116 seconds.
+[2023.05.16-18.20.24:307][697]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.05.16-18.20.24:307][697]LogWorld: BeginTearingDown for /Game/Labs/Lab09/UEDPIE_0_Lab09
+[2023.05.16-18.20.24:307][697]LogWorld: UWorld::CleanupWorld for Lab09, bSessionEnded=true, bCleanupResources=true
+[2023.05.16-18.20.24:307][697]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.05.16-18.20.24:332][697]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.05.16-18.20.24:342][697]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.05.16-18.20.24:406][697]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.05.16-18.20.24:407][697]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=11
+[2023.05.16-18.20.24:409][697]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=11
+[2023.05.16-18.20.24:423][697]LogUObjectHash: Compacting FUObjectHashTables data took   1.11ms
+[2023.05.16-18.20.24:512][698]LogPlayLevel: Display: Destroying online subsystem :Context_27
+[2023.05.16-18.22.21:523][462]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.05.16-18.22.21:532][462]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.05.16-18.22.21:532][462]PIE: New page: PIE session: Lab09 (May 16, 2023, 6:22:21 AM)
+[2023.05.16-18.22.21:533][462]LogPlayLevel: Creating play world package: /Game/Labs/Lab09/UEDPIE_0_Lab09
+[2023.05.16-18.22.21:539][462]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005998s)
+[2023.05.16-18.22.21:539][462]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Labs/Lab09/Lab09.Lab09 to /Game/Labs/Lab09/UEDPIE_0_Lab09.Lab09 (0.006056s)
+[2023.05.16-18.22.21:539][462]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.05.16-18.22.21:539][462]LogAIModule: Creating AISystem for world Lab09
+[2023.05.16-18.22.21:540][462]LogPlayLevel: PIE: World Init took: (0.001091s)
+[2023.05.16-18.22.21:577][462]LogUObjectHash: Compacting FUObjectHashTables data took   1.57ms
+[2023.05.16-18.22.21:581][462]LogAudio: Display: Creating Audio Device:                 Id: 12, Scope: Unique, Realtime: True
+[2023.05.16-18.22.21:581][462]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.05.16-18.22.21:581][462]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.05.16-18.22.21:581][462]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.05.16-18.22.21:581][462]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.05.16-18.22.21:581][462]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.05.16-18.22.21:581][462]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.05.16-18.22.21:581][462]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.05.16-18.22.21:581][462]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.05.16-18.22.21:581][462]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.05.16-18.22.21:581][462]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.05.16-18.22.21:581][462]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.05.16-18.22.21:584][462]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.05.16-18.22.21:621][462]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Realtek(R) Audio)
+[2023.05.16-18.22.21:621][462]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.05.16-18.22.21:621][462]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.05.16-18.22.21:621][462]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.05.16-18.22.21:624][462]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=12
+[2023.05.16-18.22.21:624][462]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=12
+[2023.05.16-18.22.21:626][462]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=12
+[2023.05.16-18.22.21:626][462]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=12
+[2023.05.16-18.22.21:626][462]LogInit: FAudioDevice initialized.
+[2023.05.16-18.22.21:626][462]LogAudio: Display: Audio Device (ID: 12) registered with world 'Lab09'.
+[2023.05.16-18.22.21:630][462]LogLoad: Game class is 'Kreye_GP2GameMode'
+[2023.05.16-18.22.21:635][462]LogWorld: Bringing World /Game/Labs/Lab09/UEDPIE_0_Lab09.Lab09 up for play (max tick rate 60) at 2023.05.16-12.22.21
+[2023.05.16-18.22.21:636][462]LogWorld: Bringing up level for play took: 0.005898
+[2023.05.16-18.22.21:642][462]LogOnline: OSS: Created online subsystem instance for: :Context_28
+[2023.05.16-18.22.21:647][462]PIE: Server logged in
+[2023.05.16-18.22.21:649][462]PIE: Play in editor total start time 0.117 seconds.
+[2023.05.16-18.23.19:818][455]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.05.16-18.23.19:819][455]LogWorld: BeginTearingDown for /Game/Labs/Lab09/UEDPIE_0_Lab09
+[2023.05.16-18.23.19:819][455]LogWorld: UWorld::CleanupWorld for Lab09, bSessionEnded=true, bCleanupResources=true
+[2023.05.16-18.23.19:820][455]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.05.16-18.23.19:838][455]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.05.16-18.23.19:854][455]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.05.16-18.23.19:895][455]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.05.16-18.23.19:895][455]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=12
+[2023.05.16-18.23.19:898][455]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=12
+[2023.05.16-18.23.19:904][455]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.05.16-18.23.19:912][455]LogUObjectHash: Compacting FUObjectHashTables data took   1.57ms
+[2023.05.16-18.23.20:001][456]LogPlayLevel: Display: Destroying online subsystem :Context_28
+[2023.05.16-18.23.58:991][852]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Labs/Lab09/StateTree/STT_ChasePlayer.STT_ChasePlayer
+[2023.05.16-18.23.58:996][852]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.05.16-18.24.19:028][310]LogEditorTransaction: Undo Move Node
+[2023.05.16-18.24.24:428][443]LogEditorTransaction: Undo Delete current selection
+[2023.05.16-18.24.25:990][465]LogEditorTransaction: Undo Delete current selection
+[2023.05.16-18.24.41:595][725]LogEditorTransaction: Undo Delete current selection
+[2023.05.16-18.25.26:570][774]LogEditorTransaction: Undo Move Node
+[2023.05.16-18.26.39:747][637]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.05.16-18.26.39:900][637]LogSavePackage: Moving output files for package: /Game/Labs/Lab09/StateTree/STT_ChasePlayer
+[2023.05.16-18.26.39:901][637]LogSavePackage: Moving '../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2/Saved/STT_ChasePlayerD2856E35458B2F3D534A459BE0AEACCF.tmp' to '../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2/Content/Labs/Lab09/StateTree/STT_ChasePlayer.uasset'
+[2023.05.16-18.26.39:982][637]LogFileHelpers: InternalPromptForCheckoutAndSave took 234 ms (total: 53.8 sec)
+[2023.05.16-18.26.39:994][637]AssetCheck: New page: Asset Save: STT_ChasePlayer
+[2023.05.16-18.26.39:994][637]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Labs/Lab09/StateTree/STT_ChasePlayer.STT_ChasePlayer
+[2023.05.16-18.26.40:854][658]BlueprintLog: New page: Compile STT_ChasePlayer
+[2023.05.16-18.26.40:904][658]LogUObjectHash: Compacting FUObjectHashTables data took   1.22ms
+[2023.05.16-18.26.59:986][ 64]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.05.16-18.27.00:098][ 64]LogSavePackage: Moving output files for package: /Game/Labs/Lab09/StateTree/STT_ChasePlayer
+[2023.05.16-18.27.00:099][ 64]LogSavePackage: Moving '../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2/Saved/STT_ChasePlayer03779F5B440E7CED728A2CB0B262CFD2.tmp' to '../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2/Content/Labs/Lab09/StateTree/STT_ChasePlayer.uasset'
+[2023.05.16-18.27.00:138][ 64]LogFileHelpers: InternalPromptForCheckoutAndSave took 152 ms (total: 53.9 sec)
+[2023.05.16-18.27.00:143][ 64]AssetCheck: New page: Asset Save: STT_ChasePlayer
+[2023.05.16-18.27.00:144][ 64]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Labs/Lab09/StateTree/STT_ChasePlayer.STT_ChasePlayer
+[2023.05.16-18.27.26:481][802]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.05.16-18.27.26:653][802]LogSavePackage: Moving output files for package: /Game/Labs/Lab09/StateTree/STT_ChasePlayer
+[2023.05.16-18.27.26:654][802]LogSavePackage: Moving '../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2/Saved/STT_ChasePlayer22009A3F45E7FD76D551118A537DA51B.tmp' to '../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2/Content/Labs/Lab09/StateTree/STT_ChasePlayer.uasset'
+[2023.05.16-18.27.26:721][802]LogFileHelpers: InternalPromptForCheckoutAndSave took 240 ms (total: 54.2 sec)
+[2023.05.16-18.27.26:728][802]AssetCheck: New page: Asset Save: STT_ChasePlayer
+[2023.05.16-18.27.26:728][802]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Labs/Lab09/StateTree/STT_ChasePlayer.STT_ChasePlayer
+[2023.05.16-18.27.27:110][811]BlueprintLog: New page: Compile STT_ChasePlayer
+[2023.05.16-18.27.27:163][811]LogUObjectHash: Compacting FUObjectHashTables data took   1.32ms
+[2023.05.16-18.28.35:025][522]LogEditorTransaction: Undo Move Nodes
+[2023.05.16-18.29.13:042][476]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.05.16-18.29.13:147][476]LogSavePackage: Moving output files for package: /Game/Labs/Lab09/StateTree/STT_ChasePlayer
+[2023.05.16-18.29.13:148][476]LogSavePackage: Moving '../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2/Saved/STT_ChasePlayerA1892F994223B09845A54AB257A4733A.tmp' to '../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2/Content/Labs/Lab09/StateTree/STT_ChasePlayer.uasset'
+[2023.05.16-18.29.13:197][476]LogFileHelpers: InternalPromptForCheckoutAndSave took 154 ms (total: 54.3 sec)
+[2023.05.16-18.29.13:208][476]AssetCheck: New page: Asset Save: STT_ChasePlayer
+[2023.05.16-18.29.13:208][476]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Labs/Lab09/StateTree/STT_ChasePlayer.STT_ChasePlayer
+[2023.05.16-18.29.15:361][531]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.05.16-18.29.15:451][531]LogSavePackage: Moving output files for package: /Game/Labs/Lab09/StateTree/STT_ChasePlayer
+[2023.05.16-18.29.15:452][531]LogSavePackage: Moving '../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2/Saved/STT_ChasePlayerDAFC3F6F4CDF6BF5E42496A4E47AD79A.tmp' to '../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2/Content/Labs/Lab09/StateTree/STT_ChasePlayer.uasset'
+[2023.05.16-18.29.15:519][531]LogFileHelpers: InternalPromptForCheckoutAndSave took 158 ms (total: 54.5 sec)
+[2023.05.16-18.29.15:528][531]AssetCheck: New page: Asset Save: STT_ChasePlayer
+[2023.05.16-18.29.15:528][531]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Labs/Lab09/StateTree/STT_ChasePlayer.STT_ChasePlayer
+[2023.05.16-18.29.16:272][541]BlueprintLog: New page: Compile STT_ChasePlayer
+[2023.05.16-18.29.16:323][541]LogUObjectHash: Compacting FUObjectHashTables data took   1.25ms
+[2023.05.16-18.29.28:346][877]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.05.16-18.29.28:592][877]LogSavePackage: Moving output files for package: /Game/Labs/Lab09/StateTree/STT_ChasePlayer
+[2023.05.16-18.29.28:594][877]LogSavePackage: Moving '../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2/Saved/STT_ChasePlayerF3BA3F2E4BD2C4AC1F3A42A93BC77631.tmp' to '../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2/Content/Labs/Lab09/StateTree/STT_ChasePlayer.uasset'
+[2023.05.16-18.29.28:659][877]LogFileHelpers: InternalPromptForCheckoutAndSave took 312 ms (total: 54.8 sec)
+[2023.05.16-18.29.28:668][877]AssetCheck: New page: Asset Save: STT_ChasePlayer
+[2023.05.16-18.29.28:668][877]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Labs/Lab09/StateTree/STT_ChasePlayer.STT_ChasePlayer
+[2023.05.16-18.30.17:627][336]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.05.16-18.30.17:977][336]LogSavePackage: Moving output files for package: /Game/Labs/Lab09/StateTree/STT_ChasePlayer
+[2023.05.16-18.30.17:978][336]LogSavePackage: Moving '../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2/Saved/STT_ChasePlayer67F1E85246CC7B81FDE1ACA2B411CB41.tmp' to '../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2/Content/Labs/Lab09/StateTree/STT_ChasePlayer.uasset'
+[2023.05.16-18.30.18:066][336]LogFileHelpers: InternalPromptForCheckoutAndSave took 438 ms (total: 55.2 sec)
+[2023.05.16-18.30.18:078][336]AssetCheck: New page: Asset Save: STT_ChasePlayer
+[2023.05.16-18.30.18:078][336]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Labs/Lab09/StateTree/STT_ChasePlayer.STT_ChasePlayer
+[2023.05.16-18.30.22:158][411]BlueprintLog: New page: Compile STT_ChasePlayer
+[2023.05.16-18.30.22:220][411]LogUObjectHash: Compacting FUObjectHashTables data took   1.11ms
+[2023.05.16-18.30.24:515][464]LogSlate: Window 'STT_ChasePlayer' being destroyed
+[2023.05.16-18.30.24:568][464]LogSlate: Window 'STT_ChasePlayer' being destroyed
+[2023.05.16-18.30.24:576][464]LogWorld: UWorld::CleanupWorld for World_17, bSessionEnded=true, bCleanupResources=true
+[2023.05.16-18.30.24:576][464]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.05.16-18.30.26:534][495]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.05.16-18.30.26:574][495]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.05.16-18.30.26:574][495]PIE: New page: PIE session: Lab09 (May 16, 2023, 6:30:26 AM)
+[2023.05.16-18.30.26:574][495]LogPlayLevel: Creating play world package: /Game/Labs/Lab09/UEDPIE_0_Lab09
+[2023.05.16-18.30.26:580][495]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006196s)
+[2023.05.16-18.30.26:580][495]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Labs/Lab09/Lab09.Lab09 to /Game/Labs/Lab09/UEDPIE_0_Lab09.Lab09 (0.006253s)
+[2023.05.16-18.30.26:581][495]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.05.16-18.30.26:582][495]LogAIModule: Creating AISystem for world Lab09
+[2023.05.16-18.30.26:583][495]LogPlayLevel: PIE: World Init took: (0.002249s)
+[2023.05.16-18.30.26:628][495]LogUObjectHash: Compacting FUObjectHashTables data took   1.73ms
+[2023.05.16-18.30.26:637][495]LogAudio: Display: Creating Audio Device:                 Id: 13, Scope: Unique, Realtime: True
+[2023.05.16-18.30.26:637][495]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.05.16-18.30.26:637][495]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.05.16-18.30.26:637][495]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.05.16-18.30.26:637][495]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.05.16-18.30.26:637][495]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.05.16-18.30.26:637][495]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.05.16-18.30.26:637][495]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.05.16-18.30.26:637][495]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.05.16-18.30.26:637][495]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.05.16-18.30.26:638][495]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.05.16-18.30.26:638][495]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.05.16-18.30.26:645][495]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.05.16-18.30.26:691][495]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Realtek(R) Audio)
+[2023.05.16-18.30.26:691][495]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.05.16-18.30.26:691][495]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.05.16-18.30.26:691][495]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.05.16-18.30.26:692][495]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=13
+[2023.05.16-18.30.26:692][495]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=13
+[2023.05.16-18.30.26:696][495]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=13
+[2023.05.16-18.30.26:696][495]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=13
+[2023.05.16-18.30.26:696][495]LogInit: FAudioDevice initialized.
+[2023.05.16-18.30.26:696][495]LogAudio: Display: Audio Device (ID: 13) registered with world 'Lab09'.
+[2023.05.16-18.30.26:701][495]LogLoad: Game class is 'Kreye_GP2GameMode'
+[2023.05.16-18.30.26:709][495]LogWorld: Bringing World /Game/Labs/Lab09/UEDPIE_0_Lab09.Lab09 up for play (max tick rate 0) at 2023.05.16-12.30.26
+[2023.05.16-18.30.26:710][495]LogWorld: Bringing up level for play took: 0.007997
+[2023.05.16-18.30.26:713][495]LogOnline: OSS: Created online subsystem instance for: :Context_30
+[2023.05.16-18.30.26:719][495]PIE: Server logged in
+[2023.05.16-18.30.26:720][495]PIE: Play in editor total start time 0.146 seconds.
+[2023.05.16-18.31.03:147][958]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.05.16-18.31.03:147][958]LogWorld: BeginTearingDown for /Game/Labs/Lab09/UEDPIE_0_Lab09
+[2023.05.16-18.31.03:147][958]LogWorld: UWorld::CleanupWorld for Lab09, bSessionEnded=true, bCleanupResources=true
+[2023.05.16-18.31.03:148][958]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.05.16-18.31.03:159][958]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.05.16-18.31.03:166][958]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.05.16-18.31.03:210][958]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.05.16-18.31.03:210][958]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=13
+[2023.05.16-18.31.03:213][958]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=13
+[2023.05.16-18.31.03:224][958]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.05.16-18.31.03:230][958]LogUObjectHash: Compacting FUObjectHashTables data took   2.05ms
+[2023.05.16-18.31.03:324][959]LogPlayLevel: Display: Destroying online subsystem :Context_30
+[2023.05.16-18.31.18:757][ 48]LogAssetEditorSubsystem: Opening Asset editor for StateTree /Game/Labs/Lab09/StateTree/ST_Lab09StateTree.ST_Lab09StateTree
+[2023.05.16-18.31.47:481][741]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.05.16-18.31.47:618][741]LogSavePackage: Moving output files for package: /Game/Labs/Lab09/StateTree/ST_Lab09StateTree
+[2023.05.16-18.31.47:621][741]LogSavePackage: Moving '../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2/Saved/ST_Lab09StateTree4B517C5741214261F59BBB8B3A7A56BE.tmp' to '../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2/Content/Labs/Lab09/StateTree/ST_Lab09StateTree.uasset'
+[2023.05.16-18.31.47:704][741]LogFileHelpers: InternalPromptForCheckoutAndSave took 222 ms (total: 55.5 sec)
+[2023.05.16-18.31.47:723][741]AssetCheck: New page: Asset Save: ST_Lab09StateTree
+[2023.05.16-18.31.47:723][741]LogContentValidation: Display: Validating /Script/StateTreeModule.StateTree /Game/Labs/Lab09/StateTree/ST_Lab09StateTree.ST_Lab09StateTree
+[2023.05.16-18.31.54:463][881]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.05.16-18.31.54:625][881]LogSavePackage: Moving output files for package: /Game/Labs/Lab09/StateTree/ST_Lab09StateTree
+[2023.05.16-18.31.54:626][881]LogSavePackage: Moving '../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2/Saved/ST_Lab09StateTreeD407FFF44A33ADF2E4E669847A3B9EDB.tmp' to '../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2/Content/Labs/Lab09/StateTree/ST_Lab09StateTree.uasset'
+[2023.05.16-18.31.54:673][881]LogFileHelpers: InternalPromptForCheckoutAndSave took 210 ms (total: 55.7 sec)
+[2023.05.16-18.31.54:710][881]AssetCheck: New page: Asset Save: ST_Lab09StateTree
+[2023.05.16-18.31.54:710][881]LogContentValidation: Display: Validating /Script/StateTreeModule.StateTree /Game/Labs/Lab09/StateTree/ST_Lab09StateTree.ST_Lab09StateTree
+[2023.05.16-18.32.07:513][239]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.05.16-18.32.07:693][239]LogSavePackage: Moving output files for package: /Game/Labs/Lab09/StateTree/ST_Lab09StateTree
+[2023.05.16-18.32.07:694][239]LogSavePackage: Moving '../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2/Saved/ST_Lab09StateTreeA8295A9744CB272685AD28A8F0FDD887.tmp' to '../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2/Content/Labs/Lab09/StateTree/ST_Lab09StateTree.uasset'
+[2023.05.16-18.32.07:746][239]LogFileHelpers: InternalPromptForCheckoutAndSave took 232 ms (total: 55.9 sec)
+[2023.05.16-18.32.07:755][239]AssetCheck: New page: Asset Save: ST_Lab09StateTree
+[2023.05.16-18.32.07:755][239]LogContentValidation: Display: Validating /Script/StateTreeModule.StateTree /Game/Labs/Lab09/StateTree/ST_Lab09StateTree.ST_Lab09StateTree
+[2023.05.16-18.32.19:001][520]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.05.16-18.32.19:023][520]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.05.16-18.32.19:023][520]PIE: New page: PIE session: Lab09 (May 16, 2023, 6:32:19 AM)
+[2023.05.16-18.32.19:023][520]LogPlayLevel: Creating play world package: /Game/Labs/Lab09/UEDPIE_0_Lab09
+[2023.05.16-18.32.19:028][520]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004972s)
+[2023.05.16-18.32.19:028][520]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Labs/Lab09/Lab09.Lab09 to /Game/Labs/Lab09/UEDPIE_0_Lab09.Lab09 (0.005002s)
+[2023.05.16-18.32.19:028][520]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.05.16-18.32.19:028][520]LogAIModule: Creating AISystem for world Lab09
+[2023.05.16-18.32.19:029][520]LogPlayLevel: PIE: World Init took: (0.000830s)
+[2023.05.16-18.32.19:073][520]LogUObjectHash: Compacting FUObjectHashTables data took   1.18ms
+[2023.05.16-18.32.19:075][520]LogAudio: Display: Creating Audio Device:                 Id: 14, Scope: Unique, Realtime: True
+[2023.05.16-18.32.19:075][520]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.05.16-18.32.19:075][520]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.05.16-18.32.19:075][520]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.05.16-18.32.19:075][520]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.05.16-18.32.19:075][520]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.05.16-18.32.19:075][520]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.05.16-18.32.19:075][520]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.05.16-18.32.19:075][520]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.05.16-18.32.19:076][520]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.05.16-18.32.19:076][520]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.05.16-18.32.19:076][520]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.05.16-18.32.19:078][520]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.05.16-18.32.19:109][520]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Realtek(R) Audio)
+[2023.05.16-18.32.19:110][520]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.05.16-18.32.19:110][520]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.05.16-18.32.19:110][520]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.05.16-18.32.19:111][520]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=14
+[2023.05.16-18.32.19:111][520]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=14
+[2023.05.16-18.32.19:113][520]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=14
+[2023.05.16-18.32.19:113][520]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=14
+[2023.05.16-18.32.19:113][520]LogInit: FAudioDevice initialized.
+[2023.05.16-18.32.19:113][520]LogAudio: Display: Audio Device (ID: 14) registered with world 'Lab09'.
+[2023.05.16-18.32.19:117][520]LogLoad: Game class is 'Kreye_GP2GameMode'
+[2023.05.16-18.32.19:120][520]LogWorld: Bringing World /Game/Labs/Lab09/UEDPIE_0_Lab09.Lab09 up for play (max tick rate 0) at 2023.05.16-12.32.19
+[2023.05.16-18.32.19:120][520]LogWorld: Bringing up level for play took: 0.003247
+[2023.05.16-18.32.19:123][520]LogOnline: OSS: Created online subsystem instance for: :Context_31
+[2023.05.16-18.32.19:127][520]PIE: Server logged in
+[2023.05.16-18.32.19:128][520]PIE: Play in editor total start time 0.105 seconds.
+[2023.05.16-18.32.19:162][521]LogCharacterMovement: Warning: GetSimulationTimeStep() - Max iterations 8 hit while remaining time 0.085773 > MaxSimulationTimeStep (0.050) for 'BP_ThirdPersonCharacter_C_0', movement 'Walking'
+[2023.05.16-18.32.20:566][557]LogSlate: Window 'ST_Lab09StateTree' being destroyed
+[2023.05.16-18.32.20:804][557]LogSlate: Window 'ST_Lab09StateTree' being destroyed
+[2023.05.16-18.32.38:087][151]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.05.16-18.32.38:087][151]LogWorld: BeginTearingDown for /Game/Labs/Lab09/UEDPIE_0_Lab09
+[2023.05.16-18.32.38:088][151]LogWorld: UWorld::CleanupWorld for Lab09, bSessionEnded=true, bCleanupResources=true
+[2023.05.16-18.32.38:088][151]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.05.16-18.32.38:106][151]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.05.16-18.32.38:111][151]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.05.16-18.32.38:146][151]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.05.16-18.32.38:147][151]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=14
+[2023.05.16-18.32.38:149][151]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=14
+[2023.05.16-18.32.38:157][151]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.05.16-18.32.38:162][151]LogUObjectHash: Compacting FUObjectHashTables data took   1.51ms
+[2023.05.16-18.32.38:222][152]LogPlayLevel: Display: Destroying online subsystem :Context_31
