@@ -2449,3 +2449,292 @@ LogConfig: Set CVar [[r.setres:1280x720]]
 [2023.05.16-08.17.32:341][488]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Labs/Lab09/Lab09AIController.Lab09AIController
 [2023.05.16-08.17.33:227][496]BlueprintLog: New page: Compile Lab09AIController
 [2023.05.16-08.17.33:315][496]LogUObjectHash: Compacting FUObjectHashTables data took   1.60ms
+[2023.05.16-08.20.03:116][992]LogSlate: Window 'Lab09AIController' being destroyed
+[2023.05.16-08.20.03:436][992]LogSlate: Window 'Lab09AIController' being destroyed
+[2023.05.16-08.20.03:456][992]LogWorld: UWorld::CleanupWorld for World_9, bSessionEnded=true, bCleanupResources=true
+[2023.05.16-08.20.03:456][992]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.05.16-08.20.07:658][ 27]LogAssetEditorSubsystem: Opening Asset editor for StateTree /Game/Labs/Lab09/StateTree/ST_Lab09StateTree.ST_Lab09StateTree
+[2023.05.16-08.20.10:027][ 44]LogSlate: Window 'C++ Header Preview' being destroyed
+[2023.05.16-08.20.10:116][ 44]LogSlate: Window 'C++ Header Preview' being destroyed
+[2023.05.16-08.20.20:138][149]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.05.16-08.20.20:341][149]LogSavePackage: Moving output files for package: /Game/Labs/Lab09/StateTree/ST_Lab09StateTree
+[2023.05.16-08.20.20:343][149]LogSavePackage: Moving '../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2/Saved/ST_Lab09StateTree6184678E48FE30AADFAE3D80774ABF3E.tmp' to '../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2/Content/Labs/Lab09/StateTree/ST_Lab09StateTree.uasset'
+[2023.05.16-08.20.20:531][149]LogFileHelpers: InternalPromptForCheckoutAndSave took 393 ms (total: 34.3 sec)
+[2023.05.16-08.20.20:546][149]AssetCheck: New page: Asset Save: ST_Lab09StateTree
+[2023.05.16-08.20.20:546][149]LogContentValidation: Display: Validating /Script/StateTreeModule.StateTree /Game/Labs/Lab09/StateTree/ST_Lab09StateTree.ST_Lab09StateTree
+[2023.05.16-08.20.22:453][160]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.05.16-08.20.22:601][160]LogSavePackage: Moving output files for package: /Game/Labs/Lab09/StateTree/ST_Lab09StateTree
+[2023.05.16-08.20.22:603][160]LogSavePackage: Moving '../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2/Saved/ST_Lab09StateTreeD12EB37D4931A5D56CE2E0A0A24AE644.tmp' to '../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2/Content/Labs/Lab09/StateTree/ST_Lab09StateTree.uasset'
+[2023.05.16-08.20.22:696][160]LogFileHelpers: InternalPromptForCheckoutAndSave took 242 ms (total: 34.5 sec)
+[2023.05.16-08.20.22:704][160]AssetCheck: New page: Asset Save: ST_Lab09StateTree
+[2023.05.16-08.20.22:704][160]LogContentValidation: Display: Validating /Script/StateTreeModule.StateTree /Game/Labs/Lab09/StateTree/ST_Lab09StateTree.ST_Lab09StateTree
+[2023.05.16-08.20.43:946][381]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.05.16-08.20.44:333][381]LogSavePackage: Moving output files for package: /Game/Labs/Lab09/StateTree/ST_Lab09StateTree
+[2023.05.16-08.20.44:336][381]LogSavePackage: Moving '../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2/Saved/ST_Lab09StateTree6F0487E6412F9DD712E654A722007E77.tmp' to '../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2/Content/Labs/Lab09/StateTree/ST_Lab09StateTree.uasset'
+[2023.05.16-08.20.44:440][381]LogFileHelpers: InternalPromptForCheckoutAndSave took 493 ms (total: 35.0 sec)
+[2023.05.16-08.20.44:454][381]AssetCheck: New page: Asset Save: ST_Lab09StateTree
+[2023.05.16-08.20.44:454][381]LogContentValidation: Display: Validating /Script/StateTreeModule.StateTree /Game/Labs/Lab09/StateTree/ST_Lab09StateTree.ST_Lab09StateTree
+[2023.05.16-08.21.04:778][618]LogSlate: Window 'Color Picker' being destroyed
+[2023.05.16-08.21.19:391][728]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.05.16-08.21.19:542][728]LogSavePackage: Moving output files for package: /Game/Labs/Lab09/StateTree/ST_Lab09StateTree
+[2023.05.16-08.21.19:544][728]LogSavePackage: Moving '../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2/Saved/ST_Lab09StateTree4C907E5F45AAB27E0495E6BDAFD6D13E.tmp' to '../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2/Content/Labs/Lab09/StateTree/ST_Lab09StateTree.uasset'
+[2023.05.16-08.21.19:596][728]LogFileHelpers: InternalPromptForCheckoutAndSave took 204 ms (total: 35.2 sec)
+[2023.05.16-08.21.19:610][728]AssetCheck: New page: Asset Save: ST_Lab09StateTree
+[2023.05.16-08.21.19:610][728]LogContentValidation: Display: Validating /Script/StateTreeModule.StateTree /Game/Labs/Lab09/StateTree/ST_Lab09StateTree.ST_Lab09StateTree
+[2023.05.16-08.21.20:892][739]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.05.16-08.21.21:200][739]LogSavePackage: Moving output files for package: /Game/Labs/Lab09/StateTree/ST_Lab09StateTree
+[2023.05.16-08.21.21:202][739]LogSavePackage: Moving '../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2/Saved/ST_Lab09StateTree6B1698CF448CDB3C1F43488CE5A648F1.tmp' to '../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2/Content/Labs/Lab09/StateTree/ST_Lab09StateTree.uasset'
+[2023.05.16-08.21.21:290][739]LogFileHelpers: InternalPromptForCheckoutAndSave took 397 ms (total: 35.6 sec)
+[2023.05.16-08.21.21:303][739]AssetCheck: New page: Asset Save: ST_Lab09StateTree
+[2023.05.16-08.21.21:303][739]LogContentValidation: Display: Validating /Script/StateTreeModule.StateTree /Game/Labs/Lab09/StateTree/ST_Lab09StateTree.ST_Lab09StateTree
+[2023.05.16-08.22.17:714][308]LogSlate: Window 'ST_Lab09StateTree' being destroyed
+[2023.05.16-08.22.17:725][308]LogSlate: Window 'ST_Lab09StateTree' being destroyed
+[2023.05.16-08.22.21:417][449]LogEditorClassViewer: Warning: Class /Script/InteractiveToolsFramework.GizmoActor has parent /Script/InteractiveToolsFramework.InternalToolFrameworkActor, but this parent is not found. The Class will not be shown in ClassViewer.
+[2023.05.16-08.22.21:417][449]LogEditorClassViewer: Warning: Class /Script/ModelingComponents.PreviewGeometryActor has parent /Script/InteractiveToolsFramework.InternalToolFrameworkActor, but this parent is not found. The Class will not be shown in ClassViewer.
+[2023.05.16-08.22.21:417][449]LogEditorClassViewer: Warning: Class /Script/ModelingComponents.PreviewMeshActor has parent /Script/InteractiveToolsFramework.InternalToolFrameworkActor, but this parent is not found. The Class will not be shown in ClassViewer.
+[2023.05.16-08.22.29:434][449]LogSlate: Window 'Pick Parent Class' being destroyed
+[2023.05.16-08.22.29:543][449]LogContentBrowser: Deferred new asset file creation: NewBlueprint
+[2023.05.16-08.22.29:572][449]LogContentBrowser: Creating deferred item: NewBlueprint
+[2023.05.16-08.22.29:639][450]LogContentBrowser: Renaming the item being created (Deferred Item: NewBlueprint).
+[2023.05.16-08.22.51:231][767]LogContentBrowser: Attempting asset rename: NewBlueprint -> STE
+[2023.05.16-08.22.51:433][767]LogContentBrowser: End creating deferred item NewBlueprint
+[2023.05.16-08.22.59:162][ 60]LogContentBrowser: Attempting asset rename: STE -> STE_FindPlayer
+[2023.05.16-08.23.01:370][ 60]LogMetaData: Removing '/Game/Labs/Lab09/StateTree/STE_FindPlayer.SKEL_STE_FindPlayer_C' ref from Metadata '/Game/Labs/Lab09/StateTree/STE.PackageMetaData'
+[2023.05.16-08.23.01:371][ 60]LogMetaData: Removing '/Game/Labs/Lab09/StateTree/STE_FindPlayer.STE_FindPlayer_C' ref from Metadata '/Game/Labs/Lab09/StateTree/STE.PackageMetaData'
+[2023.05.16-08.23.01:379][ 60]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.05.16-08.23.01:563][ 60]LogSavePackage: Moving output files for package: /Game/Labs/Lab09/StateTree/STE_FindPlayer
+[2023.05.16-08.23.01:563][ 60]LogSavePackage: Moving '../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2/Saved/STE_FindPlayer1CE74B9A497D9A6CEE1D5CAB4B08D0A5.tmp' to '../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2/Content/Labs/Lab09/StateTree/STE_FindPlayer.uasset'
+[2023.05.16-08.23.02:252][ 60]LogFileHelpers: InternalPromptForCheckoutAndSave took 872 ms (total: 36.5 sec)
+[2023.05.16-08.23.02:779][ 60]LogUObjectHash: Compacting FUObjectHashTables data took   1.11ms
+[2023.05.16-08.23.02:809][ 60]LogUObjectHash: Compacting FUObjectHashTables data took   0.81ms
+[2023.05.16-08.23.02:835][ 60]LogUObjectHash: Compacting FUObjectHashTables data took   0.40ms
+[2023.05.16-08.23.02:844][ 60]AssetCheck: New page: Asset Save: STE_FindPlayer
+[2023.05.16-08.23.02:844][ 60]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Labs/Lab09/StateTree/STE_FindPlayer.STE_FindPlayer
+[2023.05.16-08.24.33:535][311]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Labs/Lab09/StateTree/STE_FindPlayer.STE_FindPlayer
+[2023.05.16-08.24.33:541][311]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.05.16-08.24.39:719][513]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.05.16-08.24.40:007][513]LogSavePackage: Moving output files for package: /Game/Labs/Lab09/StateTree/STE_FindPlayer
+[2023.05.16-08.24.40:008][513]LogSavePackage: Moving '../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2/Saved/STE_FindPlayer0292CBDB4018548E677E7B8E2733A4C0.tmp' to '../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2/Content/Labs/Lab09/StateTree/STE_FindPlayer.uasset'
+[2023.05.16-08.24.40:100][513]LogFileHelpers: InternalPromptForCheckoutAndSave took 381 ms (total: 36.9 sec)
+[2023.05.16-08.24.40:126][513]AssetCheck: New page: Asset Save: STE_FindPlayer
+[2023.05.16-08.24.40:126][513]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Labs/Lab09/StateTree/STE_FindPlayer.STE_FindPlayer
+[2023.05.16-08.24.41:439][543]BlueprintLog: New page: Compile STE_FindPlayer
+[2023.05.16-08.24.41:475][543]LogUObjectHash: Compacting FUObjectHashTables data took   1.57ms
+[2023.05.16-08.24.53:490][902]LogSlate: Window 'C++ Header Preview' being destroyed
+[2023.05.16-08.24.53:630][902]LogSlate: Window 'C++ Header Preview' being destroyed
+[2023.05.16-08.25.45:116][517]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.05.16-08.25.45:229][517]LogSavePackage: Moving output files for package: /Game/Labs/Lab09/StateTree/STE_FindPlayer
+[2023.05.16-08.25.45:230][517]LogSavePackage: Moving '../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2/Saved/STE_FindPlayer8E78575E4E6160F96727DEB3F2B4B0E9.tmp' to '../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2/Content/Labs/Lab09/StateTree/STE_FindPlayer.uasset'
+[2023.05.16-08.25.45:254][517]LogFileHelpers: InternalPromptForCheckoutAndSave took 137 ms (total: 37.0 sec)
+[2023.05.16-08.25.45:263][517]AssetCheck: New page: Asset Save: STE_FindPlayer
+[2023.05.16-08.25.45:263][517]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Labs/Lab09/StateTree/STE_FindPlayer.STE_FindPlayer
+[2023.05.16-08.25.46:488][546]BlueprintLog: New page: Compile STE_FindPlayer
+[2023.05.16-08.25.46:516][546]LogUObjectHash: Compacting FUObjectHashTables data took   0.87ms
+[2023.05.16-08.26.00:356][197]LogSlate: Window 'C++ Header Preview' being destroyed
+[2023.05.16-08.26.00:383][197]LogSlate: Window 'C++ Header Preview' being destroyed
+[2023.05.16-08.26.10:081][670]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.05.16-08.26.10:261][670]LogSavePackage: Moving output files for package: /Game/Labs/Lab09/StateTree/STE_FindPlayer
+[2023.05.16-08.26.10:261][670]LogSavePackage: Moving '../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2/Saved/STE_FindPlayer8B3B75C5463F086139FCE9914D409387.tmp' to '../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2/Content/Labs/Lab09/StateTree/STE_FindPlayer.uasset'
+[2023.05.16-08.26.10:283][670]LogFileHelpers: InternalPromptForCheckoutAndSave took 202 ms (total: 37.2 sec)
+[2023.05.16-08.26.10:292][670]AssetCheck: New page: Asset Save: STE_FindPlayer
+[2023.05.16-08.26.10:292][670]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Labs/Lab09/StateTree/STE_FindPlayer.STE_FindPlayer
+[2023.05.16-08.26.28:375][921]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.05.16-08.26.28:422][921]LogSavePackage: Moving output files for package: /Game/Labs/Lab09/StateTree/STE_FindPlayer
+[2023.05.16-08.26.28:423][921]LogSavePackage: Moving '../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2/Saved/STE_FindPlayer641BAE074A8A9E3C19EE6CAA2E5E7D69.tmp' to '../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2/Content/Labs/Lab09/StateTree/STE_FindPlayer.uasset'
+[2023.05.16-08.26.28:438][921]LogFileHelpers: InternalPromptForCheckoutAndSave took 62 ms (total: 37.3 sec)
+[2023.05.16-08.26.28:446][921]AssetCheck: New page: Asset Save: STE_FindPlayer
+[2023.05.16-08.26.28:446][921]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Labs/Lab09/StateTree/STE_FindPlayer.STE_FindPlayer
+[2023.05.16-08.26.29:142][943]BlueprintLog: New page: Compile STE_FindPlayer
+[2023.05.16-08.26.29:174][943]LogUObjectHash: Compacting FUObjectHashTables data took   1.08ms
+[2023.05.16-08.26.53:484][913]LogSlate: Window 'C++ Header Preview' being destroyed
+[2023.05.16-08.26.53:573][913]LogSlate: Window 'C++ Header Preview' being destroyed
+[2023.05.16-08.27.16:138][323]BlueprintLog: New page: Compile STE_FindPlayer
+[2023.05.16-08.27.16:170][323]LogUObjectHash: Compacting FUObjectHashTables data took   0.88ms
+[2023.05.16-08.27.18:786][374]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.05.16-08.27.19:146][374]LogSavePackage: Moving output files for package: /Game/Labs/Lab09/StateTree/STE_FindPlayer
+[2023.05.16-08.27.19:147][374]LogSavePackage: Moving '../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2/Saved/STE_FindPlayerA7423C0E47E9709D2CEC0D86E4A50ED9.tmp' to '../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2/Content/Labs/Lab09/StateTree/STE_FindPlayer.uasset'
+[2023.05.16-08.27.19:178][374]LogFileHelpers: InternalPromptForCheckoutAndSave took 392 ms (total: 37.6 sec)
+[2023.05.16-08.27.19:187][374]AssetCheck: New page: Asset Save: STE_FindPlayer
+[2023.05.16-08.27.19:187][374]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Labs/Lab09/StateTree/STE_FindPlayer.STE_FindPlayer
+[2023.05.16-08.27.20:215][419]BlueprintLog: New page: Compile STE_FindPlayer
+[2023.05.16-08.27.20:247][419]LogUObjectHash: Compacting FUObjectHashTables data took   0.99ms
+[2023.05.16-08.27.32:589][900]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.05.16-08.27.32:900][900]LogSavePackage: Moving output files for package: /Game/Labs/Lab09/StateTree/STE_FindPlayer
+[2023.05.16-08.27.32:900][900]LogSavePackage: Moving '../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2/Saved/STE_FindPlayer44FDD00A49CFAD3B0D645EAB99F89B9A.tmp' to '../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2/Content/Labs/Lab09/StateTree/STE_FindPlayer.uasset'
+[2023.05.16-08.27.33:040][900]LogFileHelpers: InternalPromptForCheckoutAndSave took 451 ms (total: 38.1 sec)
+[2023.05.16-08.27.33:077][900]AssetCheck: New page: Asset Save: STE_FindPlayer
+[2023.05.16-08.27.33:077][900]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Labs/Lab09/StateTree/STE_FindPlayer.STE_FindPlayer
+[2023.05.16-08.27.34:667][946]BlueprintLog: New page: Compile STE_FindPlayer
+[2023.05.16-08.27.34:696][946]LogUObjectHash: Compacting FUObjectHashTables data took   1.07ms
+[2023.05.16-08.27.46:752][286]LogSlate: Window 'C++ Header Preview' being destroyed
+[2023.05.16-08.27.46:843][286]LogSlate: Window 'C++ Header Preview' being destroyed
+[2023.05.16-08.28.11:245][748]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.05.16-08.28.11:486][748]LogSavePackage: Moving output files for package: /Game/Labs/Lab09/StateTree/STE_FindPlayer
+[2023.05.16-08.28.11:487][748]LogSavePackage: Moving '../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2/Saved/STE_FindPlayer869D109C4D2DE59FB1CE5587630FC343.tmp' to '../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2/Content/Labs/Lab09/StateTree/STE_FindPlayer.uasset'
+[2023.05.16-08.28.11:598][748]LogFileHelpers: InternalPromptForCheckoutAndSave took 353 ms (total: 38.5 sec)
+[2023.05.16-08.28.11:610][748]AssetCheck: New page: Asset Save: STE_FindPlayer
+[2023.05.16-08.28.11:611][748]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Labs/Lab09/StateTree/STE_FindPlayer.STE_FindPlayer
+[2023.05.16-08.28.16:224][915]BlueprintLog: New page: Compile STE_FindPlayer
+[2023.05.16-08.28.16:224][915]LogBlueprint: Error: [AssetLog] C:\Users\heroo\OneDrive\Documents\k-game-prog-2\Kreye_GP2\Content\Labs\Lab09\StateTree\STE_FindPlayer.uasset: [Compiler] The type of  Object  is undetermined.  Connect something to  Cast To AIController  to imply a specific type.
+[2023.05.16-08.28.16:224][915]LogBlueprint: Error: [AssetLog] C:\Users\heroo\OneDrive\Documents\k-game-prog-2\Kreye_GP2\Content\Labs\Lab09\StateTree\STE_FindPlayer.uasset: [Compiler] The current value of the ' Object ' pin is invalid: Unsupported type Object Wildcard on pin Object
+[2023.05.16-08.28.16:257][915]LogUObjectHash: Compacting FUObjectHashTables data took   1.31ms
+[2023.05.16-08.28.30:768][193]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.05.16-08.28.30:963][193]LogSavePackage: Moving output files for package: /Game/Labs/Lab09/StateTree/STE_FindPlayer
+[2023.05.16-08.28.30:964][193]LogSavePackage: Moving '../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2/Saved/STE_FindPlayerF5F413624C0BB292B75D8481A67F68BC.tmp' to '../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2/Content/Labs/Lab09/StateTree/STE_FindPlayer.uasset'
+[2023.05.16-08.28.31:085][193]LogFileHelpers: InternalPromptForCheckoutAndSave took 317 ms (total: 38.8 sec)
+[2023.05.16-08.28.31:102][193]AssetCheck: New page: Asset Save: STE_FindPlayer
+[2023.05.16-08.28.31:102][193]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Labs/Lab09/StateTree/STE_FindPlayer.STE_FindPlayer
+[2023.05.16-08.28.34:183][291]BlueprintLog: New page: Compile STE_FindPlayer
+[2023.05.16-08.28.34:211][291]LogUObjectHash: Compacting FUObjectHashTables data took   0.75ms
+[2023.05.16-08.28.56:022][ 47]LogSlate: Window 'C++ Header Preview' being destroyed
+[2023.05.16-08.28.56:138][ 47]LogSlate: Window 'C++ Header Preview' being destroyed
+[2023.05.16-08.29.40:556][321]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.05.16-08.29.40:607][321]LogSavePackage: Moving output files for package: /Game/Labs/Lab09/StateTree/STE_FindPlayer
+[2023.05.16-08.29.40:608][321]LogSavePackage: Moving '../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2/Saved/STE_FindPlayerBA2B8C05422CD9E1E7DE03A42B477895.tmp' to '../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2/Content/Labs/Lab09/StateTree/STE_FindPlayer.uasset'
+[2023.05.16-08.29.40:624][321]LogFileHelpers: InternalPromptForCheckoutAndSave took 67 ms (total: 38.8 sec)
+[2023.05.16-08.29.40:633][321]AssetCheck: New page: Asset Save: STE_FindPlayer
+[2023.05.16-08.29.40:633][321]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Labs/Lab09/StateTree/STE_FindPlayer.STE_FindPlayer
+[2023.05.16-08.30.20:707][650]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.05.16-08.30.20:946][650]LogSavePackage: Moving output files for package: /Game/Labs/Lab09/StateTree/STE_FindPlayer
+[2023.05.16-08.30.20:947][650]LogSavePackage: Moving '../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2/Saved/STE_FindPlayer476CD0FB45964AB4C3313A83F559627B.tmp' to '../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2/Content/Labs/Lab09/StateTree/STE_FindPlayer.uasset'
+[2023.05.16-08.30.21:153][650]LogFileHelpers: InternalPromptForCheckoutAndSave took 446 ms (total: 39.3 sec)
+[2023.05.16-08.30.21:193][650]AssetCheck: New page: Asset Save: STE_FindPlayer
+[2023.05.16-08.30.21:193][650]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Labs/Lab09/StateTree/STE_FindPlayer.STE_FindPlayer
+[2023.05.16-08.30.23:496][727]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.05.16-08.30.23:842][727]LogSavePackage: Moving output files for package: /Game/Labs/Lab09/StateTree/STE_FindPlayer
+[2023.05.16-08.30.23:843][727]LogSavePackage: Moving '../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2/Saved/STE_FindPlayer805990D9486282D79F25A39B237AE07D.tmp' to '../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2/Content/Labs/Lab09/StateTree/STE_FindPlayer.uasset'
+[2023.05.16-08.30.23:959][727]LogFileHelpers: InternalPromptForCheckoutAndSave took 462 ms (total: 39.7 sec)
+[2023.05.16-08.30.23:968][727]AssetCheck: New page: Asset Save: STE_FindPlayer
+[2023.05.16-08.30.23:968][727]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Labs/Lab09/StateTree/STE_FindPlayer.STE_FindPlayer
+[2023.05.16-08.30.26:023][792]BlueprintLog: New page: Compile STE_FindPlayer
+[2023.05.16-08.30.26:055][792]LogUObjectHash: Compacting FUObjectHashTables data took   1.06ms
+[2023.05.16-08.31.42:353][877]LogSlate: Window 'Color Picker' being destroyed
+[2023.05.16-08.32.22:408][893]LogSlate: Window 'Color Picker' being destroyed
+[2023.05.16-08.32.24:140][905]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.05.16-08.32.24:438][905]LogSavePackage: Moving output files for package: /Game/Labs/Lab09/StateTree/STE_FindPlayer
+[2023.05.16-08.32.24:438][905]LogSavePackage: Moving '../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2/Saved/STE_FindPlayer4996505547081C26EC5A118F8EC657C4.tmp' to '../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2/Content/Labs/Lab09/StateTree/STE_FindPlayer.uasset'
+[2023.05.16-08.32.24:536][905]LogFileHelpers: InternalPromptForCheckoutAndSave took 396 ms (total: 40.1 sec)
+[2023.05.16-08.32.24:556][905]AssetCheck: New page: Asset Save: STE_FindPlayer
+[2023.05.16-08.32.24:556][905]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Labs/Lab09/StateTree/STE_FindPlayer.STE_FindPlayer
+[2023.05.16-08.32.30:967][127]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.05.16-08.32.31:141][127]LogSavePackage: Moving output files for package: /Game/Labs/Lab09/StateTree/STE_FindPlayer
+[2023.05.16-08.32.31:143][127]LogSavePackage: Moving '../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2/Saved/STE_FindPlayer2896C8A14EA548947458B28A3548310B.tmp' to '../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2/Content/Labs/Lab09/StateTree/STE_FindPlayer.uasset'
+[2023.05.16-08.32.31:282][127]LogFileHelpers: InternalPromptForCheckoutAndSave took 316 ms (total: 40.5 sec)
+[2023.05.16-08.32.31:297][127]AssetCheck: New page: Asset Save: STE_FindPlayer
+[2023.05.16-08.32.31:297][127]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Labs/Lab09/StateTree/STE_FindPlayer.STE_FindPlayer
+[2023.05.16-08.32.42:073][548]BlueprintLog: New page: Compile STE_FindPlayer
+[2023.05.16-08.32.42:106][548]LogUObjectHash: Compacting FUObjectHashTables data took   0.99ms
+[2023.05.16-08.33.50:004][366]LogEditorTransaction: Undo Delete current selection
+[2023.05.16-08.33.52:828][393]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.05.16-08.33.53:095][393]LogSavePackage: Moving output files for package: /Game/Labs/Lab09/StateTree/STE_FindPlayer
+[2023.05.16-08.33.53:097][393]LogSavePackage: Moving '../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2/Saved/STE_FindPlayer88E406E349CC12DF67A97AAD2A11C4B0.tmp' to '../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2/Content/Labs/Lab09/StateTree/STE_FindPlayer.uasset'
+[2023.05.16-08.33.53:298][393]LogFileHelpers: InternalPromptForCheckoutAndSave took 469 ms (total: 40.9 sec)
+[2023.05.16-08.33.53:310][393]AssetCheck: New page: Asset Save: STE_FindPlayer
+[2023.05.16-08.33.53:310][393]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Labs/Lab09/StateTree/STE_FindPlayer.STE_FindPlayer
+[2023.05.16-08.33.54:614][436]BlueprintLog: New page: Compile STE_FindPlayer
+[2023.05.16-08.33.54:642][436]LogUObjectHash: Compacting FUObjectHashTables data took   1.47ms
+[2023.05.16-08.34.15:836][925]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.05.16-08.34.16:077][925]LogSavePackage: Moving output files for package: /Game/Labs/Lab09/StateTree/STE_FindPlayer
+[2023.05.16-08.34.16:078][925]LogSavePackage: Moving '../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2/Saved/STE_FindPlayerB5F62EE845C051D5CE3B74B4A7CB6005.tmp' to '../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2/Content/Labs/Lab09/StateTree/STE_FindPlayer.uasset'
+[2023.05.16-08.34.16:168][925]LogFileHelpers: InternalPromptForCheckoutAndSave took 331 ms (total: 41.3 sec)
+[2023.05.16-08.34.16:177][925]AssetCheck: New page: Asset Save: STE_FindPlayer
+[2023.05.16-08.34.16:177][925]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Labs/Lab09/StateTree/STE_FindPlayer.STE_FindPlayer
+[2023.05.16-08.34.16:571][930]BlueprintLog: New page: Compile STE_FindPlayer
+[2023.05.16-08.34.16:605][930]LogUObjectHash: Compacting FUObjectHashTables data took   1.79ms
+[2023.05.16-08.34.33:621][615]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.05.16-08.34.34:009][615]LogSavePackage: Moving output files for package: /Game/Labs/Lab09/StateTree/STE_FindPlayer
+[2023.05.16-08.34.34:010][615]LogSavePackage: Moving '../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2/Saved/STE_FindPlayer34B68E574E60FEBFD4665F8340FCB77B.tmp' to '../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2/Content/Labs/Lab09/StateTree/STE_FindPlayer.uasset'
+[2023.05.16-08.34.34:129][615]LogFileHelpers: InternalPromptForCheckoutAndSave took 507 ms (total: 41.8 sec)
+[2023.05.16-08.34.34:144][615]AssetCheck: New page: Asset Save: STE_FindPlayer
+[2023.05.16-08.34.34:144][615]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Labs/Lab09/StateTree/STE_FindPlayer.STE_FindPlayer
+[2023.05.16-08.34.48:218][232]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.05.16-08.34.48:412][232]LogSavePackage: Moving output files for package: /Game/Labs/Lab09/StateTree/STE_FindPlayer
+[2023.05.16-08.34.48:413][232]LogSavePackage: Moving '../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2/Saved/STE_FindPlayer42D3B1B043D73C44AAC39BBFFC363635.tmp' to '../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2/Content/Labs/Lab09/StateTree/STE_FindPlayer.uasset'
+[2023.05.16-08.34.48:512][232]LogFileHelpers: InternalPromptForCheckoutAndSave took 294 ms (total: 42.1 sec)
+[2023.05.16-08.34.48:523][232]AssetCheck: New page: Asset Save: STE_FindPlayer
+[2023.05.16-08.34.48:523][232]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Labs/Lab09/StateTree/STE_FindPlayer.STE_FindPlayer
+[2023.05.16-08.34.54:375][455]LogEditorTransaction: Undo Move Node
+[2023.05.16-08.34.55:735][473]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.05.16-08.34.55:861][473]LogSavePackage: Moving output files for package: /Game/Labs/Lab09/StateTree/STE_FindPlayer
+[2023.05.16-08.34.55:861][473]LogSavePackage: Moving '../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2/Saved/STE_FindPlayerABFC7AD04D2F03E33B2588B9CF2DAA70.tmp' to '../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2/Content/Labs/Lab09/StateTree/STE_FindPlayer.uasset'
+[2023.05.16-08.34.55:978][473]LogFileHelpers: InternalPromptForCheckoutAndSave took 243 ms (total: 42.3 sec)
+[2023.05.16-08.34.56:003][473]AssetCheck: New page: Asset Save: STE_FindPlayer
+[2023.05.16-08.34.56:003][473]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Labs/Lab09/StateTree/STE_FindPlayer.STE_FindPlayer
+[2023.05.16-08.35.22:931][558]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.05.16-08.35.23:322][558]LogSavePackage: Moving output files for package: /Game/Labs/Lab09/StateTree/STE_FindPlayer
+[2023.05.16-08.35.23:323][558]LogSavePackage: Moving '../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2/Saved/STE_FindPlayerFD8BCA1B4B98C975EA33CC85C0E05D92.tmp' to '../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2/Content/Labs/Lab09/StateTree/STE_FindPlayer.uasset'
+[2023.05.16-08.35.23:400][558]LogFileHelpers: InternalPromptForCheckoutAndSave took 468 ms (total: 42.8 sec)
+[2023.05.16-08.35.23:412][558]AssetCheck: New page: Asset Save: STE_FindPlayer
+[2023.05.16-08.35.23:412][558]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Labs/Lab09/StateTree/STE_FindPlayer.STE_FindPlayer
+[2023.05.16-08.35.27:399][705]BlueprintLog: New page: Compile STE_FindPlayer
+[2023.05.16-08.35.27:440][705]LogUObjectHash: Compacting FUObjectHashTables data took   0.81ms
+[2023.05.16-08.36.42:367][989]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.05.16-08.36.42:644][989]LogSavePackage: Moving output files for package: /Game/Labs/Lab09/StateTree/STE_FindPlayer
+[2023.05.16-08.36.42:646][989]LogSavePackage: Moving '../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2/Saved/STE_FindPlayerE7458A4540CD066935AD7ABDACF1248C.tmp' to '../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2/Content/Labs/Lab09/StateTree/STE_FindPlayer.uasset'
+[2023.05.16-08.36.42:859][989]LogFileHelpers: InternalPromptForCheckoutAndSave took 491 ms (total: 43.3 sec)
+[2023.05.16-08.36.42:904][989]AssetCheck: New page: Asset Save: STE_FindPlayer
+[2023.05.16-08.36.42:905][989]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Labs/Lab09/StateTree/STE_FindPlayer.STE_FindPlayer
+[2023.05.16-08.36.43:751][  0]BlueprintLog: New page: Compile STE_FindPlayer
+[2023.05.16-08.36.43:821][  0]LogUObjectHash: Compacting FUObjectHashTables data took   3.10ms
+[2023.05.16-08.38.20:614][925]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.05.16-08.38.21:095][925]LogSavePackage: Moving output files for package: /Game/Labs/Lab09/StateTree/STE_FindPlayer
+[2023.05.16-08.38.21:097][925]LogSavePackage: Moving '../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2/Saved/STE_FindPlayerECA6967848CAEF651CDA04849709FB90.tmp' to '../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2/Content/Labs/Lab09/StateTree/STE_FindPlayer.uasset'
+[2023.05.16-08.38.21:180][925]LogFileHelpers: InternalPromptForCheckoutAndSave took 566 ms (total: 43.8 sec)
+[2023.05.16-08.38.21:194][925]AssetCheck: New page: Asset Save: STE_FindPlayer
+[2023.05.16-08.38.21:194][925]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Labs/Lab09/StateTree/STE_FindPlayer.STE_FindPlayer
+[2023.05.16-08.38.26:793][994]BlueprintLog: New page: Compile STE_FindPlayer
+[2023.05.16-08.38.26:839][994]LogUObjectHash: Compacting FUObjectHashTables data took   2.00ms
+[2023.05.16-08.39.38:534][755]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.05.16-08.39.38:891][755]LogSavePackage: Moving output files for package: /Game/Labs/Lab09/StateTree/STE_FindPlayer
+[2023.05.16-08.39.38:895][755]LogSavePackage: Moving '../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2/Saved/STE_FindPlayerA7A33B3E42BB7745B97AEAB519DEE4F1.tmp' to '../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2/Content/Labs/Lab09/StateTree/STE_FindPlayer.uasset'
+[2023.05.16-08.39.39:166][755]LogFileHelpers: InternalPromptForCheckoutAndSave took 631 ms (total: 44.5 sec)
+[2023.05.16-08.39.39:195][755]AssetCheck: New page: Asset Save: STE_FindPlayer
+[2023.05.16-08.39.39:195][755]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Labs/Lab09/StateTree/STE_FindPlayer.STE_FindPlayer
+[2023.05.16-08.39.39:743][764]BlueprintLog: New page: Compile STE_FindPlayer
+[2023.05.16-08.39.39:825][764]LogUObjectHash: Compacting FUObjectHashTables data took   1.89ms
+[2023.05.16-08.40.36:846][178]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.05.16-08.40.37:465][178]LogSavePackage: Moving output files for package: /Game/Labs/Lab09/StateTree/STE_FindPlayer
+[2023.05.16-08.40.37:469][178]LogSavePackage: Moving '../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2/Saved/STE_FindPlayer0587793F4EA221796FDD08ACEA700319.tmp' to '../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2/Content/Labs/Lab09/StateTree/STE_FindPlayer.uasset'
+[2023.05.16-08.40.37:714][178]LogFileHelpers: InternalPromptForCheckoutAndSave took 867 ms (total: 45.3 sec)
+[2023.05.16-08.40.37:750][178]AssetCheck: New page: Asset Save: STE_FindPlayer
+[2023.05.16-08.40.37:750][178]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Labs/Lab09/StateTree/STE_FindPlayer.STE_FindPlayer
+[2023.05.16-08.40.47:925][283]LogEditorTransaction: Undo Create Pin Link
+[2023.05.16-08.42.05:666][692]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.05.16-08.42.05:823][692]LogSavePackage: Moving output files for package: /Game/Labs/Lab09/StateTree/STE_FindPlayer
+[2023.05.16-08.42.05:824][692]LogSavePackage: Moving '../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2/Saved/STE_FindPlayer0A4C13C945B073892FB863A56A887277.tmp' to '../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2/Content/Labs/Lab09/StateTree/STE_FindPlayer.uasset'
+[2023.05.16-08.42.05:896][692]LogFileHelpers: InternalPromptForCheckoutAndSave took 230 ms (total: 45.6 sec)
+[2023.05.16-08.42.05:915][692]AssetCheck: New page: Asset Save: STE_FindPlayer
+[2023.05.16-08.42.05:915][692]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Labs/Lab09/StateTree/STE_FindPlayer.STE_FindPlayer
+[2023.05.16-08.42.20:699][490]BlueprintLog: New page: Compile STE_FindPlayer
+[2023.05.16-08.42.20:732][490]LogUObjectHash: Compacting FUObjectHashTables data took   1.11ms
+[2023.05.16-08.42.33:787][618]LogAssetEditorSubsystem: Opening Asset editor for StateTree /Game/Labs/Lab09/StateTree/ST_Lab09StateTree.ST_Lab09StateTree
+[2023.05.16-08.42.48:700][170]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.05.16-08.42.49:044][170]LogSavePackage: Moving output files for package: /Game/Labs/Lab09/StateTree/ST_Lab09StateTree
+[2023.05.16-08.42.49:045][170]LogSavePackage: Moving '../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2/Saved/ST_Lab09StateTreeBA4497134182611BB0C658891BDC3D7D.tmp' to '../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2/Content/Labs/Lab09/StateTree/ST_Lab09StateTree.uasset'
+[2023.05.16-08.42.49:137][170]LogFileHelpers: InternalPromptForCheckoutAndSave took 436 ms (total: 46.0 sec)
+[2023.05.16-08.42.49:149][170]AssetCheck: New page: Asset Save: ST_Lab09StateTree
+[2023.05.16-08.42.49:149][170]LogContentValidation: Display: Validating /Script/StateTreeModule.StateTree /Game/Labs/Lab09/StateTree/ST_Lab09StateTree.ST_Lab09StateTree
+[2023.05.16-08.42.57:856][464]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.05.16-08.42.58:115][464]LogSavePackage: Moving output files for package: /Game/Labs/Lab09/StateTree/ST_Lab09StateTree
+[2023.05.16-08.42.58:115][464]LogSavePackage: Moving '../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2/Saved/ST_Lab09StateTree0334CBB546BFB7B9A924C5A2464F80DB.tmp' to '../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2/Content/Labs/Lab09/StateTree/ST_Lab09StateTree.uasset'
+[2023.05.16-08.42.58:303][464]LogFileHelpers: InternalPromptForCheckoutAndSave took 446 ms (total: 46.4 sec)
+[2023.05.16-08.42.58:349][464]AssetCheck: New page: Asset Save: ST_Lab09StateTree
+[2023.05.16-08.42.58:349][464]LogContentValidation: Display: Validating /Script/StateTreeModule.StateTree /Game/Labs/Lab09/StateTree/ST_Lab09StateTree.ST_Lab09StateTree
+[2023.05.16-08.44.07:635][513]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.05.16-08.44.07:854][513]LogSavePackage: Moving output files for package: /Game/Labs/Lab09/StateTree/ST_Lab09StateTree
+[2023.05.16-08.44.07:855][513]LogSavePackage: Moving '../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2/Saved/ST_Lab09StateTreeDA784829467ED759322A1FB93AAFED17.tmp' to '../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2/Content/Labs/Lab09/StateTree/ST_Lab09StateTree.uasset'
+[2023.05.16-08.44.07:974][513]LogFileHelpers: InternalPromptForCheckoutAndSave took 338 ms (total: 46.8 sec)
+[2023.05.16-08.44.07:986][513]AssetCheck: New page: Asset Save: ST_Lab09StateTree
+[2023.05.16-08.44.07:986][513]LogContentValidation: Display: Validating /Script/StateTreeModule.StateTree /Game/Labs/Lab09/StateTree/ST_Lab09StateTree.ST_Lab09StateTree
+[2023.05.16-08.45.23:272][944]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.05.16-08.45.23:517][944]LogSavePackage: Moving output files for package: /Game/Labs/Lab09/StateTree/ST_Lab09StateTree
+[2023.05.16-08.45.23:519][944]LogSavePackage: Moving '../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2/Saved/ST_Lab09StateTree8BBDDC2E4DEF041AF5286FACA08DAB79.tmp' to '../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2/Content/Labs/Lab09/StateTree/ST_Lab09StateTree.uasset'
+[2023.05.16-08.45.23:654][944]LogFileHelpers: InternalPromptForCheckoutAndSave took 382 ms (total: 47.2 sec)
+[2023.05.16-08.45.23:674][944]AssetCheck: New page: Asset Save: ST_Lab09StateTree
+[2023.05.16-08.45.23:674][944]LogContentValidation: Display: Validating /Script/StateTreeModule.StateTree /Game/Labs/Lab09/StateTree/ST_Lab09StateTree.ST_Lab09StateTree
+[2023.05.16-08.45.58:706][219]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.05.16-08.45.58:755][219]LogSavePackage: Moving output files for package: /Game/Labs/Lab09/StateTree/ST_Lab09StateTree
+[2023.05.16-08.45.58:757][219]LogSavePackage: Moving '../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2/Saved/ST_Lab09StateTreeB9EF22B84CB5682005A2C9B6114E9059.tmp' to '../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2/Content/Labs/Lab09/StateTree/ST_Lab09StateTree.uasset'
+[2023.05.16-08.45.58:773][219]LogFileHelpers: InternalPromptForCheckoutAndSave took 66 ms (total: 47.2 sec)
+[2023.05.16-08.45.58:780][219]AssetCheck: New page: Asset Save: ST_Lab09StateTree
+[2023.05.16-08.45.58:780][219]LogContentValidation: Display: Validating /Script/StateTreeModule.StateTree /Game/Labs/Lab09/StateTree/ST_Lab09StateTree.ST_Lab09StateTree
