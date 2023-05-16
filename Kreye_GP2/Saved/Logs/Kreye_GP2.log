@@ -1891,3 +1891,70 @@ LogConfig: Set CVar [[r.setres:1280x720]]
 [2023.05.16-07.26.10:046][974]LogViewport: Scene viewport resized to 357x232, mode Windowed.
 [2023.05.16-07.26.56:751][508]LogSlate: Window 'ST_Lab09StateTree' being destroyed
 [2023.05.16-07.26.56:766][508]LogSlate: Window 'ST_Lab09StateTree' being destroyed
+[2023.05.16-07.28.22:727][984]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Labs/Lab09/Lab09AICharacter.Lab09AICharacter
+[2023.05.16-07.28.22:729][984]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.05.16-07.28.28:445][ 93]LogSlate: Window 'Lab09AICharacter' being destroyed
+[2023.05.16-07.28.28:533][ 93]LogSlate: Window 'Lab09AICharacter' being destroyed
+[2023.05.16-07.28.28:543][ 93]LogWorld: UWorld::CleanupWorld for World_5, bSessionEnded=true, bCleanupResources=true
+[2023.05.16-07.28.28:543][ 93]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.05.16-07.29.06:466][735]LogEditorClassViewer: Warning: Class /Script/InteractiveToolsFramework.GizmoActor has parent /Script/InteractiveToolsFramework.InternalToolFrameworkActor, but this parent is not found. The Class will not be shown in ClassViewer.
+[2023.05.16-07.29.06:466][735]LogEditorClassViewer: Warning: Class /Script/ModelingComponents.PreviewGeometryActor has parent /Script/InteractiveToolsFramework.InternalToolFrameworkActor, but this parent is not found. The Class will not be shown in ClassViewer.
+[2023.05.16-07.29.06:466][735]LogEditorClassViewer: Warning: Class /Script/ModelingComponents.PreviewMeshActor has parent /Script/InteractiveToolsFramework.InternalToolFrameworkActor, but this parent is not found. The Class will not be shown in ClassViewer.
+[2023.05.16-07.29.57:273][773]LogSlate: Window 'Pick Parent Class' being destroyed
+[2023.05.16-07.29.57:315][773]LogContentBrowser: Deferred new asset file creation: NewBlueprint
+[2023.05.16-07.29.57:332][773]LogContentBrowser: Creating deferred item: NewBlueprint
+[2023.05.16-07.29.57:358][774]LogContentBrowser: Renaming the item being created (Deferred Item: NewBlueprint).
+[2023.05.16-07.30.02:631][ 35]LogContentBrowser: Attempting asset rename: NewBlueprint -> Lab09AIController
+[2023.05.16-07.30.03:150][ 35]LogContentBrowser: End creating deferred item NewBlueprint
+[2023.05.16-07.30.04:124][ 62]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.05.16-07.30.04:352][ 62]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Labs/Lab09/Lab09AIController" FILE="../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2/Content/Labs/Lab09/Lab09AIController.uasset" SILENT=true
+[2023.05.16-07.30.04:394][ 62]LogSavePackage: Moving output files for package: /Game/Labs/Lab09/Lab09AIController
+[2023.05.16-07.30.04:394][ 62]LogSavePackage: Moving '../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2/Saved/Lab09AIControllerFDD9E0884EA0BC66715E9995404DC2AB.tmp' to '../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2/Content/Labs/Lab09/Lab09AIController.uasset'
+[2023.05.16-07.30.05:231][ 62]LogFileHelpers: InternalPromptForCheckoutAndSave took 1.10 sec (total: 10.9 sec)
+[2023.05.16-07.30.05:246][ 62]AssetCheck: New page: Asset Save: Lab09AIController
+[2023.05.16-07.30.05:246][ 62]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Labs/Lab09/Lab09AIController.Lab09AIController
+[2023.05.16-07.30.06:041][103]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Labs/Lab09/Lab09AIController.Lab09AIController
+[2023.05.16-07.30.06:042][103]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.05.16-07.30.06:807][103]LogViewport: Scene viewport resized to 931x433, mode Windowed.
+[2023.05.16-07.30.29:036][866]BlueprintLog: New page: Compile Lab09AIController
+[2023.05.16-07.30.29:109][866]LogUObjectHash: Compacting FUObjectHashTables data took   1.30ms
+[2023.05.16-07.30.30:363][892]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.05.16-07.30.30:606][892]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Labs/Lab09/Lab09AIController" FILE="../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2/Content/Labs/Lab09/Lab09AIController.uasset" SILENT=true
+[2023.05.16-07.30.30:609][892]LogSavePackage: Moving output files for package: /Game/Labs/Lab09/Lab09AIController
+[2023.05.16-07.30.30:610][892]LogSavePackage: Moving '../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2/Saved/Lab09AIController8679F0C14F73B8ABA62FE282249B45A8.tmp' to '../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2/Content/Labs/Lab09/Lab09AIController.uasset'
+[2023.05.16-07.30.30:723][892]LogFileHelpers: InternalPromptForCheckoutAndSave took 358 ms (total: 11.2 sec)
+[2023.05.16-07.30.30:740][892]AssetCheck: New page: Asset Save: Lab09AIController
+[2023.05.16-07.30.30:740][892]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Labs/Lab09/Lab09AIController.Lab09AIController
+[2023.05.16-07.30.34:562][ 16]LogSlate: Window 'Lab09AIController' being destroyed
+[2023.05.16-07.30.34:694][ 16]LogWorld: UWorld::CleanupWorld for World_6, bSessionEnded=true, bCleanupResources=true
+[2023.05.16-07.30.34:694][ 16]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.05.16-07.30.35:489][ 52]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Labs/Lab09/Lab09AICharacter.Lab09AICharacter
+[2023.05.16-07.30.35:490][ 52]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.05.16-07.30.41:963][204]LogViewport: Scene viewport resized to 932x433, mode Windowed.
+[2023.05.16-07.31.07:969][ 76]LogEditorClassViewer: Warning: Class /Script/InteractiveToolsFramework.GizmoActor has parent /Script/InteractiveToolsFramework.InternalToolFrameworkActor, but this parent is not found. The Class will not be shown in ClassViewer.
+[2023.05.16-07.31.07:969][ 76]LogEditorClassViewer: Warning: Class /Script/ModelingComponents.PreviewGeometryActor has parent /Script/InteractiveToolsFramework.InternalToolFrameworkActor, but this parent is not found. The Class will not be shown in ClassViewer.
+[2023.05.16-07.31.07:969][ 76]LogEditorClassViewer: Warning: Class /Script/ModelingComponents.PreviewMeshActor has parent /Script/InteractiveToolsFramework.InternalToolFrameworkActor, but this parent is not found. The Class will not be shown in ClassViewer.
+[2023.05.16-07.31.12:108][146]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.05.16-07.31.12:273][146]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Labs/Lab09/Lab09AICharacter" FILE="../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2/Content/Labs/Lab09/Lab09AICharacter.uasset" SILENT=true
+[2023.05.16-07.31.12:282][146]LogSavePackage: Moving output files for package: /Game/Labs/Lab09/Lab09AICharacter
+[2023.05.16-07.31.12:283][146]LogSavePackage: Moving '../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2/Saved/Lab09AICharacter1FFB4CD841FFEEE1BD73999C1488A9F5.tmp' to '../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2/Content/Labs/Lab09/Lab09AICharacter.uasset'
+[2023.05.16-07.31.12:374][146]LogFileHelpers: InternalPromptForCheckoutAndSave took 266 ms (total: 11.5 sec)
+[2023.05.16-07.31.12:403][146]AssetCheck: New page: Asset Save: Lab09AICharacter
+[2023.05.16-07.31.12:403][146]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Labs/Lab09/Lab09AICharacter.Lab09AICharacter
+[2023.05.16-07.31.13:554][155]LogViewport: Scene viewport resized to 1247x433, mode Windowed.
+[2023.05.16-07.31.14:829][175]BlueprintLog: New page: Compile Lab09AICharacter
+[2023.05.16-07.31.15:032][175]LogUObjectHash: Compacting FUObjectHashTables data took   1.03ms
+[2023.05.16-07.31.15:151][175]LogViewport: Scene viewport resized to 932x433, mode Windowed.
+[2023.05.16-07.31.18:467][305]LogSlate: Window 'Lab09AICharacter' being destroyed
+[2023.05.16-07.31.18:575][305]LogSlate: Window 'Lab09AICharacter' being destroyed
+[2023.05.16-07.31.18:582][305]LogWorld: UWorld::CleanupWorld for World_7, bSessionEnded=true, bCleanupResources=true
+[2023.05.16-07.31.18:582][305]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.05.16-07.31.19:590][339]LogViewport: Scene viewport resized to 357x232, mode Windowed.
+[2023.05.16-07.31.26:117][581]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.05.16-07.31.26:429][581]LogUObjectHash: Compacting FUObjectHashTables data took   1.17ms
+[2023.05.16-07.31.26:442][581]LogSavePackage: Moving output files for package: /Game/Labs/Lab09/Lab09
+[2023.05.16-07.31.26:443][581]LogSavePackage: Moving '../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2/Saved/Lab099311CB4B4933CC66F5575AB4C601D252.tmp' to '../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2/Content/Labs/Lab09/Lab09.umap'
+[2023.05.16-07.31.26:454][581]LogFileHelpers: Saving map 'Lab09' took 0.053
+[2023.05.16-07.31.26:513][581]LogFileHelpers: InternalPromptForCheckoutAndSave took 395 ms (total: 11.9 sec)
+[2023.05.16-07.31.26:525][581]AssetCheck: New page: Asset Save: Lab09
+[2023.05.16-07.31.26:525][581]LogContentValidation: Display: Validating /Script/Engine.World /Game/Labs/Lab09/Lab09.Lab09
