@@ -1129,3 +1129,49 @@ LogConfig: Set CVar [[r.Shadow.DetectVertexShaderLayerAtRuntime:1]]
 [2023.05.17-18.06.05:971][580]LogFileHelpers: InternalPromptForCheckoutAndSave took 72 ms
 [2023.05.17-18.06.05:974][580]AssetCheck: New page: Asset Save: Lab10
 [2023.05.17-18.06.05:974][580]LogContentValidation: Display: Validating /Script/Engine.World /Game/Labs/Lab10/Lab10.Lab10
+[2023.05.17-18.10.02:290][900]LogEditorClassViewer: Warning: Class /Script/InteractiveToolsFramework.GizmoActor has parent /Script/InteractiveToolsFramework.InternalToolFrameworkActor, but this parent is not found. The Class will not be shown in ClassViewer.
+[2023.05.17-18.10.02:290][900]LogEditorClassViewer: Warning: Class /Script/ModelingComponents.PreviewGeometryActor has parent /Script/InteractiveToolsFramework.InternalToolFrameworkActor, but this parent is not found. The Class will not be shown in ClassViewer.
+[2023.05.17-18.10.02:290][900]LogEditorClassViewer: Warning: Class /Script/ModelingComponents.PreviewMeshActor has parent /Script/InteractiveToolsFramework.InternalToolFrameworkActor, but this parent is not found. The Class will not be shown in ClassViewer.
+[2023.05.17-18.10.08:077][900]LogSlate: Window 'Pick Root Widget for New Widget Blueprint' being destroyed
+[2023.05.17-18.10.08:098][900]LogContentBrowser: Deferred new asset file creation: NewWidgetBlueprint
+[2023.05.17-18.10.08:102][900]LogContentBrowser: Creating deferred item: NewWidgetBlueprint
+[2023.05.17-18.10.08:114][901]LogContentBrowser: Renaming the item being created (Deferred Item: NewWidgetBlueprint).
+[2023.05.17-18.10.16:691][395]LogContentBrowser: Attempting asset rename: NewWidgetBlueprint -> Lab10UI
+[2023.05.17-18.10.16:856][395]LogContentBrowser: End creating deferred item NewWidgetBlueprint
+[2023.05.17-18.10.18:262][465]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.05.17-18.10.18:302][465]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Labs/Lab10/Lab10UI" FILE="../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2/Content/Labs/Lab10/Lab10UI.uasset" SILENT=true
+[2023.05.17-18.10.18:314][465]LogSavePackage: Moving output files for package: /Game/Labs/Lab10/Lab10UI
+[2023.05.17-18.10.18:314][465]LogSavePackage: Moving '../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2/Saved/Lab10UI37970B954EFF870F750789871318423B.tmp' to '../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2/Content/Labs/Lab10/Lab10UI.uasset'
+[2023.05.17-18.10.18:554][465]LogFileHelpers: InternalPromptForCheckoutAndSave took 291 ms (total: 364 ms)
+[2023.05.17-18.10.18:558][465]AssetCheck: New page: Asset Save: Lab10UI
+[2023.05.17-18.10.18:558][465]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/Labs/Lab10/Lab10UI.Lab10UI
+[2023.05.17-18.10.19:532][523]LogAssetEditorSubsystem: Opening Asset editor for WidgetBlueprint /Game/Labs/Lab10/Lab10UI.Lab10UI
+[2023.05.17-18.10.19:532][523]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.05.17-18.10.19:540][523]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.05.17-18.10.19:547][523]LogSlate: Warning: The command 'UMGEditor.OpenAnimDrawer' has the same default chord as 'EditorViewport.Next' [Ctrl+Shift+Space Bar]
+[2023.05.17-18.10.20:638][523]LogSlateStyle: Warning: Unable to find Slate Widget Style 'None'. Using FToolbarStyle defaults instead.
+[2023.05.17-18.10.20:638][523]LogSlateStyle: Warning: Unable to find Slate Widget Style 'None'. Using FToolbarStyle defaults instead.
+[2023.05.17-18.10.20:816][523]LogSlate: Took 0.000659 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2023.05.17-18.10.20:827][523]LogSlateStyle: Warning: Missing Resource from 'CoreStyle' Style: 'Unable to find SlateColor 'Foreground'.'
+[2023.05.17-18.10.20:829][523]LogSlate: Took 0.001528 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2023.05.17-18.10.25:241][759]LogSlate: Window 'Lab10UI' being destroyed
+[2023.05.17-18.10.25:255][759]LogSlate: Window 'Lab10UI' being destroyed
+[2023.05.17-18.10.25:268][759]LogWorld: UWorld::CleanupWorld for World_4, bSessionEnded=true, bCleanupResources=true
+[2023.05.17-18.10.25:268][759]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.05.17-18.10.25:278][759]LogWorld: UWorld::CleanupWorld for World_3, bSessionEnded=true, bCleanupResources=true
+[2023.05.17-18.10.25:278][759]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.05.17-18.10.45:810][988]LogAssetEditorSubsystem: Opening Asset editor for WidgetBlueprint /Game/Labs/Lab10/Lab10UI.Lab10UI
+[2023.05.17-18.10.45:810][988]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.05.17-18.10.45:819][988]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.05.17-18.10.46:332][988]LogSlateStyle: Warning: Unable to find Slate Widget Style 'None'. Using FToolbarStyle defaults instead.
+[2023.05.17-18.10.46:332][988]LogSlateStyle: Warning: Unable to find Slate Widget Style 'None'. Using FToolbarStyle defaults instead.
+[2023.05.17-18.12.33:864][368]LogEditorTransaction: Undo Drag and Drop Widget
+[2023.05.17-18.12.35:264][427]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.05.17-18.12.35:302][427]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Labs/Lab10/Lab10UI" FILE="../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2/Content/Labs/Lab10/Lab10UI.uasset" SILENT=true
+[2023.05.17-18.12.35:307][427]LogSavePackage: Moving output files for package: /Game/Labs/Lab10/Lab10UI
+[2023.05.17-18.12.35:308][427]LogSavePackage: Moving '../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2/Saved/Lab10UI5CDC8CCE4CC13278F615BCB492609B63.tmp' to '../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2/Content/Labs/Lab10/Lab10UI.uasset'
+[2023.05.17-18.12.35:322][427]LogFileHelpers: InternalPromptForCheckoutAndSave took 57 ms (total: 421 ms)
+[2023.05.17-18.12.35:329][427]AssetCheck: New page: Asset Save: Lab10UI
+[2023.05.17-18.12.35:329][427]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/Labs/Lab10/Lab10UI.Lab10UI
+[2023.05.17-18.12.36:132][474]BlueprintLog: New page: Compile Lab10UI
+[2023.05.17-18.12.36:229][474]LogUObjectHash: Compacting FUObjectHashTables data took   1.41ms
