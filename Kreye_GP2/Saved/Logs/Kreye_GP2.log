@@ -2403,3 +2403,323 @@ Script Stack (0 frames) :
 [2023.05.18-08.00.43:280][602]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
 [2023.05.18-08.00.43:285][602]LogUObjectHash: Compacting FUObjectHashTables data took   2.78ms
 [2023.05.18-08.00.43:384][603]LogPlayLevel: Display: Destroying online subsystem :Context_33
+[2023.05.18-08.03.14:387][708]LogAudioMixer: Warning: AudioMixerPlatformInterface Timeout [5000ms] waiting for h/w. InstanceID=1
+[2023.05.18-08.03.14:482][708]LogAudioMixer: Display: FMixerNullCallback: Simulating a h/w device callback at [21ms], ThreadID=31060
+[2023.05.18-08.03.14:817][709]LogAudioMixer: Display: Successful Swap new Device is (NumChannels=2, SampleRate=48000, DeviceID={0.0.0.00000000}.{5ba5d838-f949-4a17-824f-ab36a6e880d2}, Name=Speakers (Realtek(R) Audio)), Reason=AudioMixerPlatformInterface. Timeout waiting for h/w., InstanceID=1, DurationMS=50.61
+[2023.05.18-08.03.14:818][709]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=1
+[2023.05.18-08.03.14:820][709]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=1
+[2023.05.18-08.03.19:377][723]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2023.05.18-08.03.23:499][723]LogAudioMixer: Warning: AudioMixerPlatformInterface Timeout [5001ms] waiting for h/w. InstanceID=1
+[2023.05.18-08.04.09:205][723]LogAudioMixer: Display: FMixerNullCallback: Simulating a h/w device callback at [21ms], ThreadID=31060
+[2023.05.18-08.04.10:301][724]LogUdpMessaging: Display: Added local interface '10.0.0.100' to multicast group '230.0.0.1:6666'
+[2023.05.18-08.04.10:379][724]LogAudioMixer: Display: Successful Swap new Device is (NumChannels=2, SampleRate=48000, DeviceID={0.0.0.00000000}.{5ba5d838-f949-4a17-824f-ab36a6e880d2}, Name=Speakers (Realtek(R) Audio)), Reason=AudioMixerPlatformInterface. Timeout waiting for h/w., InstanceID=1, DurationMS=410.90
+[2023.05.18-08.04.10:380][724]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=1
+[2023.05.18-08.04.10:383][724]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=1
+[2023.05.18-08.04.11:007][727]LogHttp: Warning: 00000924B2739600: invalid HTTP response code received. URL: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B9264602E-4947-D44D-29B7-9B910C77B9E8%7D&AppID=UEEditor.Rocket.Release&AppVersion=5.1.1-23901901%2B%2B%2BUE5%2BRelease-5.1&UserID=d3c73c7544f962957a848f8e5d4c6275%7C03eca827c1d0430abf91319fdc9f9f76%7Cb53413d2-5676-4aa1-b4f5-0428ee0ec9f2&AppEnvironment=datacollector-binary&UploadType=eteventstream, HTTP code: 0, content length: 0, actual payload size: 0
+[2023.05.18-08.04.11:007][727]LogHttp: Warning: 00000924B2739600: request failed, libcurl error: 56 (Failure when receiving data from the peer)
+[2023.05.18-08.04.11:007][727]LogHttp: Warning: 00000924B2739600: libcurl info message cache 0 (Found bundle for host: 0x92438170000 [serially])
+[2023.05.18-08.04.11:007][727]LogHttp: Warning: 00000924B2739600: libcurl info message cache 1 (Re-using existing connection #0 with host datarouter.ol.epicgames.com)
+[2023.05.18-08.04.11:008][727]LogHttp: Warning: 00000924B2739600: libcurl info message cache 2 (Connected to datarouter.ol.epicgames.com (54.164.230.188) port 443 (#0))
+[2023.05.18-08.04.11:008][727]LogHttp: Warning: 00000924B2739600: libcurl info message cache 3 (We are completely uploaded and fine)
+[2023.05.18-08.04.11:008][727]LogHttp: Warning: 00000924B2739600: libcurl info message cache 4 (OpenSSL SSL_read: Connection was reset, errno 10054)
+[2023.05.18-08.04.11:008][727]LogHttp: Warning: 00000924B2739600: libcurl info message cache 5 (Connection died, retrying a fresh connect (retry count: 1))
+[2023.05.18-08.04.11:008][727]LogHttp: Warning: 00000924B2739600: libcurl info message cache 6 (necessary data rewind wasn't possible)
+[2023.05.18-08.04.11:008][727]LogHttp: Warning: 00000924B2739600: libcurl info message cache 7 (Closing connection 0)
+[2023.05.18-08.04.11:008][727]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B9264602E-4947-D44D-29B7-9B910C77B9E8%7D&AppID=UEEditor.Rocket.Release&AppVersion=5.1.1-23901901%2B%2B%2BUE5%2BRelease-5.1&UserID=d3c73c7544f962957a848f8e5d4c6275%7C03eca827c1d0430abf91319fdc9f9f76%7Cb53413d2-5676-4aa1-b4f5-0428ee0ec9f2&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2023.05.18-08.06.01:179][248]LogAssetEditorSubsystem: Opening Asset editor for WidgetBlueprint /Game/Labs/Lab10/Lab10UI.Lab10UI
+[2023.05.18-08.06.01:297][248]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.05.18-08.06.01:365][248]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.05.18-08.06.02:744][248]LogSlateStyle: Warning: Unable to find Slate Widget Style 'None'. Using FToolbarStyle defaults instead.
+[2023.05.18-08.06.02:744][248]LogSlateStyle: Warning: Unable to find Slate Widget Style 'None'. Using FToolbarStyle defaults instead.
+[2023.05.18-08.06.04:262][317]LogSlate: Window 'Lab10UI' being destroyed
+[2023.05.18-08.06.04:271][317]LogSlate: Window 'Lab10UI' being destroyed
+[2023.05.18-08.06.04:298][317]LogWorld: UWorld::CleanupWorld for World_47, bSessionEnded=true, bCleanupResources=true
+[2023.05.18-08.06.04:300][317]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.05.18-08.06.04:334][317]LogWorld: UWorld::CleanupWorld for World_46, bSessionEnded=true, bCleanupResources=true
+[2023.05.18-08.06.04:334][317]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.05.18-08.06.06:501][407]LogEditorClassViewer: Warning: Class /Script/InteractiveToolsFramework.GizmoActor has parent /Script/InteractiveToolsFramework.InternalToolFrameworkActor, but this parent is not found. The Class will not be shown in ClassViewer.
+[2023.05.18-08.06.06:501][407]LogEditorClassViewer: Warning: Class /Script/ModelingComponents.PreviewGeometryActor has parent /Script/InteractiveToolsFramework.InternalToolFrameworkActor, but this parent is not found. The Class will not be shown in ClassViewer.
+[2023.05.18-08.06.06:501][407]LogEditorClassViewer: Warning: Class /Script/ModelingComponents.PreviewMeshActor has parent /Script/InteractiveToolsFramework.InternalToolFrameworkActor, but this parent is not found. The Class will not be shown in ClassViewer.
+[2023.05.18-08.06.13:825][407]LogSlate: Window 'Pick Parent Class' being destroyed
+[2023.05.18-08.06.13:835][407]LogContentBrowser: Deferred new asset file creation: NewBlueprint
+[2023.05.18-08.06.13:842][407]LogContentBrowser: Creating deferred item: NewBlueprint
+[2023.05.18-08.06.13:859][408]LogContentBrowser: Renaming the item being created (Deferred Item: NewBlueprint).
+[2023.05.18-08.06.20:137][772]LogContentBrowser: Attempting asset rename: NewBlueprint -> Lab10UIGameState
+[2023.05.18-08.06.20:406][772]LogContentBrowser: End creating deferred item NewBlueprint
+[2023.05.18-08.06.24:161][987]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.05.18-08.06.24:210][987]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Labs/Lab10/Lab10UIGameState" FILE="../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2/Content/Labs/Lab10/Lab10UIGameState.uasset" SILENT=true
+[2023.05.18-08.06.24:223][987]LogSavePackage: Moving output files for package: /Game/Labs/Lab10/Lab10UIGameState
+[2023.05.18-08.06.24:224][987]LogSavePackage: Moving '../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2/Saved/Lab10UIGameState15F4427C4B5C30834DAFB28D59C2A137.tmp' to '../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2/Content/Labs/Lab10/Lab10UIGameState.uasset'
+[2023.05.18-08.06.24:549][987]LogFileHelpers: InternalPromptForCheckoutAndSave took 387 ms (total: 4.90 sec)
+[2023.05.18-08.06.24:718][987]AssetCheck: New page: Asset Save: Lab10UIGameState
+[2023.05.18-08.06.24:719][987]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Labs/Lab10/Lab10UIGameState.Lab10UIGameState
+[2023.05.18-08.06.25:298][ 22]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Labs/Lab10/Lab10UIGameState.Lab10UIGameState
+[2023.05.18-08.06.25:300][ 22]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.05.18-08.06.25:878][ 22]LogViewport: Scene viewport resized to 937x473, mode Windowed.
+[2023.05.18-08.09.56:807][459]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.05.18-08.09.56:842][459]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Labs/Lab10/Lab10UIGameState" FILE="../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2/Content/Labs/Lab10/Lab10UIGameState.uasset" SILENT=true
+[2023.05.18-08.09.56:848][459]LogSavePackage: Moving output files for package: /Game/Labs/Lab10/Lab10UIGameState
+[2023.05.18-08.09.56:849][459]LogSavePackage: Moving '../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2/Saved/Lab10UIGameState37F1DA2C47DDA87FF01C1591979C7F67.tmp' to '../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2/Content/Labs/Lab10/Lab10UIGameState.uasset'
+[2023.05.18-08.09.56:858][459]LogFileHelpers: InternalPromptForCheckoutAndSave took 51 ms (total: 4.95 sec)
+[2023.05.18-08.09.56:868][459]AssetCheck: New page: Asset Save: Lab10UIGameState
+[2023.05.18-08.09.56:868][459]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Labs/Lab10/Lab10UIGameState.Lab10UIGameState
+[2023.05.18-08.09.57:197][479]BlueprintLog: New page: Compile Lab10UIGameState
+[2023.05.18-08.09.57:312][479]LogUObjectHash: Compacting FUObjectHashTables data took   1.76ms
+[2023.05.18-08.11.54:687][369]BlueprintLog: New page: Compile Lab10UIGameState
+[2023.05.18-08.11.54:744][369]LogUObjectHash: Compacting FUObjectHashTables data took   0.90ms
+[2023.05.18-08.11.55:942][430]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.05.18-08.11.55:979][430]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Labs/Lab10/Lab10UIGameState" FILE="../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2/Content/Labs/Lab10/Lab10UIGameState.uasset" SILENT=true
+[2023.05.18-08.11.55:984][430]LogSavePackage: Moving output files for package: /Game/Labs/Lab10/Lab10UIGameState
+[2023.05.18-08.11.55:986][430]LogSavePackage: Moving '../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2/Saved/Lab10UIGameState2536EBB247F149F12F8E46A5F7319B1E.tmp' to '../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2/Content/Labs/Lab10/Lab10UIGameState.uasset'
+[2023.05.18-08.11.55:994][430]LogFileHelpers: InternalPromptForCheckoutAndSave took 52 ms (total: 5.01 sec)
+[2023.05.18-08.11.56:001][430]AssetCheck: New page: Asset Save: Lab10UIGameState
+[2023.05.18-08.11.56:001][430]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Labs/Lab10/Lab10UIGameState.Lab10UIGameState
+[2023.05.18-08.12.02:318][798]LogSlate: Window 'C++ Header Preview' being destroyed
+[2023.05.18-08.12.02:328][798]LogSlate: Window 'C++ Header Preview' being destroyed
+[2023.05.18-08.12.13:961][450]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.05.18-08.12.14:004][450]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Labs/Lab10/Lab10UIGameState" FILE="../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2/Content/Labs/Lab10/Lab10UIGameState.uasset" SILENT=true
+[2023.05.18-08.12.14:012][450]LogSavePackage: Moving output files for package: /Game/Labs/Lab10/Lab10UIGameState
+[2023.05.18-08.12.14:013][450]LogSavePackage: Moving '../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2/Saved/Lab10UIGameStateAB9C2B3142F76F8631E50FBB2EDF873F.tmp' to '../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2/Content/Labs/Lab10/Lab10UIGameState.uasset'
+[2023.05.18-08.12.14:067][450]LogFileHelpers: InternalPromptForCheckoutAndSave took 104 ms (total: 5.11 sec)
+[2023.05.18-08.12.14:077][450]AssetCheck: New page: Asset Save: Lab10UIGameState
+[2023.05.18-08.12.14:077][450]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Labs/Lab10/Lab10UIGameState.Lab10UIGameState
+[2023.05.18-08.12.17:538][653]BlueprintLog: New page: Compile Lab10UIGameState
+[2023.05.18-08.12.17:603][653]LogUObjectHash: Compacting FUObjectHashTables data took   2.75ms
+[2023.05.18-08.12.31:550][473]LogSlate: Window 'C++ Header Preview' being destroyed
+[2023.05.18-08.12.31:567][473]LogSlate: Window 'C++ Header Preview' being destroyed
+[2023.05.18-08.12.37:218][620]LogSlate: Window 'Change Variable Type' being destroyed
+[2023.05.18-08.12.43:669][921]LogSlate: Window 'Find in Blueprints' being destroyed
+[2023.05.18-08.12.43:678][921]LogSlate: Window 'Find in Blueprints' being destroyed
+[2023.05.18-08.12.45:446][ 26]BlueprintLog: New page: Compile Lab10UIGameState
+[2023.05.18-08.12.45:492][ 26]LogUObjectHash: Compacting FUObjectHashTables data took   1.31ms
+[2023.05.18-08.12.46:707][ 84]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.05.18-08.12.46:741][ 84]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Labs/Lab10/Lab10UIGameState" FILE="../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2/Content/Labs/Lab10/Lab10UIGameState.uasset" SILENT=true
+[2023.05.18-08.12.46:746][ 84]LogSavePackage: Moving output files for package: /Game/Labs/Lab10/Lab10UIGameState
+[2023.05.18-08.12.46:747][ 84]LogSavePackage: Moving '../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2/Saved/Lab10UIGameState7BCC53F94F8317C0BDA0CE9381833552.tmp' to '../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2/Content/Labs/Lab10/Lab10UIGameState.uasset'
+[2023.05.18-08.12.46:757][ 84]LogFileHelpers: InternalPromptForCheckoutAndSave took 49 ms (total: 5.16 sec)
+[2023.05.18-08.12.46:762][ 84]AssetCheck: New page: Asset Save: Lab10UIGameState
+[2023.05.18-08.12.46:762][ 84]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Labs/Lab10/Lab10UIGameState.Lab10UIGameState
+[2023.05.18-08.13.09:762][447]LogSlate: Window 'C++ Header Preview' being destroyed
+[2023.05.18-08.13.09:769][447]LogSlate: Window 'C++ Header Preview' being destroyed
+[2023.05.18-08.13.27:638][502]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.05.18-08.13.27:674][502]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Labs/Lab10/Lab10UIGameState" FILE="../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2/Content/Labs/Lab10/Lab10UIGameState.uasset" SILENT=true
+[2023.05.18-08.13.27:679][502]LogSavePackage: Moving output files for package: /Game/Labs/Lab10/Lab10UIGameState
+[2023.05.18-08.13.27:680][502]LogSavePackage: Moving '../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2/Saved/Lab10UIGameState50C3F1BD40409945B0CD939CA489A0B9.tmp' to '../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2/Content/Labs/Lab10/Lab10UIGameState.uasset'
+[2023.05.18-08.13.27:688][502]LogFileHelpers: InternalPromptForCheckoutAndSave took 50 ms (total: 5.21 sec)
+[2023.05.18-08.13.27:694][502]AssetCheck: New page: Asset Save: Lab10UIGameState
+[2023.05.18-08.13.27:694][502]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Labs/Lab10/Lab10UIGameState.Lab10UIGameState
+[2023.05.18-08.13.42:986][369]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.05.18-08.13.43:013][369]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Labs/Lab10/Lab10UIGameState" FILE="../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2/Content/Labs/Lab10/Lab10UIGameState.uasset" SILENT=true
+[2023.05.18-08.13.43:018][369]LogSavePackage: Moving output files for package: /Game/Labs/Lab10/Lab10UIGameState
+[2023.05.18-08.13.43:019][369]LogSavePackage: Moving '../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2/Saved/Lab10UIGameState3503F28E413880D0BC27B483DA7CDE7F.tmp' to '../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2/Content/Labs/Lab10/Lab10UIGameState.uasset'
+[2023.05.18-08.13.43:027][369]LogFileHelpers: InternalPromptForCheckoutAndSave took 41 ms (total: 5.25 sec)
+[2023.05.18-08.13.43:032][369]AssetCheck: New page: Asset Save: Lab10UIGameState
+[2023.05.18-08.13.43:032][369]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Labs/Lab10/Lab10UIGameState.Lab10UIGameState
+[2023.05.18-08.14.02:501][536]BlueprintLog: New page: Compile Lab10UIGameState
+[2023.05.18-08.14.02:553][536]LogUObjectHash: Compacting FUObjectHashTables data took   0.95ms
+[2023.05.18-08.16.48:747][165]LogEditorTransaction: Undo Move Node
+[2023.05.18-08.16.49:985][218]LogEditorTransaction: Undo Add Node
+[2023.05.18-08.17.06:854][202]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.05.18-08.17.06:891][202]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Labs/Lab10/Lab10UIGameState" FILE="../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2/Content/Labs/Lab10/Lab10UIGameState.uasset" SILENT=true
+[2023.05.18-08.17.06:896][202]LogSavePackage: Moving output files for package: /Game/Labs/Lab10/Lab10UIGameState
+[2023.05.18-08.17.06:897][202]LogSavePackage: Moving '../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2/Saved/Lab10UIGameState554E01A54BDCE71D8CF86A9CF3359439.tmp' to '../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2/Content/Labs/Lab10/Lab10UIGameState.uasset'
+[2023.05.18-08.17.06:906][202]LogFileHelpers: InternalPromptForCheckoutAndSave took 51 ms (total: 5.30 sec)
+[2023.05.18-08.17.06:912][202]AssetCheck: New page: Asset Save: Lab10UIGameState
+[2023.05.18-08.17.06:912][202]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Labs/Lab10/Lab10UIGameState.Lab10UIGameState
+[2023.05.18-08.17.07:225][221]BlueprintLog: New page: Compile Lab10UIGameState
+[2023.05.18-08.17.07:272][221]LogUObjectHash: Compacting FUObjectHashTables data took   0.95ms
+[2023.05.18-08.17.46:568][516]LogEditorTransaction: Undo Add Node
+[2023.05.18-08.18.35:640][368]BlueprintLog: New page: Compile Lab10UIGameState
+[2023.05.18-08.18.35:682][368]LogUObjectHash: Compacting FUObjectHashTables data took   0.95ms
+[2023.05.18-08.19.06:029][528]LogUObjectHash: Compacting FUObjectHashTables data took   1.33ms
+[2023.05.18-08.19.06:031][528]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Labs/Lab10/Lab10' took 0.030
+[2023.05.18-08.19.06:033][528]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Labs/Lab10/Lab10UIGameState] ([2] browsable assets)...
+[2023.05.18-08.19.06:033][528]OBJ SavePackage: Finished generating thumbnails for package [/Game/Labs/Lab10/Lab10UIGameState]
+[2023.05.18-08.19.06:039][528]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Labs/Lab10/Lab10UIGameState_Auto3
+[2023.05.18-08.19.06:039][528]LogSavePackage: Moving '../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2/Saved/Lab10UIGameState_Auto32EEEFFCE4F6BF5C631377798E7A9C86B.tmp' to '../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2/Saved/Autosaves/Game/Labs/Lab10/Lab10UIGameState_Auto3.uasset'
+[2023.05.18-08.19.06:040][528]LogFileHelpers: Auto-saving content packages took 0.009
+[2023.05.18-08.19.50:751][393]BlueprintLog: New page: Compile Lab10UIGameState
+[2023.05.18-08.19.50:802][393]LogUObjectHash: Compacting FUObjectHashTables data took   0.81ms
+[2023.05.18-08.19.52:780][495]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.05.18-08.19.52:816][495]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Labs/Lab10/Lab10UIGameState" FILE="../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2/Content/Labs/Lab10/Lab10UIGameState.uasset" SILENT=true
+[2023.05.18-08.19.52:823][495]LogSavePackage: Moving output files for package: /Game/Labs/Lab10/Lab10UIGameState
+[2023.05.18-08.19.52:824][495]LogSavePackage: Moving '../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2/Saved/Lab10UIGameState84CA7FDC4F95901263AF149109AC21A8.tmp' to '../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2/Content/Labs/Lab10/Lab10UIGameState.uasset'
+[2023.05.18-08.19.52:832][495]LogFileHelpers: InternalPromptForCheckoutAndSave took 52 ms (total: 5.36 sec)
+[2023.05.18-08.19.52:838][495]AssetCheck: New page: Asset Save: Lab10UIGameState
+[2023.05.18-08.19.52:838][495]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Labs/Lab10/Lab10UIGameState.Lab10UIGameState
+[2023.05.18-08.20.09:321][460]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.05.18-08.20.09:359][460]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Labs/Lab10/Lab10UIGameState" FILE="../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2/Content/Labs/Lab10/Lab10UIGameState.uasset" SILENT=true
+[2023.05.18-08.20.09:365][460]LogSavePackage: Moving output files for package: /Game/Labs/Lab10/Lab10UIGameState
+[2023.05.18-08.20.09:366][460]LogSavePackage: Moving '../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2/Saved/Lab10UIGameState8A8209064A8A90B770F6A4890F2DF585.tmp' to '../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2/Content/Labs/Lab10/Lab10UIGameState.uasset'
+[2023.05.18-08.20.09:375][460]LogFileHelpers: InternalPromptForCheckoutAndSave took 54 ms (total: 5.41 sec)
+[2023.05.18-08.20.09:380][460]AssetCheck: New page: Asset Save: Lab10UIGameState
+[2023.05.18-08.20.09:380][460]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Labs/Lab10/Lab10UIGameState.Lab10UIGameState
+[2023.05.18-08.20.16:470][881]BlueprintLog: New page: Compile Lab10UIGameState
+[2023.05.18-08.20.16:519][881]LogUObjectHash: Compacting FUObjectHashTables data took   1.08ms
+[2023.05.18-08.22.02:036][  6]LogEditorTransaction: Undo Add Node
+[2023.05.18-08.23.42:346][545]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.05.18-08.23.42:386][545]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Labs/Lab10/Lab10UIGameState" FILE="../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2/Content/Labs/Lab10/Lab10UIGameState.uasset" SILENT=true
+[2023.05.18-08.23.42:392][545]LogSavePackage: Moving output files for package: /Game/Labs/Lab10/Lab10UIGameState
+[2023.05.18-08.23.42:393][545]LogSavePackage: Moving '../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2/Saved/Lab10UIGameState07B5766044E6DE1AF33E3B881D70B159.tmp' to '../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2/Content/Labs/Lab10/Lab10UIGameState.uasset'
+[2023.05.18-08.23.42:402][545]LogFileHelpers: InternalPromptForCheckoutAndSave took 55 ms (total: 5.47 sec)
+[2023.05.18-08.23.42:408][545]AssetCheck: New page: Asset Save: Lab10UIGameState
+[2023.05.18-08.23.42:408][545]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Labs/Lab10/Lab10UIGameState.Lab10UIGameState
+[2023.05.18-08.24.31:129][386]LogEditorTransaction: Undo Change String Pin Value
+[2023.05.18-08.24.31:658][402]LogEditorTransaction: Undo Add Node
+[2023.05.18-08.24.32:874][472]LogEditorTransaction: Undo Move Node
+[2023.05.18-08.24.33:342][497]LogEditorTransaction: Undo Add Node
+[2023.05.18-08.25.14:697][907]LogSelectionDetails: Warning: NavigateToFunctionSource:  Unable to find source file and line number for 'UKismetSystemLibrary::PrintString' [The specified module could not be found.]
+[2023.05.18-08.25.40:454][414]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.05.18-08.25.40:487][414]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Labs/Lab10/Lab10UIGameState" FILE="../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2/Content/Labs/Lab10/Lab10UIGameState.uasset" SILENT=true
+[2023.05.18-08.25.40:495][414]LogSavePackage: Moving output files for package: /Game/Labs/Lab10/Lab10UIGameState
+[2023.05.18-08.25.40:496][414]LogSavePackage: Moving '../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2/Saved/Lab10UIGameState5A4B81FD4EA074B4DA0A22BBAC8356A3.tmp' to '../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2/Content/Labs/Lab10/Lab10UIGameState.uasset'
+[2023.05.18-08.25.40:505][414]LogFileHelpers: InternalPromptForCheckoutAndSave took 50 ms (total: 5.52 sec)
+[2023.05.18-08.25.40:513][414]AssetCheck: New page: Asset Save: Lab10UIGameState
+[2023.05.18-08.25.40:513][414]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Labs/Lab10/Lab10UIGameState.Lab10UIGameState
+[2023.05.18-08.25.52:300][562]LogSlate: Window 'Color Picker' being destroyed
+[2023.05.18-08.25.55:177][713]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.05.18-08.25.55:210][713]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Labs/Lab10/Lab10UIGameState" FILE="../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2/Content/Labs/Lab10/Lab10UIGameState.uasset" SILENT=true
+[2023.05.18-08.25.55:217][713]LogSavePackage: Moving output files for package: /Game/Labs/Lab10/Lab10UIGameState
+[2023.05.18-08.25.55:218][713]LogSavePackage: Moving '../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2/Saved/Lab10UIGameState51739D594A603D6041858AB7F20ACFF5.tmp' to '../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2/Content/Labs/Lab10/Lab10UIGameState.uasset'
+[2023.05.18-08.25.55:228][713]LogFileHelpers: InternalPromptForCheckoutAndSave took 50 ms (total: 5.57 sec)
+[2023.05.18-08.25.55:234][713]AssetCheck: New page: Asset Save: Lab10UIGameState
+[2023.05.18-08.25.55:234][713]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Labs/Lab10/Lab10UIGameState.Lab10UIGameState
+[2023.05.18-08.26.19:002][110]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.05.18-08.26.19:041][110]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Labs/Lab10/Lab10UIGameState" FILE="../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2/Content/Labs/Lab10/Lab10UIGameState.uasset" SILENT=true
+[2023.05.18-08.26.19:048][110]LogSavePackage: Moving output files for package: /Game/Labs/Lab10/Lab10UIGameState
+[2023.05.18-08.26.19:049][110]LogSavePackage: Moving '../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2/Saved/Lab10UIGameStateE5F7A29844E255A403EE8FA7A82C5FA2.tmp' to '../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2/Content/Labs/Lab10/Lab10UIGameState.uasset'
+[2023.05.18-08.26.19:057][110]LogFileHelpers: InternalPromptForCheckoutAndSave took 54 ms (total: 5.62 sec)
+[2023.05.18-08.26.19:063][110]AssetCheck: New page: Asset Save: Lab10UIGameState
+[2023.05.18-08.26.19:064][110]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Labs/Lab10/Lab10UIGameState.Lab10UIGameState
+[2023.05.18-08.26.31:333][825]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.05.18-08.26.31:373][825]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Labs/Lab10/Lab10UIGameState" FILE="../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2/Content/Labs/Lab10/Lab10UIGameState.uasset" SILENT=true
+[2023.05.18-08.26.31:380][825]LogSavePackage: Moving output files for package: /Game/Labs/Lab10/Lab10UIGameState
+[2023.05.18-08.26.31:380][825]LogSavePackage: Moving '../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2/Saved/Lab10UIGameStateE7F4150B4F8891058B73078D65096036.tmp' to '../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2/Content/Labs/Lab10/Lab10UIGameState.uasset'
+[2023.05.18-08.26.31:390][825]LogFileHelpers: InternalPromptForCheckoutAndSave took 56 ms (total: 5.68 sec)
+[2023.05.18-08.26.31:396][825]AssetCheck: New page: Asset Save: Lab10UIGameState
+[2023.05.18-08.26.31:396][825]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Labs/Lab10/Lab10UIGameState.Lab10UIGameState
+[2023.05.18-08.26.32:082][865]BlueprintLog: New page: Compile Lab10UIGameState
+[2023.05.18-08.26.32:086][865]LogBlueprint: Warning: [AssetLog] C:\Users\heroo\OneDrive\Documents\k-game-prog-2\Kreye_GP2\Content\Labs\Lab10\Lab10UIGameState.uasset: [Compiler] 'Lab 10UI' does not inherit from 'HUD' ( Cast To Lab10UI  would always fail).
+[2023.05.18-08.26.32:137][865]LogUObjectHash: Compacting FUObjectHashTables data took   1.00ms
+[2023.05.18-08.26.54:922][213]BlueprintLog: New page: Compile Lab10UIGameState
+[2023.05.18-08.26.54:924][213]LogBlueprint: Warning: [AssetLog] C:\Users\heroo\OneDrive\Documents\k-game-prog-2\Kreye_GP2\Content\Labs\Lab10\Lab10UIGameState.uasset: [Compiler] 'Lab 10UI' does not inherit from 'HUD' ( Cast To Lab10UI  would always fail).
+[2023.05.18-08.26.54:973][213]LogUObjectHash: Compacting FUObjectHashTables data took   0.91ms
+[2023.05.18-08.26.56:298][290]BlueprintLog: New page: Compile Lab10UIGameState
+[2023.05.18-08.26.56:300][290]LogBlueprint: Warning: [AssetLog] C:\Users\heroo\OneDrive\Documents\k-game-prog-2\Kreye_GP2\Content\Labs\Lab10\Lab10UIGameState.uasset: [Compiler] 'Lab 10UI' does not inherit from 'HUD' ( Cast To Lab10UI  would always fail).
+[2023.05.18-08.26.56:345][290]LogUObjectHash: Compacting FUObjectHashTables data took   0.82ms
+[2023.05.18-08.26.58:366][388]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.05.18-08.26.58:407][388]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Labs/Lab10/Lab10UIGameState" FILE="../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2/Content/Labs/Lab10/Lab10UIGameState.uasset" SILENT=true
+[2023.05.18-08.26.58:414][388]LogSavePackage: Moving output files for package: /Game/Labs/Lab10/Lab10UIGameState
+[2023.05.18-08.26.58:415][388]LogSavePackage: Moving '../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2/Saved/Lab10UIGameStateBCA9F4F44881B0F401E3839F9422CF29.tmp' to '../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2/Content/Labs/Lab10/Lab10UIGameState.uasset'
+[2023.05.18-08.26.58:425][388]LogFileHelpers: InternalPromptForCheckoutAndSave took 59 ms (total: 5.74 sec)
+[2023.05.18-08.26.58:429][388]AssetCheck: New page: Asset Save: Lab10UIGameState
+[2023.05.18-08.26.58:429][388]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Labs/Lab10/Lab10UIGameState.Lab10UIGameState
+[2023.05.18-08.26.58:884][415]BlueprintLog: New page: Compile Lab10UIGameState
+[2023.05.18-08.26.58:886][415]LogBlueprint: Warning: [AssetLog] C:\Users\heroo\OneDrive\Documents\k-game-prog-2\Kreye_GP2\Content\Labs\Lab10\Lab10UIGameState.uasset: [Compiler] 'Lab 10UI' does not inherit from 'HUD' ( Cast To Lab10UI  would always fail).
+[2023.05.18-08.26.58:929][415]LogUObjectHash: Compacting FUObjectHashTables data took   1.45ms
+[2023.05.18-08.29.56:058][610]LogDerivedDataCache: C:/Users/heroo/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:02.741 and deleted 0 files with total size 0 MiB. Scanned 1716 files in 1711 folders with total size 75 MiB.
+[2023.05.18-08.30.06:659][ 27]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.05.18-08.30.06:764][ 27]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Labs/Lab10/Lab10UIGameState" FILE="../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2/Content/Labs/Lab10/Lab10UIGameState.uasset" SILENT=true
+[2023.05.18-08.30.06:777][ 27]LogSavePackage: Moving output files for package: /Game/Labs/Lab10/Lab10UIGameState
+[2023.05.18-08.30.06:779][ 27]LogSavePackage: Moving '../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2/Saved/Lab10UIGameState996F650946D1B33609017CBEB4295A2E.tmp' to '../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2/Content/Labs/Lab10/Lab10UIGameState.uasset'
+[2023.05.18-08.30.06:811][ 27]LogFileHelpers: InternalPromptForCheckoutAndSave took 152 ms (total: 5.89 sec)
+[2023.05.18-08.30.06:822][ 27]AssetCheck: New page: Asset Save: Lab10UIGameState
+[2023.05.18-08.30.06:822][ 27]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Labs/Lab10/Lab10UIGameState.Lab10UIGameState
+[2023.05.18-08.30.07:385][ 44]BlueprintLog: New page: Compile Lab10UIGameState
+[2023.05.18-08.30.07:473][ 44]LogUObjectHash: Compacting FUObjectHashTables data took   2.21ms
+[2023.05.18-08.30.12:622][187]LogAssetEditorSubsystem: Opening Asset editor for WidgetBlueprint /Game/Labs/Lab10/Lab10UI.Lab10UI
+[2023.05.18-08.30.12:623][187]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.05.18-08.30.12:671][187]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.05.18-08.30.13:454][187]LogSlateStyle: Warning: Unable to find Slate Widget Style 'None'. Using FToolbarStyle defaults instead.
+[2023.05.18-08.30.13:454][187]LogSlateStyle: Warning: Unable to find Slate Widget Style 'None'. Using FToolbarStyle defaults instead.
+[2023.05.18-08.31.20:493][ 35]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.05.18-08.31.20:560][ 35]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Labs/Lab10/Lab10UI" FILE="../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2/Content/Labs/Lab10/Lab10UI.uasset" SILENT=true
+[2023.05.18-08.31.20:587][ 35]LogSavePackage: Moving output files for package: /Game/Labs/Lab10/Lab10UI
+[2023.05.18-08.31.20:592][ 35]LogSavePackage: Moving '../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2/Saved/Lab10UIA045B05245A0BD44AF9AA096D4A55876.tmp' to '../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2/Content/Labs/Lab10/Lab10UI.uasset'
+[2023.05.18-08.31.20:631][ 35]LogFileHelpers: InternalPromptForCheckoutAndSave took 138 ms (total: 6.03 sec)
+[2023.05.18-08.31.20:645][ 35]AssetCheck: New page: Asset Save: Lab10UI
+[2023.05.18-08.31.20:645][ 35]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/Labs/Lab10/Lab10UI.Lab10UI
+[2023.05.18-08.31.32:386][464]BlueprintLog: New page: Compile Lab10UI
+[2023.05.18-08.31.32:533][464]LogUObjectHash: Compacting FUObjectHashTables data took   2.31ms
+[2023.05.18-08.31.33:835][481]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.05.18-08.31.33:999][481]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Labs/Lab10/Lab10UI" FILE="../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2/Content/Labs/Lab10/Lab10UI.uasset" SILENT=true
+[2023.05.18-08.31.34:020][481]LogSavePackage: Moving output files for package: /Game/Labs/Lab10/Lab10UI
+[2023.05.18-08.31.34:022][481]LogSavePackage: Moving '../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2/Saved/Lab10UIBB9FC41E4A0F8CB94EBE579E430E0632.tmp' to '../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2/Content/Labs/Lab10/Lab10UI.uasset'
+[2023.05.18-08.31.34:061][481]LogFileHelpers: InternalPromptForCheckoutAndSave took 226 ms (total: 6.25 sec)
+[2023.05.18-08.31.34:069][481]AssetCheck: New page: Asset Save: Lab10UI
+[2023.05.18-08.31.34:069][481]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/Labs/Lab10/Lab10UI.Lab10UI
+[2023.05.18-08.31.59:262][318]LogEditorTransaction: Undo Move Node
+[2023.05.18-08.32.00:093][331]LogEditorTransaction: Undo Add Node
+[2023.05.18-08.32.00:457][340]LogEditorTransaction: Undo Move Node
+[2023.05.18-08.32.00:894][350]LogEditorTransaction: Undo Convert to Pure Cast
+[2023.05.18-08.32.01:421][363]LogEditorTransaction: Undo Add Node
+[2023.05.18-08.32.02:287][387]LogEditorTransaction: Undo Move Node
+[2023.05.18-08.32.02:930][404]LogEditorTransaction: Undo Move Node
+[2023.05.18-08.32.03:630][415]LogEditorTransaction: Undo Add Node
+[2023.05.18-08.34.16:262][779]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.05.18-08.34.16:379][779]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Labs/Lab10/Lab10UI" FILE="../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2/Content/Labs/Lab10/Lab10UI.uasset" SILENT=true
+[2023.05.18-08.34.16:407][779]LogSavePackage: Moving output files for package: /Game/Labs/Lab10/Lab10UI
+[2023.05.18-08.34.16:410][779]LogSavePackage: Moving '../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2/Saved/Lab10UI7A8DD8BD4CC802A3FA68E0BD93FF716F.tmp' to '../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2/Content/Labs/Lab10/Lab10UI.uasset'
+[2023.05.18-08.34.16:455][779]LogFileHelpers: InternalPromptForCheckoutAndSave took 192 ms (total: 6.45 sec)
+[2023.05.18-08.34.16:474][779]AssetCheck: New page: Asset Save: Lab10UI
+[2023.05.18-08.34.16:474][779]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/Labs/Lab10/Lab10UI.Lab10UI
+[2023.05.18-08.34.17:288][806]BlueprintLog: New page: Compile Lab10UI
+[2023.05.18-08.34.17:412][806]LogUObjectHash: Compacting FUObjectHashTables data took   2.35ms
+[2023.05.18-08.34.57:948][304]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.05.18-08.34.58:061][304]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Labs/Lab10/Lab10UI" FILE="../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2/Content/Labs/Lab10/Lab10UI.uasset" SILENT=true
+[2023.05.18-08.34.58:084][304]LogSavePackage: Moving output files for package: /Game/Labs/Lab10/Lab10UI
+[2023.05.18-08.34.58:086][304]LogSavePackage: Moving '../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2/Saved/Lab10UI0956FB2B4967A8DB933F9A82802B9894.tmp' to '../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2/Content/Labs/Lab10/Lab10UI.uasset'
+[2023.05.18-08.34.58:124][304]LogFileHelpers: InternalPromptForCheckoutAndSave took 176 ms (total: 6.62 sec)
+[2023.05.18-08.34.58:133][304]AssetCheck: New page: Asset Save: Lab10UI
+[2023.05.18-08.34.58:133][304]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/Labs/Lab10/Lab10UI.Lab10UI
+[2023.05.18-08.34.58:799][330]BlueprintLog: New page: Compile Lab10UI
+[2023.05.18-08.34.58:907][330]LogUObjectHash: Compacting FUObjectHashTables data took   2.18ms
+[2023.05.18-08.35.34:275][389]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.05.18-08.35.34:359][389]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Labs/Lab10/Lab10UI" FILE="../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2/Content/Labs/Lab10/Lab10UI.uasset" SILENT=true
+[2023.05.18-08.35.34:385][389]LogSavePackage: Moving output files for package: /Game/Labs/Lab10/Lab10UI
+[2023.05.18-08.35.34:387][389]LogSavePackage: Moving '../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2/Saved/Lab10UIC480723F49ED5FFA7E8F2BB522E72BBC.tmp' to '../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2/Content/Labs/Lab10/Lab10UI.uasset'
+[2023.05.18-08.35.34:429][389]LogFileHelpers: InternalPromptForCheckoutAndSave took 154 ms (total: 6.78 sec)
+[2023.05.18-08.35.34:445][389]AssetCheck: New page: Asset Save: Lab10UI
+[2023.05.18-08.35.34:445][389]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/Labs/Lab10/Lab10UI.Lab10UI
+[2023.05.18-08.35.36:121][452]BlueprintLog: New page: Compile Lab10UI
+[2023.05.18-08.35.36:242][452]LogUObjectHash: Compacting FUObjectHashTables data took   1.97ms
+[2023.05.18-08.37.19:164][551]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.05.18-08.37.19:276][551]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Labs/Lab10/Lab10UI" FILE="../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2/Content/Labs/Lab10/Lab10UI.uasset" SILENT=true
+[2023.05.18-08.37.19:300][551]LogSavePackage: Moving output files for package: /Game/Labs/Lab10/Lab10UI
+[2023.05.18-08.37.19:303][551]LogSavePackage: Moving '../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2/Saved/Lab10UIC907560D4F61319AA7B760B0EF71CB5F.tmp' to '../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2/Content/Labs/Lab10/Lab10UI.uasset'
+[2023.05.18-08.37.19:343][551]LogFileHelpers: InternalPromptForCheckoutAndSave took 178 ms (total: 6.96 sec)
+[2023.05.18-08.37.19:354][551]AssetCheck: New page: Asset Save: Lab10UI
+[2023.05.18-08.37.19:354][551]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/Labs/Lab10/Lab10UI.Lab10UI
+[2023.05.18-08.38.01:790][938]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.05.18-08.38.01:864][938]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Labs/Lab10/Lab10UI" FILE="../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2/Content/Labs/Lab10/Lab10UI.uasset" SILENT=true
+[2023.05.18-08.38.01:886][938]LogSavePackage: Moving output files for package: /Game/Labs/Lab10/Lab10UI
+[2023.05.18-08.38.01:888][938]LogSavePackage: Moving '../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2/Saved/Lab10UID0A4599C421FB57A0F0444817B1C9FBA.tmp' to '../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2/Content/Labs/Lab10/Lab10UI.uasset'
+[2023.05.18-08.38.01:918][938]LogFileHelpers: InternalPromptForCheckoutAndSave took 127 ms (total: 7.08 sec)
+[2023.05.18-08.38.01:926][938]AssetCheck: New page: Asset Save: Lab10UI
+[2023.05.18-08.38.01:926][938]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/Labs/Lab10/Lab10UI.Lab10UI
+[2023.05.18-08.38.02:387][952]BlueprintLog: New page: Compile Lab10UI
+[2023.05.18-08.38.02:499][952]LogUObjectHash: Compacting FUObjectHashTables data took   1.98ms
+[2023.05.18-08.38.03:979][986]BlueprintLog: New page: Compile Lab10UIGameState
+[2023.05.18-08.38.04:098][986]LogUObjectHash: Compacting FUObjectHashTables data took   2.01ms
+[2023.05.18-08.38.05:549][ 24]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.05.18-08.38.05:639][ 24]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Labs/Lab10/Lab10UIGameState" FILE="../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2/Content/Labs/Lab10/Lab10UIGameState.uasset" SILENT=true
+[2023.05.18-08.38.05:648][ 24]LogSavePackage: Moving output files for package: /Game/Labs/Lab10/Lab10UIGameState
+[2023.05.18-08.38.05:652][ 24]LogSavePackage: Moving '../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2/Saved/Lab10UIGameState65E70D574DFBD20718B2E4B0DD55F001.tmp' to '../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2/Content/Labs/Lab10/Lab10UIGameState.uasset'
+[2023.05.18-08.38.05:683][ 24]LogFileHelpers: InternalPromptForCheckoutAndSave took 134 ms (total: 7.22 sec)
+[2023.05.18-08.38.05:692][ 24]AssetCheck: New page: Asset Save: Lab10UIGameState
+[2023.05.18-08.38.05:693][ 24]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Labs/Lab10/Lab10UIGameState.Lab10UIGameState
+[2023.05.18-08.39.15:497][218]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.05.18-08.39.15:574][218]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Labs/Lab10/Lab10UI" FILE="../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2/Content/Labs/Lab10/Lab10UI.uasset" SILENT=true
+[2023.05.18-08.39.15:595][218]LogSavePackage: Moving output files for package: /Game/Labs/Lab10/Lab10UI
+[2023.05.18-08.39.15:598][218]LogSavePackage: Moving '../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2/Saved/Lab10UI80E92AFF46BA8C3916C4FABDAF1B0062.tmp' to '../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2/Content/Labs/Lab10/Lab10UI.uasset'
+[2023.05.18-08.39.15:628][218]LogFileHelpers: InternalPromptForCheckoutAndSave took 131 ms (total: 7.35 sec)
+[2023.05.18-08.39.15:638][218]AssetCheck: New page: Asset Save: Lab10UI
+[2023.05.18-08.39.15:638][218]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/Labs/Lab10/Lab10UI.Lab10UI
+[2023.05.18-08.39.54:028][500]LogSlate: Window 'Lab10UI' being destroyed
+[2023.05.18-08.39.54:057][500]LogSlate: Window 'Lab10UI' being destroyed
+[2023.05.18-08.39.54:067][500]LogWorld: UWorld::CleanupWorld for World_48, bSessionEnded=true, bCleanupResources=true
+[2023.05.18-08.39.54:067][500]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.05.18-08.39.54:336][500]LogWorld: UWorld::CleanupWorld for World_50, bSessionEnded=true, bCleanupResources=true
+[2023.05.18-08.39.54:336][500]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.05.18-08.39.54:349][500]LogWorld: UWorld::CleanupWorld for World_49, bSessionEnded=true, bCleanupResources=true
+[2023.05.18-08.39.54:349][500]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
