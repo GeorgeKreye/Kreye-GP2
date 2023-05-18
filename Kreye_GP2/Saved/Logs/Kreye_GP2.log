@@ -1640,3 +1640,766 @@ Script Stack (0 frames) :
 [2023.05.18-06.19.15:650][434]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=5
 [2023.05.18-06.19.15:664][434]LogUObjectHash: Compacting FUObjectHashTables data took   3.19ms
 [2023.05.18-06.19.15:702][435]LogPlayLevel: Display: Destroying online subsystem :Context_12
+[2023.05.18-06.29.17:906][402]LogDerivedDataCache: C:/Users/heroo/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:02.331 and deleted 0 files with total size 0 MiB. Scanned 1716 files in 1711 folders with total size 75 MiB.
+[2023.05.18-07.07.38:492][ 25]LogViewport: Scene viewport resized to 976x565, mode Windowed.
+[2023.05.18-07.28.41:831][706]LogSlate: Window 'Lab10UIGameMode' being destroyed
+[2023.05.18-07.28.41:859][706]LogSlate: Window 'Lab10UIGameMode' being destroyed
+[2023.05.18-07.28.41:871][706]LogWorld: UWorld::CleanupWorld for World_12, bSessionEnded=true, bCleanupResources=true
+[2023.05.18-07.28.41:872][706]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.05.18-07.28.43:177][805]LogAssetEditorSubsystem: Opening Asset editor for WidgetBlueprint /Game/Labs/Lab10/Lab10UI.Lab10UI
+[2023.05.18-07.28.43:181][805]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.05.18-07.28.43:193][805]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.05.18-07.28.44:026][805]LogSlateStyle: Warning: Unable to find Slate Widget Style 'None'. Using FToolbarStyle defaults instead.
+[2023.05.18-07.28.44:026][805]LogSlateStyle: Warning: Unable to find Slate Widget Style 'None'. Using FToolbarStyle defaults instead.
+[2023.05.18-07.29.04:096][539]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.05.18-07.29.04:153][539]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Labs/Lab10/Lab10UI" FILE="../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2/Content/Labs/Lab10/Lab10UI.uasset" SILENT=true
+[2023.05.18-07.29.04:161][539]LogSavePackage: Moving output files for package: /Game/Labs/Lab10/Lab10UI
+[2023.05.18-07.29.04:163][539]LogSavePackage: Moving '../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2/Saved/Lab10UI8A6C62EF41216593EEFC8283B8352563.tmp' to '../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2/Content/Labs/Lab10/Lab10UI.uasset'
+[2023.05.18-07.29.04:176][539]LogFileHelpers: InternalPromptForCheckoutAndSave took 80 ms (total: 2.53 sec)
+[2023.05.18-07.29.04:207][539]AssetCheck: New page: Asset Save: Lab10UI
+[2023.05.18-07.29.04:207][539]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/Labs/Lab10/Lab10UI.Lab10UI
+[2023.05.18-07.29.04:433][558]BlueprintLog: New page: Compile Lab10UI
+[2023.05.18-07.29.04:579][558]LogUObjectHash: Compacting FUObjectHashTables data took   3.47ms
+[2023.05.18-07.29.18:849][873]LogDerivedDataCache: C:/Users/heroo/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:03.237 and deleted 0 files with total size 0 MiB. Scanned 1716 files in 1711 folders with total size 75 MiB.
+[2023.05.18-07.30.21:927][635]LogSlate: Took 0.002185 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensedItalic.ttf' (160K)
+[2023.05.18-07.30.52:536][382]LogSelectionDetails: Warning: NavigateToFunctionSource:  Unable to find source file and line number for 'USlider::GetValue' [Element not found.]
+[2023.05.18-07.30.57:295][644]LogSelectionDetails: Warning: NavigateToFunctionSource:  Unable to find source file and line number for 'USlider::GetValue' [The specified module could not be found.]
+[2023.05.18-07.31.04:369][ 20]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.05.18-07.31.04:409][ 20]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Labs/Lab10/Lab10UI" FILE="../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2/Content/Labs/Lab10/Lab10UI.uasset" SILENT=true
+[2023.05.18-07.31.04:417][ 20]LogSavePackage: Moving output files for package: /Game/Labs/Lab10/Lab10UI
+[2023.05.18-07.31.04:418][ 20]LogSavePackage: Moving '../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2/Saved/Lab10UIAA05B225408892C9BDCE0F98FE8257B9.tmp' to '../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2/Content/Labs/Lab10/Lab10UI.uasset'
+[2023.05.18-07.31.04:430][ 20]LogFileHelpers: InternalPromptForCheckoutAndSave took 61 ms (total: 2.59 sec)
+[2023.05.18-07.31.04:438][ 20]AssetCheck: New page: Asset Save: Lab10UI
+[2023.05.18-07.31.04:438][ 20]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/Labs/Lab10/Lab10UI.Lab10UI
+[2023.05.18-07.31.05:299][ 72]BlueprintLog: New page: Compile Lab10UI
+[2023.05.18-07.31.05:302][ 72]LogBlueprint: Error: [AssetLog] C:\Users\heroo\OneDrive\Documents\k-game-prog-2\Kreye_GP2\Content\Labs\Lab10\Lab10UI.uasset: [Compiler] Binding: Property ' /Script/UMG.Slider:ValueDelegate ' on Widget ' Slider_0 ': Member:GetValue Has the wrong number of arguments, it needs to return 1 value and take no parameters.
+[2023.05.18-07.31.05:420][ 72]LogUObjectHash: Compacting FUObjectHashTables data took   2.52ms
+[2023.05.18-07.31.20:809][983]LogSelectionDetails: Warning: NavigateToFunctionSource:  Unable to find source file and line number for 'USlider::GetValue' [The specified module could not be found.]
+[2023.05.18-07.32.10:307][453]LogUObjectHash: Compacting FUObjectHashTables data took   1.24ms
+[2023.05.18-07.32.10:315][453]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Labs/Lab10/Lab10' took 0.040
+[2023.05.18-07.32.10:316][453]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/Labs/Lab10/Lab10UI] ([2] browsable assets)...
+[2023.05.18-07.32.10:322][453]OBJ SavePackage:     Rendered thumbnail for [WidgetBlueprint /Game/Labs/Lab10/Lab10UI.Lab10UI]
+[2023.05.18-07.32.10:322][453]OBJ SavePackage: Finished generating thumbnails for package [/Game/Labs/Lab10/Lab10UI]
+[2023.05.18-07.32.10:328][453]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Labs/Lab10/Lab10UI_Auto1
+[2023.05.18-07.32.10:328][453]LogSavePackage: Moving '../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2/Saved/Lab10UI_Auto16F5B8DD34B55597F62CF6D83DF550E9D.tmp' to '../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2/Saved/Autosaves/Game/Labs/Lab10/Lab10UI_Auto1.uasset'
+[2023.05.18-07.32.10:330][453]LogFileHelpers: Auto-saving content packages took 0.014
+[2023.05.18-07.32.50:105][118]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.05.18-07.32.50:148][118]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Labs/Lab10/Lab10UI" FILE="../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2/Content/Labs/Lab10/Lab10UI.uasset" SILENT=true
+[2023.05.18-07.32.50:153][118]LogSavePackage: Moving output files for package: /Game/Labs/Lab10/Lab10UI
+[2023.05.18-07.32.50:155][118]LogSavePackage: Moving '../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2/Saved/Lab10UI04F89F7C4645041CC1F0C891F40720BA.tmp' to '../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2/Content/Labs/Lab10/Lab10UI.uasset'
+[2023.05.18-07.32.50:167][118]LogFileHelpers: InternalPromptForCheckoutAndSave took 61 ms (total: 2.65 sec)
+[2023.05.18-07.32.50:173][118]AssetCheck: New page: Asset Save: Lab10UI
+[2023.05.18-07.32.50:173][118]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/Labs/Lab10/Lab10UI.Lab10UI
+[2023.05.18-07.32.55:171][414]BlueprintLog: New page: Compile Lab10UI
+[2023.05.18-07.32.55:173][414]LogBlueprint: Error: [AssetLog] C:\Users\heroo\OneDrive\Documents\k-game-prog-2\Kreye_GP2\Content\Labs\Lab10\Lab10UI.uasset: [Compiler] Binding: Property ' /Script/UMG.Slider:ValueDelegate ' on Widget ' Slider_0 ': Binding: 'None' : 'None' was not found on 'Lab 10UI'.
+[2023.05.18-07.32.55:215][414]LogUObjectHash: Compacting FUObjectHashTables data took   0.90ms
+[2023.05.18-07.33.00:546][729]LogSlate: Window 'Lab10UI' being destroyed
+[2023.05.18-07.33.00:584][729]LogSlate: Window 'Lab10UI' being destroyed
+[2023.05.18-07.33.00:596][729]LogWorld: UWorld::CleanupWorld for World_14, bSessionEnded=true, bCleanupResources=true
+[2023.05.18-07.33.00:596][729]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.05.18-07.33.00:605][729]LogWorld: UWorld::CleanupWorld for World_13, bSessionEnded=true, bCleanupResources=true
+[2023.05.18-07.33.00:605][729]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.05.18-07.33.02:962][867]LogAssetEditorSubsystem: Opening Asset editor for WidgetBlueprint /Game/Labs/Lab10/Lab10UI.Lab10UI
+[2023.05.18-07.33.02:963][867]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.05.18-07.33.02:970][867]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.05.18-07.33.03:474][867]LogSlateStyle: Warning: Unable to find Slate Widget Style 'None'. Using FToolbarStyle defaults instead.
+[2023.05.18-07.33.03:474][867]LogSlateStyle: Warning: Unable to find Slate Widget Style 'None'. Using FToolbarStyle defaults instead.
+[2023.05.18-07.33.05:227][966]BlueprintLog: New page: Compile Lab10UI
+[2023.05.18-07.33.05:229][966]LogBlueprint: Error: [AssetLog] C:\Users\heroo\OneDrive\Documents\k-game-prog-2\Kreye_GP2\Content\Labs\Lab10\Lab10UI.uasset: [Compiler] Binding: Property ' /Script/UMG.Slider:ValueDelegate ' on Widget ' Slider_0 ': Binding: 'None' : 'None' was not found on 'Lab 10UI'.
+[2023.05.18-07.33.05:276][966]LogUObjectHash: Compacting FUObjectHashTables data took   1.16ms
+[2023.05.18-07.33.20:714][857]BlueprintLog: New page: Compile Lab10UI
+[2023.05.18-07.33.20:766][857]LogUObjectHash: Compacting FUObjectHashTables data took   1.13ms
+[2023.05.18-07.33.39:182][901]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.05.18-07.33.39:230][901]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Labs/Lab10/Lab10UI" FILE="../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2/Content/Labs/Lab10/Lab10UI.uasset" SILENT=true
+[2023.05.18-07.33.39:236][901]LogSavePackage: Moving output files for package: /Game/Labs/Lab10/Lab10UI
+[2023.05.18-07.33.39:238][901]LogSavePackage: Moving '../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2/Saved/Lab10UI0325E242499375E9E369CAAA2082C170.tmp' to '../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2/Content/Labs/Lab10/Lab10UI.uasset'
+[2023.05.18-07.33.39:251][901]LogFileHelpers: InternalPromptForCheckoutAndSave took 69 ms (total: 2.72 sec)
+[2023.05.18-07.33.39:261][901]AssetCheck: New page: Asset Save: Lab10UI
+[2023.05.18-07.33.39:261][901]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/Labs/Lab10/Lab10UI.Lab10UI
+[2023.05.18-07.35.42:141][546]LogSlate: Last resort fallback font was requested. Font: '<unknown>', Character: '<unknown>'
+[2023.05.18-07.35.42:151][546]LogSlate: Took 0.008648 seconds to synchronously load lazily loaded font '../../../Engine/Content/SlateDebug/Fonts/LastResort.ttf' (5269K)
+[2023.05.18-07.36.44:507][  9]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.05.18-07.36.44:579][  9]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Labs/Lab10/Lab10UI" FILE="../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2/Content/Labs/Lab10/Lab10UI.uasset" SILENT=true
+[2023.05.18-07.36.44:586][  9]LogSavePackage: Moving output files for package: /Game/Labs/Lab10/Lab10UI
+[2023.05.18-07.36.44:587][  9]LogSavePackage: Moving '../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2/Saved/Lab10UI886C5F7041A5D9512EDCF9A4CB88B591.tmp' to '../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2/Content/Labs/Lab10/Lab10UI.uasset'
+[2023.05.18-07.36.44:602][  9]LogFileHelpers: InternalPromptForCheckoutAndSave took 94 ms (total: 2.82 sec)
+[2023.05.18-07.36.44:609][  9]AssetCheck: New page: Asset Save: Lab10UI
+[2023.05.18-07.36.44:609][  9]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/Labs/Lab10/Lab10UI.Lab10UI
+[2023.05.18-07.36.50:943][385]BlueprintLog: New page: Compile Lab10UI
+[2023.05.18-07.36.50:999][385]LogUObjectHash: Compacting FUObjectHashTables data took   1.30ms
+[2023.05.18-07.36.55:240][632]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.05.18-07.36.55:250][632]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.05.18-07.36.55:250][632]PIE: New page: PIE session: Lab10 (May 17, 2023, 7:36:55 PM)
+[2023.05.18-07.36.55:251][632]LogPlayLevel: Creating play world package: /Game/Labs/Lab10/UEDPIE_0_Lab10
+[2023.05.18-07.36.55:253][632]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002788s)
+[2023.05.18-07.36.55:253][632]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Labs/Lab10/Lab10.Lab10 to /Game/Labs/Lab10/UEDPIE_0_Lab10.Lab10 (0.002853s)
+[2023.05.18-07.36.55:254][632]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.05.18-07.36.55:255][632]LogAIModule: Creating AISystem for world Lab10
+[2023.05.18-07.36.55:255][632]LogPlayLevel: PIE: World Init took: (0.001601s)
+[2023.05.18-07.36.55:284][632]LogUObjectHash: Compacting FUObjectHashTables data took   0.97ms
+[2023.05.18-07.36.55:286][632]LogAudio: Display: Creating Audio Device:                 Id: 6, Scope: Unique, Realtime: True
+[2023.05.18-07.36.55:286][632]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.05.18-07.36.55:286][632]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.05.18-07.36.55:286][632]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.05.18-07.36.55:286][632]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.05.18-07.36.55:286][632]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.05.18-07.36.55:286][632]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.05.18-07.36.55:286][632]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.05.18-07.36.55:286][632]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.05.18-07.36.55:287][632]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.05.18-07.36.55:287][632]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.05.18-07.36.55:287][632]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.05.18-07.36.55:289][632]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.05.18-07.36.55:328][632]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Realtek(R) Audio)
+[2023.05.18-07.36.55:329][632]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.05.18-07.36.55:329][632]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.05.18-07.36.55:329][632]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.05.18-07.36.55:330][632]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=6
+[2023.05.18-07.36.55:330][632]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=6
+[2023.05.18-07.36.55:332][632]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=6
+[2023.05.18-07.36.55:332][632]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=6
+[2023.05.18-07.36.55:332][632]LogInit: FAudioDevice initialized.
+[2023.05.18-07.36.55:332][632]LogAudio: Display: Audio Device (ID: 6) registered with world 'Lab10'.
+[2023.05.18-07.36.55:361][632]LogLoad: Game class is 'Lab10UIGameMode_C'
+[2023.05.18-07.36.55:362][632]LogWorld: Bringing World /Game/Labs/Lab10/UEDPIE_0_Lab10.Lab10 up for play (max tick rate 60) at 2023.05.18-01.36.55
+[2023.05.18-07.36.55:363][632]LogWorld: Bringing up level for play took: 0.001172
+[2023.05.18-07.36.55:366][632]LogOnline: OSS: Created online subsystem instance for: :Context_17
+[2023.05.18-07.36.55:370][632]PIE: Server logged in
+[2023.05.18-07.36.55:372][632]PIE: Play in editor total start time 0.122 seconds.
+[2023.05.18-07.36.57:282][735]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.05.18-07.36.57:282][735]LogWorld: BeginTearingDown for /Game/Labs/Lab10/UEDPIE_0_Lab10
+[2023.05.18-07.36.57:282][735]LogWorld: UWorld::CleanupWorld for Lab10, bSessionEnded=true, bCleanupResources=true
+[2023.05.18-07.36.57:282][735]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.05.18-07.36.57:291][735]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.05.18-07.36.57:296][735]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.05.18-07.36.57:334][735]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.05.18-07.36.57:334][735]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=6
+[2023.05.18-07.36.57:337][735]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=6
+[2023.05.18-07.36.57:342][735]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.05.18-07.36.57:344][735]LogUObjectHash: Compacting FUObjectHashTables data took   1.09ms
+[2023.05.18-07.36.57:369][736]LogPlayLevel: Display: Destroying online subsystem :Context_17
+[2023.05.18-07.36.59:624][856]LogShaderCompilers: Display: ================================================
+[2023.05.18-07.36.59:624][856]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2023.05.18-07.36.59:624][856]LogShaderCompilers: Display: Total job queries 104, among them cache hits 11 (10.58%)
+[2023.05.18-07.36.59:624][856]LogShaderCompilers: Display: Tracking 93 distinct input hashes that result in 79 distinct outputs (84.95%)
+[2023.05.18-07.36.59:624][856]LogShaderCompilers: Display: RAM used: 0.84 MB (0.00 GB) of 819.20 MB (0.80 GB) budget. Usage: 0.10%
+[2023.05.18-07.36.59:624][856]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2023.05.18-07.36.59:624][856]LogShaderCompilers: Display: Shaders Compiled: 0
+[2023.05.18-07.36.59:624][856]LogShaderCompilers: Display: Jobs assigned 0, completed 0 (0.00%)
+[2023.05.18-07.36.59:624][856]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 0.00 s
+[2023.05.18-07.36.59:624][856]LogShaderCompilers: Display: ================================================
+[2023.05.18-07.37.03:493][940]LogSlate: Window 'Lab10UI' being destroyed
+[2023.05.18-07.37.03:511][940]LogSlate: Window 'Lab10UI' being destroyed
+[2023.05.18-07.37.03:533][940]LogWorld: UWorld::CleanupWorld for World_19, bSessionEnded=true, bCleanupResources=true
+[2023.05.18-07.37.03:533][940]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.05.18-07.37.03:542][940]LogWorld: UWorld::CleanupWorld for World_18, bSessionEnded=true, bCleanupResources=true
+[2023.05.18-07.37.03:543][940]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.05.18-07.37.05:358][ 42]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.05.18-07.37.05:372][ 42]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.05.18-07.37.05:372][ 42]PIE: New page: PIE session: Lab10 (May 17, 2023, 7:37:05 PM)
+[2023.05.18-07.37.05:372][ 42]LogPlayLevel: Creating play world package: /Game/Labs/Lab10/UEDPIE_0_Lab10
+[2023.05.18-07.37.05:374][ 42]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002263s)
+[2023.05.18-07.37.05:374][ 42]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Labs/Lab10/Lab10.Lab10 to /Game/Labs/Lab10/UEDPIE_0_Lab10.Lab10 (0.002308s)
+[2023.05.18-07.37.05:374][ 42]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.05.18-07.37.05:375][ 42]LogAIModule: Creating AISystem for world Lab10
+[2023.05.18-07.37.05:375][ 42]LogPlayLevel: PIE: World Init took: (0.000947s)
+[2023.05.18-07.37.05:413][ 42]LogUObjectHash: Compacting FUObjectHashTables data took   3.67ms
+[2023.05.18-07.37.05:425][ 42]LogAudio: Display: Creating Audio Device:                 Id: 7, Scope: Unique, Realtime: True
+[2023.05.18-07.37.05:425][ 42]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.05.18-07.37.05:425][ 42]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.05.18-07.37.05:425][ 42]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.05.18-07.37.05:425][ 42]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.05.18-07.37.05:425][ 42]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.05.18-07.37.05:425][ 42]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.05.18-07.37.05:425][ 42]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.05.18-07.37.05:425][ 42]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.05.18-07.37.05:426][ 42]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.05.18-07.37.05:426][ 42]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.05.18-07.37.05:426][ 42]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.05.18-07.37.05:429][ 42]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.05.18-07.37.05:488][ 42]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Realtek(R) Audio)
+[2023.05.18-07.37.05:488][ 42]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.05.18-07.37.05:488][ 42]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.05.18-07.37.05:488][ 42]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.05.18-07.37.05:492][ 42]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=7
+[2023.05.18-07.37.05:492][ 42]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=7
+[2023.05.18-07.37.05:494][ 42]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=7
+[2023.05.18-07.37.05:494][ 42]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=7
+[2023.05.18-07.37.05:494][ 42]LogInit: FAudioDevice initialized.
+[2023.05.18-07.37.05:494][ 42]LogAudio: Display: Audio Device (ID: 7) registered with world 'Lab10'.
+[2023.05.18-07.37.05:498][ 42]LogLoad: Game class is 'Lab10UIGameMode_C'
+[2023.05.18-07.37.05:499][ 42]LogWorld: Bringing World /Game/Labs/Lab10/UEDPIE_0_Lab10.Lab10 up for play (max tick rate 60) at 2023.05.18-01.37.05
+[2023.05.18-07.37.05:499][ 42]LogWorld: Bringing up level for play took: 0.000945
+[2023.05.18-07.37.05:503][ 42]LogOnline: OSS: Created online subsystem instance for: :Context_20
+[2023.05.18-07.37.05:505][ 42]PIE: Server logged in
+[2023.05.18-07.37.05:507][ 42]PIE: Play in editor total start time 0.135 seconds.
+[2023.05.18-07.37.09:042][243]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.05.18-07.37.09:042][243]LogWorld: BeginTearingDown for /Game/Labs/Lab10/UEDPIE_0_Lab10
+[2023.05.18-07.37.09:042][243]LogWorld: UWorld::CleanupWorld for Lab10, bSessionEnded=true, bCleanupResources=true
+[2023.05.18-07.37.09:042][243]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.05.18-07.37.09:048][243]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.05.18-07.37.09:052][243]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.05.18-07.37.09:085][243]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.05.18-07.37.09:085][243]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=7
+[2023.05.18-07.37.09:087][243]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=7
+[2023.05.18-07.37.09:092][243]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.05.18-07.37.09:094][243]LogUObjectHash: Compacting FUObjectHashTables data took   1.34ms
+[2023.05.18-07.37.09:138][244]LogPlayLevel: Display: Destroying online subsystem :Context_20
+[2023.05.18-07.37.10:702][333]LogAssetEditorSubsystem: Opening Asset editor for WidgetBlueprint /Game/Labs/Lab10/Lab10UI.Lab10UI
+[2023.05.18-07.37.10:703][333]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.05.18-07.37.10:712][333]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.05.18-07.37.11:231][333]LogSlateStyle: Warning: Unable to find Slate Widget Style 'None'. Using FToolbarStyle defaults instead.
+[2023.05.18-07.37.11:231][333]LogSlateStyle: Warning: Unable to find Slate Widget Style 'None'. Using FToolbarStyle defaults instead.
+[2023.05.18-07.37.37:562][806]Cmd: TRANSACTION UNDO
+[2023.05.18-07.37.37:562][806]LogEditorTransaction: Undo Rename Widget
+[2023.05.18-07.38.38:332][226]LogSelectionDetails: Warning: NavigateToFunctionSource:  Unable to find source file and line number for 'USlider::GetValue' [The specified module could not be found.]
+[2023.05.18-07.38.39:050][253]LogSelectionDetails: Warning: NavigateToFunctionSource:  Unable to find source file and line number for 'USlider::GetValue' [The specified module could not be found.]
+[2023.05.18-07.38.41:927][402]LogSelectionDetails: Warning: NavigateToFunctionSource:  Unable to find source file and line number for 'USlider::GetValue' [The specified module could not be found.]
+[2023.05.18-07.38.43:364][454]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.05.18-07.38.43:430][454]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Labs/Lab10/Lab10UI" FILE="../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2/Content/Labs/Lab10/Lab10UI.uasset" SILENT=true
+[2023.05.18-07.38.43:439][454]LogSavePackage: Moving output files for package: /Game/Labs/Lab10/Lab10UI
+[2023.05.18-07.38.43:441][454]LogSavePackage: Moving '../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2/Saved/Lab10UI7955B4934D7EA81E973E0FB3CC7D5507.tmp' to '../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2/Content/Labs/Lab10/Lab10UI.uasset'
+[2023.05.18-07.38.43:462][454]LogFileHelpers: InternalPromptForCheckoutAndSave took 98 ms (total: 2.91 sec)
+[2023.05.18-07.38.43:469][454]AssetCheck: New page: Asset Save: Lab10UI
+[2023.05.18-07.38.43:469][454]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/Labs/Lab10/Lab10UI.Lab10UI
+[2023.05.18-07.38.44:023][483]BlueprintLog: New page: Compile Lab10UI
+[2023.05.18-07.38.44:090][483]LogUObjectHash: Compacting FUObjectHashTables data took   1.08ms
+[2023.05.18-07.38.50:906][852]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.05.18-07.38.50:957][852]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Labs/Lab10/Lab10UI" FILE="../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2/Content/Labs/Lab10/Lab10UI.uasset" SILENT=true
+[2023.05.18-07.38.50:965][852]LogSavePackage: Moving output files for package: /Game/Labs/Lab10/Lab10UI
+[2023.05.18-07.38.50:966][852]LogSavePackage: Moving '../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2/Saved/Lab10UI985903A645E5E1A03EE2E3BACE724238.tmp' to '../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2/Content/Labs/Lab10/Lab10UI.uasset'
+[2023.05.18-07.38.50:983][852]LogFileHelpers: InternalPromptForCheckoutAndSave took 77 ms (total: 2.99 sec)
+[2023.05.18-07.38.50:991][852]AssetCheck: New page: Asset Save: Lab10UI
+[2023.05.18-07.38.50:991][852]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/Labs/Lab10/Lab10UI.Lab10UI
+[2023.05.18-07.39.22:343][596]LogSlateStyle: Warning: Unable to find Slate Widget Style 'None'. Using FToolbarStyle defaults instead.
+[2023.05.18-07.39.22:343][596]LogSlateStyle: Warning: Unable to find Slate Widget Style 'None'. Using FToolbarStyle defaults instead.
+[2023.05.18-07.39.50:053][111]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.05.18-07.39.50:099][111]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Labs/Lab10/Lab10UI" FILE="../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2/Content/Labs/Lab10/Lab10UI.uasset" SILENT=true
+[2023.05.18-07.39.50:107][111]LogSavePackage: Moving output files for package: /Game/Labs/Lab10/Lab10UI
+[2023.05.18-07.39.50:108][111]LogSavePackage: Moving '../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2/Saved/Lab10UI5E665BF54196DDA55B06189DC6B0B602.tmp' to '../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2/Content/Labs/Lab10/Lab10UI.uasset'
+[2023.05.18-07.39.50:126][111]LogFileHelpers: InternalPromptForCheckoutAndSave took 72 ms (total: 3.06 sec)
+[2023.05.18-07.39.50:131][111]AssetCheck: New page: Asset Save: Lab10UI
+[2023.05.18-07.39.50:131][111]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/Labs/Lab10/Lab10UI.Lab10UI
+[2023.05.18-07.39.51:377][185]BlueprintLog: New page: Compile Lab10UI
+[2023.05.18-07.39.51:441][185]LogUObjectHash: Compacting FUObjectHashTables data took   1.10ms
+[2023.05.18-07.39.57:381][536]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.05.18-07.39.57:392][536]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.05.18-07.39.57:392][536]PIE: New page: PIE session: Lab10 (May 17, 2023, 7:39:57 PM)
+[2023.05.18-07.39.57:431][536]LogPlayLevel: Creating play world package: /Game/Labs/Lab10/UEDPIE_0_Lab10
+[2023.05.18-07.39.57:433][536]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001576s)
+[2023.05.18-07.39.57:433][536]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Labs/Lab10/Lab10.Lab10 to /Game/Labs/Lab10/UEDPIE_0_Lab10.Lab10 (0.001624s)
+[2023.05.18-07.39.57:433][536]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.05.18-07.39.57:433][536]LogAIModule: Creating AISystem for world Lab10
+[2023.05.18-07.39.57:434][536]LogPlayLevel: PIE: World Init took: (0.000905s)
+[2023.05.18-07.39.57:461][536]LogUObjectHash: Compacting FUObjectHashTables data took   1.28ms
+[2023.05.18-07.39.57:463][536]LogAudio: Display: Creating Audio Device:                 Id: 8, Scope: Unique, Realtime: True
+[2023.05.18-07.39.57:463][536]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.05.18-07.39.57:463][536]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.05.18-07.39.57:463][536]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.05.18-07.39.57:463][536]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.05.18-07.39.57:463][536]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.05.18-07.39.57:463][536]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.05.18-07.39.57:463][536]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.05.18-07.39.57:463][536]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.05.18-07.39.57:463][536]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.05.18-07.39.57:463][536]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.05.18-07.39.57:463][536]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.05.18-07.39.57:467][536]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.05.18-07.39.57:498][536]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Realtek(R) Audio)
+[2023.05.18-07.39.57:498][536]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.05.18-07.39.57:498][536]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.05.18-07.39.57:498][536]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.05.18-07.39.57:499][536]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=8
+[2023.05.18-07.39.57:499][536]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=8
+[2023.05.18-07.39.57:501][536]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=8
+[2023.05.18-07.39.57:501][536]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=8
+[2023.05.18-07.39.57:501][536]LogInit: FAudioDevice initialized.
+[2023.05.18-07.39.57:501][536]LogAudio: Display: Audio Device (ID: 8) registered with world 'Lab10'.
+[2023.05.18-07.39.57:547][536]LogLoad: Game class is 'Lab10UIGameMode_C'
+[2023.05.18-07.39.57:548][536]LogWorld: Bringing World /Game/Labs/Lab10/UEDPIE_0_Lab10.Lab10 up for play (max tick rate 60) at 2023.05.18-01.39.57
+[2023.05.18-07.39.57:549][536]LogWorld: Bringing up level for play took: 0.001056
+[2023.05.18-07.39.57:551][536]LogOnline: OSS: Created online subsystem instance for: :Context_23
+[2023.05.18-07.39.57:553][536]PIE: Server logged in
+[2023.05.18-07.39.57:554][536]PIE: Play in editor total start time 0.162 seconds.
+[2023.05.18-07.40.06:822][ 74]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.05.18-07.40.06:822][ 74]LogWorld: BeginTearingDown for /Game/Labs/Lab10/UEDPIE_0_Lab10
+[2023.05.18-07.40.06:822][ 74]LogWorld: UWorld::CleanupWorld for Lab10, bSessionEnded=true, bCleanupResources=true
+[2023.05.18-07.40.06:822][ 74]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.05.18-07.40.06:827][ 74]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.05.18-07.40.06:831][ 74]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.05.18-07.40.06:859][ 74]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.05.18-07.40.06:859][ 74]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=8
+[2023.05.18-07.40.06:861][ 74]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=8
+[2023.05.18-07.40.06:865][ 74]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.05.18-07.40.06:868][ 74]LogUObjectHash: Compacting FUObjectHashTables data took   1.31ms
+[2023.05.18-07.40.06:905][ 75]LogPlayLevel: Display: Destroying online subsystem :Context_23
+[2023.05.18-07.40.40:534][ 66]BlueprintLog: New page: Compile Lab10UI
+[2023.05.18-07.40.40:575][ 66]LogUObjectHash: Compacting FUObjectHashTables data took   1.12ms
+[2023.05.18-07.40.49:198][532]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.05.18-07.40.49:206][532]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.05.18-07.40.49:206][532]PIE: New page: PIE session: Lab10 (May 17, 2023, 7:40:49 PM)
+[2023.05.18-07.40.49:206][532]LogPlayLevel: Creating play world package: /Game/Labs/Lab10/UEDPIE_0_Lab10
+[2023.05.18-07.40.49:208][532]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001633s)
+[2023.05.18-07.40.49:208][532]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Labs/Lab10/Lab10.Lab10 to /Game/Labs/Lab10/UEDPIE_0_Lab10.Lab10 (0.001664s)
+[2023.05.18-07.40.49:208][532]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.05.18-07.40.49:209][532]LogAIModule: Creating AISystem for world Lab10
+[2023.05.18-07.40.49:209][532]LogPlayLevel: PIE: World Init took: (0.000833s)
+[2023.05.18-07.40.49:237][532]LogUObjectHash: Compacting FUObjectHashTables data took   1.18ms
+[2023.05.18-07.40.49:239][532]LogAudio: Display: Creating Audio Device:                 Id: 9, Scope: Unique, Realtime: True
+[2023.05.18-07.40.49:239][532]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.05.18-07.40.49:239][532]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.05.18-07.40.49:239][532]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.05.18-07.40.49:239][532]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.05.18-07.40.49:239][532]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.05.18-07.40.49:239][532]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.05.18-07.40.49:239][532]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.05.18-07.40.49:239][532]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.05.18-07.40.49:240][532]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.05.18-07.40.49:240][532]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.05.18-07.40.49:240][532]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.05.18-07.40.49:242][532]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.05.18-07.40.49:268][532]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Realtek(R) Audio)
+[2023.05.18-07.40.49:268][532]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.05.18-07.40.49:268][532]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.05.18-07.40.49:268][532]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.05.18-07.40.49:268][532]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=9
+[2023.05.18-07.40.49:268][532]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=9
+[2023.05.18-07.40.49:271][532]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=9
+[2023.05.18-07.40.49:271][532]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=9
+[2023.05.18-07.40.49:271][532]LogInit: FAudioDevice initialized.
+[2023.05.18-07.40.49:271][532]LogAudio: Display: Audio Device (ID: 9) registered with world 'Lab10'.
+[2023.05.18-07.40.49:292][532]LogLoad: Game class is 'Lab10UIGameMode_C'
+[2023.05.18-07.40.49:294][532]LogWorld: Bringing World /Game/Labs/Lab10/UEDPIE_0_Lab10.Lab10 up for play (max tick rate 60) at 2023.05.18-01.40.49
+[2023.05.18-07.40.49:294][532]LogWorld: Bringing up level for play took: 0.001550
+[2023.05.18-07.40.49:298][532]LogOnline: OSS: Created online subsystem instance for: :Context_24
+[2023.05.18-07.40.49:299][532]PIE: Server logged in
+[2023.05.18-07.40.49:301][532]PIE: Play in editor total start time 0.095 seconds.
+[2023.05.18-07.40.50:231][577]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.05.18-07.40.50:231][577]LogWorld: BeginTearingDown for /Game/Labs/Lab10/UEDPIE_0_Lab10
+[2023.05.18-07.40.50:231][577]LogWorld: UWorld::CleanupWorld for Lab10, bSessionEnded=true, bCleanupResources=true
+[2023.05.18-07.40.50:232][577]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.05.18-07.40.50:236][577]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.05.18-07.40.50:239][577]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.05.18-07.40.50:265][577]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.05.18-07.40.50:265][577]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=9
+[2023.05.18-07.40.50:267][577]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=9
+[2023.05.18-07.40.50:272][577]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.05.18-07.40.50:274][577]LogUObjectHash: Compacting FUObjectHashTables data took   1.12ms
+[2023.05.18-07.40.50:310][578]LogPlayLevel: Display: Destroying online subsystem :Context_24
+[2023.05.18-07.41.27:032][760]LogSlateStyle: Warning: Unable to find Slate Widget Style 'None'. Using FToolbarStyle defaults instead.
+[2023.05.18-07.41.27:032][760]LogSlateStyle: Warning: Unable to find Slate Widget Style 'None'. Using FToolbarStyle defaults instead.
+[2023.05.18-07.41.31:014][965]LogSlateStyle: Warning: Unable to find Slate Widget Style 'None'. Using FToolbarStyle defaults instead.
+[2023.05.18-07.41.31:014][965]LogSlateStyle: Warning: Unable to find Slate Widget Style 'None'. Using FToolbarStyle defaults instead.
+[2023.05.18-07.42.29:333][320]LogEditorTransaction: Undo Add Node
+[2023.05.18-07.42.42:528][ 78]LogSlateStyle: Warning: Unable to find Slate Widget Style 'None'. Using FToolbarStyle defaults instead.
+[2023.05.18-07.42.42:528][ 78]LogSlateStyle: Warning: Unable to find Slate Widget Style 'None'. Using FToolbarStyle defaults instead.
+[2023.05.18-07.43.08:963][585]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.05.18-07.43.09:009][585]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Labs/Lab10/Lab10UI" FILE="../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2/Content/Labs/Lab10/Lab10UI.uasset" SILENT=true
+[2023.05.18-07.43.09:018][585]LogSavePackage: Moving output files for package: /Game/Labs/Lab10/Lab10UI
+[2023.05.18-07.43.09:020][585]LogSavePackage: Moving '../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2/Saved/Lab10UIA89792184551B3CF8450D8B59D10C3CE.tmp' to '../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2/Content/Labs/Lab10/Lab10UI.uasset'
+[2023.05.18-07.43.09:033][585]LogFileHelpers: InternalPromptForCheckoutAndSave took 70 ms (total: 3.13 sec)
+[2023.05.18-07.43.09:038][585]AssetCheck: New page: Asset Save: Lab10UI
+[2023.05.18-07.43.09:038][585]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/Labs/Lab10/Lab10UI.Lab10UI
+[2023.05.18-07.43.09:534][613]BlueprintLog: New page: Compile Lab10UI
+[2023.05.18-07.43.09:537][613]LogBlueprint: Error: [AssetLog] C:\Users\heroo\OneDrive\Documents\k-game-prog-2\Kreye_GP2\Content\Labs\Lab10\Lab10UI.uasset: [Compiler] Binding: Property ' /Script/UMG.TextBlock:TextDelegate ' on Widget ' X_Slider_Text ': Binding: 'None' : 'None' was not found on 'Lab 10UI'.
+[2023.05.18-07.43.09:585][613]LogUObjectHash: Compacting FUObjectHashTables data took   1.18ms
+[2023.05.18-07.43.34:441][987]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.05.18-07.43.34:495][987]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Labs/Lab10/Lab10UI" FILE="../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2/Content/Labs/Lab10/Lab10UI.uasset" SILENT=true
+[2023.05.18-07.43.34:503][987]LogSavePackage: Moving output files for package: /Game/Labs/Lab10/Lab10UI
+[2023.05.18-07.43.34:504][987]LogSavePackage: Moving '../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2/Saved/Lab10UI5C60DB544C743E2237315FBDF7A2BDA7.tmp' to '../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2/Content/Labs/Lab10/Lab10UI.uasset'
+[2023.05.18-07.43.34:522][987]LogFileHelpers: InternalPromptForCheckoutAndSave took 81 ms (total: 3.22 sec)
+[2023.05.18-07.43.34:527][987]AssetCheck: New page: Asset Save: Lab10UI
+[2023.05.18-07.43.34:527][987]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/Labs/Lab10/Lab10UI.Lab10UI
+[2023.05.18-07.43.39:491][272]BlueprintLog: New page: Compile Lab10UI
+[2023.05.18-07.43.39:494][272]LogBlueprint: Error: [AssetLog] C:\Users\heroo\OneDrive\Documents\k-game-prog-2\Kreye_GP2\Content\Labs\Lab10\Lab10UI.uasset: [Compiler] Binding: Property ' /Script/UMG.TextBlock:TextDelegate ' on Widget ' X_Slider_Text ': Binding: 'None' : 'None' was not found on 'Lab 10UI'.
+[2023.05.18-07.43.39:547][272]LogUObjectHash: Compacting FUObjectHashTables data took   1.49ms
+[2023.05.18-07.43.42:456][437]BlueprintLog: New page: Compile Lab10UI
+[2023.05.18-07.43.42:460][437]LogBlueprint: Error: [AssetLog] C:\Users\heroo\OneDrive\Documents\k-game-prog-2\Kreye_GP2\Content\Labs\Lab10\Lab10UI.uasset: [Compiler] Binding: Property ' /Script/UMG.TextBlock:TextDelegate ' on Widget ' X_Slider_Text ': Binding: 'None' : 'None' was not found on 'Lab 10UI'.
+[2023.05.18-07.43.42:512][437]LogUObjectHash: Compacting FUObjectHashTables data took   1.08ms
+[2023.05.18-07.44.12:364][126]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.05.18-07.44.12:417][126]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Labs/Lab10/Lab10UI" FILE="../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2/Content/Labs/Lab10/Lab10UI.uasset" SILENT=true
+[2023.05.18-07.44.12:426][126]LogSavePackage: Moving output files for package: /Game/Labs/Lab10/Lab10UI
+[2023.05.18-07.44.12:427][126]LogSavePackage: Moving '../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2/Saved/Lab10UI55D0FE364D9369DD68A083971A7932F5.tmp' to '../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2/Content/Labs/Lab10/Lab10UI.uasset'
+[2023.05.18-07.44.12:452][126]LogFileHelpers: InternalPromptForCheckoutAndSave took 88 ms (total: 3.30 sec)
+[2023.05.18-07.44.12:458][126]AssetCheck: New page: Asset Save: Lab10UI
+[2023.05.18-07.44.12:458][126]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/Labs/Lab10/Lab10UI.Lab10UI
+[2023.05.18-07.44.12:914][153]BlueprintLog: New page: Compile Lab10UI
+[2023.05.18-07.44.12:970][153]LogUObjectHash: Compacting FUObjectHashTables data took   0.97ms
+[2023.05.18-07.45.27:073][447]LogSelectionDetails: Warning: NavigateToFunctionSource:  Unable to find source file and line number for 'UKismetStringLibrary::Concat_StrStr' [The specified module could not be found.]
+[2023.05.18-07.46.03:304][496]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.05.18-07.46.03:352][496]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Labs/Lab10/Lab10UI" FILE="../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2/Content/Labs/Lab10/Lab10UI.uasset" SILENT=true
+[2023.05.18-07.46.03:360][496]LogSavePackage: Moving output files for package: /Game/Labs/Lab10/Lab10UI
+[2023.05.18-07.46.03:361][496]LogSavePackage: Moving '../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2/Saved/Lab10UI5863CE1548C878383C19B7BA75BAE194.tmp' to '../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2/Content/Labs/Lab10/Lab10UI.uasset'
+[2023.05.18-07.46.03:376][496]LogFileHelpers: InternalPromptForCheckoutAndSave took 72 ms (total: 3.38 sec)
+[2023.05.18-07.46.03:382][496]AssetCheck: New page: Asset Save: Lab10UI
+[2023.05.18-07.46.03:382][496]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/Labs/Lab10/Lab10UI.Lab10UI
+[2023.05.18-07.46.34:816][342]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.05.18-07.46.34:866][342]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Labs/Lab10/Lab10UI" FILE="../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2/Content/Labs/Lab10/Lab10UI.uasset" SILENT=true
+[2023.05.18-07.46.34:876][342]LogSavePackage: Moving output files for package: /Game/Labs/Lab10/Lab10UI
+[2023.05.18-07.46.34:877][342]LogSavePackage: Moving '../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2/Saved/Lab10UIBFCA74854F509C0FEEF39090C287D042.tmp' to '../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2/Content/Labs/Lab10/Lab10UI.uasset'
+[2023.05.18-07.46.34:893][342]LogFileHelpers: InternalPromptForCheckoutAndSave took 76 ms (total: 3.45 sec)
+[2023.05.18-07.46.34:900][342]AssetCheck: New page: Asset Save: Lab10UI
+[2023.05.18-07.46.34:900][342]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/Labs/Lab10/Lab10UI.Lab10UI
+[2023.05.18-07.46.36:117][414]BlueprintLog: New page: Compile Lab10UI
+[2023.05.18-07.46.36:176][414]LogUObjectHash: Compacting FUObjectHashTables data took   1.88ms
+[2023.05.18-07.46.43:120][817]LogSlateStyle: Warning: Unable to find Slate Widget Style 'None'. Using FToolbarStyle defaults instead.
+[2023.05.18-07.46.43:121][817]LogSlateStyle: Warning: Unable to find Slate Widget Style 'None'. Using FToolbarStyle defaults instead.
+[2023.05.18-07.46.45:006][922]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.05.18-07.46.45:016][922]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.05.18-07.46.45:016][922]PIE: New page: PIE session: Lab10 (May 17, 2023, 7:46:45 PM)
+[2023.05.18-07.46.45:016][922]LogPlayLevel: Creating play world package: /Game/Labs/Lab10/UEDPIE_0_Lab10
+[2023.05.18-07.46.45:017][922]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001735s)
+[2023.05.18-07.46.45:017][922]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Labs/Lab10/Lab10.Lab10 to /Game/Labs/Lab10/UEDPIE_0_Lab10.Lab10 (0.001806s)
+[2023.05.18-07.46.45:017][922]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.05.18-07.46.45:018][922]LogAIModule: Creating AISystem for world Lab10
+[2023.05.18-07.46.45:019][922]LogPlayLevel: PIE: World Init took: (0.000881s)
+[2023.05.18-07.46.45:047][922]LogUObjectHash: Compacting FUObjectHashTables data took   1.04ms
+[2023.05.18-07.46.45:049][922]LogAudio: Display: Creating Audio Device:                 Id: 10, Scope: Unique, Realtime: True
+[2023.05.18-07.46.45:049][922]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.05.18-07.46.45:049][922]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.05.18-07.46.45:049][922]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.05.18-07.46.45:049][922]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.05.18-07.46.45:049][922]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.05.18-07.46.45:049][922]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.05.18-07.46.45:049][922]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.05.18-07.46.45:049][922]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.05.18-07.46.45:049][922]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.05.18-07.46.45:049][922]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.05.18-07.46.45:049][922]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.05.18-07.46.45:052][922]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.05.18-07.46.45:085][922]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Realtek(R) Audio)
+[2023.05.18-07.46.45:085][922]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.05.18-07.46.45:085][922]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.05.18-07.46.45:085][922]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.05.18-07.46.45:087][922]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=10
+[2023.05.18-07.46.45:087][922]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=10
+[2023.05.18-07.46.45:089][922]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=10
+[2023.05.18-07.46.45:089][922]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=10
+[2023.05.18-07.46.45:089][922]LogInit: FAudioDevice initialized.
+[2023.05.18-07.46.45:089][922]LogAudio: Display: Audio Device (ID: 10) registered with world 'Lab10'.
+[2023.05.18-07.46.45:111][922]LogLoad: Game class is 'Lab10UIGameMode_C'
+[2023.05.18-07.46.45:112][922]LogWorld: Bringing World /Game/Labs/Lab10/UEDPIE_0_Lab10.Lab10 up for play (max tick rate 60) at 2023.05.18-01.46.45
+[2023.05.18-07.46.45:113][922]LogWorld: Bringing up level for play took: 0.001461
+[2023.05.18-07.46.45:117][922]LogOnline: OSS: Created online subsystem instance for: :Context_25
+[2023.05.18-07.46.45:119][922]PIE: Server logged in
+[2023.05.18-07.46.45:120][922]PIE: Play in editor total start time 0.104 seconds.
+[2023.05.18-07.46.48:260][ 71]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.05.18-07.46.48:260][ 71]LogWorld: BeginTearingDown for /Game/Labs/Lab10/UEDPIE_0_Lab10
+[2023.05.18-07.46.48:260][ 71]LogWorld: UWorld::CleanupWorld for Lab10, bSessionEnded=true, bCleanupResources=true
+[2023.05.18-07.46.48:260][ 71]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.05.18-07.46.48:277][ 71]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.05.18-07.46.48:281][ 71]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.05.18-07.46.48:310][ 71]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.05.18-07.46.48:310][ 71]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=10
+[2023.05.18-07.46.48:312][ 71]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=10
+[2023.05.18-07.46.48:318][ 71]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.05.18-07.46.48:322][ 71]LogUObjectHash: Compacting FUObjectHashTables data took   1.35ms
+[2023.05.18-07.46.48:366][ 72]LogPlayLevel: Display: Destroying online subsystem :Context_25
+[2023.05.18-07.46.49:761][141]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.05.18-07.46.49:811][141]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Labs/Lab10/Lab10UI" FILE="../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2/Content/Labs/Lab10/Lab10UI.uasset" SILENT=true
+[2023.05.18-07.46.49:820][141]LogSavePackage: Moving output files for package: /Game/Labs/Lab10/Lab10UI
+[2023.05.18-07.46.49:822][141]LogSavePackage: Moving '../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2/Saved/Lab10UI53E0F6C545CD72E12ED552BA4C1D5174.tmp' to '../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2/Content/Labs/Lab10/Lab10UI.uasset'
+[2023.05.18-07.46.49:835][141]LogFileHelpers: InternalPromptForCheckoutAndSave took 74 ms (total: 3.53 sec)
+[2023.05.18-07.46.49:840][141]AssetCheck: New page: Asset Save: Lab10UI
+[2023.05.18-07.46.49:840][141]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/Labs/Lab10/Lab10UI.Lab10UI
+[2023.05.18-07.46.51:403][228]BlueprintLog: New page: Compile Lab10UI
+[2023.05.18-07.46.51:453][228]LogUObjectHash: Compacting FUObjectHashTables data took   1.26ms
+[2023.05.18-07.47.01:793][803]LogSlate: Window 'Lab10UI' being destroyed
+[2023.05.18-07.47.01:810][803]LogSlate: Window 'Lab10UI' being destroyed
+[2023.05.18-07.47.01:827][803]LogWorld: UWorld::CleanupWorld for World_25, bSessionEnded=true, bCleanupResources=true
+[2023.05.18-07.47.01:827][803]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.05.18-07.47.01:837][803]LogWorld: UWorld::CleanupWorld for World_24, bSessionEnded=true, bCleanupResources=true
+[2023.05.18-07.47.01:837][803]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.05.18-07.47.03:048][871]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.05.18-07.47.03:055][871]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.05.18-07.47.03:056][871]PIE: New page: PIE session: Lab10 (May 17, 2023, 7:47:03 PM)
+[2023.05.18-07.47.03:056][871]LogPlayLevel: Creating play world package: /Game/Labs/Lab10/UEDPIE_0_Lab10
+[2023.05.18-07.47.03:057][871]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001390s)
+[2023.05.18-07.47.03:057][871]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Labs/Lab10/Lab10.Lab10 to /Game/Labs/Lab10/UEDPIE_0_Lab10.Lab10 (0.001427s)
+[2023.05.18-07.47.03:057][871]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.05.18-07.47.03:057][871]LogAIModule: Creating AISystem for world Lab10
+[2023.05.18-07.47.03:057][871]LogPlayLevel: PIE: World Init took: (0.000659s)
+[2023.05.18-07.47.03:086][871]LogUObjectHash: Compacting FUObjectHashTables data took   0.99ms
+[2023.05.18-07.47.03:092][871]LogAudio: Display: Creating Audio Device:                 Id: 11, Scope: Unique, Realtime: True
+[2023.05.18-07.47.03:092][871]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.05.18-07.47.03:092][871]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.05.18-07.47.03:092][871]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.05.18-07.47.03:092][871]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.05.18-07.47.03:092][871]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.05.18-07.47.03:092][871]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.05.18-07.47.03:092][871]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.05.18-07.47.03:092][871]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.05.18-07.47.03:092][871]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.05.18-07.47.03:093][871]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.05.18-07.47.03:093][871]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.05.18-07.47.03:094][871]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.05.18-07.47.03:122][871]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Realtek(R) Audio)
+[2023.05.18-07.47.03:122][871]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.05.18-07.47.03:122][871]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.05.18-07.47.03:122][871]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.05.18-07.47.03:124][871]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=11
+[2023.05.18-07.47.03:124][871]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=11
+[2023.05.18-07.47.03:125][871]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=11
+[2023.05.18-07.47.03:125][871]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=11
+[2023.05.18-07.47.03:125][871]LogInit: FAudioDevice initialized.
+[2023.05.18-07.47.03:125][871]LogAudio: Display: Audio Device (ID: 11) registered with world 'Lab10'.
+[2023.05.18-07.47.03:129][871]LogLoad: Game class is 'Lab10UIGameMode_C'
+[2023.05.18-07.47.03:129][871]LogWorld: Bringing World /Game/Labs/Lab10/UEDPIE_0_Lab10.Lab10 up for play (max tick rate 60) at 2023.05.18-01.47.03
+[2023.05.18-07.47.03:130][871]LogWorld: Bringing up level for play took: 0.000594
+[2023.05.18-07.47.03:134][871]LogOnline: OSS: Created online subsystem instance for: :Context_26
+[2023.05.18-07.47.03:135][871]PIE: Server logged in
+[2023.05.18-07.47.03:136][871]PIE: Play in editor total start time 0.081 seconds.
+[2023.05.18-07.47.16:620][348]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.05.18-07.47.16:620][348]LogWorld: BeginTearingDown for /Game/Labs/Lab10/UEDPIE_0_Lab10
+[2023.05.18-07.47.16:620][348]LogWorld: UWorld::CleanupWorld for Lab10, bSessionEnded=true, bCleanupResources=true
+[2023.05.18-07.47.16:620][348]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.05.18-07.47.16:623][348]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.05.18-07.47.16:627][348]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.05.18-07.47.16:649][348]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.05.18-07.47.16:650][348]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=11
+[2023.05.18-07.47.16:652][348]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=11
+[2023.05.18-07.47.16:657][348]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.05.18-07.47.16:658][348]LogUObjectHash: Compacting FUObjectHashTables data took   1.16ms
+[2023.05.18-07.47.16:692][349]LogPlayLevel: Display: Destroying online subsystem :Context_26
+[2023.05.18-07.47.17:478][392]LogAssetEditorSubsystem: Opening Asset editor for WidgetBlueprint /Game/Labs/Lab10/Lab10UI.Lab10UI
+[2023.05.18-07.47.17:479][392]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.05.18-07.47.17:487][392]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.05.18-07.47.18:046][392]LogSlateStyle: Warning: Unable to find Slate Widget Style 'None'. Using FToolbarStyle defaults instead.
+[2023.05.18-07.47.18:046][392]LogSlateStyle: Warning: Unable to find Slate Widget Style 'None'. Using FToolbarStyle defaults instead.
+[2023.05.18-07.49.02:032][ 49]LogUObjectHash: Compacting FUObjectHashTables data took   1.80ms
+[2023.05.18-07.49.02:035][ 49]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Labs/Lab10/Lab10' took 0.053
+[2023.05.18-07.49.02:036][ 49]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/Labs/Lab10/Lab10UI] ([2] browsable assets)...
+[2023.05.18-07.49.02:046][ 49]OBJ SavePackage:     Rendered thumbnail for [WidgetBlueprint /Game/Labs/Lab10/Lab10UI.Lab10UI]
+[2023.05.18-07.49.02:046][ 49]OBJ SavePackage: Finished generating thumbnails for package [/Game/Labs/Lab10/Lab10UI]
+[2023.05.18-07.49.02:056][ 49]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Labs/Lab10/Lab10UI_Auto2
+[2023.05.18-07.49.02:056][ 49]LogSavePackage: Moving '../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2/Saved/Lab10UI_Auto2F063F79F4BF6A6BCD2ACEA8C2DA61791.tmp' to '../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2/Saved/Autosaves/Game/Labs/Lab10/Lab10UI_Auto2.uasset'
+[2023.05.18-07.49.02:058][ 49]LogFileHelpers: Auto-saving content packages took 0.023
+[2023.05.18-07.52.11:273][579]LogEditorTransaction: Undo Move Node
+[2023.05.18-07.52.12:465][624]LogEditorTransaction: Undo Move Node
+[2023.05.18-07.52.13:082][657]LogEditorTransaction: Undo Add Node
+[2023.05.18-07.52.20:872][ 91]LogEditorTransaction: Undo Add Node
+[2023.05.18-07.52.51:706][832]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.05.18-07.52.51:784][832]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Labs/Lab10/Lab10UI" FILE="../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2/Content/Labs/Lab10/Lab10UI.uasset" SILENT=true
+[2023.05.18-07.52.51:828][832]LogSavePackage: Moving output files for package: /Game/Labs/Lab10/Lab10UI
+[2023.05.18-07.52.51:831][832]LogSavePackage: Moving '../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2/Saved/Lab10UI366DF15547ADF8162C11C2ADD3E6BE94.tmp' to '../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2/Content/Labs/Lab10/Lab10UI.uasset'
+[2023.05.18-07.52.51:852][832]LogFileHelpers: InternalPromptForCheckoutAndSave took 145 ms (total: 3.67 sec)
+[2023.05.18-07.52.52:094][832]AssetCheck: New page: Asset Save: Lab10UI
+[2023.05.18-07.52.52:096][832]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/Labs/Lab10/Lab10UI.Lab10UI
+[2023.05.18-07.55.23:043][471]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.05.18-07.55.23:094][471]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Labs/Lab10/Lab10UI" FILE="../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2/Content/Labs/Lab10/Lab10UI.uasset" SILENT=true
+[2023.05.18-07.55.23:104][471]LogSavePackage: Moving output files for package: /Game/Labs/Lab10/Lab10UI
+[2023.05.18-07.55.23:106][471]LogSavePackage: Moving '../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2/Saved/Lab10UI3CAFFED24C1B6B7B43C73193C84E2F9C.tmp' to '../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2/Content/Labs/Lab10/Lab10UI.uasset'
+[2023.05.18-07.55.23:127][471]LogFileHelpers: InternalPromptForCheckoutAndSave took 84 ms (total: 3.76 sec)
+[2023.05.18-07.55.23:135][471]AssetCheck: New page: Asset Save: Lab10UI
+[2023.05.18-07.55.23:135][471]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/Labs/Lab10/Lab10UI.Lab10UI
+[2023.05.18-07.55.50:969][ 59]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.05.18-07.55.51:021][ 59]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Labs/Lab10/Lab10UI" FILE="../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2/Content/Labs/Lab10/Lab10UI.uasset" SILENT=true
+[2023.05.18-07.55.51:033][ 59]LogSavePackage: Moving output files for package: /Game/Labs/Lab10/Lab10UI
+[2023.05.18-07.55.51:034][ 59]LogSavePackage: Moving '../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2/Saved/Lab10UI6768197940A1AC38FA5F47A6E42855B1.tmp' to '../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2/Content/Labs/Lab10/Lab10UI.uasset'
+[2023.05.18-07.55.51:052][ 59]LogFileHelpers: InternalPromptForCheckoutAndSave took 82 ms (total: 3.84 sec)
+[2023.05.18-07.55.51:063][ 59]AssetCheck: New page: Asset Save: Lab10UI
+[2023.05.18-07.55.51:063][ 59]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/Labs/Lab10/Lab10UI.Lab10UI
+[2023.05.18-07.56.05:675][898]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.05.18-07.56.05:731][898]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Labs/Lab10/Lab10UI" FILE="../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2/Content/Labs/Lab10/Lab10UI.uasset" SILENT=true
+[2023.05.18-07.56.05:743][898]LogSavePackage: Moving output files for package: /Game/Labs/Lab10/Lab10UI
+[2023.05.18-07.56.05:744][898]LogSavePackage: Moving '../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2/Saved/Lab10UI22B13EB14F6EE128B07DF48D7FEC6937.tmp' to '../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2/Content/Labs/Lab10/Lab10UI.uasset'
+[2023.05.18-07.56.05:763][898]LogFileHelpers: InternalPromptForCheckoutAndSave took 87 ms (total: 3.93 sec)
+[2023.05.18-07.56.05:768][898]AssetCheck: New page: Asset Save: Lab10UI
+[2023.05.18-07.56.05:768][898]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/Labs/Lab10/Lab10UI.Lab10UI
+[2023.05.18-07.56.06:244][923]BlueprintLog: New page: Compile Lab10UI
+[2023.05.18-07.56.06:541][923]LogUObjectHash: Compacting FUObjectHashTables data took   6.73ms
+[2023.05.18-07.56.11:155][183]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.05.18-07.56.11:185][183]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.05.18-07.56.11:191][183]PIE: New page: PIE session: Lab10 (May 17, 2023, 7:56:11 PM)
+[2023.05.18-07.56.11:194][183]LogPlayLevel: Creating play world package: /Game/Labs/Lab10/UEDPIE_0_Lab10
+[2023.05.18-07.56.11:221][183]LogPlayLevel: PIE: StaticDuplicateObject took: (0.025719s)
+[2023.05.18-07.56.11:221][183]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Labs/Lab10/Lab10.Lab10 to /Game/Labs/Lab10/UEDPIE_0_Lab10.Lab10 (0.026353s)
+[2023.05.18-07.56.11:231][183]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.05.18-07.56.11:245][183]LogAIModule: Creating AISystem for world Lab10
+[2023.05.18-07.56.11:259][183]LogPlayLevel: PIE: World Init took: (0.038250s)
+[2023.05.18-07.56.11:295][183]LogUObjectHash: Compacting FUObjectHashTables data took   2.46ms
+[2023.05.18-07.56.11:304][183]LogAudio: Display: Creating Audio Device:                 Id: 12, Scope: Unique, Realtime: True
+[2023.05.18-07.56.11:307][183]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.05.18-07.56.11:307][183]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.05.18-07.56.11:307][183]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.05.18-07.56.11:307][183]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.05.18-07.56.11:308][183]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.05.18-07.56.11:308][183]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.05.18-07.56.11:308][183]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.05.18-07.56.11:308][183]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.05.18-07.56.11:313][183]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.05.18-07.56.11:313][183]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.05.18-07.56.11:313][183]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.05.18-07.56.11:322][183]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.05.18-07.56.11:359][183]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Realtek(R) Audio)
+[2023.05.18-07.56.11:365][183]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.05.18-07.56.11:365][183]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.05.18-07.56.11:366][183]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.05.18-07.56.11:373][183]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=12
+[2023.05.18-07.56.11:373][183]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=12
+[2023.05.18-07.56.11:380][183]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=12
+[2023.05.18-07.56.11:380][183]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=12
+[2023.05.18-07.56.11:381][183]LogInit: FAudioDevice initialized.
+[2023.05.18-07.56.11:382][183]LogAudio: Display: Audio Device (ID: 12) registered with world 'Lab10'.
+[2023.05.18-07.56.11:424][183]LogLoad: Game class is 'Lab10UIGameMode_C'
+[2023.05.18-07.56.11:448][183]LogWorld: Bringing World /Game/Labs/Lab10/UEDPIE_0_Lab10.Lab10 up for play (max tick rate 60) at 2023.05.18-01.56.11
+[2023.05.18-07.56.11:450][183]LogWorld: Bringing up level for play took: 0.022589
+[2023.05.18-07.56.11:463][183]LogOnline: OSS: Created online subsystem instance for: :Context_29
+[2023.05.18-07.56.11:512][183]PIE: Server logged in
+[2023.05.18-07.56.11:514][183]PIE: Play in editor total start time 0.338 seconds.
+[2023.05.18-07.56.14:265][328]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.05.18-07.56.14:265][328]LogWorld: BeginTearingDown for /Game/Labs/Lab10/UEDPIE_0_Lab10
+[2023.05.18-07.56.14:270][328]LogWorld: UWorld::CleanupWorld for Lab10, bSessionEnded=true, bCleanupResources=true
+[2023.05.18-07.56.14:273][328]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.05.18-07.56.14:313][328]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.05.18-07.56.14:319][328]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.05.18-07.56.14:358][328]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.05.18-07.56.14:363][328]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=12
+[2023.05.18-07.56.14:368][328]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=12
+[2023.05.18-07.56.14:390][328]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.05.18-07.56.14:426][328]LogUObjectHash: Compacting FUObjectHashTables data took   1.60ms
+[2023.05.18-07.56.14:541][329]LogPlayLevel: Display: Destroying online subsystem :Context_29
+[2023.05.18-07.56.16:239][419]LogSlate: Window 'Lab10UI' being destroyed
+[2023.05.18-07.56.16:265][419]LogSlate: Window 'Lab10UI' being destroyed
+[2023.05.18-07.56.16:343][419]LogWorld: UWorld::CleanupWorld for World_36, bSessionEnded=true, bCleanupResources=true
+[2023.05.18-07.56.16:343][419]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.05.18-07.56.16:361][419]LogWorld: UWorld::CleanupWorld for World_35, bSessionEnded=true, bCleanupResources=true
+[2023.05.18-07.56.16:361][419]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.05.18-07.56.17:077][449]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.05.18-07.56.17:083][449]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.05.18-07.56.17:083][449]PIE: New page: PIE session: Lab10 (May 17, 2023, 7:56:17 PM)
+[2023.05.18-07.56.17:084][449]LogPlayLevel: Creating play world package: /Game/Labs/Lab10/UEDPIE_0_Lab10
+[2023.05.18-07.56.17:085][449]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001587s)
+[2023.05.18-07.56.17:085][449]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Labs/Lab10/Lab10.Lab10 to /Game/Labs/Lab10/UEDPIE_0_Lab10.Lab10 (0.001640s)
+[2023.05.18-07.56.17:085][449]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.05.18-07.56.17:086][449]LogAIModule: Creating AISystem for world Lab10
+[2023.05.18-07.56.17:086][449]LogPlayLevel: PIE: World Init took: (0.001151s)
+[2023.05.18-07.56.17:130][449]LogUObjectHash: Compacting FUObjectHashTables data took   1.30ms
+[2023.05.18-07.56.17:137][449]LogAudio: Display: Creating Audio Device:                 Id: 13, Scope: Unique, Realtime: True
+[2023.05.18-07.56.17:137][449]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.05.18-07.56.17:137][449]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.05.18-07.56.17:137][449]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.05.18-07.56.17:137][449]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.05.18-07.56.17:137][449]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.05.18-07.56.17:137][449]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.05.18-07.56.17:137][449]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.05.18-07.56.17:137][449]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.05.18-07.56.17:137][449]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.05.18-07.56.17:137][449]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.05.18-07.56.17:137][449]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.05.18-07.56.17:141][449]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.05.18-07.56.17:168][449]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Realtek(R) Audio)
+[2023.05.18-07.56.17:168][449]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.05.18-07.56.17:168][449]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.05.18-07.56.17:168][449]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.05.18-07.56.17:169][449]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=13
+[2023.05.18-07.56.17:169][449]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=13
+[2023.05.18-07.56.17:172][449]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=13
+[2023.05.18-07.56.17:172][449]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=13
+[2023.05.18-07.56.17:172][449]LogInit: FAudioDevice initialized.
+[2023.05.18-07.56.17:172][449]LogAudio: Display: Audio Device (ID: 13) registered with world 'Lab10'.
+[2023.05.18-07.56.17:177][449]LogLoad: Game class is 'Lab10UIGameMode_C'
+[2023.05.18-07.56.17:177][449]LogWorld: Bringing World /Game/Labs/Lab10/UEDPIE_0_Lab10.Lab10 up for play (max tick rate 60) at 2023.05.18-01.56.17
+[2023.05.18-07.56.17:177][449]LogWorld: Bringing up level for play took: 0.000569
+[2023.05.18-07.56.17:180][449]LogOnline: OSS: Created online subsystem instance for: :Context_30
+[2023.05.18-07.56.17:182][449]PIE: Server logged in
+[2023.05.18-07.56.17:183][449]PIE: Play in editor total start time 0.099 seconds.
+[2023.05.18-07.56.20:518][639]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.05.18-07.56.20:518][639]LogWorld: BeginTearingDown for /Game/Labs/Lab10/UEDPIE_0_Lab10
+[2023.05.18-07.56.20:518][639]LogWorld: UWorld::CleanupWorld for Lab10, bSessionEnded=true, bCleanupResources=true
+[2023.05.18-07.56.20:518][639]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.05.18-07.56.20:535][639]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.05.18-07.56.20:540][639]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.05.18-07.56.20:568][639]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.05.18-07.56.20:569][639]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=13
+[2023.05.18-07.56.20:571][639]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=13
+[2023.05.18-07.56.20:590][639]LogUObjectHash: Compacting FUObjectHashTables data took   1.97ms
+[2023.05.18-07.56.20:635][640]LogPlayLevel: Display: Destroying online subsystem :Context_30
+[2023.05.18-07.56.28:975][801]LogAssetEditorSubsystem: Opening Asset editor for WidgetBlueprint /Game/Labs/Lab10/Lab10UI.Lab10UI
+[2023.05.18-07.56.28:979][801]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.05.18-07.56.28:991][801]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.05.18-07.56.29:739][801]LogSlateStyle: Warning: Unable to find Slate Widget Style 'None'. Using FToolbarStyle defaults instead.
+[2023.05.18-07.56.29:739][801]LogSlateStyle: Warning: Unable to find Slate Widget Style 'None'. Using FToolbarStyle defaults instead.
+[2023.05.18-07.57.32:940][ 24]BlueprintLog: New page: Compile Lab10UI
+[2023.05.18-07.57.33:082][ 24]LogUObjectHash: Compacting FUObjectHashTables data took   2.52ms
+[2023.05.18-07.57.35:446][ 77]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.05.18-07.57.35:619][ 77]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Labs/Lab10/Lab10UI" FILE="../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2/Content/Labs/Lab10/Lab10UI.uasset" SILENT=true
+[2023.05.18-07.57.35:637][ 77]LogSavePackage: Moving output files for package: /Game/Labs/Lab10/Lab10UI
+[2023.05.18-07.57.35:640][ 77]LogSavePackage: Moving '../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2/Saved/Lab10UIB22B3FD5438C2CFF6947D18D46F77135.tmp' to '../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2/Content/Labs/Lab10/Lab10UI.uasset'
+[2023.05.18-07.57.35:678][ 77]LogFileHelpers: InternalPromptForCheckoutAndSave took 231 ms (total: 4.16 sec)
+[2023.05.18-07.57.35:693][ 77]AssetCheck: New page: Asset Save: Lab10UI
+[2023.05.18-07.57.35:693][ 77]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/Labs/Lab10/Lab10UI.Lab10UI
+[2023.05.18-07.58.33:646][724]LogEditorTransaction: Undo Add Argument Pin
+[2023.05.18-07.59.43:626][897]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.05.18-07.59.43:759][897]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Labs/Lab10/Lab10UI" FILE="../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2/Content/Labs/Lab10/Lab10UI.uasset" SILENT=true
+[2023.05.18-07.59.43:777][897]LogSavePackage: Moving output files for package: /Game/Labs/Lab10/Lab10UI
+[2023.05.18-07.59.43:779][897]LogSavePackage: Moving '../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2/Saved/Lab10UIF40C9B814D13AEACC9A49982D3715AA6.tmp' to '../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2/Content/Labs/Lab10/Lab10UI.uasset'
+[2023.05.18-07.59.43:812][897]LogFileHelpers: InternalPromptForCheckoutAndSave took 186 ms (total: 4.35 sec)
+[2023.05.18-07.59.43:835][897]AssetCheck: New page: Asset Save: Lab10UI
+[2023.05.18-07.59.43:835][897]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/Labs/Lab10/Lab10UI.Lab10UI
+[2023.05.18-07.59.52:313][172]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.05.18-07.59.52:425][172]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Labs/Lab10/Lab10UI" FILE="../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2/Content/Labs/Lab10/Lab10UI.uasset" SILENT=true
+[2023.05.18-07.59.52:445][172]LogSavePackage: Moving output files for package: /Game/Labs/Lab10/Lab10UI
+[2023.05.18-07.59.52:448][172]LogSavePackage: Moving '../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2/Saved/Lab10UI62A29D5745F4E8D72125C3A3C528CD69.tmp' to '../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2/Content/Labs/Lab10/Lab10UI.uasset'
+[2023.05.18-07.59.52:482][172]LogFileHelpers: InternalPromptForCheckoutAndSave took 169 ms (total: 4.51 sec)
+[2023.05.18-07.59.52:508][172]AssetCheck: New page: Asset Save: Lab10UI
+[2023.05.18-07.59.52:508][172]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/Labs/Lab10/Lab10UI.Lab10UI
+[2023.05.18-07.59.53:008][193]BlueprintLog: New page: Compile Lab10UI
+[2023.05.18-07.59.53:116][193]LogUObjectHash: Compacting FUObjectHashTables data took   3.13ms
+[2023.05.18-08.00.16:809][ 34]LogSlate: Window 'Lab10UI' being destroyed
+[2023.05.18-08.00.16:902][ 34]LogSlate: Window 'Lab10UI' being destroyed
+[2023.05.18-08.00.16:936][ 34]LogWorld: UWorld::CleanupWorld for World_42, bSessionEnded=true, bCleanupResources=true
+[2023.05.18-08.00.16:936][ 34]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.05.18-08.00.16:953][ 34]LogWorld: UWorld::CleanupWorld for World_41, bSessionEnded=true, bCleanupResources=true
+[2023.05.18-08.00.16:953][ 34]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.05.18-08.00.18:394][106]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.05.18-08.00.18:410][106]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.05.18-08.00.18:410][106]PIE: New page: PIE session: Lab10 (May 17, 2023, 8:00:18 PM)
+[2023.05.18-08.00.18:410][106]LogPlayLevel: Creating play world package: /Game/Labs/Lab10/UEDPIE_0_Lab10
+[2023.05.18-08.00.18:416][106]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005031s)
+[2023.05.18-08.00.18:416][106]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Labs/Lab10/Lab10.Lab10 to /Game/Labs/Lab10/UEDPIE_0_Lab10.Lab10 (0.005169s)
+[2023.05.18-08.00.18:416][106]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.05.18-08.00.18:418][106]LogAIModule: Creating AISystem for world Lab10
+[2023.05.18-08.00.18:419][106]LogPlayLevel: PIE: World Init took: (0.002864s)
+[2023.05.18-08.00.18:497][106]LogUObjectHash: Compacting FUObjectHashTables data took   2.06ms
+[2023.05.18-08.00.18:510][106]LogAudio: Display: Creating Audio Device:                 Id: 14, Scope: Unique, Realtime: True
+[2023.05.18-08.00.18:510][106]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.05.18-08.00.18:510][106]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.05.18-08.00.18:510][106]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.05.18-08.00.18:510][106]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.05.18-08.00.18:510][106]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.05.18-08.00.18:510][106]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.05.18-08.00.18:510][106]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.05.18-08.00.18:510][106]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.05.18-08.00.18:511][106]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.05.18-08.00.18:511][106]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.05.18-08.00.18:511][106]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.05.18-08.00.18:517][106]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.05.18-08.00.18:595][106]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Realtek(R) Audio)
+[2023.05.18-08.00.18:596][106]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.05.18-08.00.18:596][106]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.05.18-08.00.18:596][106]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.05.18-08.00.18:598][106]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=14
+[2023.05.18-08.00.18:598][106]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=14
+[2023.05.18-08.00.18:608][106]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=14
+[2023.05.18-08.00.18:609][106]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=14
+[2023.05.18-08.00.18:609][106]LogInit: FAudioDevice initialized.
+[2023.05.18-08.00.18:609][106]LogAudio: Display: Audio Device (ID: 14) registered with world 'Lab10'.
+[2023.05.18-08.00.18:616][106]LogLoad: Game class is 'Lab10UIGameMode_C'
+[2023.05.18-08.00.18:618][106]LogWorld: Bringing World /Game/Labs/Lab10/UEDPIE_0_Lab10.Lab10 up for play (max tick rate 0) at 2023.05.18-02.00.18
+[2023.05.18-08.00.18:618][106]LogWorld: Bringing up level for play took: 0.001374
+[2023.05.18-08.00.18:625][106]LogOnline: OSS: Created online subsystem instance for: :Context_33
+[2023.05.18-08.00.18:629][106]PIE: Server logged in
+[2023.05.18-08.00.18:630][106]PIE: Play in editor total start time 0.221 seconds.
+[2023.05.18-08.00.43:129][602]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.05.18-08.00.43:129][602]LogWorld: BeginTearingDown for /Game/Labs/Lab10/UEDPIE_0_Lab10
+[2023.05.18-08.00.43:129][602]LogWorld: UWorld::CleanupWorld for Lab10, bSessionEnded=true, bCleanupResources=true
+[2023.05.18-08.00.43:129][602]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.05.18-08.00.43:183][602]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.05.18-08.00.43:192][602]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.05.18-08.00.43:266][602]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.05.18-08.00.43:267][602]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=14
+[2023.05.18-08.00.43:270][602]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=14
+[2023.05.18-08.00.43:280][602]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.05.18-08.00.43:285][602]LogUObjectHash: Compacting FUObjectHashTables data took   2.78ms
+[2023.05.18-08.00.43:384][603]LogPlayLevel: Display: Destroying online subsystem :Context_33
