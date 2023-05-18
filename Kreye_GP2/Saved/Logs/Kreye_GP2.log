@@ -2180,3 +2180,70 @@ LogConfig: Set CVar [[r.Shadow.DetectVertexShaderLayerAtRuntime:1]]
 [2023.05.18-20.32.46:070][227]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
 [2023.05.18-20.32.46:078][227]LogWorld: UWorld::CleanupWorld for World_52, bSessionEnded=true, bCleanupResources=true
 [2023.05.18-20.32.46:078][227]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.05.18-20.36.36:107][ 14]LogEditorClassViewer: Warning: Class /Script/InteractiveToolsFramework.GizmoActor has parent /Script/InteractiveToolsFramework.InternalToolFrameworkActor, but this parent is not found. The Class will not be shown in ClassViewer.
+[2023.05.18-20.36.36:107][ 14]LogEditorClassViewer: Warning: Class /Script/ModelingComponents.PreviewGeometryActor has parent /Script/InteractiveToolsFramework.InternalToolFrameworkActor, but this parent is not found. The Class will not be shown in ClassViewer.
+[2023.05.18-20.36.36:107][ 14]LogEditorClassViewer: Warning: Class /Script/ModelingComponents.PreviewMeshActor has parent /Script/InteractiveToolsFramework.InternalToolFrameworkActor, but this parent is not found. The Class will not be shown in ClassViewer.
+[2023.05.18-20.36.36:894][ 14]LogSlate: Window 'Pick Parent Class' being destroyed
+[2023.05.18-20.36.36:939][ 14]LogContentBrowser: Deferred new asset file creation: NewBlueprint
+[2023.05.18-20.36.36:946][ 14]LogContentBrowser: Creating deferred item: NewBlueprint
+[2023.05.18-20.36.36:971][ 15]LogContentBrowser: Renaming the item being created (Deferred Item: NewBlueprint).
+[2023.05.18-20.36.39:977][324]LogContentBrowser: Attempting asset rename: NewBlueprint -> Lab10CameraPawn
+[2023.05.18-20.36.40:227][324]LogContentBrowser: End creating deferred item NewBlueprint
+[2023.05.18-20.36.41:434][425]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Labs/Lab10/Lab10CameraPawn.Lab10CameraPawn
+[2023.05.18-20.36.41:435][425]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.05.18-20.36.42:080][425]LogViewport: Scene viewport resized to 956x499, mode Windowed.
+[2023.05.18-20.36.45:985][646]LogShaderCompilers: Display: ================================================
+[2023.05.18-20.36.45:985][646]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2023.05.18-20.36.45:985][646]LogShaderCompilers: Display: Total job queries 97, among them cache hits 6 (6.19%)
+[2023.05.18-20.36.45:985][646]LogShaderCompilers: Display: Tracking 91 distinct input hashes that result in 75 distinct outputs (82.42%)
+[2023.05.18-20.36.45:985][646]LogShaderCompilers: Display: RAM used: 0.80 MB (0.00 GB) of 819.20 MB (0.80 GB) budget. Usage: 0.10%
+[2023.05.18-20.36.45:985][646]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2023.05.18-20.36.45:985][646]LogShaderCompilers: Display: Shaders Compiled: 0
+[2023.05.18-20.36.45:985][646]LogShaderCompilers: Display: Jobs assigned 0, completed 0 (0.00%)
+[2023.05.18-20.36.45:985][646]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 0.00 s
+[2023.05.18-20.36.45:985][646]LogShaderCompilers: Display: ================================================
+[2023.05.18-20.36.57:346][369]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.05.18-20.36.57:390][369]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Labs/Lab10/Lab10CameraPawn" FILE="../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2/Content/Labs/Lab10/Lab10CameraPawn.uasset" SILENT=true
+[2023.05.18-20.36.57:396][369]LogSavePackage: Moving output files for package: /Game/Labs/Lab10/Lab10CameraPawn
+[2023.05.18-20.36.57:396][369]LogSavePackage: Moving '../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2/Saved/Lab10CameraPawn68F520624ADA5141B85E25AC52EFFE52.tmp' to '../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2/Content/Labs/Lab10/Lab10CameraPawn.uasset'
+[2023.05.18-20.36.57:725][369]LogFileHelpers: InternalPromptForCheckoutAndSave took 378 ms (total: 4.23 sec)
+[2023.05.18-20.36.57:734][369]AssetCheck: New page: Asset Save: Lab10CameraPawn
+[2023.05.18-20.36.57:734][369]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Labs/Lab10/Lab10CameraPawn.Lab10CameraPawn
+[2023.05.18-20.36.58:445][411]BlueprintLog: New page: Compile Lab10CameraPawn
+[2023.05.18-20.36.58:517][411]LogUObjectHash: Compacting FUObjectHashTables data took   1.18ms
+[2023.05.18-20.37.26:234][157]LogSubobjectSubsystem: Warning: Cannot remove subobject 'DefaultSceneRoot' because it is the default scene root!
+[2023.05.18-20.37.41:239][ 60]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.05.18-20.37.41:287][ 60]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Labs/Lab10/Lab10CameraPawn" FILE="../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2/Content/Labs/Lab10/Lab10CameraPawn.uasset" SILENT=true
+[2023.05.18-20.37.41:290][ 60]LogSavePackage: Moving output files for package: /Game/Labs/Lab10/Lab10CameraPawn
+[2023.05.18-20.37.41:292][ 60]LogSavePackage: Moving '../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2/Saved/Lab10CameraPawnD12EDED347E131350CA43A85C572AF6C.tmp' to '../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2/Content/Labs/Lab10/Lab10CameraPawn.uasset'
+[2023.05.18-20.37.41:302][ 60]LogFileHelpers: InternalPromptForCheckoutAndSave took 63 ms (total: 4.29 sec)
+[2023.05.18-20.37.41:309][ 60]AssetCheck: New page: Asset Save: Lab10CameraPawn
+[2023.05.18-20.37.41:309][ 60]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Labs/Lab10/Lab10CameraPawn.Lab10CameraPawn
+[2023.05.18-20.37.41:720][ 81]LogSlate: Window 'Lab10CameraPawn' being destroyed
+[2023.05.18-20.37.41:749][ 81]LogWorld: UWorld::CleanupWorld for World_54, bSessionEnded=true, bCleanupResources=true
+[2023.05.18-20.37.41:749][ 81]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.05.18-20.37.45:311][360]LogAssetEditorSubsystem: Opening Asset editor for WidgetBlueprint /Game/Labs/Lab10/Lab10UI.Lab10UI
+[2023.05.18-20.37.45:312][360]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.05.18-20.37.45:333][360]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.05.18-20.37.45:894][360]LogSlateStyle: Warning: Unable to find Slate Widget Style 'None'. Using FToolbarStyle defaults instead.
+[2023.05.18-20.37.45:894][360]LogSlateStyle: Warning: Unable to find Slate Widget Style 'None'. Using FToolbarStyle defaults instead.
+[2023.05.18-20.37.47:601][458]LogSlate: Window 'Lab10UI' being destroyed
+[2023.05.18-20.37.47:622][458]LogSlate: Window 'Lab10UI' being destroyed
+[2023.05.18-20.37.47:682][458]LogWorld: UWorld::CleanupWorld for World_56, bSessionEnded=true, bCleanupResources=true
+[2023.05.18-20.37.47:683][458]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.05.18-20.37.47:692][458]LogWorld: UWorld::CleanupWorld for World_55, bSessionEnded=true, bCleanupResources=true
+[2023.05.18-20.37.47:692][458]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.05.18-20.37.48:604][523]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Labs/Lab10/Lab10UIGameMode.Lab10UIGameMode
+[2023.05.18-20.37.48:604][523]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.05.18-20.37.52:263][703]LogEditorClassViewer: Warning: Class /Script/InteractiveToolsFramework.GizmoActor has parent /Script/InteractiveToolsFramework.InternalToolFrameworkActor, but this parent is not found. The Class will not be shown in ClassViewer.
+[2023.05.18-20.37.52:263][703]LogEditorClassViewer: Warning: Class /Script/ModelingComponents.PreviewGeometryActor has parent /Script/InteractiveToolsFramework.InternalToolFrameworkActor, but this parent is not found. The Class will not be shown in ClassViewer.
+[2023.05.18-20.37.52:263][703]LogEditorClassViewer: Warning: Class /Script/ModelingComponents.PreviewMeshActor has parent /Script/InteractiveToolsFramework.InternalToolFrameworkActor, but this parent is not found. The Class will not be shown in ClassViewer.
+[2023.05.18-20.37.59:014][ 66]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.05.18-20.37.59:062][ 66]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Labs/Lab10/Lab10UIGameMode" FILE="../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2/Content/Labs/Lab10/Lab10UIGameMode.uasset" SILENT=true
+[2023.05.18-20.37.59:067][ 66]LogSavePackage: Moving output files for package: /Game/Labs/Lab10/Lab10UIGameMode
+[2023.05.18-20.37.59:069][ 66]LogSavePackage: Moving '../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2/Saved/Lab10UIGameMode6944264A461908705BE672BD22F3B748.tmp' to '../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2/Content/Labs/Lab10/Lab10UIGameMode.uasset'
+[2023.05.18-20.37.59:083][ 66]LogFileHelpers: InternalPromptForCheckoutAndSave took 69 ms (total: 4.36 sec)
+[2023.05.18-20.37.59:089][ 66]AssetCheck: New page: Asset Save: Lab10UIGameMode
+[2023.05.18-20.37.59:089][ 66]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Labs/Lab10/Lab10UIGameMode.Lab10UIGameMode
+[2023.05.18-20.38.00:039][116]BlueprintLog: New page: Compile Lab10UIGameMode
+[2023.05.18-20.38.00:115][116]LogUObjectHash: Compacting FUObjectHashTables data took   1.25ms
