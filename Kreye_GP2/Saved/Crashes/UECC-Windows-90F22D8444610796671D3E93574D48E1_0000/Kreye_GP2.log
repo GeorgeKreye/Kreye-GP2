@@ -1565,18 +1565,3 @@ LogConfig: Set CVar [[r.Shadow.DetectVertexShaderLayerAtRuntime:1]]
 [2023.05.19-03.58.22:810][638]MaterialEditorStats: Shader Count: 4
 [2023.05.19-03.58.24:481][679]LogMaterialEditor: Saving and Compiling material Lab11Material1
 [2023.05.19-03.58.24:976][679]LogFileHelpers: InternalPromptForCheckoutAndSave started...
-[2023.05.19-03.58.27:185][679]LogStall: Stall detector 'FShaderCompilingManager::BlockOnShaderMapCompletion' exceeded budget of 2.000000s, reporting...
-[2023.05.19-03.58.29:340][679]LogStall: Stall detector 'FShaderCompilingManager::BlockOnShaderMapCompletion' report submitted, and took 0.049095s
-[2023.05.19-03.58.29:342][679]LogStall: Stall detector 'FShaderCompilingManager::BlockOnShaderMapCompletion' complete in 0.050000s (0.050608s overbudget)
-[2023.05.19-03.58.29:373][679]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Labs/Lab11/Lab11Material1" FILE="../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2/Content/Labs/Lab11/Lab11Material1.uasset" SILENT=true
-[2023.05.19-03.58.29:376][679]LogSavePackage: Moving output files for package: /Game/Labs/Lab11/Lab11Material1
-[2023.05.19-03.58.29:377][679]LogSavePackage: Moving '../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2/Saved/Lab11Material1B05B237842CE5F12039B1682CC27C5AE.tmp' to '../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Kreye_GP2/Content/Labs/Lab11/Lab11Material1.uasset'
-[2023.05.19-03.58.29:425][679]LogFileHelpers: InternalPromptForCheckoutAndSave took 4.44 sec (total: 5.51 sec)
-[2023.05.19-03.58.29:428][679]AssetCheck: New page: Asset Save: Lab11Material1
-[2023.05.19-03.58.29:428][679]LogContentValidation: Display: Validating /Script/Engine.Material /Game/Labs/Lab11/Lab11Material1.Lab11Material1
-[2023.05.19-03.58.32:086][724]LogSlate: Window 'Lab11Material1' being destroyed
-[2023.05.19-03.58.32:174][724]LogWorld: UWorld::CleanupWorld for World_4, bSessionEnded=true, bCleanupResources=true
-[2023.05.19-03.58.32:174][724]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
-[2023.05.19-03.58.54:372][ 53]LogSlate: Took 0.001264 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
-[2023.05.19-03.58.59:554][191]LogSlate: Window 'Project Settings' being destroyed
-[2023.05.19-03.58.59:636][191]LogSlate: Window 'Project Settings' being destroyed
