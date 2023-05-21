@@ -2705,3 +2705,29 @@ LogConfig: Set CVar [[r.Shadow.DetectVertexShaderLayerAtRuntime:1]]
 [2023.05.19-06.26.54:864][385]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
 [2023.05.19-06.26.54:866][385]LogUObjectHash: Compacting FUObjectHashTables data took   0.52ms
 [2023.05.19-06.26.54:912][386]LogPlayLevel: Display: Destroying online subsystem :Context_11
+[2023.05.19-06.28.03:271][727]LogAudioMixer: Warning: AudioMixerPlatformInterface Timeout [5000ms] waiting for h/w. InstanceID=1
+[2023.05.19-06.28.26:446][727]LogAudioMixer: Display: FMixerNullCallback: Simulating a h/w device callback at [21ms], ThreadID=45616
+[2023.05.19-06.28.27:030][728]LogAudioMixer: Display: Successful Swap new Device is (NumChannels=2, SampleRate=48000, DeviceID={0.0.0.00000000}.{5ba5d838-f949-4a17-824f-ab36a6e880d2}, Name=Speakers (Realtek(R) Audio)), Reason=AudioMixerPlatformInterface. Timeout waiting for h/w., InstanceID=1, DurationMS=399.72
+[2023.05.19-06.28.27:031][728]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=1
+[2023.05.19-06.28.27:037][728]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=1
+[2023.05.19-06.28.32:228][736]LogViewport: Scene viewport resized to 980x567, mode Windowed.
+[2023.05.19-06.28.33:420][736]LogViewport: Scene viewport resized to 976x544, mode Windowed.
+[2023.05.19-06.34.57:042][887]LogAudioMixer: Warning: AudioMixerPlatformInterface Timeout [4999ms] waiting for h/w. InstanceID=1
+[2023.05.19-06.34.57:142][887]LogAudioMixer: Display: FMixerNullCallback: Simulating a h/w device callback at [21ms], ThreadID=45616
+[2023.05.19-06.34.57:478][888]LogAudioMixer: Display: Successful Swap new Device is (NumChannels=2, SampleRate=48000, DeviceID={0.0.0.00000000}.{5ba5d838-f949-4a17-824f-ab36a6e880d2}, Name=Speakers (Realtek(R) Audio)), Reason=AudioMixerPlatformInterface. Timeout waiting for h/w., InstanceID=1, DurationMS=141.36
+[2023.05.19-06.34.57:478][888]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=1
+[2023.05.19-06.34.57:480][888]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=1
+[2023.05.19-06.36.13:360][116]LogAudioMixer: Warning: AudioMixerPlatformInterface Timeout [4999ms] waiting for h/w. InstanceID=1
+[2023.05.19-09.02.18:419][116]LogAudioMixer: Display: FMixerNullCallback: Simulating a h/w device callback at [21ms], ThreadID=45616
+[2023.05.19-09.02.20:424][122]LogAudioMixer: Display: Successful Swap new Device is (NumChannels=2, SampleRate=48000, DeviceID={0.0.0.00000000}.{5ba5d838-f949-4a17-824f-ab36a6e880d2}, Name=Speakers (Realtek(R) Audio)), Reason=AudioMixerPlatformInterface. Timeout waiting for h/w., InstanceID=1, DurationMS=1880.80
+[2023.05.19-09.02.20:424][122]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=1
+[2023.05.19-09.02.20:426][122]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=1
+[2023.05.19-14.59.43:073][138]LogAudioMixer: Warning: AudioMixerPlatformInterface Timeout [21442348ms] waiting for h/w. InstanceID=1
+[2023.05.19-14.59.43:647][139]LogAudioMixer: Display: FMixerNullCallback: Simulating a h/w device callback at [21ms], ThreadID=45616
+[2023.05.19-14.59.44:653][142]LogAudioMixer: Display: Successful Swap new Device is (NumChannels=2, SampleRate=48000, DeviceID={0.0.0.00000000}.{5ba5d838-f949-4a17-824f-ab36a6e880d2}, Name=Speakers (Realtek(R) Audio)), Reason=AudioMixerPlatformInterface. Timeout waiting for h/w., InstanceID=1, DurationMS=793.54
+[2023.05.19-14.59.44:654][142]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=1
+[2023.05.19-14.59.44:657][142]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=1
+[2023.05.19-15.00.25:747][255]LogViewport: Scene viewport resized to 974x544, mode Windowed.
+[2023.05.19-15.00.26:216][255]LogViewport: Scene viewport resized to 978x567, mode Windowed.
+[2023.05.19-15.05.25:410][152]LogDerivedDataCache: C:/Users/heroo/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:03.277 and deleted 0 files with total size 0 MiB. Scanned 2104 files in 2095 folders with total size 78 MiB.
+[2023.05.19-16.05.25:562][949]LogDerivedDataCache: C:/Users/heroo/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:03.421 and deleted 0 files with total size 0 MiB. Scanned 2104 files in 2095 folders with total size 78 MiB.
