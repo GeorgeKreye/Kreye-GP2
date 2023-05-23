@@ -1066,3 +1066,73 @@ LogConfig: Set CVar [[r.Shadow.DetectVertexShaderLayerAtRuntime:1]]
 [2023.05.21-21.52.26:689][ 64]LogSlate: Took 0.000870 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
 [2023.05.21-21.52.29:928][114]LogSlate: Window 'Plugins' being destroyed
 [2023.05.21-21.52.30:043][114]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/' was aborted.
+[2023.05.21-21.53.57:018][474]LogDerivedDataCache: C:/Users/heroo/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:04.189 and deleted 0 files with total size 0 MiB. Scanned 2559 files in 2547 folders with total size 87 MiB.
+[2023.05.21-22.31.41:532][778]LogShaderCompilers: Display: ================================================
+[2023.05.21-22.31.41:533][778]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2023.05.21-22.31.41:533][778]LogShaderCompilers: Display: Total job queries 85, among them cache hits 4 (4.71%)
+[2023.05.21-22.31.41:533][778]LogShaderCompilers: Display: Tracking 81 distinct input hashes that result in 70 distinct outputs (86.42%)
+[2023.05.21-22.31.41:533][778]LogShaderCompilers: Display: RAM used: 0.75 MB (0.00 GB) of 819.20 MB (0.80 GB) budget. Usage: 0.09%
+[2023.05.21-22.31.41:533][778]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2023.05.21-22.31.41:533][778]LogShaderCompilers: Display: Shaders Compiled: 0
+[2023.05.21-22.31.41:533][778]LogShaderCompilers: Display: Jobs assigned 0, completed 0 (0.00%)
+[2023.05.21-22.31.41:533][778]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 0.00 s
+[2023.05.21-22.31.41:533][778]LogShaderCompilers: Display: ================================================
+[2023.05.21-22.31.49:709][254]LogViewport: Scene viewport resized to 1090x635, mode Windowed.
+[2023.05.21-22.33.39:074][700]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.05.21-22.33.39:210][700]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/AI/Milestone3Enemy" FILE="../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Perspective/Content/AI/Milestone3Enemy.uasset" SILENT=true
+[2023.05.21-22.33.39:279][700]LogPackageLocalizationCache: Processed 45 localized package path(s) for 1 prioritized culture(s) in 0.065533 seconds
+[2023.05.21-22.33.39:292][700]LogSerialization: UsePackageTrailer: 'true'
+[2023.05.21-22.33.39:303][700]LogSavePackage: Moving output files for package: /Game/AI/Milestone3Enemy
+[2023.05.21-22.33.39:304][700]LogSavePackage: Moving '../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Perspective/Saved/Milestone3Enemy5248200545AD32D627A14E81AC431E5C.tmp' to '../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Perspective/Content/AI/Milestone3Enemy.uasset'
+[2023.05.21-22.33.39:318][700]LogFileHelpers: InternalPromptForCheckoutAndSave took 243 ms
+[2023.05.21-22.33.39:325][700]AssetCheck: New page: Asset Save: Milestone3Enemy
+[2023.05.21-22.33.39:325][700]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/AI/Milestone3Enemy.Milestone3Enemy
+[2023.05.21-22.33.39:853][732]BlueprintLog: New page: Compile Milestone3Enemy
+[2023.05.21-22.33.40:022][732]LogUObjectHash: Compacting FUObjectHashTables data took   5.11ms
+[2023.05.21-22.33.45:365][ 50]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.05.21-22.33.45:440][ 50]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/AI/Milestone3Enemy" FILE="../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Perspective/Content/AI/Milestone3Enemy.uasset" SILENT=true
+[2023.05.21-22.33.45:450][ 50]LogSavePackage: Moving output files for package: /Game/AI/Milestone3Enemy
+[2023.05.21-22.33.45:452][ 50]LogSavePackage: Moving '../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Perspective/Saved/Milestone3Enemy1232026A4FBF0CF2887598B066241D5B.tmp' to '../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Perspective/Content/AI/Milestone3Enemy.uasset'
+[2023.05.21-22.33.45:467][ 50]LogFileHelpers: InternalPromptForCheckoutAndSave took 101 ms (total: 345 ms)
+[2023.05.21-22.33.45:471][ 50]AssetCheck: New page: Asset Save: Milestone3Enemy
+[2023.05.21-22.33.45:472][ 50]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/AI/Milestone3Enemy.Milestone3Enemy
+[2023.05.21-22.34.14:946][755]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.05.21-22.34.15:032][755]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/AI/Milestone3Enemy" FILE="../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Perspective/Content/AI/Milestone3Enemy.uasset" SILENT=true
+[2023.05.21-22.34.15:040][755]LogSavePackage: Moving output files for package: /Game/AI/Milestone3Enemy
+[2023.05.21-22.34.15:041][755]LogSavePackage: Moving '../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Perspective/Saved/Milestone3Enemy52101FE14B8D4689F817A082F497715E.tmp' to '../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Perspective/Content/AI/Milestone3Enemy.uasset'
+[2023.05.21-22.34.15:051][755]LogFileHelpers: InternalPromptForCheckoutAndSave took 105 ms (total: 450 ms)
+[2023.05.21-22.34.15:056][755]AssetCheck: New page: Asset Save: Milestone3Enemy
+[2023.05.21-22.34.15:056][755]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/AI/Milestone3Enemy.Milestone3Enemy
+[2023.05.21-22.34.16:511][843]BlueprintLog: New page: Compile Milestone3Enemy
+[2023.05.21-22.34.16:564][843]LogUObjectHash: Compacting FUObjectHashTables data took   0.84ms
+[2023.05.21-22.34.32:448][779]LogSlate: Window 'C++ Header Preview' being destroyed
+[2023.05.21-22.34.32:458][779]LogSlate: Window 'C++ Header Preview' being destroyed
+[2023.05.21-22.36.25:978][474]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.05.21-22.36.26:059][474]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/AI/Milestone3Enemy" FILE="../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Perspective/Content/AI/Milestone3Enemy.uasset" SILENT=true
+[2023.05.21-22.36.26:068][474]LogSavePackage: Moving output files for package: /Game/AI/Milestone3Enemy
+[2023.05.21-22.36.26:070][474]LogSavePackage: Moving '../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Perspective/Saved/Milestone3Enemy5D46FACC4C94005974DD2EBC1AC0C279.tmp' to '../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Perspective/Content/AI/Milestone3Enemy.uasset'
+[2023.05.21-22.36.26:079][474]LogFileHelpers: InternalPromptForCheckoutAndSave took 100 ms (total: 551 ms)
+[2023.05.21-22.36.26:086][474]AssetCheck: New page: Asset Save: Milestone3Enemy
+[2023.05.21-22.36.26:086][474]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/AI/Milestone3Enemy.Milestone3Enemy
+[2023.05.21-22.36.26:796][517]BlueprintLog: New page: Compile Milestone3Enemy
+[2023.05.21-22.36.26:856][517]LogUObjectHash: Compacting FUObjectHashTables data took   1.50ms
+[2023.05.21-22.36.54:369][578]LogEditorViewport: Clicking Background
+[2023.05.21-22.36.56:299][674]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.05.21-22.36.56:425][674]LogUObjectHash: Compacting FUObjectHashTables data took   2.80ms
+[2023.05.21-22.36.56:455][674]LogSavePackage: Moving output files for package: /Game/Levels/Level01
+[2023.05.21-22.36.56:457][674]LogSavePackage: Moving '../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Perspective/Saved/Level014D05243342B056E5FA249CB98B060E0F.tmp' to '../../../../../../Users/heroo/OneDrive/Documents/k-game-prog-2/Perspective/Content/Levels/Level01.umap'
+[2023.05.21-22.36.56:505][674]LogFileHelpers: Saving map 'Level01' took 0.138
+[2023.05.21-22.36.56:521][674]LogFileHelpers: InternalPromptForCheckoutAndSave took 220 ms (total: 771 ms)
+[2023.05.21-22.36.56:532][674]AssetCheck: New page: Asset Save: Level01
+[2023.05.21-22.36.56:532][674]LogContentValidation: Display: Validating /Script/Engine.World /Game/Levels/Level01.Level01
+[2023.05.21-22.37.02:599][916]LogShaderCompilers: Display: ================================================
+[2023.05.21-22.37.02:599][916]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2023.05.21-22.37.02:600][916]LogShaderCompilers: Display: Total job queries 101, among them cache hits 12 (11.88%)
+[2023.05.21-22.37.02:600][916]LogShaderCompilers: Display: Tracking 89 distinct input hashes that result in 74 distinct outputs (83.15%)
+[2023.05.21-22.37.02:600][916]LogShaderCompilers: Display: RAM used: 0.79 MB (0.00 GB) of 819.20 MB (0.80 GB) budget. Usage: 0.10%
+[2023.05.21-22.37.02:600][916]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2023.05.21-22.37.02:600][916]LogShaderCompilers: Display: Shaders Compiled: 0
+[2023.05.21-22.37.02:600][916]LogShaderCompilers: Display: Jobs assigned 0, completed 0 (0.00%)
+[2023.05.21-22.37.02:600][916]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 0.00 s
+[2023.05.21-22.37.02:600][916]LogShaderCompilers: Display: ================================================
+[2023.05.21-22.37.41:825][183]LogAudioMixer: Display: Audio Buffer Underrun (starvation) detected. InstanceID=1

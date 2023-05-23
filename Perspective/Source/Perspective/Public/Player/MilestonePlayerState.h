@@ -11,7 +11,7 @@
 /**
  * 
  */
-UCLASS()
+UCLASS(Blueprintable)
 class PERSPECTIVE_API AMilestonePlayerState : public APlayerState
 {
 	GENERATED_BODY()
@@ -40,14 +40,14 @@ public:
 	 * @brief Adds a life to the player
 	 * @param Amount The amount of lives to add; defaults to 1
 	 */
-	UFUNCTION(Category=Lives)
+	UFUNCTION(BlueprintCallable, Category=Lives)
 	void AddLife(const int Amount = 1);
 
 	/**
 	 * @brief Removes one or more lives from the player.
 	 * @param Amount The amount of lives to remove; defaults to 1.
 	 */
-	UFUNCTION(Category=Lives)
+	UFUNCTION(BlueprintCallable, Category=Lives)
 	void RemoveLife(const int Amount = 1);
 
 	/**

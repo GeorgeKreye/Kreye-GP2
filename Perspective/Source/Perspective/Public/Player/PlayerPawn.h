@@ -162,9 +162,15 @@ public:
 	void CheckForGround(AActor* Self, AActor* Other, FVector NormalImpulse, const FHitResult& Hit);
 
 	/**
-	 * @brief Checks whether the actor has fallen out of the world and performs relevant actions.
+	 * @brief Checks whether the actor has fallen out of the world and removes a life if true.
 	 */
 	void CheckForFallOut();
+
+	/**
+	 * @brief Subtracts a life from the player, checking for a game over.
+	 */
+	UFUNCTION(BlueprintCallable,Category=Lives)
+	void LoseLife();
 
 private:
 	/**

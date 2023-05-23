@@ -327,18 +327,22 @@ void APlayerPawn::CheckForFallOut()
 	// Check if player has fallen out of the world
 	if (GetActorLocation().Z <= FallOutZ)
 	{
-		// Subtract life
-		MPlayerState->RemoveLife();
-
-		// Check for game over
-		if (MPlayerState->Lives <= 0)
-		{
-			// Execute game over logic
-			
-			return;
-		}
-		
-		// Reset position
-		SetActorLocation(MPlayerState->StartPosition);
+		LoseLife();
 	}
+}
+
+void APlayerPawn::LoseLife()
+{
+	// Subtract lives
+	MPlayerState->RemoveLife();
+
+	// Check for game over
+	if (MPlayerState->Lives <= 0)
+	{
+		// TODO: Execute game over logic
+		return;
+	}
+
+	// Reset position
+	SetActorLocation(MPlayerState->StartPosition);
 }
