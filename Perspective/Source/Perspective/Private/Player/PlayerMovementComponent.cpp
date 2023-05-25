@@ -2,6 +2,7 @@
 
 
 #include "Player/PlayerMovementComponent.h"
+#include "Components/AudioComponent.h"
 #include "Perspective/Perspective.h"
 
 UPlayerMovementComponent::UPlayerMovementComponent() : MaxVelocity(250.0), PawnOwner(false), JumpVelocity(10.0)
@@ -33,6 +34,7 @@ void UPlayerMovementComponent::TickComponent(float DeltaTime, ELevelTick TickTyp
 	else if (!Jumping && IsGrounded && JumpThisFrame)
 	{
 		Jumping = true;
+		AudioComponent->Play(); // Play jump sound
 	}
 
 	// Calculate movement this frame
@@ -59,6 +61,11 @@ void UPlayerMovementComponent::TickComponent(float DeltaTime, ELevelTick TickTyp
 		LastMovementInput = FVector2d::ZeroVector;
 		JumpThisFrame = false;
 	}
+}
+
+void UPlayerMovementComponent::SetAudioComponent(TObjectPtr<UAudioComponent> Component)
+{
+	AudioComponent = Component;
 }
 
 void UPlayerMovementComponent::ConfirmPawnOwner()

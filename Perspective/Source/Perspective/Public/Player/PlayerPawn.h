@@ -5,6 +5,7 @@
 #include "CoreMinimal.h"
 #include "MilestoneGameStateBase.h"
 #include "MilestonePlayerState.h"
+#include "InputAction.h"
 #include "PlayerMovementComponent.h"
 #include "GameFramework/Pawn.h"
 #include "PlayerPawn.generated.h"
@@ -98,6 +99,10 @@ public:
 	 */
 	UPROPERTY(VisibleInstanceOnly, BlueprintReadOnly, Category = Game)
 	TObjectPtr<AMilestoneGameModeBase> GameMode;
+
+	
+	UPROPERTY(VisibleAnywhere, BlueprintReadWrite, Category = Sound)
+	TObjectPtr<UAudioComponent> JumpAudioComponent;
 
 protected:
 	// Called when the game starts or when spawned

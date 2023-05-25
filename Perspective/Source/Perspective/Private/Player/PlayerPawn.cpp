@@ -9,6 +9,7 @@
 #include "MilestoneGameModeBase.h"
 #include "MilestoneGameStateBase.h"
 #include "Camera/CameraComponent.h"
+#include "Components/AudioComponent.h"
 #include "Player/MilestonePlayerState.h"
 
 // Sets default values
@@ -110,9 +111,21 @@ APlayerPawn::APlayerPawn() : CameraPosition(-300 * FMath::Cos(PI / 4), -300 * FM
 
 	// Setup ground collision check
 	OnActorHit.AddDynamic(this, &APlayerPawn::CheckForGround);
-	
+
 	// Tell mesh to check for collision
 	StaticMesh->SetNotifyRigidBodyCollision(true);
+
+	// Create jump audio component
+	JumpAudioComponent = CreateDefaultSubobject<UAudioComponent>(TEXT("Audio"));
+	JumpAudioComponent->AttachToComponent(RootComponent, FAttachmentTransformRules::KeepWorldTransform);
+
+	// Set jump sound
+	auto JumpSound = ConstructorHelpers::FObjectFinder<USoundBase>(
+		TEXT("/Game/Audio/cartoon-jump-6462.cartoon-jump-6462"));
+	if (JumpSound.Succeeded())
+	{
+		JumpAudioComponent->SetSound(JumpSound.Object);
+	}
 }
 
 // Called when the game starts or when spawned
@@ -125,7 +138,7 @@ void APlayerPawn::BeginPlay()
 	GameMode = World->GetAuthGameMode<AMilestoneGameModeBase>();
 	if (GameMode != nullptr)
 	{
-		GameState = GameMode->GetGameState<AMilestoneGameStateBase>(); // TODO: Crash here
+		GameState = GameMode->GetGameState<AMilestoneGameStateBase>();
 	}
 	else
 	{
@@ -174,6 +187,12 @@ void APlayerPawn::BeginPlay()
 	{
 		WARN("Mapping failed at controller cast!");
 	}
+
+	// Make sure audio component does not play on start
+	JumpAudioComponent->Stop();
+
+	// Pass audio component to movement component
+	Movement->SetAudioComponent(JumpAudioComponent);
 }
 
 // Called every frame
@@ -192,7 +211,6 @@ void APlayerPawn::Tick(float DeltaTime)
 
 	// Reset ground check
 	IsGrounded = false;
-	
 }
 
 // Called to bind functionality to input
@@ -240,12 +258,10 @@ void APlayerPawn::UpdateCamera()
 	if (CameraPos != CameraPosition)
 	{
 		CameraPosition = CameraPos;
-		LOG("Camera position updated");
 	}
 	if (CameraRot != CameraRotation)
 	{
 		CameraRotation = CameraRot;
-		LOG("Camera rotation updated");
 	}
 
 	// Update camera component
@@ -297,12 +313,12 @@ void APlayerPawn::ToCamera4(const struct FInputActionInstance& Instance)
 void APlayerPawn::CheckForGround(AActor* Self, AActor* Other, FVector NormalImpulse, const FHitResult& Hit)
 {
 	const AActor* OtherActor = Hit.GetActor();
-	if(OtherActor == nullptr)
+	if (OtherActor == nullptr)
 	{
 		WARN("PlayerPawn: Collision event fired despite other actor resolving to a null pointer");
 		return;
 	}
-	
+
 	// Make sure hit is valid
 	if (Hit.IsValidBlockingHit())
 	{
@@ -315,7 +331,6 @@ void APlayerPawn::CheckForGround(AActor* Self, AActor* Other, FVector NormalImpu
 			if (CollisionDirection.Z < 0)
 			{
 				IsGrounded = true;
-				LOG("Grounded check passed");
 			}
 		}
 	}
@@ -327,7 +342,7 @@ void APlayerPawn::CheckForFallOut()
 	// Check if player has fallen out of the world
 	if (GetActorLocation().Z <= FallOutZ)
 	{
-		LoseLife();
+		LoseLife(); // Subtract life and check for game over
 	}
 }
 
