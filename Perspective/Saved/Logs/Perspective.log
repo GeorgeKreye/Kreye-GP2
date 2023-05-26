@@ -1252,3 +1252,86 @@ Make sure 'PlayerHUD' has been compiled for  Get CurrentCamera
 [2023.05.25-23.09.59:424][527]LogContentValidation: Display: Validating /Script/Engine.StaticMesh /Game/Levels/RawGeometry/Level1/Linear_Stair_Brush_StaticMesh.Linear_Stair_Brush_StaticMesh
 [2023.05.25-23.09.59:424][527]LogContentValidation: Display: Validating /Script/Engine.World /Game/Levels/Level01.Level01
 [2023.05.25-23.09.59:445][528]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/Levels/Level01.Level01:PersistentLevel.RecastNavMesh-Default).
+[2023.05.25-23.25.15:223][383]LogAudioMixer: Warning: AudioMixerPlatformInterface Timeout [5001ms] waiting for h/w. InstanceID=1
+[2023.05.25-23.41.08:720][383]LogAudioMixer: Display: FMixerNullCallback: Simulating a h/w device callback at [21ms], ThreadID=14084
+[2023.05.25-23.41.13:719][387]LogAudioMixer: Warning: AudioMixerPlatformInterface Timeout [5000ms] waiting for h/w. InstanceID=1
+[2023.05.25-23.41.13:751][387]LogD3D12RHI: Warning: GPU timeout: A payload (0x00000B1F0D902F40) on the [0x00000B1EF99A2280, 3D] queue has not completed after 5.005026 seconds.
+[2023.05.25-23.41.14:676][387]LogD3D12RHI: Warning: GPU timeout: A payload (0x00000B1F0D904FA0) on the [0x00000B1EF99A2280, 3D] queue has not completed after 5.603517 seconds.
+[2023.05.25-23.41.15:108][387]LogAudioMixer: Display: Successful Swap new Device is (NumChannels=2, SampleRate=48000, DeviceID={0.0.0.00000000}.{5ba5d838-f949-4a17-824f-ab36a6e880d2}, Name=Speakers (Realtek(R) Audio)), Reason=AudioMixerPlatformInterface. Timeout waiting for h/w., InstanceID=1, DurationMS=3598.96
+[2023.05.25-23.41.15:119][387]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=1
+[2023.05.25-23.41.15:137][387]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=1
+[2023.05.25-23.41.15:212][388]LogAudioMixer: Display: FMixerNullCallback: Simulating a h/w device callback at [21ms], ThreadID=14084
+[2023.05.25-23.41.15:506][389]LogAudioMixer: Display: Successful Swap new Device is (NumChannels=2, SampleRate=48000, DeviceID={0.0.0.00000000}.{5ba5d838-f949-4a17-824f-ab36a6e880d2}, Name=Speakers (Realtek(R) Audio)), Reason=AudioMixerPlatformInterface. Timeout waiting for h/w., InstanceID=1, DurationMS=62.77
+[2023.05.25-23.41.15:507][389]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=1
+[2023.05.25-23.41.15:512][389]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=1
+[2023.05.25-23.41.37:266][451]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2023.05.25-23.41.41:059][451]LogAudioMixer: Warning: AudioMixerPlatformInterface Timeout [5000ms] waiting for h/w. InstanceID=1
+[2023.05.25-23.41.46:060][451]LogAudioMixer: Warning: AudioMixerPlatformInterface Timeout [5000ms] waiting for h/w. InstanceID=1
+[2023.05.25-23.41.51:060][451]LogAudioMixer: Warning: AudioMixerPlatformInterface Timeout [5000ms] waiting for h/w. InstanceID=1
+[2023.05.25-23.41.56:069][451]LogAudioMixer: Warning: AudioMixerPlatformInterface Timeout [5002ms] waiting for h/w. InstanceID=1
+[2023.05.25-23.42.01:070][451]LogAudioMixer: Warning: AudioMixerPlatformInterface Timeout [5000ms] waiting for h/w. InstanceID=1
+[2023.05.25-23.42.06:068][451]LogAudioMixer: Warning: AudioMixerPlatformInterface Timeout [5000ms] waiting for h/w. InstanceID=1
+[2023.05.25-23.42.11:069][451]LogAudioMixer: Warning: AudioMixerPlatformInterface Timeout [5000ms] waiting for h/w. InstanceID=1
+[2023.05.25-23.42.16:069][451]LogAudioMixer: Warning: AudioMixerPlatformInterface Timeout [4999ms] waiting for h/w. InstanceID=1
+[2023.05.25-23.42.21:069][451]LogAudioMixer: Warning: AudioMixerPlatformInterface Timeout [5000ms] waiting for h/w. InstanceID=1
+[2023.05.25-23.42.26:069][451]LogAudioMixer: Warning: AudioMixerPlatformInterface Timeout [4999ms] waiting for h/w. InstanceID=1
+[2023.05.25-23.42.31:069][451]LogAudioMixer: Warning: AudioMixerPlatformInterface Timeout [5000ms] waiting for h/w. InstanceID=1
+[2023.05.25-23.42.36:069][451]LogAudioMixer: Warning: AudioMixerPlatformInterface Timeout [5000ms] waiting for h/w. InstanceID=1
+[2023.05.25-23.42.41:079][451]LogAudioMixer: Warning: AudioMixerPlatformInterface Timeout [5002ms] waiting for h/w. InstanceID=1
+[2023.05.25-23.42.46:087][451]LogAudioMixer: Warning: AudioMixerPlatformInterface Timeout [5002ms] waiting for h/w. InstanceID=1
+[2023.05.26-01.14.33:909][451]LogAudioMixer: Warning: AudioMixerPlatformInterface Timeout [5510290ms] waiting for h/w. InstanceID=1
+[2023.05.26-01.14.36:772][451]LogAudioMixer: Display: Audio Buffer Underrun (starvation) detected. InstanceID=1
+[2023.05.26-01.14.41:814][451]LogAudioMixer: Display: FMixerNullCallback: Simulating a h/w device callback at [21ms], ThreadID=14084
+[2023.05.26-01.14.44:051][452]LogUdpMessaging: Display: Added local interface '192.168.0.71' to multicast group '230.0.0.1:6666'
+[2023.05.26-01.14.44:417][452]LogAudioMixer: Display: Successful Swap new Device is (NumChannels=2, SampleRate=48000, DeviceID={0.0.0.00000000}.{5ba5d838-f949-4a17-824f-ab36a6e880d2}, Name=Speakers (Realtek(R) Audio)), Reason=AudioMixerPlatformInterface. Timeout waiting for h/w., InstanceID=1, DurationMS=2144.91
+[2023.05.26-01.14.44:425][452]LogAudioMixer: Warning: Audio Thread Command from UpdateDeviceChannelCount()() took 1.313100 milleseconds to execute
+[2023.05.26-01.14.44:428][452]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=1
+[2023.05.26-01.14.44:516][452]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=1
+[2023.05.26-01.19.25:047][876]LogD3D12RHI: Warning: GPU timeout: A payload (0x00000B1F0D902300) on the [0x00000B1EF99A2280, 3D] queue has not completed after 5.000000 seconds.
+[2023.05.26-01.19.28:269][876]LogD3D12RHI: Warning: GPU timeout: A payload (0x00000B1F0D902920) on the [0x00000B1EF99A2280, 3D] queue has not completed after 7.894638 seconds.
+[2023.05.26-01.19.51:686][904]LogAudioMixer: Warning: AudioMixerPlatformInterface Timeout [5000ms] waiting for h/w. InstanceID=1
+[2023.05.26-01.19.52:707][904]LogAudioMixer: Display: FMixerNullCallback: Simulating a h/w device callback at [21ms], ThreadID=14084
+[2023.05.26-01.19.57:707][919]LogAudioMixer: Warning: AudioMixerPlatformInterface Timeout [5000ms] waiting for h/w. InstanceID=1
+[2023.05.26-01.20.04:669][922]LogAudioMixer: Warning: FMixerNullCallback: Large time delta between simulated audio clock and realtime [-6137ms], ThreadID=14084
+[2023.05.26-01.20.05:753][924]LogAudioMixer: Display: Successful Swap new Device is (NumChannels=2, SampleRate=48000, DeviceID={0.0.0.00000000}.{5ba5d838-f949-4a17-824f-ab36a6e880d2}, Name=Speakers (Realtek(R) Audio)), Reason=AudioMixerPlatformInterface. Timeout waiting for h/w., InstanceID=1, DurationMS=12447.14
+[2023.05.26-01.20.05:759][924]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=1
+[2023.05.26-01.20.05:778][924]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=1
+[2023.05.26-01.20.05:838][925]LogAudioMixer: Display: FMixerNullCallback: Simulating a h/w device callback at [21ms], ThreadID=14084
+[2023.05.26-01.20.06:181][926]LogAudioMixer: Display: Successful Swap new Device is (NumChannels=2, SampleRate=48000, DeviceID={0.0.0.00000000}.{5ba5d838-f949-4a17-824f-ab36a6e880d2}, Name=Speakers (Realtek(R) Audio)), Reason=AudioMixerPlatformInterface. Timeout waiting for h/w., InstanceID=1, DurationMS=274.46
+[2023.05.26-01.20.06:181][926]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=1
+[2023.05.26-01.20.06:210][926]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=1
+[2023.05.26-01.20.26:981][988]LogAudioMixer: Warning: FMixerPlatformXAudio2: Changing default audio render device to new device: Role=Console, DeviceName=Headset Earphone (CORSAIR VIRTUOSO XT Wireless Gaming Headset), InstanceID=1
+[2023.05.26-01.20.27:311][988]LogAudioMixer: Display: FMixerNullCallback: Simulating a h/w device callback at [21ms], ThreadID=14084
+[2023.05.26-01.20.29:676][995]LogAudioMixer: Display: Successful Swap new Device is (NumChannels=2, SampleRate=48000, DeviceID={0.0.0.00000000}.{53201bb3-d402-490d-aa14-cc309cf13c97}, Name=Headset Earphone (CORSAIR VIRTUOSO XT Wireless Gaming Headset)), Reason=FMixerPlatformXAudio2::OnDefaultRenderDeviceChanged, InstanceID=1, DurationMS=2154.44
+[2023.05.26-01.20.29:676][995]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=1
+[2023.05.26-01.20.29:682][995]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=1
+[2023.05.26-01.22.19:920][157]LogD3D12RHI: Warning: GPU timeout: A payload (0x00000B1F0D90E2A0) on the [0x00000B1EF99A2280, 3D] queue has not completed after 5.047715 seconds.
+[2023.05.26-01.22.30:021][157]LogAudioMixer: Display: Audio Buffer Underrun (starvation) detected. InstanceID=1
+[2023.05.26-01.22.40:440][157]LogD3D12RHI: Warning: GPU timeout: A payload (0x00000B1F0D907460) on the [0x00000B1EF99A2280, 3D] queue has not completed after 25.251324 seconds.
+[2023.05.26-01.22.40:780][157]LogD3D12RHI: Warning: GPU timeout: A payload (0x00000B1F0D9024C0) on the [0x00000B1EF99A2280, 3D] queue has not completed after 25.552609 seconds.
+[2023.05.26-01.22.59:434][199]LogAudioMixer: Display: Audio Buffer Underrun (starvation) detected. InstanceID=1
+[2023.05.26-01.23.23:918][241]LogAudioMixer: Warning: AudioMixerPlatformInterface Timeout [5064ms] waiting for h/w. InstanceID=1
+[2023.05.26-01.23.26:257][241]LogAudioMixer: Display: FMixerNullCallback: Simulating a h/w device callback at [21ms], ThreadID=14084
+[2023.05.26-01.24.20:700][241]LogAudioMixer: Warning: FMixerPlatformXAudio2: Changing default audio render device to new device: Role=Console, DeviceName=Speakers (Realtek(R) Audio), InstanceID=1
+[2023.05.26-01.24.20:702][241]LogAudioMixer: Warning: FMixerNullCallback: Large time delta between simulated audio clock and realtime [-53848ms], ThreadID=14084
+[2023.05.26-01.24.20:740][241]LogAudioMixer: Warning: FMixerPlatformXAudio2: Changing default audio render device to new device: Role=Console, DeviceName=Headset Earphone (CORSAIR VIRTUOSO XT Wireless Gaming Headset), InstanceID=1
+[2023.05.26-01.24.21:649][244]LogHttp: Warning: 00000B1F34D71900: invalid HTTP response code received. URL: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B0592DEC8-405F-BE92-BE19-C6BD90DFFE32%7D&AppID=UEEditor.Rocket.Release&AppVersion=5.1.1-23901901%2B%2B%2BUE5%2BRelease-5.1&UserID=d3c73c7544f962957a848f8e5d4c6275%7C03eca827c1d0430abf91319fdc9f9f76%7Cb53413d2-5676-4aa1-b4f5-0428ee0ec9f2&AppEnvironment=datacollector-binary&UploadType=eteventstream, HTTP code: 0, content length: 0, actual payload size: 0
+[2023.05.26-01.24.21:651][244]LogHttp: Warning: 00000B1F34D71900: request failed, libcurl error: 56 (Failure when receiving data from the peer)
+[2023.05.26-01.24.21:651][244]LogHttp: Warning: 00000B1F34D71900: libcurl info message cache 0 (Found bundle for host: 0xb1ef4970ba0 [serially])
+[2023.05.26-01.24.21:651][244]LogHttp: Warning: 00000B1F34D71900: libcurl info message cache 1 (Re-using existing connection #5 with host datarouter.ol.epicgames.com)
+[2023.05.26-01.24.21:651][244]LogHttp: Warning: 00000B1F34D71900: libcurl info message cache 2 (Connected to datarouter.ol.epicgames.com (52.206.78.197) port 443 (#5))
+[2023.05.26-01.24.21:651][244]LogHttp: Warning: 00000B1F34D71900: libcurl info message cache 3 (We are completely uploaded and fine)
+[2023.05.26-01.24.21:651][244]LogHttp: Warning: 00000B1F34D71900: libcurl info message cache 4 (OpenSSL SSL_read: Connection was reset, errno 10054)
+[2023.05.26-01.24.21:651][244]LogHttp: Warning: 00000B1F34D71900: libcurl info message cache 5 (Connection died, retrying a fresh connect (retry count: 1))
+[2023.05.26-01.24.21:651][244]LogHttp: Warning: 00000B1F34D71900: libcurl info message cache 6 (necessary data rewind wasn't possible)
+[2023.05.26-01.24.21:651][244]LogHttp: Warning: 00000B1F34D71900: libcurl info message cache 7 (Closing connection 5)
+[2023.05.26-01.24.21:654][244]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B0592DEC8-405F-BE92-BE19-C6BD90DFFE32%7D&AppID=UEEditor.Rocket.Release&AppVersion=5.1.1-23901901%2B%2B%2BUE5%2BRelease-5.1&UserID=d3c73c7544f962957a848f8e5d4c6275%7C03eca827c1d0430abf91319fdc9f9f76%7Cb53413d2-5676-4aa1-b4f5-0428ee0ec9f2&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2023.05.26-01.24.25:124][250]LogAudioMixer: Warning: AudioMixerPlatformInterface Timeout [58870ms] waiting for h/w. InstanceID=1
+[2023.05.26-01.24.25:341][250]LogAudioMixer: Display: Successful Swap new Device is (NumChannels=2, SampleRate=48000, DeviceID={0.0.0.00000000}.{53201bb3-d402-490d-aa14-cc309cf13c97}, Name=Headset Earphone (CORSAIR VIRTUOSO XT Wireless Gaming Headset)), Reason=AudioMixerPlatformInterface. Timeout waiting for h/w., InstanceID=1, DurationMS=58991.06
+[2023.05.26-01.24.25:349][250]LogAudioMixer: Warning: Audio Thread Command from UpdateDeviceChannelCount()() took 3.715300 milleseconds to execute
+[2023.05.26-01.24.25:350][250]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=1
+[2023.05.26-01.24.25:379][250]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=1
+[2023.05.26-01.24.25:606][251]LogAudioMixer: Display: FMixerNullCallback: Simulating a h/w device callback at [21ms], ThreadID=14084
+[2023.05.26-01.24.29:276][262]LogAudioMixer: Display: Successful Swap new Device is (NumChannels=2, SampleRate=48000, DeviceID={0.0.0.00000000}.{53201bb3-d402-490d-aa14-cc309cf13c97}, Name=Headset Earphone (CORSAIR VIRTUOSO XT Wireless Gaming Headset)), Reason=AudioMixerPlatformInterface. Timeout waiting for h/w., InstanceID=1, DurationMS=3554.26
+[2023.05.26-01.24.29:277][262]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=1
+[2023.05.26-01.24.29:286][262]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=1
