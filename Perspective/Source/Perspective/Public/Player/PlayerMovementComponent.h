@@ -3,7 +3,6 @@
 #pragma once
 
 #include "CoreMinimal.h"
-#include "InputAction.h"
 #include "GameFramework/MovementComponent.h"
 #include "PlayerMovementComponent.generated.h"
 
@@ -27,6 +26,9 @@ public:
 	virtual void TickComponent(float DeltaTime, ELevelTick TickType,
 	                           FActorComponentTickFunction* ThisTickFunction) override;
 	
+	void SetAudioComponent(TObjectPtr<UAudioComponent> Component);
+	UPROPERTY(VisibleInstanceOnly,BlueprintReadOnly)
+	TObjectPtr<UAudioComponent> AudioComponent;
 	
 	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = Movement)
 	float MaxVelocity;

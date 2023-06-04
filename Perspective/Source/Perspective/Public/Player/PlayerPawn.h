@@ -5,6 +5,7 @@
 #include "CoreMinimal.h"
 #include "MilestoneGameStateBase.h"
 #include "MilestonePlayerState.h"
+#include "InputAction.h"
 #include "PlayerMovementComponent.h"
 #include "GameFramework/Pawn.h"
 #include "PlayerPawn.generated.h"
@@ -99,6 +100,10 @@ public:
 	UPROPERTY(VisibleInstanceOnly, BlueprintReadOnly, Category = Game)
 	TObjectPtr<AMilestoneGameModeBase> GameMode;
 
+	
+	UPROPERTY(VisibleAnywhere, BlueprintReadWrite, Category = Sound)
+	TObjectPtr<UAudioComponent> JumpAudioComponent;
+
 protected:
 	// Called when the game starts or when spawned
 	virtual void BeginPlay() override;
@@ -162,9 +167,15 @@ public:
 	void CheckForGround(AActor* Self, AActor* Other, FVector NormalImpulse, const FHitResult& Hit);
 
 	/**
-	 * @brief Checks whether the actor has fallen out of the world and performs relevant actions.
+	 * @brief Checks whether the actor has fallen out of the world and removes a life if true.
 	 */
 	void CheckForFallOut();
+
+	/**
+	 * @brief Subtracts a life from the player, checking for a game over.
+	 */
+	UFUNCTION(BlueprintCallable,Category=Lives)
+	void LoseLife();
 
 private:
 	/**
